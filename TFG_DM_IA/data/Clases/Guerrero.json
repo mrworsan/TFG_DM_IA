@@ -1,0 +1,401 @@
+{
+  "clase": "Guerrero",
+  "fuente_documento": "Guerrero.pdf",
+  "descripcion_general": "Dominan el campo de batalla con destreza inigualable en armas y armaduras. Son caballeros, soldados, mercenarios, todos familiarizados con la muerte. Se especializan en diversos estilos de combate.",
+  "referencia_descripcion": "[sources 364-371]",
+  "rasgos_principales": {
+    "habilidad_principal": [
+      "Fuerza",
+      "Destreza"
+    ],
+    "dado_golpe": "D10 por nivel de Guerrero",
+    "tiradas_salvacion": [
+      "Fuerza",
+      "Constitución"
+    ],
+    "competencias_habilidades": {
+      "cantidad": 2,
+      "opciones": [
+        "Acrobacias",
+        "Manejo de Animales",
+        "Atletismo",
+        "Historia",
+        "Perspicacia",
+        "Intimidación",
+        "Persuasión",
+        "Percepción",
+        "Supervivencia"
+      ]
+    },
+    "competencias_armas": [
+      "Armas Simples",
+      "Armas Marciales"
+    ],
+    "entrenamiento_armaduras": [
+      "Armaduras Ligera",
+      "Armaduras Media",
+      "Armaduras Pesada",
+      "Escudos"
+    ],
+    "equipo_inicial": [
+      {
+        "opcion": "A",
+        "items": ["Cota de Malla", "Gran Espada", "Maza", "8 Jabalinas", "Paquete de Dungeoneer", "4 GP"]
+      },
+      {
+        "opcion": "B",
+        "items": ["Armadura de Cuero Tachonado", "Cimitarra", "Espada Corta", "Arco Largo", "20 Flechas", "Carcaj", "Paquete de Dungeoneer", "11 GP"]
+      },
+      {
+        "opcion": "C",
+        "items": ["155 GP"]
+      }
+    ],
+    "referencia_tabla": "[source 364]"
+  },
+  "progresion_nivel": [
+    {"nivel": 1, "bono_competencia": "+2", "rasgos_resumen": "Estilo de lucha, Segundo aire, Maestría en armas", "segundo_aliento_usos": 2, "maestria_armas_count": 3},
+    {"nivel": 2, "bono_competencia": "+2", "rasgos_resumen": "Oleada de acción (1), Mente táctica", "segundo_aliento_usos": 2, "maestria_armas_count": 3},
+    {"nivel": 3, "bono_competencia": "+2", "rasgos_resumen": "Subclase de luchador", "segundo_aliento_usos": 2, "maestria_armas_count": 3},
+    {"nivel": 4, "bono_competencia": "+2", "rasgos_resumen": "Mejora de la puntuación de habilidad", "segundo_aliento_usos": 3, "maestria_armas_count": 4},
+    {"nivel": 5, "bono_competencia": "+3", "rasgos_resumen": "Ataque adicional, cambio táctico", "segundo_aliento_usos": 3, "maestria_armas_count": 4},
+    {"nivel": 6, "bono_competencia": "+3", "rasgos_resumen": "Mejora de la puntuación de habilidad", "segundo_aliento_usos": 3, "maestria_armas_count": 4},
+    {"nivel": 7, "bono_competencia": "+3", "rasgos_resumen": "Característica de subclase", "segundo_aliento_usos": 3, "maestria_armas_count": 4},
+    {"nivel": 8, "bono_competencia": "+3", "rasgos_resumen": "Mejora de la puntuación de habilidad", "segundo_aliento_usos": 3, "maestria_armas_count": 4},
+    {"nivel": 9, "bono_competencia": "+4", "rasgos_resumen": "Indomable (1), Maestro táctico", "segundo_aliento_usos": 3, "maestria_armas_count": 4},
+    {"nivel": 10, "bono_competencia": "+4", "rasgos_resumen": "Característica de subclase", "segundo_aliento_usos": 4, "maestria_armas_count": 5},
+    {"nivel": 11, "bono_competencia": "+4", "rasgos_resumen": "Dos ataques extra", "segundo_aliento_usos": 4, "maestria_armas_count": 5},
+    {"nivel": 12, "bono_competencia": "+4", "rasgos_resumen": "Mejora de la puntuación de habilidad", "segundo_aliento_usos": 4, "maestria_armas_count": 5},
+    {"nivel": 13, "bono_competencia": "+5", "rasgos_resumen": "Indomable (2), Ataques estudiados", "segundo_aliento_usos": 4, "maestria_armas_count": 5},
+    {"nivel": 14, "bono_competencia": "+5", "rasgos_resumen": "Mejora de la puntuación de habilidad", "segundo_aliento_usos": 4, "maestria_armas_count": 5},
+    {"nivel": 15, "bono_competencia": "+5", "rasgos_resumen": "Característica de subclase", "segundo_aliento_usos": 4, "maestria_armas_count": 5},
+    {"nivel": 16, "bono_competencia": "+5", "rasgos_resumen": "Mejora de la puntuación de habilidad", "segundo_aliento_usos": 4, "maestria_armas_count": 6},
+    {"nivel": 17, "bono_competencia": "+6", "rasgos_resumen": "Oleada de acción (2), Indomable (3)", "segundo_aliento_usos": 4, "maestria_armas_count": 6},
+    {"nivel": 18, "bono_competencia": "+6", "rasgos_resumen": "Característica de subclase", "segundo_aliento_usos": 4, "maestria_armas_count": 6},
+    {"nivel": 19, "bono_competencia": "+6", "rasgos_resumen": "Bendición épica", "segundo_aliento_usos": 4, "maestria_armas_count": 6},
+    {"nivel": 20, "bono_competencia": "+6", "rasgos_resumen": "Tres ataques extra", "segundo_aliento_usos": 4, "maestria_armas_count": 6}
+  ],
+  "referencia_progresion": "[source 396]",
+  "detalles_rasgos_clase": {
+    "Estilo de Combate": {
+      "nivel": 1,
+      "descripcion": "Obtienes una dote de Estilo de Combate a elección (recomendado: Defensa). Puedes reemplazarla al subir de nivel.",
+      "referencia": "[sources 378-379]"
+    },
+    "Segundo Aliento": {
+      "nivel": 1,
+      "descripcion": "Acción Adicional, recupera PG = 1d10 + Nivel Guerrero. Usos según tabla (empiezas con 2). Recuperas 1 uso en Descanso Corto, todos en Descanso Largo.",
+      "referencia": "[sources 380-383]"
+    },
+    "Maestría en Armas": {
+      "nivel": 1,
+      "descripcion": "Puedes usar propiedades de maestría de número de tipos de armas = valor tabla 'Maestría en armas' (empiezas con 3). Puedes cambiar 1 elección en Descanso Largo.",
+      "referencia": "[sources 384-386]"
+    },
+    "Impulso de Acción": {
+      "nivel": 2,
+      "descripcion": "1/turno, realiza una acción adicional (excepto Acción Mágica). 1 uso/Descanso Corto o Largo. Ganas 2 usos en Nivel 17.",
+      "referencia": "[sources 387-390]"
+    },
+    "Mente Táctica": {
+      "nivel": 2,
+      "descripcion": "Al fallar prueba habilidad, gasta uso Segundo Aliento. Tira 1d10 y añade a prueba. Si aún falla, uso no se gasta.",
+      "referencia": "[sources 391-394]"
+    },
+    "Subclase de Guerrero": {
+      "nivel": 3,
+      "descripcion": "Eliges un Arquetipo Marcial.",
+      "opciones_documento": [
+        "Maestro de Batalla",
+        "Campeón",
+        "Caballero Arcano",
+        "Guerrero Psíquico"
+      ],
+      "referencia": "[sources 397-400]"
+    },
+    "Mejora de Puntuación de Habilidad": {
+      "nivel": 4,
+      "descripcion": "Obtienes la dote 'Mejora de Puntuación de Habilidad' u otra dote. Se obtiene de nuevo en los niveles 6, 8, 12, 14 y 16.",
+      "referencia": "[sources 401-402]"
+    },
+    "Ataque Adicional": {
+      "nivel": 5,
+      "descripcion": "Puedes atacar dos veces con la acción de Ataque.",
+      "referencia": "[source 403]"
+    },
+    "Cambio Táctico": {
+      "nivel": 5,
+      "descripcion": "Al activar Segundo Aliento, puedes moverte mitad Velocidad sin provocar Ataques Oportunidad.",
+      "referencia": "[source 404]"
+    },
+    "Indomable": {
+      "nivel": 9,
+      "descripcion": "Si fallas TS, puedes repetir con bono = Nivel Guerrero. Usas nuevo resultado. 1 uso/Descanso Largo. Ganas 2 usos en Nivel 13, 3 usos en Nivel 17.",
+      "referencia": "[sources 405-407]"
+    },
+    "Maestro Táctico": {
+      "nivel": 9,
+      "descripcion": "Al atacar con arma cuya maestría puedes usar, puedes reemplazarla con propiedad Empujar, Aturdir (Sap) o Lentitud (Slow) para ese ataque.",
+      "referencia": "[source 407]"
+    },
+    "Dos Ataques Adicionales": {
+      "nivel": 11,
+      "descripcion": "Puedes atacar tres veces con la acción de Ataque.",
+      "referencia": "[source 408]"
+    },
+    "Ataques Estudiados": {
+      "nivel": 13,
+      "descripcion": "Si fallas tirada ataque vs criatura, tienes Ventaja en sig. tirada ataque vs ella antes fin tu sig. turno.",
+      "referencia": "[sources 409-410]"
+    },
+    "Bendición Épica": {
+      "nivel": 19,
+      "descripcion": "Obtienes una Hazaña Épica (recomendada: Destreza en Combate) u otra hazaña.",
+      "referencia": "[sources 411-412]"
+    },
+    "Tres Ataques Adicionales": {
+      "nivel": 20,
+      "descripcion": "Puedes atacar cuatro veces con la acción de Ataque.",
+      "referencia": "[source 412]"
+    }
+  },
+  "subclases": [
+    {
+      "nombre": "Maestro de Batalla",
+      "descripcion": "Estudiantes del arte de la guerra, aprenden técnicas marciales y combinan combate con estudios académicos.",
+      "referencia_descripcion": "[sources 415-416]",
+      "rasgos": [
+        {
+          "nivel": 3,
+          "nombre": "Superioridad en Combate",
+          "descripcion": "Aprendes Maniobras alimentadas por Dados de Superioridad.",
+          "detalles": {
+            "Maniobras": "Aprendes 3 a elección. Aprendes 2 más en niveles 7, 10, 15. Puedes reemplazar 1 maniobra al aprender nuevas. Solo 1 maniobra por ataque.",
+            "Dados_Superioridad": "Tienes 4d8. Gastas 1 al usar maniobra. Recuperas todos en Descanso Corto o Largo. Ganas +1 dado en niveles 7 (total 5) y 15 (total 6).",
+            "Tiros_Salvacion": "Si maniobra requiere TS, CD = 8 + Mod Fuerza o Destreza (tu elección) + Bono Competencia."
+          },
+          "referencia": "[sources 417-425]"
+        },
+        {
+          "nivel": 3,
+          "nombre": "Estudiante de la Guerra",
+          "descripcion": "Competencia con 1 tipo Herramientas Artesano. Competencia en 1 habilidad Guerrero a elección.",
+          "referencia": "[source 427]"
+        },
+        {
+           "nivel": 7,
+           "nombre": "Conoce a tu Enemigo",
+           "descripcion": "Acción Adicional, discierne Inmunidades/Resistencias/Vulnerabilidades de criatura a 30 pies. 1 uso/Descanso Largo o gasta Dado Superioridad.",
+           "referencia": "[sources 427-430]"
+        },
+        {
+           "nivel": 10,
+           "nombre": "Superioridad en Combate Mejorada",
+           "descripcion": "Tus Dados Superioridad se convierten en d10.",
+           "referencia": "[source 431]"
+        },
+        {
+           "nivel": 15,
+           "nombre": "Implacable",
+           "descripcion": "1/turno, al usar maniobra, tira 1d8 en lugar de gastar Dado Superioridad.",
+           "referencia": "[source 432]"
+        },
+        {
+           "nivel": 18,
+           "nombre": "Superioridad en Combate Suprema",
+           "descripcion": "Tus Dados Superioridad se convierten en d12.",
+           "referencia": "[source 433]"
+        }
+      ],
+      "maniobras": [
+         {"nombre": "Emboscada", "descripcion": "Al hacer prueba Destreza(Sigilo) o tirada Iniciativa, gasta Dado Sup., añade a tirada.", "referencia": "[source 435]"},
+         {"nombre": "Trampa y Cambio", "descripcion": "En tu turno, a 5 pies de criatura, gasta Dado Sup., gasta 5 pies mov., cambia lugares (criatura dispuesta, no Incap.). No provoca AO. Tira Dado Sup. Tú o criatura (tu elección) gana bono CA = tirada hasta inicio tu sig. turno.", "referencia": "[sources 436-438]"},
+         {"nombre": "Ataque del Comandante", "descripcion": "Al tomar acción Ataque, reemplaza 1 ataque. Elige aliado dispuesto (verte/oírte), gasta Dado Sup. Aliado usa Reacción para hacer ataque arma/desarmado, añade Dado Sup. a daño si acierta.", "referencia": "[sources 439-441]"},
+         {"nombre": "Presencia Autoritaria", "descripcion": "Al hacer prueba Carisma(Intimidación/Interpretación/Persuasión), gasta Dado Sup., añade a tirada.", "referencia": "[source 442]"},
+         {"nombre": "Ataque Desarmante", "descripcion": "Al acertar ataque, gasta Dado Sup., añade a daño. Objetivo hace TS Fuerza o suelta 1 objeto (cae en su espacio).", "referencia": "[sources 443-445]"},
+         {"nombre": "Golpe Distractor", "descripcion": "Al acertar ataque, gasta Dado Sup., añade a daño. Sig. ataque vs objetivo por OTRO atacante tiene Ventaja (antes inicio tu sig. turno).", "referencia": "[sources 446-448]"},
+         {"nombre": "Paso Evasivo", "descripcion": "Acción Adicional, gasta Dado Sup., toma acción Desenfocar (Disengage). Tira dado, añade a tu CA hasta inicio tu sig. turno.", "referencia": "[sources 449-450]"},
+         {"nombre": "Ataque Engañoso", "descripcion": "Acción Adicional, gasta Dado Sup., elige criatura a 5 pies. Ventaja en sig. ataque vs ella este turno. Si acierta, añade Dado Sup. a daño.", "referencia": "[sources 451-453]"},
+         {"nombre": "Ataque Provocador", "descripcion": "Al acertar ataque, gasta Dado Sup., añade a daño. Objetivo hace TS Sabiduría o tiene Desventaja en ataques vs otros hasta fin tu sig. turno.", "referencia": "[sources 454-456]"},
+         {"nombre": "Ataque Lunging", "descripcion": "Acción Adicional, gasta Dado Sup., toma acción Correr (Dash). Si mueves 5+ pies recto antes de ataque cuerpo a cuerpo (acción Ataque), añade Dado Sup. a daño.", "referencia": "[sources 457-458]"},
+         {"nombre": "Ataque Maniobrador", "descripcion": "Al acertar ataque, gasta Dado Sup., añade a daño. Elige aliado dispuesto (verte/oírte). Usa Reacción para mover mitad Velocidad sin provocar AO de tu objetivo.", "referencia": "[sources 459-461]"},
+         {"nombre": "Ataque Amenazante", "descripcion": "Al acertar ataque, gasta Dado Sup., añade a daño. Objetivo hace TS Sabiduría o queda Asustado hasta fin tu sig. turno.", "referencia": "[sources 462-464]"},
+         {"nombre": "Parada", "descripcion": "Reacción cuando otra criatura te daña con ataque cuerpo a cuerpo. Gasta Dado Sup., reduce daño = tirada + Mod Fuerza o Destreza.", "referencia": "[source 465]"},
+         {"nombre": "Ataque Preciso", "descripcion": "Al fallar ataque, gasta Dado Sup., tira y añade a tirada ataque.", "referencia": "[source 466]"},
+         {"nombre": "Ataque Empujador", "descripcion": "Al acertar ataque arma/desarmado, gasta Dado Sup., añade a daño. Si objetivo G o menor, hace TS Fuerza o es empujado 15 pies.", "referencia": "[sources 467-469]"},
+         {"nombre": "Rally", "descripcion": "Acción Adicional, gasta Dado Sup. Elige aliado a 30 pies (verte/oírte). Gana PG Temporales = tirada + mitad Nivel Guerrero (red. abajo).", "referencia": "[sources 470-472]"},
+         {"nombre": "Riposte", "descripcion": "Reacción cuando criatura te falla ataque cuerpo a cuerpo. Gasta Dado Sup., haz ataque cuerpo a cuerpo arma/desarmado vs ella. Si acierta, añade Dado Sup. a daño.", "referencia": "[sources 473-474]"},
+         {"nombre": "Ataque Barrido", "descripcion": "Al acertar ataque cuerpo a cuerpo arma/desarmado, gasta Dado Sup. Elige otra criatura a 5 pies objetivo original y en tu alcance. Si tirada ataque original acertaría a 2ª criatura, recibe daño = tirada Dado Sup. (mismo tipo).", "referencia": "[sources 475-478]"},
+         {"nombre": "Evaluación Táctica", "descripcion": "Al hacer prueba Int(Historia/Investigación) o Sab(Perspicacia), gasta Dado Sup., añade a prueba.", "referencia": "[source 479]"},
+         {"nombre": "Ataque de Zancada (Tripping Attack)", "descripcion": "Al acertar ataque arma/desarmado, gasta Dado Sup., añade a daño. Si objetivo G o menor, hace TS Fuerza o queda Tendido (Prone).", "referencia": "[sources 480-481]"}
+       ]
+    },
+    {
+       "nombre": "Campeón",
+       "descripcion": "Se enfoca en destreza marcial y excelencia física para buscar la victoria.",
+       "referencia_descripcion": "[sources 483-485]",
+       "rasgos": [
+         {
+            "nivel": 3,
+            "nombre": "Crítico Mejorado",
+            "descripcion": "Golpe Crítico con 19-20 en d20 (ataques arma/desarmado).",
+            "referencia": "[source 486]"
+         },
+         {
+            "nivel": 3,
+            "nombre": "Atleta Notable",
+            "descripcion": "Ventaja en tiradas Iniciativa y pruebas Fuerza(Atletismo). Inmediatamente después Crítico, mueve mitad Velocidad sin provocar AO.",
+            "referencia": "[sources 487-488]"
+         },
+         {
+            "nivel": 7,
+            "nombre": "Estilo de Combate Adicional",
+            "descripcion": "Eliges otro Estilo de Combate.",
+            "referencia": "[source 489]"
+         },
+         {
+             "nivel": 10,
+             "nombre": "Guerrero Heroico",
+             "descripcion": "Durante combate, puedes darte Inspiración Heroica al inicio turno si no tienes.",
+             "referencia": "[sources 490-491]"
+         },
+         {
+             "nivel": 15,
+             "nombre": "Crítico Superior",
+             "descripcion": "Golpe Crítico con 18-20 en d20.",
+             "referencia": "[source 492]"
+         },
+         {
+             "nivel": 18,
+             "nombre": "Sobreviviente",
+             "descripcion": "Beneficios:",
+             "beneficios_sobreviviente": [
+                 {"nombre": "Desafiar a la Muerte", "efecto": "Ventaja en TS Muerte. Si sacas 18-20 en TS Muerte, ganas beneficio de sacar 20."},
+                 {"nombre": "Rally Heroico", "efecto": "Inicio turno, si tienes >=1 PG pero <máx, recuperas PG = 5 + Mod Constitución."}
+             ],
+             "referencia": "[sources 493-496]"
+         }
+       ]
+    },
+    {
+       "nombre": "Caballero Arcano",
+       "descripcion": "Combinan maestría marcial con estudio magia arcana para complementar habilidades combate.",
+       "referencia_descripcion": "[sources 497-498]",
+       "lanzamiento_conjuros": {
+           "habilidad": "Inteligencia",
+           "lista_conjuros": "Mago",
+           "foco": "Foco Arcano",
+           "trucos_conocidos": "2 a elección (Mago). +1 en Nivel 10. Puedes reemplazar 1 al subir nivel.",
+           "conjuros_preparados": "Según tabla 'Lanzamiento Hechizos Caballero Arcano'. Empiezas con 3 nivel 1. Eliges de lista Mago. Puedes reemplazar 1 al subir nivel.",
+           "espacios_conjuro": "Según tabla 'Lanzamiento Hechizos Caballero Arcano'. Recuperas en Descanso Largo.",
+           "tabla_progresion": [
+                {"nivel": 3, "preparados": 3, "nivel_1": 2, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0},
+                {"nivel": 4, "preparados": 4, "nivel_1": 3, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0},
+                {"nivel": 5, "preparados": 4, "nivel_1": 3, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0},
+                {"nivel": 6, "preparados": 4, "nivel_1": 3, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0},
+                {"nivel": 7, "preparados": 5, "nivel_1": 4, "nivel_2": 2, "nivel_3": 0, "nivel_4": 0},
+                {"nivel": 8, "preparados": 6, "nivel_1": 4, "nivel_2": 2, "nivel_3": 0, "nivel_4": 0},
+                {"nivel": 9, "preparados": 6, "nivel_1": 4, "nivel_2": 2, "nivel_3": 0, "nivel_4": 0},
+                {"nivel": 10, "preparados": 7, "nivel_1": 4, "nivel_2": 3, "nivel_3": 0, "nivel_4": 0},
+                {"nivel": 11, "preparados": 8, "nivel_1": 4, "nivel_2": 3, "nivel_3": 0, "nivel_4": 0},
+                {"nivel": 12, "preparados": 8, "nivel_1": 4, "nivel_2": 3, "nivel_3": 0, "nivel_4": 0},
+                {"nivel": 13, "preparados": 9, "nivel_1": 4, "nivel_2": 3, "nivel_3": 2, "nivel_4": 0},
+                {"nivel": 14, "preparados": 10, "nivel_1": 4, "nivel_2": 3, "nivel_3": 2, "nivel_4": 0},
+                {"nivel": 15, "preparados": 10, "nivel_1": 4, "nivel_2": 3, "nivel_3": 2, "nivel_4": 0},
+                {"nivel": 16, "preparados": 11, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 0},
+                {"nivel": 17, "preparados": 11, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 0},
+                {"nivel": 18, "preparados": 11, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 0},
+                {"nivel": 19, "preparados": 12, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 1},
+                {"nivel": 20, "preparados": 13, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 1}
+           ],
+           "referencia": "[sources 499-516]"
+       },
+       "rasgos": [
+          {
+             "nivel": 3,
+             "nombre": "Vínculo de Guerra",
+             "descripcion": "Ritual 1 hora para vincular 1 arma (máx 2). No puedes ser desarmado (salvo Incapacitado). Acción Bonificación para convocar arma vinculada a mano (si mismo plano). Rompes vínculo si intentas vincular 3ª.",
+             "referencia": "[sources 517-524]"
+          },
+          {
+             "nivel": 7,
+             "nombre": "Magia de Guerra",
+             "descripcion": "Al tomar acción Ataque, puedes reemplazar 1 ataque con lanzamiento truco Mago (tiempo 1 acción).",
+             "referencia": "[source 525]"
+          },
+          {
+              "nivel": 10,
+              "nombre": "Golpe Arcano",
+              "descripcion": "Al golpear criatura con ataque arma, tiene Desventaja en sig. TS vs conjuro que lances antes fin tu sig. turno.",
+              "referencia": "[sources 526-527]"
+          },
+          {
+              "nivel": 15,
+              "nombre": "Carga Arcana",
+              "descripcion": "Al usar Impulso Acción, puedes teletransportarte 30 pies (antes o después acción adicional).",
+              "referencia": "[sources 528-529]"
+          },
+          {
+              "nivel": 18,
+              "nombre": "Magia de Guerra Mejorada",
+              "descripcion": "Al tomar acción Ataque, puedes reemplazar 2 ataques con lanzamiento conjuro Mago nivel 1 o 2 (tiempo 1 acción).",
+              "referencia": "[source 529]"
+          }
+       ]
+    },
+    {
+       "nombre": "Guerrero Psíquico",
+       "descripcion": "Despiertan poder mental para aumentar fuerza física, infundir golpes, lanzar energía telequinética.",
+       "referencia_descripcion": "[sources 530-531]",
+       "rasgos": [
+          {
+             "nivel": 3,
+             "nombre": "Poder Psíquico",
+             "descripcion": "Ganas Dados Energía Psíquica (empieza 4d6, escala según tabla). Gastas dados en poderes subclase. Recuperas 1 en Descanso Corto, todos en Descanso Largo. Poderes iniciales:",
+             "poderes_iniciales": [
+                 {"nombre": "Campo Protector", "efecto": "Reacción cuando tú u otra criatura a 30 pies recibe daño. Gasta dado, reduce daño = tirada + Mod Int (mín 1)."},
+                 {"nombre": "Golpe Psíquico", "efecto": "1/turno, después golpear objetivo a 30 pies con ataque arma. Gasta dado, causa daño Fuerza adicional = tirada + Mod Int."},
+                 {"nombre": "Movimiento Telequinético", "efecto": "Acción Mágica, elige objeto suelto (G o menor) o criatura dispuesta a 30 pies. Mueve objetivo 30 pies a espacio visible. O mueve objeto Diminuto a/desde tu mano. 1 uso/Descanso Corto o Largo, o gasta dado."}
+             ],
+             "tabla_dados": [
+                 {"nivel": 3, "dado": "d6", "numero": 4},
+                 {"nivel": 5, "dado": "d8", "numero": 6},
+                 {"nivel": 9, "dado": "d8", "numero": 8},
+                 {"nivel": 11, "dado": "d10", "numero": 8},
+                 {"nivel": 13, "dado": "d10", "numero": 10},
+                 {"nivel": 17, "dado": "d12", "numero": 12}
+             ],
+             "referencia": "[sources 532-546]"
+          },
+          {
+              "nivel": 7,
+              "nombre": "Adepto Telequinético",
+              "descripcion": "Nuevos usos poder:",
+              "usos_nuevos": [
+                  {"nombre": "Salto Impulsado por Psiónica", "efecto": "Acción Bonificación, ganas Vel. Vuelo = 2 * Velocidad hasta fin turno. 1 uso/Descanso Corto o Largo, o gasta dado."},
+                  {"nombre": "Empuje Telequinético", "efecto": "Al causar daño Golpe Psíquico, puedes forzar TS Fuerza (CD 8 + Mod Int + Bono Comp.). Fallo: Derriba (Prone) O mueve 10 pies horizontalmente."}
+              ],
+              "referencia": "[sources 547-551]"
+          },
+          {
+               "nivel": 10,
+               "nombre": "Mente Protegida",
+               "descripcion": "Resistencia daño Psíquico. Inicio turno, si Encantado/Aterrorizado, gasta dado para terminar esas condiciones.",
+               "referencia": "[source 552]"
+          },
+          {
+               "nivel": 15,
+               "nombre": "Muro de Fuerza",
+               "descripcion": "Acción Bonificación, elige criaturas (incluyéndote) a 30 pies (hasta Mod Int, mín 1). Tienen Media Cobertura (1 min / hasta Incapacitado). 1 uso/Descanso Largo, o gasta dado.",
+               "referencia": "[sources 553-556]"
+          },
+          {
+               "nivel": 18,
+               "nombre": "Maestro Telequinético",
+               "descripcion": "Siempre tienes conjuro Telequinesis preparado. Puedes lanzarlo 1 vez/Descanso Largo sin espacio/componentes (Int es habilidad). Cada turno concentrándote (incluido el de lanzar), haz 1 ataque arma como Acción Bonificación. Puedes gastar dado para reusar.",
+               "referencia": "[sources 557-559]"
+          }
+       ]
+    }
+  ]
+}

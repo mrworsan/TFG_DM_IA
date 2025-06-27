@@ -1,0 +1,486 @@
+{
+  "clase": "Ranger",
+  "fuente_documento": "ranger.pdf",
+  "descripcion_general": "Vigilantes de la naturaleza, hábiles rastreadores y luchadores sigilosos. Usan conexión con la naturaleza para lanzar conjuros y proteger al mundo de monstruos y tiranos.",
+  "referencia_descripcion": "[sources 2-5]",
+  "rasgos_principales": {
+    "habilidad_principal": [
+      "Destreza",
+      "Sabiduría"
+    ],
+    "dado_golpe": "D10 por nivel de Ranger",
+    "tiradas_salvacion": [
+      "Fuerza",
+      "Destreza"
+    ],
+    "competencias_habilidades": {
+      "cantidad": 3,
+      "opciones": [
+        "Manejo de Animales",
+        "Atletismo",
+        "Perspicacia",
+        "Investigación",
+        "Naturaleza",
+        "Percepción",
+        "Sigilo",
+        "Supervivencia"
+      ]
+    },
+    "competencias_armas": [
+      "Armas simples",
+      "Armas marciales"
+    ],
+    "entrenamiento_armaduras": [
+      "Armadura ligera",
+      "Armadura media",
+      "Escudos"
+    ],
+    "equipo_inicial": [
+      {
+        "opcion": "A",
+        "items": [
+          "Armadura de cuero tachonado",
+          "Cimitarra",
+          "Espada corta",
+          "Arco largo",
+          "20 flechas",
+          "Carcaj",
+          "Enfoque druídico (ramita de muérdago)",
+          "Equipo de explorador",
+          "7 CP"
+        ]
+      },
+      {
+        "opcion": "B",
+        "items": [
+          "150 CP"
+        ]
+      }
+    ],
+    "referencia_tabla": "[sources 1-2]"
+  },
+   "lanzamiento_conjuros_info": {
+    "habilidad_conjuracion": "Sabiduría",
+    "foco_conjuracion": "Enfoque Druídico",
+    "conjuros_preparados": "Preparas lista conjuros nivel 1+. Empiezas con 2 nivel 1 (recomendados: Curar Heridas, Golpe Enredadera). Número aumenta según tabla. Debes tener espacios para nivel. Cambias lista en Descanso Largo.",
+    "espacios_conjuro": "Según tabla. Recuperas en Descanso Largo.",
+    "conjuros_siempre_preparados": "Si otra característica da conjuros siempre preparados (ej. Enemigo Favorito), no cuentan para límite, pero son conjuros Ranger.",
+    "referencia": "[sources 6-20]"
+  },
+  "progresion_nivel": [
+    {"nivel": 1, "bono_competencia": "+2", "rasgos_resumen": "Lanzamiento de hechizos, Enemigo favorito, Maestría en armas", "enemigo_favorito_usos": 2, "conjuros_preparados": 2, "nivel_1": 2, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 2, "bono_competencia": "+2", "rasgos_resumen": "Explorador hábil, estilo de lucha", "enemigo_favorito_usos": 2, "conjuros_preparados": 3, "nivel_1": 2, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 3, "bono_competencia": "+2", "rasgos_resumen": "Subclase de guardabosques", "enemigo_favorito_usos": 2, "conjuros_preparados": 4, "nivel_1": 3, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 4, "bono_competencia": "+2", "rasgos_resumen": "Mejora de la puntuación de habilidad", "enemigo_favorito_usos": 2, "conjuros_preparados": 5, "nivel_1": 3, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 5, "bono_competencia": "+3", "rasgos_resumen": "Ataque extra", "enemigo_favorito_usos": 3, "conjuros_preparados": 6, "nivel_1": 4, "nivel_2": 2, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 6, "bono_competencia": "+3", "rasgos_resumen": "Errabundo", "enemigo_favorito_usos": 3, "conjuros_preparados": 6, "nivel_1": 4, "nivel_2": 2, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 7, "bono_competencia": "+3", "rasgos_resumen": "Caracteristica de subclase", "enemigo_favorito_usos": 3, "conjuros_preparados": 7, "nivel_1": 4, "nivel_2": 3, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 8, "bono_competencia": "+3", "rasgos_resumen": "Mejora de la puntuación de habilidad", "enemigo_favorito_usos": 3, "conjuros_preparados": 7, "nivel_1": 4, "nivel_2": 3, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 9, "bono_competencia": "+4", "rasgos_resumen": "Pericia", "enemigo_favorito_usos": 4, "conjuros_preparados": 8, "nivel_1": 4, "nivel_2": 3, "nivel_3": 2, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 10, "bono_competencia": "+4", "rasgos_resumen": "Incansable", "enemigo_favorito_usos": 4, "conjuros_preparados": 8, "nivel_1": 4, "nivel_2": 3, "nivel_3": 2, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 11, "bono_competencia": "+4", "rasgos_resumen": "Característica de subclase", "enemigo_favorito_usos": 4, "conjuros_preparados": 10, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 12, "bono_competencia": "+4", "rasgos_resumen": "Mejora de la puntuación de habilidad", "enemigo_favorito_usos": 4, "conjuros_preparados": 10, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 13, "bono_competencia": "+5", "rasgos_resumen": "Cazador implacable", "enemigo_favorito_usos": 5, "conjuros_preparados": 11, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 1, "nivel_5": 0},
+    {"nivel": 14, "bono_competencia": "+5", "rasgos_resumen": "El velo de la naturaleza", "enemigo_favorito_usos": 5, "conjuros_preparados": 11, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 1, "nivel_5": 0},
+    {"nivel": 15, "bono_competencia": "+5", "rasgos_resumen": "Característica de subclase", "enemigo_favorito_usos": 5, "conjuros_preparados": 12, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 2, "nivel_5": 0},
+    {"nivel": 16, "bono_competencia": "+5", "rasgos_resumen": "Mejora de la puntuación de habilidad", "enemigo_favorito_usos": 5, "conjuros_preparados": 12, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 2, "nivel_5": 0},
+    {"nivel": 17, "bono_competencia": "+6", "rasgos_resumen": "Cazador preciso", "enemigo_favorito_usos": 6, "conjuros_preparados": 14, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 1},
+    {"nivel": 18, "bono_competencia": "+6", "rasgos_resumen": "Sentidos salvajes", "enemigo_favorito_usos": 6, "conjuros_preparados": 14, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 1},
+    {"nivel": 19, "bono_competencia": "+6", "rasgos_resumen": "Bendición épica", "enemigo_favorito_usos": 6, "conjuros_preparados": 15, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2},
+    {"nivel": 20, "bono_competencia": "+6", "rasgos_resumen": "Matador de enemigos", "enemigo_favorito_usos": 6, "conjuros_preparados": 15, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2}
+  ],
+  "referencia_progresion": "[source 23]",
+  "detalles_rasgos_clase": {
+    "Conjuros": {
+        "nivel": 1,
+        "descripcion": "Habilidad lanzar conjuros Ranger. Ver `lanzamiento_conjuros_info`.",
+        "referencia": "[sources 6-20]"
+    },
+    "Enemigo Favorito": {
+        "nivel": 1,
+        "descripcion": "Siempre tienes 'Marca del Cazador' preparado. Puedes lanzarlo sin espacio conjuro número veces = valor tabla 'Enemigo Favorito' (empieza 2). Recuperas usos en Descanso Largo.",
+        "referencia": "[sources 21-22]"
+    },
+    "Maestría con Armas": {
+        "nivel": 1,
+        "descripcion": "Puedes usar propiedades maestría 2 tipos armas con competencia. Cambias tipos elegidos en Descanso Largo.",
+        "referencia": "[sources 24-26]"
+    },
+    "Explorador Hábil": {
+        "nivel": 2,
+        "descripcion": "Ganas beneficios:",
+        "beneficios": [
+            {"nombre": "Pericia", "efecto": "Elige 1 habilidad con competencia (sin Pericia), ganas Pericia."},
+            {"nombre": "Idiomas", "efecto": "Aprendes 2 idiomas a elección."}
+        ],
+        "referencia": "[sources 27-29]"
+    },
+    "Estilo de Combate": {
+        "nivel": 2,
+        "descripcion": "Obtienes 1 dote Estilo Combate a elección. O elige 'Guerrero Druídico'.",
+        "opcion_alternativa": {
+           "nombre": "Guerrero Druídico",
+           "efecto": "Aprendes 2 trucos Druida (Sabiduría es habilidad). Cuentan como conjuros Ranger. Puedes reemplazar uno al subir nivel."
+        },
+        "referencia": "[sources 29-33]"
+    },
+    "Subclase de Ranger": {
+        "nivel": 3,
+        "descripcion": "Eliges un Arquetipo Ranger.",
+        "opciones_documento": [
+           "Maestro de Bestias",
+           "Errante Feérico",
+           "Acechador en la Penumbra",
+           "Cazador"
+        ],
+        "referencia": "[sources 34-37]"
+    },
+    "Mejora de Puntuación de Característica": {
+        "nivel": 4,
+        "descripcion": "Obtienes dote 'Mejora Puntuación Característica' u otra dote. Se obtiene de nuevo en niveles 8, 12 y 16.",
+        "referencia": "[sources 38-39]"
+    },
+    "Ataque Adicional": {
+        "nivel": 5,
+        "descripcion": "Puedes atacar dos veces con acción Ataque.",
+        "referencia": "[source 40]"
+    },
+    "Errante": {
+        "nivel": 6,
+        "descripcion": "Velocidad +10 pies (sin armadura pesada). Ganas Vel. Escalada y Vel. Nado = tu Velocidad.",
+        "referencia": "[sources 41-42]"
+    },
+    "Pericia": {
+        "nivel": 9,
+        "descripcion": "Elige 2 competencias habilidad (sin Pericia), ganas Pericia.",
+        "referencia": "[source 43]"
+    },
+    "Incansable": {
+        "nivel": 10,
+        "descripcion": "Beneficios:",
+        "beneficios": [
+           {"nombre": "Puntos de Golpe Temporales", "efecto": "Acción mágica, ganas PG Temporales = 1d8 + Mod Sabiduría (mín 1). Usos = Mod Sabiduría (mín 1)/Descanso Largo."},
+           {"nombre": "Disminuir el Agotamiento", "efecto": "Al terminar Descanso Corto, nivel Agotamiento disminuye 1."}
+        ],
+        "referencia": "[sources 44-46]"
+    },
+    "Cazador Implacable": {
+        "nivel": 13,
+        "descripcion": "Recibir daño no rompe concentración en Marca del Cazador.",
+        "referencia": "[source 46]"
+    },
+    "Velo de la Naturaleza": {
+        "nivel": 14,
+        "descripcion": "Acción Adicional, ganas condición Invisible hasta fin tu sig. turno. Usos = Mod Sabiduría (mín 1)/Descanso Largo.",
+        "referencia": "[sources 47-49]"
+    },
+    "Cazador Preciso": {
+        "nivel": 17,
+        "descripcion": "Ventaja en tiradas ataque vs criatura marcada por Marca del Cazador.",
+        "referencia": "[source 50]"
+    },
+    "Sentidos Salvajes": {
+        "nivel": 18,
+        "descripcion": "Ganas Vista Ciega 30 pies.",
+        "referencia": "[source 51]"
+    },
+    "Bendición Épica": {
+        "nivel": 19,
+        "descripcion": "Obtienes Hazaña Épica (recomendada: Viaje Dimensional) u otra hazaña.",
+        "referencia": "[sources 52-53]"
+    },
+    "Asesino de Enemigos": {
+        "nivel": 20,
+        "descripcion": "Dado daño Marca del Cazador es d10 (en lugar d6).",
+        "referencia": "[source 53]"
+    }
+  },
+  "lista_conjuros": {
+     "nivel_1": [
+        {"nombre": "Alarm", "escuela": "Abjuration", "especial": ["R"]},
+        {"nombre": "Animal Friendship", "escuela": "Enchantment", "especial": []},
+        {"nombre": "Cure Wounds", "escuela": "Abjuration", "especial": []},
+        {"nombre": "Detect Magic", "escuela": "Divination", "especial": ["C", "R"]},
+        {"nombre": "Detect Poison and Disease", "escuela": "Divination", "especial": ["C", "R"]},
+        {"nombre": "Ensnaring Strike", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Entangle", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Fog Cloud", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Goodberry", "escuela": "Conjuration", "especial": []},
+        {"nombre": "Hail of Thorns", "escuela": "Conjuration", "especial": []},
+        {"nombre": "Hunter's Mark", "escuela": "Divination", "especial": ["C"]},
+        {"nombre": "Jump", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Longstrider", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Speak with Animals", "escuela": "Divination", "especial": ["R"]}
+     ],
+     "nivel_2": [
+        {"nombre": "Aid", "escuela": "Abjuration", "especial": []},
+        {"nombre": "Animal Messenger", "escuela": "Enchantment", "especial": ["R"]},
+        {"nombre": "Barkskin", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Beast Sense", "escuela": "Divination", "especial": ["C", "R"]},
+        {"nombre": "Cordon of Arrows", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Darkvision", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Enhance Ability", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Find Traps", "escuela": "Divination", "especial": []},
+        {"nombre": "Gust of Wind", "escuela": "Evocation", "especial": ["C"]},
+        {"nombre": "Lesser Restoration", "escuela": "Abjuration", "especial": []},
+        {"nombre": "Locate Animals or Plants", "escuela": "Divination", "especial": ["R"]},
+        {"nombre": "Locate Object", "escuela": "Divination", "especial": ["C"]},
+        {"nombre": "Magic Weapon", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Pass without Trace", "escuela": "Abjuration", "especial": ["C"]},
+        {"nombre": "Protection from Poison", "escuela": "Abjuration", "especial": []},
+        {"nombre": "Silence", "escuela": "Illusion", "especial": ["C", "R"]},
+        {"nombre": "Spike Growth", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Summon Beast", "escuela": "Conjuration", "especial": ["C", "M"]}
+     ],
+     "nivel_3": [
+         {"nombre": "Conjure Animals", "escuela": "Conjuration", "especial": ["C"]},
+         {"nombre": "Conjure Barrage", "escuela": "Conjuration", "especial": []},
+         {"nombre": "Daylight", "escuela": "Evocation", "especial": []},
+         {"nombre": "Dispel Magic", "escuela": "Abjuration", "especial": []},
+         {"nombre": "Elemental Weapon", "escuela": "Transmutation", "especial": ["C"]},
+         {"nombre": "Lightning Arrow", "escuela": "Transmutation", "especial": []},
+         {"nombre": "Meld into Stone", "escuela": "Transmutation", "especial": ["R"]},
+         {"nombre": "Nondetection", "escuela": "Abjuration", "especial": ["M"]},
+         {"nombre": "Plant Growth", "escuela": "Transmutation", "especial": []},
+         {"nombre": "Protection from Energy", "escuela": "Abjuration", "especial": ["C"]},
+         {"nombre": "Revivify", "escuela": "Necromancy", "especial": ["M"]},
+         {"nombre": "Speak with Plants", "escuela": "Transmutation", "especial": []},
+         {"nombre": "Summon Fey", "escuela": "Conjuration", "especial": ["C", "M"]},
+         {"nombre": "Water Breathing", "escuela": "Transmutation", "especial": ["R"]},
+         {"nombre": "Water Walk", "escuela": "Transmutation", "especial": ["R"]},
+         {"nombre": "Wind Wall", "escuela": "Evocation", "especial": ["C"]}
+     ],
+     "nivel_4": [
+         {"nombre": "Conjure Woodland Beings", "escuela": "Conjuration", "especial": ["C"]},
+         {"nombre": "Dominate Beast", "escuela": "Enchantment", "especial": ["C"]},
+         {"nombre": "Freedom of Movement", "escuela": "Abjuration", "especial": []},
+         {"nombre": "Grasping Vine", "escuela": "Conjuration", "especial": ["C"]},
+         {"nombre": "Locate Creature", "escuela": "Divination", "especial": ["C"]},
+         {"nombre": "Stoneskin", "escuela": "Transmutation", "especial": ["C", "M"]},
+         {"nombre": "Summon Elemental", "escuela": "Conjuration", "especial": ["C", "M"]}
+     ],
+     "nivel_5": [
+         {"nombre": "Commune with Nature", "escuela": "Divination", "especial": ["R"]},
+         {"nombre": "Conjure Volley", "escuela": "Conjuration", "especial": []},
+         {"nombre": "Greater Restoration", "escuela": "Abjuration", "especial": ["M"]},
+         {"nombre": "Steel Wind Strike", "escuela": "Conjuration", "especial": ["M"]},
+         {"nombre": "Swift Quiver", "escuela": "Transmutation", "especial": ["C", "M"]},
+         {"nombre": "Tree Stride", "escuela": "Conjuration", "especial": ["C"]}
+     ],
+     "referencia": "[sources 54-65]"
+  },
+  "subclases": [
+    {
+      "nombre": "Maestro de Bestias",
+      "descripcion": "Forma vínculo místico con animal especial, usando magia primigenia.",
+      "referencia_descripcion": "[source 66]",
+      "rasgos": [
+        {
+           "nivel": 3,
+           "nombre": "Compañero Primigenio",
+           "descripcion": "Invoca bestia primigenia (elige bloque stats: Tierra, Mar, Cielo; elige apariencia). Amistosa, obedece órdenes, desaparece si mueres.",
+           "combate_bestia": "Actúa en tu turno. Mueve/Reacciona sola. Solo acción Esquivar, salvo si ordenas (Acción Bonificación) acción de su bloque/otra; O sacrificas 1 ataque (Acción Ataque) para ordenar Golpe Bestia. Si Incapacitado, actúa sola.",
+           "restaurar_reemplazar": "Si muere < 1h, Acción mágica + espacio conjuro para revivirla en 1 min (todos PG). Al terminar Descanso Largo, puedes invocar bestia diferente (anterior desaparece).",
+           "referencia": "[sources 67-83]"
+        },
+        {
+           "nivel": 7,
+           "nombre": "Entrenamiento Excepcional",
+           "descripcion": "Al ordenar acción a compañero (Acción Bonificación), también puede tomar acción Correr, Desengancharse, Esquivar o Ayudar (su Acción Bonificación). Sus ataques pueden causar daño Fuerza o normal.",
+           "referencia": "[sources 84-85]"
+        },
+        {
+           "nivel": 11,
+           "nombre": "Furia Bestial",
+           "descripcion": "Al ordenar Golpe Bestia, bestia puede usarlo 2 veces. Primera vez que golpea criatura con Marca Cazador/turno, inflige daño Fuerza extra = daño extra conjuro.",
+           "referencia": "[sources 86-88]"
+        },
+        {
+            "nivel": 15,
+            "nombre": "Compartir Conjuros",
+            "descripcion": "Conjuro que te tiene como objetivo puede afectar también a compañero (si está a 30 pies).",
+            "referencia": "[source 88]"
+        }
+      ],
+      "bloques_estadisticas_companero": [
+         {
+            "nombre": "Bestia de la Tierra", "tamano": "Mediano", "alineamiento": "Neutral", "CA": "13 + Mod Sabiduría", "PG": "5 + 5 * Nivel Ranger", "Dados_Golpe": "d8s = Nivel Ranger", "Velocidad": "40 pies, Trepar 40 pies", "Estadisticas": {"Fue": 14, "Des": 14, "Con": 15, "Int": 8, "Sab": 14, "Car": 11}, "Sentidos": "Visión Oscuridad 60 pies, Percepción Pasiva 12", "Idiomas": "Entiende los tuyos", "Rasgos": [{"nombre": "Vínculo Primigenio", "efecto": "Añade tu Bono Competencia a cualquier prueba habilidad/TS bestia."}], "Acciones": [{"nombre": "Golpe Bestia", "efecto": "Ataque CC: Bono = tu mod ataque conjuro, alcance 5 pies. Impacto: 1d8 + 2 + Mod Sabiduría daño Cont/Perf/Cort (eliges al invocar). Si bestia movió 20+ pies recto antes impacto, objetivo recibe 1d6 daño extra (mismo tipo), y queda Caído si G o menor."}], "referencia": "[sources 89-94]"
+         },
+         {
+             "nombre": "Bestia del Cielo", "tamano": "Pequeño", "alineamiento": "Neutral", "CA": "13 + Mod Sabiduría", "PG": "4 + 4 * Nivel Ranger", "Dados_Golpe": "d6s = Nivel Ranger", "Velocidad": "10 pies, Volar 60 pies", "Estadisticas": {"Fue": 6, "Des": 16, "Con": 13, "Int": 8, "Sab": 14, "Car": 11}, "Sentidos": "Visión Oscuridad 60 pies, Percepción Pasiva 12", "Idiomas": "Entiende los tuyos", "Rasgos": [{"nombre": "Flyby", "efecto": "No provoca AO al volar fuera alcance enemigo."}, {"nombre": "Vínculo Primigenio", "efecto": "Añade tu Bono Competencia a cualquier prueba habilidad/TS bestia."}], "Acciones": [{"nombre": "Golpe Bestia", "efecto": "Ataque CC: Bono = tu mod ataque conjuro, alcance 5 pies. Impacto: 1d4 + 3 + Mod Sabiduría daño Cortante."}], "referencia": "[sources 97-102]"
+         },
+         {
+            "nombre": "Bestia del Mar", "tamano": "Mediano", "alineamiento": "Neutral", "CA": "13 + Mod Sabiduría", "PG": "5 + 5 * Nivel Ranger", "Dados_Golpe": "d8s = Nivel Ranger", "Velocidad": "5 pies, Nadar 60 pies", "Estadisticas": {"Fue": 14, "Des": 14, "Con": 15, "Int": 8, "Sab": 14, "Car": 11}, "Sentidos": "Visión Oscuridad 90 pies, Percepción Pasiva 12", "Idiomas": "Entiende los tuyos", "Rasgos": [{"nombre": "Anfibio", "efecto": "Puede respirar aire y agua."}, {"nombre": "Vínculo Primigenio", "efecto": "Añade tu Bono Competencia a cualquier prueba habilidad/TS bestia."}], "Acciones": [{"nombre": "Golpe Bestia", "efecto": "Ataque CC: Bono = tu mod ataque conjuro, alcance 5 pies. Impacto: 1d6 + 2 + Mod Sabiduría daño Cont/Perf (eliges al invocar), y objetivo queda Agarrado (CD escape = tu CD salvación conjuros)."}], "referencia": "[sources 103-107]"
+         }
+      ]
+    },
+    {
+      "nombre": "Errante Feérico",
+      "descripcion": "Rodeado de misticismo feérico (favor archifey / lugar Feywild). Usa alegría y furia feérica.",
+      "referencia_descripcion": "[sources 103-104]",
+      "rasgos": [
+        {
+           "nivel": 3,
+           "nombre": "Golpes Aterradores",
+           "descripcion": "1/turno, al golpear con arma, causa 1d4 daño Psíquico extra. Aumenta a 1d6 en Nivel 11.",
+           "referencia": "[sources 105-107]"
+        },
+        {
+            "nivel": 3,
+            "nombre": "Conjuros del Errante Feérico",
+            "descripcion": "Siempre tienes preparados los conjuros listados.",
+            "conjuros_por_nivel": [
+                {"nivel_ranger": 3, "conjuros": ["Encantar Persona"]},
+                {"nivel_ranger": 5, "conjuros": ["Paso Nebuloso"]},
+                {"nivel_ranger": 9, "conjuros": ["Invocar Fey"]},
+                {"nivel_ranger": 13, "conjuros": ["Puerta Dimensional"]},
+                {"nivel_ranger": 17, "conjuros": ["Engaño"]}
+            ],
+            "referencia": "[sources 108-110]"
+        },
+        {
+           "nivel": 3,
+           "nombre": "Regalos Feéricos",
+           "descripcion": "Posees bendición feérica (elige/tira 1d6).",
+           "tabla_regalos": [
+                "Mariposas ilusorias revolotean alrededor en descansos.",
+                "Flores brotan de tu cabello cada amanecer.",
+                "Aroma débil a especia reconfortante.",
+                "Sombra danza si no se mira directamente.",
+                "Cuernos o astas brotan de tu cabeza.",
+                "Piel y cabello cambian color cada amanecer."
+           ],
+           "referencia": "[sources 111-113]"
+        },
+        {
+           "nivel": 3,
+           "nombre": "Glamour de Otro Mundo",
+           "descripcion": "Añade Mod Sabiduría (mín +1) a pruebas Carisma. Ganas competencia en Engañar, Interpretación o Persuasión.",
+           "referencia": "[sources 117-118]"
+        },
+        {
+           "nivel": 7,
+           "nombre": "Giro Encantador",
+           "descripcion": "Ventaja en TS vs Encantado/Aterrorizado. Reacción cuando tú/aliado a 120 pies supera TS vs Encantado/Aterrorizado: fuerza otra criatura a 120 pies TS Sabiduría vs tu CD. Fallo: Encantado/Aterrorizado (tu elección) 1 min (repite TS fin turno).",
+           "referencia": "[sources 119-123]"
+        },
+        {
+            "nivel": 11,
+            "nombre": "Refuerzos Feéricos",
+            "descripcion": "Puedes lanzar Invocar Fey sin componente material. Puedes lanzarlo 1 vez/Descanso Largo sin espacio conjuro. Puedes modificar lanzamiento para no requerir Concentración (duración 1 min).",
+            "referencia": "[sources 124-127]"
+        },
+        {
+            "nivel": 15,
+            "nombre": "Errante Nebuloso",
+            "descripcion": "Puedes lanzar Paso Nebuloso sin espacio conjuro. Usos = Mod Sabiduría (mín 1)/Descanso Largo. Al lanzar Paso Nebuloso, puedes llevar criatura dispuesta a 5 pies (a espacio a 5 pies destino).",
+            "referencia": "[sources 128-131]"
+        }
+      ]
+    },
+     {
+      "nombre": "Acechador en la Penumbra",
+      "descripcion": "Cómodos en oscuridad, usan magia Plano Sombras para combatir enemigos.",
+      "referencia_descripcion": "[source 133]",
+      "rasgos": [
+        {
+            "nivel": 3,
+            "nombre": "Emboscador Temible",
+            "descripcion": "Beneficios:",
+            "beneficios_emboscada": [
+                {"nombre": "Salto del Emboscador", "efecto": "Primer turno combate, Velocidad +10 pies."},
+                {"nombre": "Golpe Temible", "efecto": "1/turno al golpear con arma, causa 2d6 daño Psíquico extra. Usos = Mod Sabiduría (mín 1)/Descanso Largo."},
+                {"nombre": "Bono a la Iniciativa", "efecto": "Añade Mod Sabiduría a tirada Iniciativa."}
+            ],
+            "referencia": "[sources 134-139]"
+        },
+        {
+           "nivel": 3,
+           "nombre": "Conjuros del Acechador en la Penumbra",
+           "descripcion": "Siempre tienes preparados los conjuros listados.",
+           "conjuros_por_nivel": [
+               {"nivel_ranger": 3, "conjuros": ["Disfrazarse"]},
+               {"nivel_ranger": 5, "conjuros": ["Truco de Cuerda"]},
+               {"nivel_ranger": 9, "conjuros": ["Temor"]},
+               {"nivel_ranger": 13, "conjuros": ["Invisibilidad Superior"]},
+               {"nivel_ranger": 17, "conjuros": ["Apariencia"]}
+           ],
+           "referencia": "[sources 140-142]"
+        },
+        {
+           "nivel": 3,
+           "nombre": "Visión Umbral",
+           "descripcion": "Ganas Visión Oscuridad 60 pies (o +60 pies si ya tienes). Mientras en Oscuridad, eres Invisible para criaturas que dependen Visión Oscuridad para verte ahí.",
+           "referencia": "[sources 143-146]"
+        },
+        {
+           "nivel": 7,
+           "nombre": "Mente de Hierro",
+           "descripcion": "Competencia en TS Sabiduría (o Int/Car si ya tienes).",
+           "referencia": "[sources 147-148]"
+        },
+        {
+           "nivel": 11,
+           "nombre": "Ráfaga del Acechador",
+           "descripcion": "Daño Golpe Temible -> 2d8. Al usar Golpe Temible, elige efecto adicional:",
+           "efectos_adicionales": [
+              {"nombre": "Golpe Repentino", "efecto": "Haz otro ataque (misma arma) vs criatura diferente a 5 pies."},
+              {"nombre": "Temor Masivo", "efecto": "Objetivo + criaturas a 10 pies hacen TS Sabiduría vs CD. Fallo: Aterrorizado hasta inicio tu sig. turno."}
+           ],
+           "referencia": "[sources 149-153]"
+        },
+        {
+           "nivel": 15,
+           "nombre": "Esquiva Sombría",
+           "descripcion": "Reacción cuando criatura te ataca. Impón Desventaja a tirada. Acierto o fallo, teletranspórtate 30 pies.",
+           "referencia": "[sources 154-155]"
+        }
+      ]
+    },
+     {
+      "nombre": "Cazador",
+      "descripcion": "Sigue presas para proteger naturaleza y personas de destrucción.",
+      "referencia_descripcion": "[source 157]",
+      "rasgos": [
+        {
+            "nivel": 3,
+            "nombre": "Conocimiento del Cazador",
+            "descripcion": "Mientras criatura marcada por Marca Cazador, sabes si tiene Inmunidades/Resistencias/Vulnerabilidades (y cuáles son).",
+            "referencia": "[sources 158-159]"
+        },
+        {
+            "nivel": 3,
+            "nombre": "Presa del Cazador",
+            "descripcion": "Elige 1 opción (puedes cambiar en Descanso Corto/Largo):",
+            "opciones_presa": [
+                {"nombre": "Asesino de Colosos", "efecto": "1/turno al golpear con arma, causa 1d8 daño extra si objetivo < máx PG."},
+                {"nombre": "Rompehuéspedes", "efecto": "1/turno al hacer ataque arma, haz otro ataque (misma arma) vs criatura diferente a 5 pies (no atacada este turno)."}
+            ],
+            "referencia": "[sources 160-164]"
+        },
+        {
+            "nivel": 7,
+            "nombre": "Tácticas Defensivas",
+            "descripcion": "Elige 1 opción (puedes cambiar en Descanso Corto/Largo):",
+            "opciones_defensa": [
+                {"nombre": "Escape de la Horda", "efecto": "Ataques Oportunidad tienen Desventaja contra ti."},
+                {"nombre": "Defensa de Múltiples Ataques", "efecto": "Cuando criatura te golpea, tiene Desventaja en demás ataques vs ti este turno."}
+            ],
+            "referencia": "[sources 165-168]"
+        },
+        {
+            "nivel": 11,
+            "nombre": "Presa Superior del Cazador",
+            "descripcion": "1/turno, al causar daño a criatura marcada por Marca Cazador, causa daño extra hechizo a otra criatura visible a 30 pies.",
+            "referencia": "[source 169]"
+        },
+        {
+            "nivel": 15,
+            "nombre": "Defensa Superior del Cazador",
+            "descripcion": "Reacción al recibir daño. Ganas Resistencia a ese daño y cualquier otro mismo tipo hasta fin turno actual.",
+            "referencia": "[source 170]"
+        }
+      ]
+    }
+  ]
+}

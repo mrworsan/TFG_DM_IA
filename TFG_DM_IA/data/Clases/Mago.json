@@ -1,0 +1,491 @@
+{
+  "clase": "Mago",
+  "fuente_documento": "mago.pdf",
+  "descripcion_general": "Definidos por su estudio exhaustivo de la magia, lanzan conjuros de fuego, relámpagos, engaños y transformaciones. Invocan monstruos, vislumbran el futuro y crean barreras. Su enfoque es académico, categorizando conjuros en escuelas y buscando secretos arcanos perdidos.",
+  "referencia_descripcion": "[sources 3-13]",
+  "rasgos_principales": {
+    "habilidad_principal": "Inteligencia",
+    "dado_golpe": "1d6 por nivel de Mago",
+    "tiradas_salvacion": [
+      "Inteligencia",
+      "Sabiduría"
+    ],
+    "competencias_habilidades": {
+      "cantidad": 2,
+      "opciones": [
+        "Arcanismo",
+        "Historia",
+        "Perspicacia",
+        "Investigación",
+        "Medicina",
+        "Naturaleza",
+        "Religión"
+      ]
+    },
+    "competencias_armas": [
+      "Armas simples"
+    ],
+    "entrenamiento_armaduras": [],
+    "equipo_inicial": [
+      {
+        "opcion": "A",
+        "items": [
+          "2 Dagas",
+          "Enfoque Arcano (Bastón)",
+          "Túnica",
+          "Libro de Conjuros",
+          "Paquete de Erudito",
+          "5 PO"
+        ]
+      },
+      {
+        "opcion": "B",
+        "items": [
+          "55 PC"
+        ]
+      }
+    ],
+    "referencia_tabla": "[sources 2-3]"
+  },
+  "lanzamiento_conjuros_info": {
+    "habilidad_conjuracion": "Inteligencia",
+    "foco_conjuracion": [
+      "Enfoque Arcano",
+      "Libro de Conjuros"
+    ],
+    "trucos_conocidos": "Empiezas con 3 (recomendados: Luz, Mano Mágica, Rayo Escarcha). Ganas 1 más en nivel 4 y 10. Puedes reemplazar uno en Descanso Largo.",
+    "libro_conjuros": "Objeto Pequeño, 3 lbs, 100 pág. Contiene conjuros Mago nivel 1+ conocidos. Empieza con 6 nivel 1 (recomendados: Detectar Magia, Caída Pluma, Armadura Mago, Misil Mágico, Dormir, Ola Atronadora). Añades 2 conjuros Mago gratis al subir nivel (de nivel para el que tengas espacios). Puedes copiar conjuros encontrados (2h y 50 PO por nivel).",
+    "espacios_conjuro": "Según tabla 'Características del Mago'. Recuperas todos en Descanso Largo.",
+    "conjuros_preparados": "Preparas lista conjuros nivel 1+ desde libro conjuros. Número = Mod Int + Nivel Mago. Debes tener espacios para nivel conjuro. Cambias lista en Descanso Largo.",
+    "lanzamiento_ritual": "Puedes lanzar conjuro Mago como ritual si tiene etiqueta ritual y está en libro conjuros (no necesita estar preparado).",
+    "recuperacion_arcana": "Al terminar Descanso Corto, recupera espacios gastados nivel total <= mitad Nivel Mago (redondeado arriba), ninguno nivel 6+. 1 uso/Descanso Largo.",
+    "referencia": "[sources 21-56]"
+  },
+  "progresion_nivel": [
+    {"nivel": 1, "bono_competencia": "+2", "rasgos_resumen": "Lanzamiento de hechizos, Adepto ritual, Recuperación arcana", "trucos": 3, "conjuros_preparados": 4, "nivel_1": 2, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 2, "bono_competencia": "+2", "rasgos_resumen": "Erudito", "trucos": 3, "conjuros_preparados": 5, "nivel_1": 3, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 3, "bono_competencia": "+2", "rasgos_resumen": "Subclase de mago", "trucos": 3, "conjuros_preparados": 6, "nivel_1": 4, "nivel_2": 2, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 4, "bono_competencia": "+2", "rasgos_resumen": "Mejora de la puntuación de habilidad", "trucos": 4, "conjuros_preparados": 7, "nivel_1": 4, "nivel_2": 3, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 5, "bono_competencia": "+3", "rasgos_resumen": "Memorizar hechizo", "trucos": 4, "conjuros_preparados": 9, "nivel_1": 4, "nivel_2": 3, "nivel_3": 2, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 6, "bono_competencia": "+3", "rasgos_resumen": "Característica de subclase", "trucos": 4, "conjuros_preparados": 10, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 7, "bono_competencia": "+3", "rasgos_resumen": "-", "trucos": 4, "conjuros_preparados": 11, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 1, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 8, "bono_competencia": "+3", "rasgos_resumen": "Mejora de la puntuación de habilidad", "trucos": 4, "conjuros_preparados": 12, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 2, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 9, "bono_competencia": "+4", "rasgos_resumen": "-", "trucos": 4, "conjuros_preparados": 14, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 1, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 10, "bono_competencia": "+4", "rasgos_resumen": "Característica de subclase", "trucos": 5, "conjuros_preparados": 15, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 11, "bono_competencia": "+4", "rasgos_resumen": "-", "trucos": 5, "conjuros_preparados": 16, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 12, "bono_competencia": "+4", "rasgos_resumen": "Mejora de la puntuación de habilidad", "trucos": 5, "conjuros_preparados": 16, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 13, "bono_competencia": "+5", "rasgos_resumen": "-", "trucos": 5, "conjuros_preparados": 17, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 1, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 14, "bono_competencia": "+5", "rasgos_resumen": "Característica de subclase", "trucos": 5, "conjuros_preparados": 18, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 1, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 15, "bono_competencia": "+5", "rasgos_resumen": "-", "trucos": 5, "conjuros_preparados": 19, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 1, "nivel_8": 1, "nivel_9": 0},
+    {"nivel": 16, "bono_competencia": "+5", "rasgos_resumen": "Mejora de la puntuación de habilidad", "trucos": 5, "conjuros_preparados": 21, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 1, "nivel_8": 1, "nivel_9": 0},
+    {"nivel": 17, "bono_competencia": "+6", "rasgos_resumen": "-", "trucos": 5, "conjuros_preparados": 22, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 1, "nivel_8": 1, "nivel_9": 1},
+    {"nivel": 18, "bono_competencia": "+6", "rasgos_resumen": "Maestría en hechizos", "trucos": 5, "conjuros_preparados": 23, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 3, "nivel_6": 1, "nivel_7": 1, "nivel_8": 1, "nivel_9": 1},
+    {"nivel": 19, "bono_competencia": "+6", "rasgos_resumen": "Bendición épica", "trucos": 5, "conjuros_preparados": 24, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 3, "nivel_6": 2, "nivel_7": 1, "nivel_8": 1, "nivel_9": 1},
+    {"nivel": 20, "bono_competencia": "+6", "rasgos_resumen": "Hechizos de firma", "trucos": 5, "conjuros_preparados": 25, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 3, "nivel_6": 2, "nivel_7": 2, "nivel_8": 1, "nivel_9": 1}
+  ],
+  "referencia_progresion": "[source 42]",
+  "detalles_rasgos_clase": {
+    "Lanzamiento de Conjuros": {
+      "nivel": 1,
+      "descripcion": "Ver sección `lanzamiento_conjuros_info`.",
+      "referencia": "[sources 21-40, 43-50]"
+    },
+    "Adepto de Rituales": {
+      "nivel": 1,
+      "descripcion": "Puedes lanzar conjuro Mago como ritual si tiene etiqueta ritual y está en libro conjuros (no necesita estar preparado).",
+      "referencia": "[sources 51-52]"
+    },
+    "Recuperación Arcana": {
+      "nivel": 1,
+      "descripcion": "Al terminar Descanso Corto, recupera espacios gastados nivel total <= mitad Nivel Mago (redondeado arriba), ninguno nivel 6+. 1 uso/Descanso Largo.",
+      "referencia": "[sources 53-56]"
+    },
+    "Erudito": {
+      "nivel": 2,
+      "descripcion": "Elige 1 habilidad con competencia (Arcanismo, Historia, Investigación, Medicina, Naturaleza o Religión). Ganas Pericia en ella.",
+      "referencia": "[sources 57-59]"
+    },
+    "Subclase de Mago": {
+      "nivel": 3,
+      "descripcion": "Eliges una Tradición Arcana.",
+      "opciones_documento": [
+        "Abjurador",
+        "Adivino",
+        "Evocador",
+        "Ilusionista"
+      ],
+      "referencia": "[sources 72-75]"
+    },
+    "Mejora de Puntaje de Habilidad": {
+      "nivel": 4,
+      "descripcion": "Obtienes dote 'Mejora Puntaje Habilidad' u otra dote. Se obtiene de nuevo en niveles 8, 12 y 16.",
+      "referencia": "[sources 76-77]"
+    },
+    "Memorizar Conjuro": {
+      "nivel": 5,
+      "descripcion": "Al terminar Descanso Corto, puedes reemplazar 1 conjuro preparado nivel 1+ por otro conjuro nivel 1 del libro.",
+      "referencia": "[source 78]"
+    },
+    "Maestría en Conjuros": {
+      "nivel": 18,
+      "descripcion": "Elige 1 conjuro nivel 1 y 1 conjuro nivel 2 (tiempo lanzamiento 1 acción) de tu libro. Siempre preparados. Puedes lanzarlos a nivel más bajo sin gastar espacio. Puedes cambiar elecciones en Descanso Largo.",
+      "referencia": "[sources 79-83]"
+    },
+    "Bendición Épica": {
+      "nivel": 19,
+      "descripcion": "Obtienes Hazaña Épica (recomendada: Recordatorio Conjuros) u otra hazaña.",
+      "referencia": "[sources 84-85]"
+    },
+    "Conjuros Característicos": {
+      "nivel": 20,
+      "descripcion": "Elige 2 conjuros nivel 3 de tu libro. Siempre preparados. Puedes lanzar cada uno 1 vez a nivel 3 sin espacio conjuro / Descanso Corto o Largo.",
+      "referencia": "[sources 85-88]"
+    }
+  },
+  "lista_conjuros": {
+    "nivel_0": [
+      {"nombre": "Acid Splash", "escuela": "Evocation", "especial": []},
+      {"nombre": "Blade Ward", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Chill Touch", "escuela": "Necromancy", "especial": []},
+      {"nombre": "Dancing Lights", "escuela": "Illusion", "especial": ["C"]},
+      {"nombre": "Elementalism", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Fire Bolt", "escuela": "Evocation", "especial": []},
+      {"nombre": "Friends", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Light", "escuela": "Evocation", "especial": []},
+      {"nombre": "Mage Hand", "escuela": "Conjuration", "especial": []},
+      {"nombre": "Mending", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Message", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Mind Sliver", "escuela": "Enchantment", "especial": []},
+      {"nombre": "Minor Illusion", "escuela": "Illusion", "especial": []},
+      {"nombre": "Poison Spray", "escuela": "Necromancy", "especial": []},
+      {"nombre": "Prestidigitation", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Ray of Frost", "escuela": "Evocation", "especial": []},
+      {"nombre": "Shocking Grasp", "escuela": "Evocation", "especial": []},
+      {"nombre": "Thunderclap", "escuela": "Evocation", "especial": []},
+      {"nombre": "Toll the Dead", "escuela": "Necromancy", "especial": []},
+      {"nombre": "True Strike", "escuela": "Divination", "especial": []}
+    ],
+    "nivel_1": [
+      {"nombre": "Alarm", "escuela": "Abjuration", "especial": ["R"]},
+      {"nombre": "Burning Hands", "escuela": "Evocation", "especial": []},
+      {"nombre": "Charm Person", "escuela": "Enchantment", "especial": []},
+      {"nombre": "Chromatic Orb", "escuela": "Evocation", "especial": ["M"]},
+      {"nombre": "Color Spray", "escuela": "Illusion", "especial": []},
+      {"nombre": "Comprehend Languages", "escuela": "Divination", "especial": ["R"]},
+      {"nombre": "Detect Magic", "escuela": "Divination", "especial": ["C", "R"]},
+      {"nombre": "Disguise Self", "escuela": "Illusion", "especial": []},
+      {"nombre": "Expeditious Retreat", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "False Life", "escuela": "Necromancy", "especial": []},
+      {"nombre": "Feather Fall", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Find Familiar", "escuela": "Conjuration", "especial": ["R", "M"]},
+      {"nombre": "Fog Cloud", "escuela": "Conjuration", "especial": ["C"]},
+      {"nombre": "Grease", "escuela": "Conjuration", "especial": []},
+      {"nombre": "Ice Knife", "escuela": "Conjuration", "especial": []},
+      {"nombre": "Identify", "escuela": "Divination", "especial": ["R", "M"]},
+      {"nombre": "Illusory Script", "escuela": "Illusion", "especial": ["R", "M"]},
+      {"nombre": "Jump", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Longstrider", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Mage Armor", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Magic Missile", "escuela": "Evocation", "especial": []},
+      {"nombre": "Protection from Evil and Good", "escuela": "Abjuration", "especial": ["C", "M"]},
+      {"nombre": "Ray of Sickness", "escuela": "Necromancy", "especial": []},
+      {"nombre": "Shield", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Silent Image", "escuela": "Illusion", "especial": ["C"]},
+      {"nombre": "Sleep", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Tasha's Hideous Laughter", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Tenser's Floating Disk", "escuela": "Conjuration", "especial": ["R"]},
+      {"nombre": "Thunderwave", "escuela": "Evocation", "especial": []},
+      {"nombre": "Unseen Servant", "escuela": "Conjuration", "especial": ["R"]},
+      {"nombre": "Witch Bolt", "escuela": "Evocation", "especial": ["C"]}
+    ],
+    "nivel_2": [
+      {"nombre": "Alter Self", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Arcane Lock", "escuela": "Abjuration", "especial": ["M"]},
+      {"nombre": "Arcane Vigor", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Augury", "escuela": "Divination", "especial": ["R", "M"]},
+      {"nombre": "Blindness/Deafness", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Blur", "escuela": "Illusion", "especial": ["C"]},
+      {"nombre": "Cloud of Daggers", "escuela": "Conjuration", "especial": ["C"]},
+      {"nombre": "Continual Flame", "escuela": "Evocation", "especial": ["M"]},
+      {"nombre": "Crown of Madness", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Darkness", "escuela": "Evocation", "especial": ["C"]},
+      {"nombre": "Darkvision", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Detect Thoughts", "escuela": "Divination", "especial": ["C"]},
+      {"nombre": "Dragon's Breath", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Enhance Ability", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Enlarge/Reduce", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Flaming Sphere", "escuela": "Evocation", "especial": ["C"]},
+      {"nombre": "Gentle Repose", "escuela": "Necromancy", "especial": ["R", "M"]},
+      {"nombre": "Gust of Wind", "escuela": "Evocation", "especial": ["C"]},
+      {"nombre": "Hold Person", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Invisibility", "escuela": "Illusion", "especial": ["C"]},
+      {"nombre": "Knock", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Levitate", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Locate Object", "escuela": "Divination", "especial": ["C"]},
+      {"nombre": "Magic Mouth", "escuela": "Illusion", "especial": ["R", "M"]},
+      {"nombre": "Magic Weapon", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Melf's Acid Arrow", "escuela": "Evocation", "especial": []},
+      {"nombre": "Mind Spike", "escuela": "Divination", "especial": ["C"]},
+      {"nombre": "Mirror Image", "escuela": "Illusion", "especial": []},
+      {"nombre": "Misty Step", "escuela": "Conjuration", "especial": []},
+      {"nombre": "Nystul's Magic Aura", "escuela": "Illusion", "especial": []},
+      {"nombre": "Phantasmal Force", "escuela": "Illusion", "especial": ["C"]},
+      {"nombre": "Ray of Enfeeblement", "escuela": "Necromancy", "especial": ["C"]},
+      {"nombre": "Rope Trick", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Scorching Ray", "escuela": "Evocation", "especial": []},
+      {"nombre": "See Invisibility", "escuela": "Divination", "especial": []},
+      {"nombre": "Shatter", "escuela": "Evocation", "especial": []},
+      {"nombre": "Spider Climb", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Suggestion", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Web", "escuela": "Conjuration", "especial": ["C"]}
+    ],
+     "nivel_3": [
+      {"nombre": "Animate Dead", "escuela": "Necromancy", "especial": []},
+      {"nombre": "Bestow Curse", "escuela": "Necromancy", "especial": ["C"]},
+      {"nombre": "Blink", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Clairvoyance", "escuela": "Divination", "especial": ["C", "M"]},
+      {"nombre": "Counterspell", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Dispel Magic", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Fear", "escuela": "Illusion", "especial": ["C"]},
+      {"nombre": "Feign Death", "escuela": "Necromancy", "especial": ["R"]},
+      {"nombre": "Fireball", "escuela": "Evocation", "especial": []},
+      {"nombre": "Fly", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Gaseous Form", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Glyph of Warding", "escuela": "Abjuration", "especial": ["M"]},
+      {"nombre": "Haste", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Hypnotic Pattern", "escuela": "Illusion", "especial": ["C"]},
+      {"nombre": "Leomund's Tiny Hut", "escuela": "Evocation", "especial": ["R"]},
+      {"nombre": "Lightning Bolt", "escuela": "Evocation", "especial": []},
+      {"nombre": "Magic Circle", "escuela": "Abjuration", "especial": ["M"]},
+      {"nombre": "Major Image", "escuela": "Illusion", "especial": ["C"]},
+      {"nombre": "Nondetection", "escuela": "Abjuration", "especial": ["M"]},
+      {"nombre": "Phantom Steed", "escuela": "Illusion", "especial": ["R"]},
+      {"nombre": "Protection from Energy", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Remove Curse", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Sending", "escuela": "Divination", "especial": []},
+      {"nombre": "Sleet Storm", "escuela": "Conjuration", "especial": ["C"]},
+      {"nombre": "Slow", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Speak with Dead", "escuela": "Necromancy", "especial": []},
+      {"nombre": "Stinking Cloud", "escuela": "Conjuration", "especial": ["C"]},
+      {"nombre": "Summon Fey", "escuela": "Conjuration", "especial": ["C", "M"]},
+      {"nombre": "Summon Undead", "escuela": "Necromancy", "especial": ["C", "M"]},
+      {"nombre": "Tongues", "escuela": "Divination", "especial": []},
+      {"nombre": "Vampiric Touch", "escuela": "Necromancy", "especial": ["C"]},
+      {"nombre": "Water Breathing", "escuela": "Transmutation", "especial": ["R"]}
+    ],
+    "nivel_4": [
+      {"nombre": "Arcane Eye", "escuela": "Divination", "especial": ["C"]},
+      {"nombre": "Banishment", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Blight", "escuela": "Necromancy", "especial": []},
+      {"nombre": "Charm Monster", "escuela": "Enchantment", "especial": []},
+      {"nombre": "Confusion", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Conjure Minor Elementals", "escuela": "Conjuration", "especial": ["C"]},
+      {"nombre": "Control Water", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Dimension Door", "escuela": "Conjuration", "especial": []},
+      {"nombre": "Divination", "escuela": "Divination", "especial": ["R", "M"]},
+      {"nombre": "Evard's Black Tentacles", "escuela": "Conjuration", "especial": ["C"]},
+      {"nombre": "Fabricate", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Fire Shield", "escuela": "Evocation", "especial": []},
+      {"nombre": "Greater Invisibility", "escuela": "Illusion", "especial": ["C"]},
+      {"nombre": "Hallucinatory Terrain", "escuela": "Illusion", "especial": []},
+      {"nombre": "Ice Storm", "escuela": "Evocation", "especial": []},
+      {"nombre": "Leomund's Secret Chest", "escuela": "Conjuration", "especial": ["M"]},
+      {"nombre": "Locate Creature", "escuela": "Divination", "especial": ["C"]},
+      {"nombre": "Mordenkainen's Faithful Hound", "escuela": "Conjuration", "especial": []},
+      {"nombre": "Mordenkainen's Private Sanctum", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Otiluke's Resilient Sphere", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Phantasmal Killer", "escuela": "Illusion", "especial": ["C"]},
+      {"nombre": "Polymorph", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Stone Shape", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Stoneskin", "escuela": "Transmutation", "especial": ["C", "M"]},
+      {"nombre": "Summon Aberration", "escuela": "Conjuration", "especial": ["C", "M"]},
+      {"nombre": "Summon Construct", "escuela": "Conjuration", "especial": ["C", "M"]},
+      {"nombre": "Summon Elemental", "escuela": "Conjuration", "especial": ["C", "M"]},
+      {"nombre": "Vitriolic Sphere", "escuela": "Evocation", "especial": []},
+      {"nombre": "Wall of Fire", "escuela": "Evocation", "especial": ["C"]}
+    ],
+    "nivel_5": [
+      {"nombre": "Animate Objects", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Bigby's Hand", "escuela": "Evocation", "especial": ["C"]},
+      {"nombre": "Circle of Power", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Cloudkill", "escuela": "Conjuration", "especial": ["C"]},
+      {"nombre": "Cone of Cold", "escuela": "Evocation", "especial": []},
+      {"nombre": "Conjure Elemental", "escuela": "Conjuration", "especial": ["C"]},
+      {"nombre": "Contact Other Plane", "escuela": "Divination", "especial": ["R"]},
+      {"nombre": "Creation", "escuela": "Illusion", "especial": []},
+      {"nombre": "Dominate Person", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Dream", "escuela": "Illusion", "especial": []},
+      {"nombre": "Geas", "escuela": "Enchantment", "especial": []},
+      {"nombre": "Hold Monster", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Jallarzi's Storm of Radiance", "escuela": "Evocation", "especial": ["C"]},
+      {"nombre": "Legend Lore", "escuela": "Divination", "especial": ["M"]},
+      {"nombre": "Mislead", "escuela": "Illusion", "especial": ["C"]},
+      {"nombre": "Modify Memory", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Passwall", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Planar Binding", "escuela": "Abjuration", "especial": ["M"]},
+      {"nombre": "Rary's Telepathic Bond", "escuela": "Divination", "especial": ["R"]},
+      {"nombre": "Scrying", "escuela": "Divination", "especial": ["C", "M"]},
+      {"nombre": "Seeming", "escuela": "Illusion", "especial": []},
+      {"nombre": "Steel Wind Strike", "escuela": "Conjuration", "especial": ["M"]},
+      {"nombre": "Summon Dragon", "escuela": "Conjuration", "especial": ["C", "M"]},
+      {"nombre": "Synaptic Static", "escuela": "Enchantment", "especial": []},
+      {"nombre": "Telekinesis", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Teleportation Circle", "escuela": "Conjuration", "especial": ["M"]},
+      {"nombre": "Wall of Force", "escuela": "Evocation", "especial": ["C"]},
+      {"nombre": "Wall of Stone", "escuela": "Evocation", "especial": ["C"]},
+      {"nombre": "Yolande's Regal Presence", "escuela": "Enchantment", "especial": ["C"]}
+    ],
+    "nivel_6": [
+      {"nombre": "Arcane Gate", "escuela": "Conjuration", "especial": ["C"]},
+      {"nombre": "Chain Lightning", "escuela": "Evocation", "especial": []},
+      {"nombre": "Circle of Death", "escuela": "Necromancy", "especial": ["M"]},
+      {"nombre": "Contingency", "escuela": "Abjuration", "especial": ["M"]},
+      {"nombre": "Create Undead", "escuela": "Necromancy", "especial": ["M"]},
+      {"nombre": "Disintegrate", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Drawmij's Instant Summons", "escuela": "Conjuration", "especial": ["R", "M"]},
+      {"nombre": "Eyebite", "escuela": "Necromancy", "especial": ["C"]},
+      {"nombre": "Flesh to Stone", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Globe of Invulnerability", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Guards and Wards", "escuela": "Abjuration", "especial": ["M"]},
+      {"nombre": "Magic Jar", "escuela": "Necromancy", "especial": ["M"]},
+      {"nombre": "Mass Suggestion", "escuela": "Enchantment", "especial": []},
+      {"nombre": "Move Earth", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Otiluke's Freezing Sphere", "escuela": "Evocation", "especial": []},
+      {"nombre": "Otto's Irresistible Dance", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Programmed Illusion", "escuela": "Illusion", "especial": ["M"]},
+      {"nombre": "Summon Fiend", "escuela": "Conjuration", "especial": ["C", "M"]},
+      {"nombre": "Sunbeam", "escuela": "Evocation", "especial": ["C"]},
+      {"nombre": "Tasha's Bubbling Cauldron", "escuela": "Conjuration", "especial": ["M"]},
+      {"nombre": "True Seeing", "escuela": "Divination", "especial": ["M"]},
+      {"nombre": "Wall of Ice", "escuela": "Evocation", "especial": ["C"]}
+    ],
+    "nivel_7": [
+      {"nombre": "Delayed Blast Fireball", "escuela": "Evocation", "especial": ["C"]},
+      {"nombre": "Etherealness", "escuela": "Conjuration", "especial": []},
+      {"nombre": "Finger of Death", "escuela": "Necromancy", "especial": []},
+      {"nombre": "Forcecage", "escuela": "Evocation", "especial": ["C", "M"]},
+      {"nombre": "Mirage Arcane", "escuela": "Illusion", "especial": []},
+      {"nombre": "Mordenkainen's Magnificent Mansion", "escuela": "Conjuration", "especial": ["M"]},
+      {"nombre": "Mordenkainen's Sword", "escuela": "Evocation", "especial": ["C", "M"]},
+      {"nombre": "Plane Shift", "escuela": "Conjuration", "especial": ["M"]},
+      {"nombre": "Prismatic Spray", "escuela": "Evocation", "especial": []},
+      {"nombre": "Project Image", "escuela": "Illusion", "especial": ["C", "M"]},
+      {"nombre": "Reverse Gravity", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Sequester", "escuela": "Transmutation", "especial": ["M"]},
+      {"nombre": "Simulacrum", "escuela": "Illusion", "especial": ["M"]},
+      {"nombre": "Symbol", "escuela": "Abjuration", "especial": ["M"]},
+      {"nombre": "Teleport", "escuela": "Conjuration", "especial": []}
+    ],
+    "nivel_8": [
+      {"nombre": "Antimagic Field", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Antipathy/Sympathy", "escuela": "Enchantment", "especial": []},
+      {"nombre": "Befuddlement", "escuela": "Enchantment", "especial": []},
+      {"nombre": "Clone", "escuela": "Necromancy", "especial": ["M"]},
+      {"nombre": "Control Weather", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Demiplane", "escuela": "Conjuration", "especial": []},
+      {"nombre": "Dominate Monster", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Incendiary Cloud", "escuela": "Conjuration", "especial": ["C"]},
+      {"nombre": "Maze", "escuela": "Conjuration", "especial": ["C"]},
+      {"nombre": "Mind Blank", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Power Word Stun", "escuela": "Enchantment", "especial": []},
+      {"nombre": "Sunburst", "escuela": "Evocation", "especial": []},
+      {"nombre": "Telepathy", "escuela": "Divination", "especial": []}
+    ],
+    "nivel_9": [
+      {"nombre": "Astral Projection", "escuela": "Necromancy", "especial": ["M"]},
+      {"nombre": "Foresight", "escuela": "Divination", "especial": []},
+      {"nombre": "Gate", "escuela": "Conjuration", "especial": ["C", "M"]},
+      {"nombre": "Imprisonment", "escuela": "Abjuration", "especial": ["M"]},
+      {"nombre": "Meteor Swarm", "escuela": "Evocation", "especial": []},
+      {"nombre": "Power Word Kill", "escuela": "Enchantment", "especial": []},
+      {"nombre": "Prismatic Wall", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Shapechange", "escuela": "Transmutation", "especial": ["C", "M"]},
+      {"nombre": "Time Stop", "escuela": "Transmutation", "especial": []},
+      {"nombre": "True Polymorph", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Weird", "escuela": "Illusion", "especial": ["C"]},
+      {"nombre": "Wish", "escuela": "Conjuration", "especial": []}
+    ],
+    "referencia": "[sources 89-126]"
+  },
+  "subclases": [
+    {
+      "nombre": "Abjurador",
+      "descripcion": "Se centra en conjuros que bloquean, envían al exilio o protegen. Solicitados para exorcismos, proteger lugares y cerrar portales.",
+      "referencia_descripcion": "[sources 127-130]",
+      "rasgos": [
+        {
+          "nivel": 3,
+          "nombre": "Experto en Abjuración",
+          "descripcion": "Añade 2 conjuros Abjuración Mago (nivel <= 2) gratis a libro conjuros. Al ganar acceso nuevo nivel espacios, añade 1 conjuro Abjuración Mago gratis (de nivel para el que tengas espacios).",
+          "referencia": "[sources 131-133]"
+        },
+        {
+          "nivel": 3,
+          "nombre": "Escudo Arcano",
+          "descripcion": "Al lanzar conjuro Abjuración con espacio, crea escudo mágico (dura hasta Descanso Largo). Escudo tiene PG = 2 * Nivel Mago + Mod Int. Recibe daño en tu lugar (aplica Res/Vuln antes). Si reducido a 0 PG, recibes daño restante. Escudo recupera PG = 2 * nivel espacio al lanzar conjuro Abjuración con espacio. O Acción Bonificación, gasta espacio, escudo recupera PG = 2 * nivel espacio. 1 escudo/Descanso Largo.",
+          "referencia": "[sources 134-142]"
+        },
+        {
+          "nivel": 6,
+          "nombre": "Escudo Proyectado",
+          "descripcion": "Reacción cuando criatura a 30 pies recibe daño. Tu Escudo Arcano absorbe daño. Si escudo a 0 PG, criatura recibe daño restante (aplicar Res/Vuln antes).",
+          "referencia": "[sources 143-145]"
+        },
+        {
+          "nivel": 10,
+          "nombre": "Rompehechizos",
+          "descripcion": "Siempre tienes preparados Contraconjuro y Disipar Magia. Puedes lanzar Disipar Magia como Acción Adicional y añadir Bono Comp. a tirada habilidad. Si lanzas uno de estos con espacio y conjuro no logra detenerlo, espacio no se gasta.",
+          "referencia": "[sources 146-148]"
+        },
+        {
+          "nivel": 14,
+          "nombre": "Resistencia a Magia",
+          "descripcion": "Ventaja en TS contra conjuros. Resistencia a daño de conjuros.",
+          "referencia": "[source 149]"
+        }
+      ]
+    },
+    {
+      "nombre": "Adivino",
+      "descripcion": "Buscan desvelar velos espacio, tiempo, conciencia. Dominan conjuros discernimiento, visión remota, conocimiento, previsión.",
+      "referencia_descripcion": "[sources 150-152]",
+      "rasgos": [
+        {
+          "nivel": 3,
+          "nombre": "Experto en Adivinación",
+          "descripcion": "Añade 2 conjuros Adivinación Mago (nivel <= 2) gratis a libro. Al ganar acceso nuevo nivel espacios, añade 1 conjuro Adivinación Mago gratis (de nivel para el que tengas espacios).",
+          "referencia": "[sources 153-155]"
+        },
+        {
+           "nivel": 3,
+           "nombre": "Presagio",
+           "descripcion": "Al terminar Descanso Largo, lanza 2 d20 (dados Presagio). Puedes reemplazar 1 tirada d20 (tuya o criatura visible) con 1 dado Presagio (antes de tirar, 1/turno). Dados no usados se pierden en Descanso Largo.",
+           "referencia": "[sources 156-160]"
+        },
+        {
+           "nivel": 6,
+           "nombre": "Adivinación Experta",
+           "descripcion": "Al lanzar conjuro Adivinación (espacio nivel 2+), recuperas 1 espacio gastado (nivel < conjuro lanzado, máx nivel 5).",
+           "referencia": "[sources 161-163]"
+        },
+        {
+           "nivel": 10,
+           "nombre": "El Tercer Ojo",
+           "descripcion": "Acción Adicional, elige 1 beneficio (dura hasta Descanso Corto/Largo). 1 uso/Descanso Corto o Largo.",
+           "beneficios_ojo": [
+              {"nombre": "Visión en la oscuridad", "efecto": "Visión Oscuridad 120 pies."},
+              {"nombre": "Mayor comprensión", "efecto": "Puedes leer cualquier idioma."},
+              {"nombre": "Ver invisibilidad", "efecto": "Puedes lanzar Ver Invisibilidad sin gastar espacio."}
+           ],
+           "referencia": "[sources 163-167]"
+        },
+        {
+           "nivel": 14,
+           "nombre": "Mayor Presagio",
+           "descripcion": "Lanza 3 dados Presagio en lugar de 2.",
+           "referencia": "[sources 167-168]"
+        }
+      ]
+    }
+  ]
+}

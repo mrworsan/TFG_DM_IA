@@ -1,0 +1,419 @@
+{
+  "clase": "Brujo",
+  "fuente_documento": "warlock.pdf",
+  "descripcion_general": "Buscan conocimiento oculto, a menudo haciendo pactos con poderosos patrones extraplanarios (ángeles, archifey, demonios, etc.) para obtener poder mágico. La relación con el patrón varía, pero la sed de poder impulsa sus aventuras.",
+  "referencia_descripcion": "[sources 173-181]",
+  "rasgos_principales": {
+    "habilidad_principal": "Carisma",
+    "dado_golpe": "D8 por nivel de Warlock",
+    "tiradas_salvacion": [
+      "Sabiduría",
+      "Carisma"
+    ],
+    "competencias_habilidades": {
+      "cantidad": 2,
+      "opciones": [
+        "Arcanos",
+        "Engaño",
+        "Historia",
+        "Intimidación",
+        "Investigación",
+        "Naturaleza",
+        "Religión"
+      ]
+    },
+    "competencias_armas": [
+      "Armas simples"
+    ],
+    "entrenamiento_armaduras": [
+      "Armadura ligera"
+    ],
+    "equipo_inicial": [
+      {
+        "opcion": "A",
+        "items": [
+          "Armadura de cuero",
+          "Hoz",
+          "2 Dagas",
+          "Enfoque arcano (orbe)",
+          "Libro (sabiduría oculta)",
+          "Mochila del erudito",
+          "15 CP"
+        ]
+      },
+      {
+        "opcion": "B",
+        "items": [
+           "GP"
+        ]
+      }
+    ],
+    "referencia_tabla": "[sources 172-173]"
+  },
+  "magia_pacto_info": {
+     "habilidad_conjuracion": "Carisma",
+     "foco_conjuracion": "Foco Arcano",
+     "trucos_conocidos": "Empiezas con 2 (recomendados: Eldritch Blast, Prestidigitation). Ganas 1 más en nivel 4 y 10. Puedes reemplazar uno al subir nivel.",
+     "espacios_conjuro": "Según tabla 'Características del Brujo'. Número fijo de espacios, todos del mismo nivel (Nivel de Ranura). Recuperas todos en Descanso Corto o Largo.",
+     "conjuros_preparados": "Número según tabla 'Hechizos Preparados'. Eliges conjuros Warlock de nivel <= Nivel de Ranura. Puedes reemplazar uno al subir nivel.",
+     "conjuros_siempre_preparados": "Si otra característica da conjuros siempre preparados, no cuentan para límite.",
+     "referencia": "[sources 198-221]"
+  },
+   "progresion_nivel": [
+    {"nivel": 1, "bono_competencia": "+2", "rasgos_resumen": "Invocaciones sobrenaturales, magia de pacto", "invocaciones_conocidas": 1, "trucos": 2, "conjuros_preparados": 2, "ranuras_conjuro": 1, "nivel_ranura": 1},
+    {"nivel": 2, "bono_competencia": "+2", "rasgos_resumen": "Astucia mágica", "invocaciones_conocidas": 3, "trucos": 2, "conjuros_preparados": 3, "ranuras_conjuro": 2, "nivel_ranura": 1},
+    {"nivel": 3, "bono_competencia": "+2", "rasgos_resumen": "Subclase de brujo", "invocaciones_conocidas": 3, "trucos": 2, "conjuros_preparados": 4, "ranuras_conjuro": 2, "nivel_ranura": 2},
+    {"nivel": 4, "bono_competencia": "+2", "rasgos_resumen": "Mejora de la puntuación de habilidad", "invocaciones_conocidas": 3, "trucos": 3, "conjuros_preparados": 5, "ranuras_conjuro": 2, "nivel_ranura": 2},
+    {"nivel": 5, "bono_competencia": "+3", "rasgos_resumen": "-", "invocaciones_conocidas": 5, "trucos": 3, "conjuros_preparados": 6, "ranuras_conjuro": 2, "nivel_ranura": 3},
+    {"nivel": 6, "bono_competencia": "+3", "rasgos_resumen": "Característica de subclase", "invocaciones_conocidas": 5, "trucos": 3, "conjuros_preparados": 7, "ranuras_conjuro": 2, "nivel_ranura": 3},
+    {"nivel": 7, "bono_competencia": "+3", "rasgos_resumen": "-", "invocaciones_conocidas": 6, "trucos": 3, "conjuros_preparados": 8, "ranuras_conjuro": 2, "nivel_ranura": 4},
+    {"nivel": 8, "bono_competencia": "+3", "rasgos_resumen": "Mejora de la puntuación de habilidad", "invocaciones_conocidas": 6, "trucos": 3, "conjuros_preparados": 9, "ranuras_conjuro": 2, "nivel_ranura": 4},
+    {"nivel": 9, "bono_competencia": "+4", "rasgos_resumen": "Contactar al Patrón", "invocaciones_conocidas": 7, "trucos": 3, "conjuros_preparados": 10, "ranuras_conjuro": 2, "nivel_ranura": 5},
+    {"nivel": 10, "bono_competencia": "+4", "rasgos_resumen": "Característica de subclase", "invocaciones_conocidas": 7, "trucos": 4, "conjuros_preparados": 10, "ranuras_conjuro": 2, "nivel_ranura": 5},
+    {"nivel": 11, "bono_competencia": "+4", "rasgos_resumen": "Arcano Mistico (hechizo de nivel 6)", "invocaciones_conocidas": 7, "trucos": 4, "conjuros_preparados": 11, "ranuras_conjuro": 3, "nivel_ranura": 5},
+    {"nivel": 12, "bono_competencia": "+4", "rasgos_resumen": "Mejora de la puntuación de habilidad", "invocaciones_conocidas": 8, "trucos": 4, "conjuros_preparados": 11, "ranuras_conjuro": 3, "nivel_ranura": 5},
+    {"nivel": 13, "bono_competencia": "+5", "rasgos_resumen": "Arcano Místico (hechizo de nivel 7)", "invocaciones_conocidas": 8, "trucos": 4, "conjuros_preparados": 12, "ranuras_conjuro": 3, "nivel_ranura": 5},
+    {"nivel": 14, "bono_competencia": "+5", "rasgos_resumen": "Característica de subclase", "invocaciones_conocidas": 8, "trucos": 4, "conjuros_preparados": 12, "ranuras_conjuro": 3, "nivel_ranura": 5},
+    {"nivel": 15, "bono_competencia": "+5", "rasgos_resumen": "Arcano Místico (hechizo de nivel 8)", "invocaciones_conocidas": 9, "trucos": 4, "conjuros_preparados": 13, "ranuras_conjuro": 3, "nivel_ranura": 5},
+    {"nivel": 16, "bono_competencia": "+5", "rasgos_resumen": "Mejora de la puntuación de habilidad", "invocaciones_conocidas": 9, "trucos": 4, "conjuros_preparados": 13, "ranuras_conjuro": 3, "nivel_ranura": 5},
+    {"nivel": 17, "bono_competencia": "+6", "rasgos_resumen": "Arcano Místico (hechizo de nivel 9)", "invocaciones_conocidas": 9, "trucos": 4, "conjuros_preparados": 14, "ranuras_conjuro": 4, "nivel_ranura": 5},
+    {"nivel": 18, "bono_competencia": "+6", "rasgos_resumen": "-", "invocaciones_conocidas": 10, "trucos": 4, "conjuros_preparados": 14, "ranuras_conjuro": 4, "nivel_ranura": 5},
+    {"nivel": 19, "bono_competencia": "+6", "rasgos_resumen": "Bendición épica", "invocaciones_conocidas": 10, "trucos": 4, "conjuros_preparados": 15, "ranuras_conjuro": 4, "nivel_ranura": 5},
+    {"nivel": 20, "bono_competencia": "+6", "rasgos_resumen": "Maestro sobrenatural", "invocaciones_conocidas": 10, "trucos": 4, "conjuros_preparados": 15, "ranuras_conjuro": 4, "nivel_ranura": 5}
+  ],
+  "referencia_progresion": "[source 207]",
+  "detalles_rasgos_clase": {
+    "Invocaciones Arcanas": {
+        "nivel": 1,
+        "descripcion": "Fragmentos conocimiento prohibido. Ganas 1 a elección. Ganas más según tabla. Puedes reemplazar 1 al subir nivel. Debes cumplir requisitos.",
+        "referencia": "[sources 189-197]"
+    },
+    "Magia del Pacto": {
+        "nivel": 1,
+        "descripcion": "Ver `magia_pacto_info`.",
+        "referencia": "[sources 198-221]"
+    },
+    "Astucia Mágica": {
+        "nivel": 2,
+        "descripcion": "Rito 1 min. Recupera ranuras Magia Pacto gastadas (hasta mitad máx, red. arriba). 1 uso/Descanso Largo.",
+        "referencia": "[sources 222-224]"
+    },
+    "Subclase de Warlock": {
+        "nivel": 3,
+        "descripcion": "Eliges un Patrón Sobrenatural.",
+        "opciones_documento": [
+            "Patrón de los Archifey",
+            "Patrón Celestial",
+            "Patrón de los Demonios",
+            "Patrón de los Grandes Antiguos"
+        ],
+        "referencia": "[sources 225-228]"
+    },
+    "Mejora de Puntaje de Habilidad": {
+        "nivel": 4,
+        "descripcion": "Obtienes dote 'Mejora Puntaje Habilidad' u otra dote. Se obtiene de nuevo en niveles 8, 12 y 16.",
+        "referencia": "[sources 229-230]"
+    },
+    "Contacto con el Patrón": {
+        "nivel": 9,
+        "descripcion": "Siempre tienes 'Contactar Otro Plano' preparado. Puedes lanzarlo 1 vez/Descanso Largo sin ranura para contactar patrón (auto éxito en TS).",
+        "referencia": "[sources 231-234]"
+    },
+    "Arcanum Místico": {
+        "nivel": 11,
+        "descripcion": "Elige 1 hechizo Warlock nivel 6. Puedes lanzarlo 1 vez/Descanso Largo sin ranura. Ganas Arcanum nivel 7(N13), nivel 8(N15), nivel 9(N17). Puedes reemplazar Arcanum por otro mismo nivel al subir nivel.",
+        "referencia": "[sources 235-240]"
+    },
+    "Bendición Épica": {
+        "nivel": 19,
+        "descripcion": "Obtienes Hazaña Épica (recomendada: Don Destino) u otra hazaña.",
+        "referencia": "[sources 241-242]"
+    },
+    "Maestro Arcano": {
+        "nivel": 20,
+        "descripcion": "Astucia Mágica recupera TODAS ranuras Magia Pacto gastadas.",
+        "referencia": "[source 242]"
+    }
+  },
+  "invocaciones_arcanas": [
+    {"nombre": "Explosión Agonizante", "requisito": "Nivel 2+, truco Warlock dañino", "efecto": "Elige truco Warlock dañino. Añade Mod Carisma a tiradas daño.", "repetible": true, "referencia": "[sources 244-246]"},
+    {"nombre": "Armadura de Sombras", "efecto": "Puedes lanzar Armadura Magos sobre ti sin ranura.", "referencia": "[source 247]"},
+    {"nombre": "Paso Ascendente", "requisito": "Nivel 5+", "efecto": "Puedes lanzar Levitar sobre ti sin ranura.", "referencia": "[source 248]"},
+    {"nombre": "Visión Infernal", "requisito": "Nivel 2+", "efecto": "Ves normal en Luz Tenue/Oscuridad (mágica/no mágica) a 120 pies.", "referencia": "[source 249]"},
+    {"nombre": "Espada Devoradora", "requisito": "Nivel 12+, Invocación Espada Sedienta", "efecto": "Ataque Adicional de Espada Sedienta otorga 2 ataques extra (en vez 1).", "referencia": "[source 250]"},
+    {"nombre": "Mente Arcana", "efecto": "Ventaja en TS Constitución para mantener Concentración.", "referencia": "[source 251]"},
+    {"nombre": "Golpe Arcano", "requisito": "Nivel 5+, Invocación Pacto Espada", "efecto": "1/turno al golpear con arma pacto, gasta ranura Magia Pacto, causa 1d8 Fuerza extra + 1d8/nivel ranura. Puedes Derribar (Prone) si G o menor.", "referencia": "[source 252]"},
+    {"nombre": "Lanza Arcana", "requisito": "Nivel 2+, truco Warlock dañino alcance 10+", "efecto": "Elige truco Warlock dañino (alcance 10+). Alcance aumenta 30 * Nivel Warlock pies.", "repetible": true, "referencia": "[sources 253-255]"},
+    {"nombre": "Vigor Infernal", "requisito": "Nivel 2+", "efecto": "Puedes lanzar Vida Falsa sobre ti sin ranura. Ganas PG Temp máx. (no tiras dado).", "referencia": "[sources 256-258]"},
+    {"nombre": "Mirada de Dos Mentes", "requisito": "Nivel 5+", "efecto": "Acción Bonus, toca criatura dispuesta. Percibes por sus sentidos hasta fin tu sig. turno. Acción Bonus para mantener conexión. Mientras conectado y mismo plano: usas sus sentidos especiales, puedes lanzar conjuros desde tu espacio o el suyo (si a 60 pies).", "referencia": "[sources 259-262]"},
+    {"nombre": "Regalo de las Profundidades", "requisito": "Nivel 5+", "efecto": "Respiras bajo agua, Vel. Nado = tu Velocidad. Lanza Respirar Bajo Agua 1 vez/Descanso Largo sin ranura.", "referencia": "[sources 263-265]"},
+    {"nombre": "Regalo de los Protectores", "requisito": "Nivel 9+, Invocación Pacto Tomo", "efecto": "Página extra en Libro Sombras. Criatura (con permiso) escribe nombre (máx Mod Carisma nombres). Si criatura a 0 PG (no muere), baja a 1 PG. 1 activación/Descanso Largo. Acción mágica para borrar nombre.", "referencia": "[sources 266-270]"},
+    {"nombre": "Inversión del Maestro de la Cadena", "requisito": "Nivel 5+, Invocación Pacto Cadena", "efecto": "Al lanzar Encontrar Familiar, familiar gana beneficios: Vel. Vuelo O Nado 40 pies; Acción Bonus para ordenar Ataque; Daño puede ser Necrótico/Radiante; Usa tu CD salvación hechizos; Reacción para darle Resistencia a daño recibido.", "referencia": "[sources 271-276]"},
+    {"nombre": "Lecciones de los Primeros", "requisito": "Nivel 2+", "efecto": "Obtienes 1 dote Origen a elección.", "repetible": true, "referencia": "[sources 277-278]"},
+    {"nombre": "Chupador de Vida", "requisito": "Nivel 9+, Invocación Pacto Espada", "efecto": "1/turno al golpear con arma pacto, causa 1d6 Necrótico/Psíquico/Radiante extra (tu elección). Puedes gastar Dado Golpe para recuperar PG = tirada + Mod Con.", "referencia": "[source 279]"},
+    {"nombre": "Máscara de Muchas Caras", "requisito": "Nivel 2+", "efecto": "Puedes lanzar Disfrazarse sin ranura.", "referencia": "[source 280]"},
+    {"nombre": "Maestro de las Mil Formas", "requisito": "Nivel 5+", "efecto": "Puedes lanzar Adivinar sin ranura.", "referencia": "[source 281]"},
+    {"nombre": "Visiones Nebulosas", "requisito": "Nivel 2+", "efecto": "Puedes lanzar Imagen Silenciosa sin ranura.", "referencia": "[source 282]"},
+    {"nombre": "Uno con las Sombras", "requisito": "Nivel 5+", "efecto": "Mientras en Luz Tenue/Oscuridad, puedes lanzar Invisibilidad sobre ti sin ranura.", "referencia": "[source 283]"},
+    {"nombre": "Salto Sobrenatural", "requisito": "Nivel 2+", "efecto": "Puedes lanzar Salto sobre ti sin ranura.", "referencia": "[source 284]"},
+    {"nombre": "Pacto de la Espada", "efecto": "Acción Bonus, conjura arma pacto (Simple/Marcial CC) O vincula arma mágica (si no sintonizada/vinculada). Competente con ella, úsala como Foco. Usa Mod Carisma para ataque/daño. Daño puede ser Necrótico/Psíquico/Radiante o normal. Vínculo termina si reusas Acción Bonus, arma > 5 pies 1 min, o mueres. Arma conjurada desaparece.", "referencia": "[sources 285-292]"},
+    {"nombre": "Pacto de la Cadena", "efecto": "Aprendes Encontrar Familiar, puedes lanzarlo acción mágica sin ranura. Formas adicionales: Imp, Pseudodragón, Quasít, Esqueleto, Renacuajo Slaad, Esfinge Maravillas, Hada, Serpiente Venenosa. Al tomar acción Ataque, renuncia 1 ataque para permitir familiar Reacción atacar.", "referencia": "[sources 292-294]"},
+    {"nombre": "Pacto del Tomo", "efecto": "Conjura Libro Sombras (tu apariencia) en Descanso Corto/Largo. Contiene magia. Desaparece si conjuras otro/mueres. Beneficios: Elige 3 trucos + 2 conjuros nivel 1 Ritual (cualquier lista, no preparados). Mientras libro contigo, tienes esos conjuros preparados (cuentan Warlock). Puedes usar libro como Foco.", "referencia": "[sources 295-301]"},
+    {"nombre": "Explosión Repulsiva", "requisito": "Nivel 2+, truco Warlock dañino tirada ataque", "efecto": "Elige truco Warlock tirada ataque. Al acertar criatura G o menor, puedes empujar 10 pies.", "repetible": true, "referencia": "[sources 301-303]"},
+    {"nombre": "Espada Sedienta", "requisito": "Nivel 5+, Invocación Pacto Espada", "efecto": "Ganas Ataque Extra solo para arma pacto.", "referencia": "[sources 304-305]"},
+    {"nombre": "Visiones de Reinos Distantes", "requisito": "Nivel 9+", "efecto": "Puedes lanzar Ojo Arcano sin ranura.", "referencia": "[source 306]"},
+    {"nombre": "Susurros de la Tumba", "requisito": "Nivel 7+", "efecto": "Puedes lanzar Hablar con Muertos sin ranura.", "referencia": "[source 307]"},
+    {"nombre": "Vista de Bruja", "requisito": "Nivel 15+", "efecto": "Visión Verdadera 30 pies.", "referencia": "[source 308]"}
+  ],
+  "lista_conjuros": {
+    "nivel_0": [
+      {"nombre": "Guardia de la Espada", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Toque Helado", "escuela": "Necromancy", "especial": []},
+      {"nombre": "Explosión Eldritch", "escuela": "Evocation", "especial": []},
+      {"nombre": "Amigos", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Mano Mágica", "escuela": "Conjuration", "especial": []},
+      {"nombre": "Estremecimiento Mental", "escuela": "Enchantment", "especial": []},
+      {"nombre": "Ilusión Menor", "escuela": "Illusion", "especial": []},
+      {"nombre": "Rocío Venenoso", "escuela": "Necromancy", "especial": []},
+      {"nombre": "Prestidigitation", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Thunderclap", "escuela": "Evocation", "especial": []},
+      {"nombre": "Toll the Dead", "escuela": "Necromancy", "especial": []},
+      {"nombre": "True Strike", "escuela": "Divination", "especial": []}
+    ],
+    "nivel_1": [
+      {"nombre": "Armor of Agathys", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Arms of Hadar", "escuela": "Conjuration", "especial": []},
+      {"nombre": "Bane", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Charm Person", "escuela": "Enchantment", "especial": []},
+      {"nombre": "Comprehend Languages", "escuela": "Divination", "especial": ["R"]},
+      {"nombre": "Detect Magic", "escuela": "Divination", "especial": ["C", "R"]},
+      {"nombre": "Expeditious Retreat", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Hellish Rebuke", "escuela": "Evocation", "especial": []},
+      {"nombre": "Hex", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Illusory Script", "escuela": "Illusion", "especial": ["R", "M"]},
+      {"nombre": "Protection from Evil and Good", "escuela": "Abjuration", "especial": ["C", "M"]},
+      {"nombre": "Speak with Animals", "escuela": "Divination", "especial": ["R"]},
+      {"nombre": "Tasha's Hideous Laughter", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Unseen Servant", "escuela": "Conjuration", "especial": ["R"]},
+      {"nombre": "Witch Bolt", "escuela": "Evocation", "especial": ["C"]}
+    ],
+    "nivel_2": [
+      {"nombre": "Cloud of Daggers", "escuela": "Conjuration", "especial": ["C"]},
+      {"nombre": "Crown of Madness", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Darkness", "escuela": "Evocation", "especial": ["C"]},
+      {"nombre": "Enthrall", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Hold Person", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Invisibility", "escuela": "Illusion", "especial": ["C"]},
+      {"nombre": "Mind Spike", "escuela": "Divination", "especial": ["C"]},
+      {"nombre": "Mirror Image", "escuela": "Illusion", "especial": []},
+      {"nombre": "Misty Step", "escuela": "Conjuration", "especial": []},
+      {"nombre": "Ray of Enfeeblement", "escuela": "Necromancy", "especial": ["C"]},
+      {"nombre": "Spider Climb", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Suggestion", "escuela": "Enchantment", "especial": ["C"]}
+    ],
+     "nivel_3": [
+       {"nombre": "Counterspell", "escuela": "Abjuration", "especial": []},
+       {"nombre": "Dispel Magic", "escuela": "Abjuration", "especial": []},
+       {"nombre": "Fear", "escuela": "Illusion", "especial": ["C"]},
+       {"nombre": "Fly", "escuela": "Transmutation", "especial": ["C"]},
+       {"nombre": "Gaseous Form", "escuela": "Transmutation", "especial": ["C"]},
+       {"nombre": "Hunger of Hadar", "escuela": "Conjuration", "especial": ["C"]},
+       {"nombre": "Hypnotic Pattern", "escuela": "Illusion", "especial": ["C"]},
+       {"nombre": "Magic Circle", "escuela": "Abjuration", "especial": ["M"]},
+       {"nombre": "Major Image", "escuela": "Illusion", "especial": ["C"]},
+       {"nombre": "Remove Curse", "escuela": "Abjuration", "especial": []},
+       {"nombre": "Summon Fey", "escuela": "Conjuration", "especial": ["C", "M"]},
+       {"nombre": "Summon Undead", "escuela": "Necromancy", "especial": ["C", "M"]},
+       {"nombre": "Tongues", "escuela": "Divination", "especial": []},
+       {"nombre": "Vampiric Touch", "escuela": "Necromancy", "especial": ["C"]}
+     ],
+     "nivel_4": [
+        {"nombre": "Banishment", "escuela": "Abjuration", "especial": ["C"]},
+        {"nombre": "Blight", "escuela": "Necromancy", "especial": []},
+        {"nombre": "Charm Monster", "escuela": "Enchantment", "especial": []},
+        {"nombre": "Dimension Door", "escuela": "Conjuration", "especial": []},
+        {"nombre": "Hallucinatory Terrain", "escuela": "Illusion", "especial": []},
+        {"nombre": "Summon Aberration", "escuela": "Conjuration", "especial": ["C", "M"]}
+     ],
+     "nivel_5": [
+        {"nombre": "Contact Other Plane", "escuela": "Divination", "especial": ["R"]},
+        {"nombre": "Dream", "escuela": "Illusion", "especial": []},
+        {"nombre": "Hold Monster", "escuela": "Enchantment", "especial": ["C"]},
+        {"nombre": "Jallarzi's Storm of Radiance", "escuela": "Evocation", "especial": ["C"]},
+        {"nombre": "Mislead", "escuela": "Illusion", "especial": ["C"]},
+        {"nombre": "Planar Binding", "escuela": "Abjuration", "especial": ["M"]},
+        {"nombre": "Scrying", "escuela": "Divination", "especial": ["C", "M"]},
+        {"nombre": "Synaptic Static", "escuela": "Enchantment", "especial": []},
+        {"nombre": "Teleportation Circle", "escuela": "Conjuration", "especial": ["M"]}
+     ],
+     "nivel_6": [
+        {"nombre": "Arcane Gate", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Circle of Death", "escuela": "Necromancy", "especial": ["M"]},
+        {"nombre": "Create Undead", "escuela": "Necromancy", "especial": ["M"]},
+        {"nombre": "Eyebite", "escuela": "Necromancy", "especial": ["C"]},
+        {"nombre": "Summon Fiend", "escuela": "Conjuration", "especial": ["C", "M"]},
+        {"nombre": "Tasha's Bubbling Cauldron", "escuela": "Conjuration", "especial": ["M"]},
+        {"nombre": "True Seeing", "escuela": "Divination", "especial": ["M"]}
+     ],
+     "nivel_7": [
+        {"nombre": "Etherealness", "escuela": "Conjuration", "especial": []},
+        {"nombre": "Finger of Death", "escuela": "Necromancy", "especial": []},
+        {"nombre": "Forcecage", "escuela": "Evocation", "especial": ["C", "M"]},
+        {"nombre": "Plane Shift", "escuela": "Conjuration", "especial": ["M"]}
+     ],
+     "nivel_8": [
+        {"nombre": "Befuddlement", "escuela": "Enchantment", "especial": []},
+        {"nombre": "Demiplane", "escuela": "Conjuration", "especial": []},
+        {"nombre": "Dominate Monster", "escuela": "Enchantment", "especial": ["C"]},
+        {"nombre": "Glibness", "escuela": "Enchantment", "especial": []},
+        {"nombre": "Power Word Stun", "escuela": "Enchantment", "especial": []}
+     ],
+     "nivel_9": [
+        {"nombre": "Astral Projection", "escuela": "Necromancy", "especial": ["M"]},
+        {"nombre": "Foresight", "escuela": "Divination", "especial": []},
+        {"nombre": "Gate", "escuela": "Conjuration", "especial": ["C", "M"]},
+        {"nombre": "Imprisonment", "escuela": "Abjuration", "especial": ["M"]},
+        {"nombre": "Power Word Kill", "escuela": "Enchantment", "especial": []},
+        {"nombre": "True Polymorph", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Weird", "escuela": "Illusion", "especial": ["C"]}
+     ],
+     "referencia": "[sources 309-332]"
+  },
+  "subclases": [
+     {
+        "nombre": "Patrón Fey",
+        "descripcion": "Pacto con poder Plano Fey (archifey como Príncipe Escarcha, Reina Aire y Oscuridad, Titania; bruja antigua; espectro Fey). Patrón enigmático y caprichoso.",
+        "referencia_descripcion": "[sources 335-339]",
+        "conjuros_patron": [
+          {"nivel_warlock": 3, "conjuros": ["Calm Emotions", "Faerie Fire"]},
+          {"nivel_warlock": 5, "conjuros": ["Blink", "Plant Growth"]},
+          {"nivel_warlock": 7, "conjuros": ["Dominate Beast", "Greater Invisibility"]},
+          {"nivel_warlock": 9, "conjuros": ["Dominate Person", "Seeming"]}
+        ],
+        "referencia_conjuros": "[source 326]",
+        "rasgos": [
+           {
+              "nivel": 3,
+              "nombre": "Pasos de los Fey",
+              "descripcion": "Puedes lanzar Paso Brumoso sin ranura. Usos = Mod Carisma (mín 1)/Descanso Largo. Al lanzarlo, elige efecto adicional:",
+              "efectos_paso": [
+                 {"nombre": "Paso Refrescante", "efecto": "Inmediatamente después teletransporte, tú o criatura a 10 pies gana 1d10 PG Temp."},
+                 {"nombre": "Paso Provocador", "efecto": "Criaturas a 5 pies espacio dejaste hacen TS Sabiduría vs CD o Desventaja en ataques vs otros hasta inicio tu sig. turno."}
+              ],
+              "referencia": "[sources 342-346]"
+           },
+           {
+              "nivel": 6,
+              "nombre": "Escape Brumoso",
+              "descripcion": "Puedes lanzar Paso Brumoso como Reacción al recibir daño. Opciones adicionales Pasos Fey:",
+              "efectos_escape": [
+                 {"nombre": "Paso Desaparecedor", "efecto": "Ganas condición Invisible hasta inicio tu sig. turno (o hasta atacar/dañar/lanzar conjuro)."},
+                 {"nombre": "Paso Aterrador", "efecto": "Criaturas a 5 pies espacio dejaste O espacio apareces (tu elección) hacen TS Sabiduría vs CD o reciben 2d10 daño Psíquico."}
+              ],
+              "referencia": "[sources 347-350]"
+           },
+           {
+              "nivel": 10,
+              "nombre": "Defensas Encantadoras",
+              "descripcion": "Inmune a condición Encantado. Reacción inmediata después criatura visible te golpea: reduce daño a mitad, fuerza atacante TS Sabiduría vs CD. Fallo: atacante recibe daño Psíquico = daño que recibiste. 1 uso/Descanso Largo (o gasta ranura Pacto).",
+              "referencia": "[sources 351-354]"
+           },
+           {
+               "nivel": 14,
+               "nombre": "Magia Encantadora",
+               "descripcion": "Inmediatamente después lanzar conjuro Encantamiento/Ilusión (acción + ranura), puedes lanzar Paso Brumoso como parte misma acción sin ranura.",
+               "referencia": "[sources 356-357]"
+           }
+        ]
+     },
+      {
+        "nombre": "Patrón Celestial",
+        "descripcion": "Pacto con Planos Superiores (empíreo, couatl, esfinge, unicornio, etc.). Experimentas luz sagrada.",
+        "referencia_descripcion": "[sources 358-361]",
+        "conjuros_patron": [
+          {"nivel_warlock": 3, "conjuros": ["Luz", "Flama Sagrada"]},
+          {"nivel_warlock": 5, "conjuros": ["Rayo Guiador", "Heridas Curativas"]},
+          {"nivel_warlock": 7, "conjuros": ["Revivir", "Día Radiante"]},
+          {"nivel_warlock": 9, "conjuros": ["Guardia de la Fe", "Muro de Fuego"]}
+        ],
+        "referencia_conjuros": "[source 364]",
+        "rasgos": [
+           {
+              "nivel": 3,
+              "nombre": "Luz Curativa",
+              "descripcion": "Pool dados d6 = 1 + Nivel Warlock. Acción Adicional, cura criatura visible a 60 pies. Gasta dados (máx Mod Carisma, mín 1), cura total tirada. Pool recupera en Descanso Largo.",
+              "referencia": "[sources 364-370]"
+           },
+           {
+              "nivel": 6,
+              "nombre": "Alma Radiante",
+              "descripcion": "Resistencia daño Radiante. 1/turno, al hacer daño Radiante/Fuego con conjuro, añade Mod Carisma a daño vs 1 objetivo.",
+              "referencia": "[sources 371-372]"
+           },
+           {
+               "nivel": 10,
+               "nombre": "Resiliencia Celestial",
+               "descripcion": "Ganas PG Temp = Nivel Warlock + Mod Carisma al usar Astucia Mágica o terminar Descanso Corto/Largo. Elige hasta 5 criaturas visibles, ganan PG Temp = mitad Nivel Warlock + Mod Carisma.",
+               "referencia": "[sources 373-376]"
+           },
+           {
+               "nivel": 14,
+               "nombre": "Venganza Ardiente",
+               "descripcion": "Cuando tú o aliado a 60 pies va a hacer TS Muerte: criatura recupera mitad PG máx (puede levantarse). Criaturas elegidas a 30 pies reciben 2d8 + Mod Carisma daño Radiante y quedan Cegadas hasta fin turno actual. 1 uso/Descanso Largo.",
+               "referencia": "[sources 377-380]"
+           }
+        ]
+     },
+     {
+       "nombre": "Patrón Infernal",
+       "descripcion": "Pacto con seres infernales.",
+       "referencia_descripcion": "Implícito",
+       "conjuros_patron": [
+         {"nivel_warlock": 3, "conjuros": ["Manos Ardientes", "Ordenar"]},
+         {"nivel_warlock": 5, "conjuros": ["Rayo Abrasador", "Sugerencia"]},
+         {"nivel_warlock": 7, "conjuros": ["Bola de Fuego", "Nube Pestilente"]},
+         {"nivel_warlock": 9, "conjuros": ["Escudo de Fuego", "Murallas de Fuego"]}
+       ],
+       "referencia_conjuros": "[source 384]",
+       "rasgos": [
+          {
+             "nivel": 3,
+             "nombre": "Bendición del Oscuro",
+             "descripcion": "Al reducir enemigo a 0 PG (o si alguien más lo hace a 10 pies), ganas PG Temp = Mod Carisma + Nivel Warlock (mín 1).",
+             "referencia": "[sources 381-382]"
+          },
+          {
+             "nivel": 6,
+             "nombre": "Suerte del Propio Oscuro",
+             "descripcion": "Al hacer prueba habilidad/TS, añade 1d10 a tirada (después ver tirada, antes efectos). Usos = Mod Carisma (mín 1)/Descanso Largo. Máx 1/tirada.",
+             "referencia": "[sources 385-389]"
+          },
+          {
+             "nivel": 10,
+             "nombre": "Resiliencia Infernal",
+             "descripcion": "Elige tipo daño (no Fuerza) al terminar Descanso Corto/Largo. Ganas Resistencia a ese tipo hasta sig. elección.",
+             "referencia": "[sources 389-390]"
+          },
+          {
+             "nivel": 14,
+             "nombre": "Lanzar a Través del Infierno",
+             "descripcion": "1/turno al acertar ataque, intenta transportar objetivo a Planos Inferiores. Objetivo hace TS Carisma vs CD. Fallo: desaparece, recibe 8d10 daño Psíquico (si no Demonio), queda Incapacitado hasta fin tu sig. turno (cuando regresa). 1 uso/Descanso Largo (o gasta ranura Pacto).",
+             "referencia": "[sources 391-394]"
+          }
+       ]
+     },
+     {
+        "nombre": "Patrón Gran Viejo",
+        "descripcion": "Pacto con ser inefable Reino Lejano o dios anciano (Tharizdun, Zargon, Hadar, Cthulhu). Motivos incomprensibles.",
+        "referencia_descripcion": "[sources 395-399]",
+        "rasgos": [
+           {
+              "nivel": 3,
+              "nombre": "Mente Despertada",
+              "descripcion": "Acción Adicional, elige criatura visible a 30 pies. Comunicación telepática mutua (alcance Mod Carisma millas, mín 1). Requiere idioma común.",
+              "referencia": "[sources 400-403]"
+           }
+        ]
+     }
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "clase": "Hechicero",
+  "fuente_documento": "hechizero.pdf",
+  "descripcion_general": "Empuñan magia innata impresa en su ser, de origen diverso (dragones, eventos extraños, deidades, otros planos). El poder crudo desea ser usado, y aprenden a dominarlo y canalizarlo.",
+  "referencia_descripcion": "[sources 409-419]",
+  "rasgos_principales": {
+    "habilidad_principal": "Carisma",
+    "dado_golpe": "1d6 por nivel de Hechicero",
+    "tiradas_salvacion": [
+      "Constitución",
+      "Carisma"
+    ],
+    "competencias_habilidades": {
+      "cantidad": 2,
+      "opciones": [
+        "Arcanos",
+        "Engaño",
+        "Perspicacia",
+        "Intimidación",
+        "Persuasión",
+        "Religión"
+      ]
+    },
+    "competencias_armas": [
+      "Armas sencillas"
+    ],
+    "entrenamiento_armaduras": [],
+    "equipo_inicial": [
+      {
+        "opcion": "A",
+        "items": [
+          "Lanza",
+          "2 Dagas",
+          "Foco Arcano (cristal)",
+          "Paquete de Aventurero",
+          "28 PC"
+        ]
+      },
+      {
+        "opcion": "B",
+        "items": [
+          "50 PC"
+        ]
+      }
+    ],
+    "referencia_tabla": "[sources 405, 407-408]"
+  },
+  "lanzamiento_conjuros_info": {
+    "habilidad_conjuracion": "Carisma",
+    "foco_conjuracion": "Foco Arcano",
+    "trucos_conocidos": "Empiezas con 4 (recomendados: Luz, Prestidigitación, Toque Electrizante, Explosión Hechicera). Ganas 1 más en nivel 4 y 10. Puedes reemplazar uno al subir nivel.",
+    "espacios_conjuro": "Según tabla 'Características del Hechicero'. Recuperas todos en Descanso Largo.",
+    "conjuros_preparados": "Preparas lista conjuros nivel 1+. Empiezas con 2 nivel 1 (recomendados: Manos Ardientes, Detectar Magia). Número aumenta según tabla. Debes tener espacios para nivel. Puedes reemplazar uno al subir nivel.",
+    "conjuros_siempre_preparados": "Si otra característica da conjuros siempre preparados, no cuentan para límite, pero son conjuros Hechicero.",
+    "referencia": "[sources 423-442]"
+  },
+  "progresion_nivel": [
+    {"nivel": 1, "bono_competencia": "+2", "rasgos_resumen": "Lanzamiento de conjuros, hechicería innata", "puntos_hechiceria": 0, "trucos": 4, "conjuros_preparados": 2, "nivel_1": 2, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 2, "bono_competencia": "+2", "rasgos_resumen": "Fuente de Magia, Metamagia", "puntos_hechiceria": 2, "trucos": 4, "conjuros_preparados": 4, "nivel_1": 3, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 3, "bono_competencia": "+2", "rasgos_resumen": "Subclase de hechicero", "puntos_hechiceria": 3, "trucos": 4, "conjuros_preparados": 6, "nivel_1": 4, "nivel_2": 2, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 4, "bono_competencia": "+2", "rasgos_resumen": "Mejora de la puntuación de habilidad", "puntos_hechiceria": 4, "trucos": 5, "conjuros_preparados": 7, "nivel_1": 4, "nivel_2": 3, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 5, "bono_competencia": "+3", "rasgos_resumen": "Restauración hechicera", "puntos_hechiceria": 5, "trucos": 5, "conjuros_preparados": 9, "nivel_1": 4, "nivel_2": 3, "nivel_3": 2, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 6, "bono_competencia": "+3", "rasgos_resumen": "Característica de subclase", "puntos_hechiceria": 6, "trucos": 5, "conjuros_preparados": 10, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 7, "bono_competencia": "+3", "rasgos_resumen": "La brujería encarnada", "puntos_hechiceria": 7, "trucos": 5, "conjuros_preparados": 11, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 1, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 8, "bono_competencia": "+3", "rasgos_resumen": "Mejora de la puntuación de habilidad", "puntos_hechiceria": 8, "trucos": 5, "conjuros_preparados": 12, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 2, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 9, "bono_competencia": "+4", "rasgos_resumen": "-", "puntos_hechiceria": 9, "trucos": 5, "conjuros_preparados": 14, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 1, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 10, "bono_competencia": "+4", "rasgos_resumen": "Metamagia", "puntos_hechiceria": 10, "trucos": 6, "conjuros_preparados": 15, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 11, "bono_competencia": "+4", "rasgos_resumen": "-", "puntos_hechiceria": 11, "trucos": 6, "conjuros_preparados": 16, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 12, "bono_competencia": "+4", "rasgos_resumen": "Mejora de la puntuación de habilidad", "puntos_hechiceria": 12, "trucos": 6, "conjuros_preparados": 16, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 13, "bono_competencia": "+5", "rasgos_resumen": "-", "puntos_hechiceria": 13, "trucos": 6, "conjuros_preparados": 17, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 1, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 14, "bono_competencia": "+5", "rasgos_resumen": "Característica de subclase", "puntos_hechiceria": 14, "trucos": 6, "conjuros_preparados": 17, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 1, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 15, "bono_competencia": "+5", "rasgos_resumen": "-", "puntos_hechiceria": 15, "trucos": 6, "conjuros_preparados": 18, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 1, "nivel_8": 1, "nivel_9": 0},
+    {"nivel": 16, "bono_competencia": "+5", "rasgos_resumen": "Mejora de la puntuación de habilidad", "puntos_hechiceria": 16, "trucos": 6, "conjuros_preparados": 18, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 1, "nivel_8": 1, "nivel_9": 0},
+    {"nivel": 17, "bono_competencia": "+6", "rasgos_resumen": "Metamagia", "puntos_hechiceria": 17, "trucos": 6, "conjuros_preparados": 19, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 1, "nivel_8": 1, "nivel_9": 1},
+    {"nivel": 18, "bono_competencia": "+6", "rasgos_resumen": "Característica de subclase", "puntos_hechiceria": 18, "trucos": 6, "conjuros_preparados": 20, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 3, "nivel_6": 1, "nivel_7": 1, "nivel_8": 1, "nivel_9": 1},
+    {"nivel": 19, "bono_competencia": "+6", "rasgos_resumen": "Bendición épica", "puntos_hechiceria": 19, "trucos": 6, "conjuros_preparados": 21, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 3, "nivel_6": 2, "nivel_7": 1, "nivel_8": 1, "nivel_9": 1},
+    {"nivel": 20, "bono_competencia": "+6", "rasgos_resumen": "Apoteosis arcana", "puntos_hechiceria": 20, "trucos": 6, "conjuros_preparados": 22, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 3, "nivel_6": 2, "nivel_7": 2, "nivel_8": 1, "nivel_9": 1}
+  ],
+  "referencia_progresion": "[source 435]",
+   "detalles_rasgos_clase": {
+    "Conjuración": {
+        "nivel": 1,
+        "descripcion": "Ver `lanzamiento_conjuros_info`.",
+        "referencia": "[sources 423-442]"
+    },
+    "Hechicería Innata": {
+        "nivel": 1,
+        "descripcion": "Acción Adicional, desata magia (1 min). Beneficios: CD salvación conjuros +1, Ventaja en tiradas ataque conjuros. 2 usos/Descanso Largo.",
+        "referencia": "[sources 443-445]"
+    },
+    "Fuente de Magia": {
+        "nivel": 2,
+        "descripcion": "Ganas Puntos Hechicería según tabla. Recuperas todos en Descanso Largo. Usos:",
+        "usos_fuente": [
+            {"nombre": "Convertir Espacios Conjuro", "efecto": "Gasta espacio conjuro, ganas Puntos Hechicería = nivel espacio (sin acción)."},
+            {"nombre": "Crear Espacios Conjuro", "efecto": "Acción Adicional, transforma Puntos Hechicería en espacio conjuro (hasta nivel 5, ver tabla costes). Espacio desaparece en Descanso Largo."}
+        ],
+        "tabla_creacion_espacios": [
+            {"nivel_espacio": 1, "coste_puntos": 2, "nivel_minimo": 2},
+            {"nivel_espacio": 2, "coste_puntos": 3, "nivel_minimo": 3},
+            {"nivel_espacio": 3, "coste_puntos": 5, "nivel_minimo": 5},
+            {"nivel_espacio": 4, "coste_puntos": 6, "nivel_minimo": 7},
+            {"nivel_espacio": 5, "coste_puntos": 7, "nivel_minimo": 9}
+        ],
+        "referencia": "[sources 446-457]"
+    },
+    "Metamagia": {
+        "nivel": 2,
+        "descripcion": "Aprendes 2 opciones Metamagia. Aprendes 2 más nivel 10, 2 más nivel 17. Gasta Puntos Hechicería para usar. Solo 1 opción/conjuro (salvo excepciones). Puedes reemplazar 1 opción al subir nivel.",
+        "referencia": "[sources 458-464]"
+    },
+    "Subclase de Hechicero": {
+        "nivel": 3,
+        "descripcion": "Eliges un Origen de Hechicería.",
+        "opciones_documento": [
+            "Hechicería Aberrante",
+            "Hechicería Mecánica",
+            "Hechicería Dracónica",
+            "Hechicería de la Magia Salvaje"
+        ],
+        "referencia": "[sources 465-467]"
+    },
+    "Mejora de Puntuación de Habilidad": {
+        "nivel": 4,
+        "descripcion": "Obtienes dote 'Mejora Puntuación Habilidad' u otra dote. Se obtiene de nuevo en niveles 8, 12 y 16.",
+        "referencia": "[sources 468-469]"
+    },
+    "Restauración Hechicera": {
+        "nivel": 5,
+        "descripcion": "Al terminar Descanso Corto, recupera Puntos Hechicería gastados <= mitad Nivel Hechicero (redondeado abajo). 1 uso/Descanso Largo.",
+        "referencia": "[sources 470-471]"
+    },
+    "Hechicería Encarnada": {
+        "nivel": 7,
+        "descripcion": "Gasta 2 Puntos Hechicería para activar Hechicería Innata (si no quedan usos). Mientras Hechicería Innata activa, puedes usar hasta 2 opciones Metamagia/conjuro.",
+        "referencia": "[sources 472-473]"
+    },
+    "Bendición Épica": {
+        "nivel": 19,
+        "descripcion": "Obtienes Hazaña Épica (recomendada: Viaje Dimensional) u otra hazaña.",
+        "referencia": "[sources 474-475]"
+    },
+    "Apoteosis Arcana": {
+        "nivel": 20,
+        "descripcion": "Mientras Hechicería Innata activa, usa 1 opción Metamagia/turno sin gastar Puntos Hechicería.",
+        "referencia": "[source 475]"
+    }
+  },
+  "opciones_metamagia": [
+      {"nombre": "Hechizo Cuidadoso", "coste": 1, "efecto": "Al lanzar conjuro que fuerza TS, elige criaturas (hasta Mod Carisma, mín 1). Tienen éxito automático en TS (y 0 daño si normalmente mitad).", "referencia": "[sources 477-479]"},
+      {"nombre": "Hechizo Distante", "coste": 1, "efecto": "Al lanzar conjuro alcance 5+ pies, duplica alcance. O si alcance Toque, haz alcance 30 pies.", "referencia": "[sources 480-481]"},
+      {"nombre": "Hechizo Potenciado", "coste": 1, "efecto": "Al tirar daño conjuro, vuelve a tirar dados daño (hasta Mod Carisma, mín 1). Usas nuevas tiradas. Puede usarse con otra opción Metamagia.", "referencia": "[sources 483-484]"},
+      {"nombre": "Hechizo Extendido", "coste": 1, "efecto": "Al lanzar conjuro duración 1+ min, duplica duración (máx 24h). Si requiere Concentración, Ventaja en TS para mantenerla.", "referencia": "[sources 485-486]"},
+      {"nombre": "Hechizo Aumentado", "coste": 2, "efecto": "Al lanzar conjuro que fuerza TS, 1 objetivo tiene Desventaja en salvaciones vs él.", "referencia": "[source 487]"},
+      {"nombre": "Hechizo Acelerado", "coste": 2, "efecto": "Al lanzar conjuro (tiempo 1 acción), cambia tiempo a Acción Adicional. No puedes haber lanzado conjuro nivel 1+ este turno, ni puedes lanzar otro nivel 1+ después.", "referencia": "[sources 488-489]"},
+      {"nombre": "Hechizo Buscador", "coste": 1, "efecto": "Si fallas tirada ataque conjuro, vuelve a tirar d20 (usas nueva tirada). Puede usarse con otra opción Metamagia.", "referencia": "[sources 490-491]"},
+      {"nombre": "Hechizo Sutil", "coste": 1, "efecto": "Lanza conjuro sin componentes V, S, M (salvo M consumido/coste).", "referencia": "[source 492]"},
+      {"nombre": "Hechizo Transmutado", "coste": 1, "efecto": "Al lanzar conjuro daño (Ácido, Frío, Fuego, Rayo, Veneno, Trueno), cambia tipo daño a otro de la lista.", "referencia": "[source 493]"},
+      {"nombre": "Hechizo Duplicado", "coste": 1, "efecto": "Al lanzar conjuro que puede subir nivel para afectar criatura adicional, aumenta nivel efectivo conjuro en 1.", "referencia": "[source 494]"}
+  ],
+   "lista_conjuros": {
+    "nivel_0": [
+      {"nombre": "Acid Splash", "escuela": "Evocation", "especial": []},
+      {"nombre": "Blade Ward", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Chill Touch", "escuela": "Necromancy", "especial": []},
+      {"nombre": "Dancing Lights", "escuela": "Illusion", "especial": ["C"]},
+      {"nombre": "Elementalism", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Fire Bolt", "escuela": "Evocation", "especial": []},
+      {"nombre": "Friends", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Light", "escuela": "Evocation", "especial": []},
+      {"nombre": "Mage Hand", "escuela": "Conjuration", "especial": []},
+      {"nombre": "Mending", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Message", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Mind Sliver", "escuela": "Enchantment", "especial": []},
+      {"nombre": "Minor Illusion", "escuela": "Illusion", "especial": []},
+      {"nombre": "Poison Spray", "escuela": "Necromancy", "especial": []},
+      {"nombre": "Prestidigitation", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Ray of Frost", "escuela": "Evocation", "especial": []},
+      {"nombre": "Shocking Grasp", "escuela": "Evocation", "especial": []},
+      {"nombre": "Sorcerous Burst", "escuela": "Evocation", "especial": []},
+      {"nombre": "Thunderclap", "escuela": "Evocation", "especial": []},
+      {"nombre": "True Strike", "escuela": "Divination", "especial": []}
+    ],
+    "nivel_1": [
+      {"nombre": "Burning Hands", "escuela": "Evocation", "especial": []},
+      {"nombre": "Charm Person", "escuela": "Enchantment", "especial": []},
+      {"nombre": "Chromatic Orb", "escuela": "Evocation", "especial": ["M"]},
+      {"nombre": "Color Spray", "escuela": "Illusion", "especial": []},
+      {"nombre": "Comprehend Languages", "escuela": "Divination", "especial": ["R"]},
+      {"nombre": "Detect Magic", "escuela": "Divination", "especial": ["C", "R"]},
+      {"nombre": "Disguise Self", "escuela": "Illusion", "especial": []},
+      {"nombre": "Expeditious Retreat", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "False Life", "escuela": "Necromancy", "especial": []},
+      {"nombre": "Feather Fall", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Fog Cloud", "escuela": "Conjuration", "especial": ["C"]},
+      {"nombre": "Grease", "escuela": "Conjuration", "especial": []},
+      {"nombre": "Ice Knife", "escuela": "Conjuration", "especial": []},
+      {"nombre": "Jump", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Mage Armor", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Magic Missile", "escuela": "Evocation", "especial": []},
+      {"nombre": "Ray of Sickness", "escuela": "Necromancy", "especial": []},
+      {"nombre": "Shield", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Silent Image", "escuela": "Illusion", "especial": ["C"]},
+      {"nombre": "Sleep", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Thunderwave", "escuela": "Evocation", "especial": []},
+      {"nombre": "Witch Bolt", "escuela": "Evocation", "especial": ["C"]}
+    ],
+    "nivel_2": [
+      {"nombre": "Alter Self", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Arcane Vigor", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Blindness/Deafness", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Blur", "escuela": "Illusion", "especial": ["C"]},
+      {"nombre": "Cloud of Daggers", "escuela": "Conjuration", "especial": ["C"]},
+      {"nombre": "Crown of Madness", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Darkness", "escuela": "Evocation", "especial": ["C"]},
+      {"nombre": "Darkvision", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Detect Thoughts", "escuela": "Divination", "especial": ["C"]},
+      {"nombre": "Dragon's Breath", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Enhance Ability", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Enlarge/Reduce", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Flame Blade", "escuela": "Evocation", "especial": ["C"]},
+      {"nombre": "Flaming Sphere", "escuela": "Evocation", "especial": ["C"]},
+      {"nombre": "Gust of Wind", "escuela": "Evocation", "especial": ["C"]},
+      {"nombre": "Hold Person", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Invisibility", "escuela": "Illusion", "especial": ["C"]},
+      {"nombre": "Knock", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Levitate", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Magic Weapon", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Mind Spike", "escuela": "Divination", "especial": ["C"]},
+      {"nombre": "Mirror Image", "escuela": "Illusion", "especial": []},
+      {"nombre": "Misty Step", "escuela": "Conjuration", "especial": []},
+      {"nombre": "Phantasmal Force", "escuela": "Illusion", "especial": ["C"]},
+      {"nombre": "Scorching Ray", "escuela": "Evocation", "especial": []},
+      {"nombre": "See Invisibility", "escuela": "Divination", "especial": []},
+      {"nombre": "Shatter", "escuela": "Evocation", "especial": []},
+      {"nombre": "Spider Climb", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Suggestion", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Web", "escuela": "Conjuration", "especial": ["C"]}
+    ],
+     "nivel_3": [
+        {"nombre": "Blink", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Clairvoyance", "escuela": "Divination", "especial": ["C", "M"]},
+        {"nombre": "Counterspell", "escuela": "Abjuration", "especial": []},
+        {"nombre": "Daylight", "escuela": "Evocation", "especial": []},
+        {"nombre": "Dispel Magic", "escuela": "Abjuration", "especial": []},
+        {"nombre": "Fear", "escuela": "Illusion", "especial": ["C"]},
+        {"nombre": "Fireball", "escuela": "Evocation", "especial": []},
+        {"nombre": "Fly", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Gaseous Form", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Haste", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Hypnotic Pattern", "escuela": "Illusion", "especial": ["C"]},
+        {"nombre": "Lightning Bolt", "escuela": "Evocation", "especial": []},
+        {"nombre": "Major Image", "escuela": "Illusion", "especial": ["C"]},
+        {"nombre": "Protection from Energy", "escuela": "Abjuration", "especial": ["C"]},
+        {"nombre": "Sleet Storm", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Slow", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Stinking Cloud", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Tongues", "escuela": "Divination", "especial": []},
+        {"nombre": "Vampiric Touch", "escuela": "Necromancy", "especial": ["C"]},
+        {"nombre": "Water Breathing", "escuela": "Transmutation", "especial": ["R"]},
+        {"nombre": "Water Walk", "escuela": "Transmutation", "especial": ["R"]}
+      ],
+    "nivel_4": [
+        {"nombre": "Banishment", "escuela": "Abjuration", "especial": ["C"]},
+        {"nombre": "Blight", "escuela": "Necromancy", "especial": []},
+        {"nombre": "Charm Monster", "escuela": "Enchantment", "especial": []},
+        {"nombre": "Confusion", "escuela": "Enchantment", "especial": ["C"]},
+        {"nombre": "Dimension Door", "escuela": "Conjuration", "especial": []},
+        {"nombre": "Dominate Beast", "escuela": "Enchantment", "especial": ["C"]},
+        {"nombre": "Fire Shield", "escuela": "Evocation", "especial": []},
+        {"nombre": "Greater Invisibility", "escuela": "Illusion", "especial": ["C"]},
+        {"nombre": "Ice Storm", "escuela": "Evocation", "especial": []},
+        {"nombre": "Polymorph", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Stoneskin", "escuela": "Transmutation", "especial": ["C", "M"]},
+        {"nombre": "Vitriolic Sphere", "escuela": "Evocation", "especial": []},
+        {"nombre": "Wall of Fire", "escuela": "Evocation", "especial": ["C"]}
+      ],
+    "nivel_5": [
+        {"nombre": "Animate Objects", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Bigby's Hand", "escuela": "Evocation", "especial": ["C"]},
+        {"nombre": "Cloudkill", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Cone of Cold", "escuela": "Evocation", "especial": []},
+        {"nombre": "Creation", "escuela": "Illusion", "especial": []},
+        {"nombre": "Dominate Person", "escuela": "Enchantment", "especial": ["C"]},
+        {"nombre": "Hold Monster", "escuela": "Enchantment", "especial": ["C"]},
+        {"nombre": "Insect Plague", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Seeming", "escuela": "Illusion", "especial": []},
+        {"nombre": "Synaptic Static", "escuela": "Enchantment", "especial": []},
+        {"nombre": "Telekinesis", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Teleportation Circle", "escuela": "Conjuration", "especial": ["M"]},
+        {"nombre": "Wall of Stone", "escuela": "Evocation", "especial": ["C"]}
+      ],
+    "nivel_6": [
+        {"nombre": "Arcane Gate", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Chain Lightning", "escuela": "Evocation", "especial": []},
+        {"nombre": "Circle of Death", "escuela": "Necromancy", "especial": ["M"]},
+        {"nombre": "Disintegrate", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Eyebite", "escuela": "Necromancy", "especial": ["C"]},
+        {"nombre": "Flesh to Stone", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Globe of Invulnerability", "escuela": "Abjuration", "especial": ["C"]},
+        {"nombre": "Mass Suggestion", "escuela": "Enchantment", "especial": []},
+        {"nombre": "Move Earth", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Otiluke's Freezing Sphere", "escuela": "Evocation", "especial": []},
+        {"nombre": "Sunbeam", "escuela": "Evocation", "especial": ["C"]},
+        {"nombre": "True Seeing", "escuela": "Divination", "especial": ["M"]}
+      ],
+    "nivel_7": [
+        {"nombre": "Delayed Blast Fireball", "escuela": "Evocation", "especial": ["C"]},
+        {"nombre": "Etherealness", "escuela": "Conjuration", "especial": []},
+        {"nombre": "Finger of Death", "escuela": "Necromancy", "especial": []},
+        {"nombre": "Fire Storm", "escuela": "Evocation", "especial": []},
+        {"nombre": "Plane Shift", "escuela": "Conjuration", "especial": ["M"]},
+        {"nombre": "Prismatic Spray", "escuela": "Evocation", "especial": []},
+        {"nombre": "Reverse Gravity", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Teleport", "escuela": "Conjuration", "especial": []}
+      ],
+    "nivel_8": [
+        {"nombre": "Demiplane", "escuela": "Conjuration", "especial": []},
+        {"nombre": "Dominate Monster", "escuela": "Enchantment", "especial": ["C"]},
+        {"nombre": "Earthquake", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Incendiary Cloud", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Power Word Stun", "escuela": "Enchantment", "especial": []},
+        {"nombre": "Sunburst", "escuela": "Evocation", "especial": []}
+      ],
+    "nivel_9": [
+        {"nombre": "Gate", "escuela": "Conjuration", "especial": ["C", "M"]},
+        {"nombre": "Meteor Swarm", "escuela": "Evocation", "especial": []},
+        {"nombre": "Power Word Kill", "escuela": "Enchantment", "especial": []},
+        {"nombre": "Time Stop", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Wish", "escuela": "Conjuration", "especial": []}
+      ],
+    "referencia": "[sources 495-519]"
+  },
+  "subclases": [
+    {
+      "nombre": "Hechicería Aberrante",
+      "descripcion": "Influencia alienígena otorga poder psiónico. Toca mentes, altera mundo.",
+      "referencia_descripcion": "[sources 522-528]",
+      "conjuros_psionicos": [
+         {"nivel_hechicero": 3, "conjuros": ["Brazos de Hadar", "Calmar Emociones", "Detectar Pensamientos", "Susurros Discordantes", "Fragmento Mental"]},
+         {"nivel_hechicero": 5, "conjuros": ["Hambre de Hadar", "Enviar"]},
+         {"nivel_hechicero": 7, "conjuros": ["Tentáculos Negros de Evard", "Invocar Aberración"]},
+         {"nivel_hechicero": 9, "conjuros": ["Vínculo Telepático de Rary", "Telequinesis"]}
+      ],
+      "referencia_conjuros": "[sources 529-531]",
+      "rasgos": [
+        {
+           "nivel": 3,
+           "nombre": "Habla Telepática",
+           "descripcion": "Acción Adicional, elige criatura visible a 30 pies. Comunicación telepática mutua (alcance Mod Carisma millas, mín 1). Duración minutos = Nivel Hechicero. Termina si reusas habilidad.",
+           "referencia": "[sources 532-537]"
+        },
+        {
+            "nivel": 6,
+            "nombre": "Hechicería Psiónica",
+            "descripcion": "Puedes lanzar conjuros de Conjuros Psiónicos gastando Puntos Hechicería = nivel conjuro (en vez de espacio). Si usas Puntos, no requiere comp. V, S, M (salvo M consumido/coste).",
+            "referencia": "[sources 538-539]"
+        },
+        {
+            "nivel": 6,
+            "nombre": "Defensas Psíquicas",
+            "descripcion": "Resistencia daño Psíquico. Ventaja en TS para evitar/terminar condición Encantado/Aterrorizado.",
+            "referencia": "[source 540]"
+        },
+        {
+            "nivel": 14,
+            "nombre": "Revelación en Carne",
+            "descripcion": "Acción Adicional, gasta >=1 Punto Hechicería. Altera cuerpo 10 min. Por cada Punto, elige 1 beneficio (dura hasta fin alteración):",
+            "beneficios_alteracion": [
+                {"nombre": "Adaptación Acuática", "efecto": "Vel. Nado = 2 * Velocidad. Respiras bajo agua. Crecen branquias/membranas."},
+                {"nombre": "Vuelo Reluciente", "efecto": "Vel. Vuelo = Velocidad, puedes flotar. Piel brilla."},
+                {"nombre": "Ver lo Invisible", "efecto": "Ves criaturas Invisibles a 60 pies (sin Cobertura Total). Ojos negros/tentáculos."},
+                {"nombre": "Movimiento Fluyente", "efecto": "Cuerpo/equipo flexible. Mueves por espacio 1 pulgada. Gasta 5 pies mov. para escapar restricciones no mágicas/Agarrado."}
+            ],
+            "referencia": "[sources 541-551]"
+        },
+        {
+            "nivel": 18,
+            "nombre": "Implosión de Deformación",
+            "descripcion": "Acción mágica, teletransporte 120 pies a espacio visible. Criaturas a 30 pies espacio dejaste hacen TS Fuerza vs CD. Fallo: 3d10 daño Fuerza, arrastradas hacia espacio dejaste. Éxito: mitad daño. 1 uso/Descanso Largo (o gasta 5 Puntos Hechicería).",
+            "referencia": "[sources 552-557]"
+        }
+      ]
+    },
+    {
+      "nombre": "Hechicería de Relojería",
+      "descripcion": "Imbuido con fuerza cósmica orden (Mechanus, modrones). Poder parece extraño a otros.",
+      "referencia_descripcion": "[sources 558-562]",
+       "conjuros_relojeria": [
+         {"nivel_hechicero": 3, "conjuros": ["Alarma", "Protección contra el Mal y el Bien"]},
+         {"nivel_hechicero": 5, "conjuros": ["Ayuda", "Restauración Menor"]},
+         {"nivel_hechicero": 7, "conjuros": ["Disipar Magia", "Protección contra Energía"]},
+         {"nivel_hechicero": 9, "conjuros": ["Libertad de Movimiento", "Invocar Constructo"]}
+      ],
+      "referencia_conjuros": "[source 565]",
+      "manifestaciones_orden": [
+          "Ruedas dentadas espectrales flotan detrás.",
+          "Agujas reloj giran en ojos.",
+          "Piel brilla bronce.",
+          "Ecuaciones/geometría flotan sobre cuerpo.",
+          "Foco conjuración parece mecanismo reloj.",
+          "Se oye tictac/repique."
+      ],
+      "referencia_manifestaciones": "[sources 566-570]",
+      "rasgos": [
+        {
+           "nivel": 3,
+           "nombre": "Restaurar el Equilibrio",
+           "descripcion": "Reacción cuando criatura visible a 60 pies va a tirar d20 con Ventaja/Desventaja. Evita que tirada sea afectada. Usos = Mod Carisma (mín 1)/Descanso Largo.",
+           "referencia": "[sources 571-573]"
+        },
+        {
+           "nivel": 6,
+           "nombre": "Bastión de la Ley",
+           "descripcion": "Acción mágica, gasta 1-5 Puntos Hechicería. Crea encantamiento (tú u otro a 30 pies). Encantamiento tiene dados d8 = Puntos gastados. Criatura protegida, al recibir daño, puede gastar dados, tirarlos, reducir daño por total tirada. Dura hasta Descanso Largo / reuso.",
+           "referencia": "[sources 574-578]"
+        },
+        {
+            "nivel": 14,
+            "nombre": "Trance del Orden",
+            "descripcion": "Acción Bonificación, entra estado 1 min. Durante duración: ataques vs ti no benefician Ventaja; al hacer Prueba d20, trata tirada 9 o menos como 10. 1 uso/Descanso Largo (o gasta 5 Puntos Hechicería).",
+            "referencia": "[sources 579-581]"
+        },
+        {
+            "nivel": 18,
+            "nombre": "Cabalgata de Engranajes",
+            "descripcion": "Acción mágica, convoca espíritus orden (Cubo 30 pies origen ti). Intangibles/invulnerables. Crean efectos antes desaparecer:",
+            "efectos_cabalgata": [
+                {"nombre": "Curar", "efecto": "Restaura hasta 100 PG (divididos a elección entre criaturas cubo)."},
+                {"nombre": "Reparar", "efecto": "Repara objetos dañados completamente."},
+                {"nombre": "Disipar", "efecto": "Termina cada conjuro nivel 6 o inferior en criaturas/objetos elección."}
+            ],
+            "reutilizacion": "1 uso/Descanso Largo (o gasta 7 Puntos Hechicería).",
+            "referencia": "[sources 582-588]"
+        }
+      ]
+    },
+    {
+      "nombre": "Hechicería Dracónica",
+      "descripcion": "Magia innata proviene don dragón (muerte dragón, lugar poder, tesoro, ancestro).",
+      "referencia_descripcion": "[sources 589-593]",
+       "conjuros_draconicos": [
+         {"nivel_hechicero": 3, "conjuros": ["Orbe Cromático", "Ordenar"]},
+         {"nivel_hechicero": 5, "conjuros": ["Alterar Forma", "Aliento de Dragón"]},
+         {"nivel_hechicero": 7, "conjuros": ["Miedo", "Volar"]},
+         {"nivel_hechicero": 9, "conjuros": ["Ojo Arcano", "Encantar Monstruo"]}
+      ],
+      "referencia_conjuros": "[source 598]",
+      "rasgos": [
+        {
+           "nivel": 3,
+           "nombre": "Resiliencia Dracónica",
+           "descripcion": "PG máx +3, +1 por nivel Hechicero después. Partes cubiertas escamas. Sin armadura, CA base = 10 + Mod Des + Mod Car.",
+           "referencia": "[sources 593-596]"
+        },
+        {
+           "nivel": 6,
+           "nombre": "Afinidad Elemental",
+           "descripcion": "Elige tipo daño (Ácido, Frío, Fuego, Rayo, Veneno). Ganas Resistencia a ese tipo. Al lanzar conjuro causa ese daño, añade Mod Carisma a 1 tirada daño.",
+           "referencia": "[sources 598-600]"
+        },
+        {
+            "nivel": 14,
+            "nombre": "Alas de Dragón",
+            "descripcion": "Acción Bonificación, aparecen alas dracónicas (1 hora / hasta disolver). Ganas Vel. Vuelo 60 pies. 1 uso/Descanso Largo (o gasta 3 Puntos Hechicería).",
+            "referencia": "[sources 601-604]"
+        }
+      ]
+    }
+  ]
+}

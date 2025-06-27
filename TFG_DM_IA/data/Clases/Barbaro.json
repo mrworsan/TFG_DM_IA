@@ -1,0 +1,519 @@
+{
+  "clase": "Bárbaro",
+  "fuente_documento": "Barbaros.pdf",
+  "descripcion_general": "Poderosos guerreros impulsados por fuerzas primordiales que se manifiestan como una Furia. Esta Furia es más que una emoción, encarnando la ferocidad de un depredador, la furia de una tormenta y la agitación del mar. A menudo son protectores y líderes en sus comunidades, lanzándose al peligro.",
+  "referencia_descripcion": "[sources 3-10]",
+  "rasgos_principales": {
+    "habilidad_principal": "Fuerza",
+    "dado_golpe": "d12 por nivel de Bárbaro",
+    "tiradas_salvacion": [
+      "Fuerza",
+      "Constitución"
+    ],
+    "competencias_habilidades": {
+      "cantidad": 2,
+      "opciones": [
+        "Trato con Animales",
+        "Atletismo",
+        "Intimidación",
+        "Naturaleza",
+        "Percepción",
+        "Supervivencia"
+      ]
+    },
+    "competencias_armas": [
+      "Armas simples",
+      "Armas marciales"
+    ],
+    "competencias_armaduras": [
+      "Armadura ligera",
+      "Armadura media",
+      "Escudos"
+    ],
+    "equipo_inicial": [
+      {
+        "opcion": "A",
+        "items": [
+          "Gran hacha",
+          "4 Hachas de mano",
+          "Mochila de explorador",
+          "15 monedas de oro"
+        ]
+      },
+      {
+        "opcion": "B",
+        "items": [
+          "75 monedas de oro"
+        ]
+      }
+    ],
+    "referencia_tabla": "[source 2]"
+  },
+  "progresion_nivel": [
+    {
+      "nivel": 1,
+      "bono_competencia": "+2",
+      "rasgos_resumen": "Furia, Defensa sin armadura, Maestría en armas",
+      "rabias": 2,
+      "dano_furia": "+2",
+      "maestria_armas": 2
+    },
+    {
+      "nivel": 2,
+      "bono_competencia": "+2",
+      "rasgos_resumen": "Sentido del peligro, Ataque imprudente",
+      "rabias": 2,
+      "dano_furia": "+2",
+      "maestria_armas": 2
+    },
+    {
+      "nivel": 3,
+      "bono_competencia": "+2",
+      "rasgos_resumen": "Subclase bárbara, Conocimiento primordial",
+      "rabias": 3,
+      "dano_furia": "+2",
+      "maestria_armas": 2
+    },
+    {
+      "nivel": 4,
+      "bono_competencia": "+2",
+      "rasgos_resumen": "Mejora de la puntuación de habilidad",
+      "rabias": 3,
+      "dano_furia": "+2",
+      "maestria_armas": 3
+    },
+    {
+      "nivel": 5,
+      "bono_competencia": "+3",
+      "rasgos_resumen": "Ataque extra, Movimiento rápido",
+      "rabias": 3,
+      "dano_furia": "+2",
+      "maestria_armas": 3
+    },
+    {
+      "nivel": 6,
+      "bono_competencia": "+3",
+      "rasgos_resumen": "Característica de subclase",
+      "rabias": 4,
+      "dano_furia": "+2",
+      "maestria_armas": 3
+    },
+    {
+      "nivel": 7,
+      "bono_competencia": "+3",
+      "rasgos_resumen": "Instinto salvaje, Ataque instintivo",
+      "rabias": 4,
+      "dano_furia": "+2",
+      "maestria_armas": 3
+    },
+    {
+      "nivel": 8,
+      "bono_competencia": "+3",
+      "rasgos_resumen": "Mejora de la puntuación de habilidad",
+      "rabias": 4,
+      "dano_furia": "+2",
+      "maestria_armas": 3
+    },
+    {
+      "nivel": 9,
+      "bono_competencia": "+4",
+      "rasgos_resumen": "Crítica brutal",
+      "rabias": 4,
+      "dano_furia": "+3",
+      "maestria_armas": 3
+    },
+    {
+      "nivel": 10,
+      "bono_competencia": "+4",
+      "rasgos_resumen": "Característica de subclase",
+      "rabias": 4,
+      "dano_furia": "+3",
+      "maestria_armas": 4
+    },
+    {
+      "nivel": 11,
+      "bono_competencia": "+4",
+      "rasgos_resumen": "Rabia implacable",
+      "rabias": 4,
+      "dano_furia": "+3",
+      "maestria_armas": 4
+    },
+    {
+      "nivel": 12,
+      "bono_competencia": "+4",
+      "rasgos_resumen": "Mejora de la puntuación de habilidad",
+      "rabias": 5,
+      "dano_furia": "+3",
+      "maestria_armas": 4
+    },
+    {
+      "nivel": 13,
+      "bono_competencia": "+5",
+      "rasgos_resumen": "Golpe brutal mejorado",
+      "rabias": 5,
+      "dano_furia": "+3",
+      "maestria_armas": 4
+    },
+    {
+      "nivel": 14,
+      "bono_competencia": "+5",
+      "rasgos_resumen": "Característica de subclase",
+      "rabias": 5,
+      "dano_furia": "+3",
+      "maestria_armas": 4
+    },
+    {
+      "nivel": 15,
+      "bono_competencia": "+5",
+      "rasgos_resumen": "Rabia persistente",
+      "rabias": 5,
+      "dano_furia": "+3",
+      "maestria_armas": 4
+    },
+    {
+      "nivel": 16,
+      "bono_competencia": "+5",
+      "rasgos_resumen": "Mejora de la puntuación de habilidad",
+      "rabias": 5,
+      "dano_furia": "+4",
+      "maestria_armas": 4
+    },
+    {
+      "nivel": 17,
+      "bono_competencia": "+6",
+      "rasgos_resumen": "Golpe brutal mejorado",
+      "rabias": 6,
+      "dano_furia": "+4",
+      "maestria_armas": 4
+    },
+    {
+      "nivel": 18,
+      "bono_competencia": "+6",
+      "rasgos_resumen": "Poder indomable",
+      "rabias": 6,
+      "dano_furia": "+4",
+      "maestria_armas": 4
+    },
+    {
+      "nivel": 19,
+      "bono_competencia": "+6",
+      "rasgos_resumen": "Bendición épica",
+      "rabias": 6,
+      "dano_furia": "+4",
+      "maestria_armas": 4
+    },
+    {
+      "nivel": 20,
+      "bono_competencia": "+6",
+      "rasgos_resumen": "Campeón primigenio",
+      "rabias": 6,
+      "dano_furia": "+4",
+      "maestria_armas": 4
+    }
+  ],
+  "referencia_progresion": "[source 32]",
+  "detalles_rasgos_clase": {
+    "Furia": {
+      "nivel": 1,
+      "descripcion": "Puedes imbuirte con un poder primordial llamado Furia, que otorga fuerza y resistencia extraordinarias.",
+      "activacion": "Acción Adicional, si no llevas armadura pesada.",
+      "usos": "Según tabla ('Rabias'). Recuperas 1 uso en Descanso Corto, todos en Descanso Largo.",
+      "duracion": "Hasta el final de tu siguiente turno. Se extiende si realizas tirada de ataque contra enemigo, obligas a enemigo a hacer TS, o usas Acción Adicional para extender. Máximo 10 minutos.",
+      "finalizacion_temprana": "Si llevas armadura pesada o estás Incapacitado.",
+      "beneficios": [
+        "Resistencia al daño Contundente, Perforante y Cortante.",
+        "Bono al daño ('Daño de Furia') en ataques con Fuerza.",
+        "Ventaja en pruebas de Fuerza y tiradas de salvación de Fuerza.",
+        "No puedes mantener Concentración ni lanzar conjuros."
+      ],
+      "referencia": "[sources 17-29]"
+    },
+    "Defensa sin armadura": {
+      "nivel": 1,
+      "descripcion": "Mientras no lleves ninguna armadura, tu Clase de Armadura base es igual a 10 + Modificador de Destreza + Modificador de Constitución. Puedes usar un Escudo.",
+      "referencia": "[sources 29-30]"
+    },
+    "Maestría con Armas": {
+      "nivel": 1,
+      "descripcion": "Puedes utilizar las propiedades de maestría de un número de tipos de armas Simples o Marciales igual a tu valor en la columna 'Maestría en armas'. Empiezas con 2. Puedes cambiar una elección de arma al terminar un Descanso Largo.",
+      "referencia": "[sources 33-35]"
+    },
+    "Sentido del peligro": {
+      "nivel": 2,
+      "descripcion": "Tienes Ventaja en las tiradas de salvación de Destreza a menos que tengas la condición de Incapacitado.",
+      "referencia": "[sources 36-37]"
+    },
+    "Ataque imprudente": {
+      "nivel": 2,
+      "descripcion": "Cuando realices tu primer tiro de ataque en tu turno, puedes decidir atacar imprudentemente. Hacerlo te da Ventaja en los tiros de ataque utilizando Fuerza hasta el comienzo de tu siguiente turno, pero los tiros de ataque en tu contra tienen Ventaja durante ese tiempo.",
+      "referencia": "[sources 38-40]"
+    },
+    "Subclase bárbara": {
+      "nivel": 3,
+      "descripcion": "Obtienes una subclase de Bárbaro de tu elección. Obtienes características de subclase en este nivel y posteriores.",
+      "opciones_documento": [
+        "Camino del Berserker",
+        "Camino del Corazón Salvaje",
+        "Camino del Árbol del Mundo",
+        "Camino del Fanático"
+      ],
+      "referencia": "[sources 41-44]"
+    },
+    "Conocimiento primordial": {
+      "nivel": 3,
+      "descripcion": "Obtienes competencia en otra habilidad de tu elección de la lista inicial de Bárbaro. Además, mientras tu Furia esté activa, puedes hacer pruebas de Acrobacia, Intimidación, Percepción, Sigilo o Supervivencia usando tu Fuerza en lugar de la habilidad normal.",
+      "referencia": "[sources 45-47]"
+    },
+    "Mejora de la puntuación de habilidad": {
+      "nivel": 4,
+      "descripcion": "Obtienes la dote 'Mejora de Puntuación de Habilidad' u otra dote de tu elección para la cual califiques. Se obtiene de nuevo en los niveles 8, 12 y 16.",
+      "referencia": "[sources 48-49]"
+    },
+    "Ataque extra": {
+      "nivel": 5,
+      "descripcion": "Puedes atacar dos veces en lugar de una siempre que realices la acción de Ataque en tu turno.",
+      "referencia": "[source 50]"
+    },
+    "Movimiento rápido": {
+      "nivel": 5,
+      "descripcion": "Tu velocidad aumenta en 10 pies mientras no uses armadura pesada.",
+      "referencia": "[source 51]"
+    },
+    "Instinto salvaje": {
+      "nivel": 7,
+      "descripcion": "Tienes Ventaja en las tiradas de Iniciativa.",
+      "referencia": "[source 52]"
+    },
+    "Ataque instintivo": {
+      "nivel": 7,
+      "descripcion": "Como parte de la Acción Bonificada que tomas para entrar en tu Furia, puedes moverte hasta la mitad de tu Velocidad.",
+      "referencia": "[source 53]"
+    },
+    "Crítica brutal": {
+      "nivel": 9,
+      "descripcion": "Si usas Ataque Imprudente, puedes renunciar a la Ventaja en una tirada de ataque basada en Fuerza (que no tenga Desventaja). Si acierta, el objetivo recibe daño adicional 1d10 (mismo tipo) y puedes aplicar uno de los siguientes efectos:",
+      "opciones_efecto": [
+        {
+          "nombre": "Golpe Forzado",
+          "descripcion": "El objetivo es empujado 15 pies directamente lejos de ti. Luego, puedes moverte hasta la mitad de tu Velocidad hacia el objetivo sin provocar Ataques de Oportunidad."
+        },
+        {
+          "nombre": "Golpe en el Tendón",
+          "descripcion": "La Velocidad del objetivo se reduce en 15 pies hasta el comienzo de tu siguiente turno (solo 1 efecto de este tipo activo a la vez)."
+        }
+      ],
+      "referencia": "[sources 54-59]"
+    },
+    "Rabia implacable": {
+      "nivel": 11,
+      "descripcion": "Si caes a 0 Puntos de Golpe mientras tu Furia está activa y no mueres, puedes hacer una TS de Constitución DC 10. Si tienes éxito, tus PG cambian a (2 * nivel de Bárbaro). La DC aumenta en 5 cada vez que usas esta característica después de la primera (se resetea a 10 con Descanso Corto o Largo).",
+      "referencia": "[sources 60-62]"
+    },
+    "Golpe brutal mejorado (Nivel 13)": {
+      "nivel": 13,
+      "descripcion": "Añade las siguientes opciones a tu Crítica Brutal:",
+      "nuevas_opciones_efecto": [
+        {
+          "nombre": "Golpe Aturdidor",
+          "descripcion": "El objetivo tiene Desventaja en la siguiente TS que realice y no puede realizar Ataques de Oportunidad hasta el comienzo de tu siguiente turno."
+        },
+        {
+          "nombre": "Golpe Destructor",
+          "descripcion": "La siguiente tirada de ataque realizada por otra criatura contra el objetivo antes del comienzo de tu siguiente turno recibe un bono de +5 (solo un bono de este tipo activo)."
+        }
+      ],
+      "referencia": "[sources 63-65]"
+    },
+    "Rabia persistente": {
+      "nivel": 15,
+      "descripcion": "Cuando realices la tirada de Iniciativa, puedes recuperar todos los usos gastados de Furia (no puedes hacerlo de nuevo hasta terminar un Descanso Largo). Además, tu Furia dura 10 minutos sin necesidad de extenderla cada turno. Termina antes si estás Inconsciente o usas armadura pesada.",
+      "referencia": "[sources 66-69]"
+    },
+    "Golpe brutal mejorado (Nivel 17)": {
+      "nivel": 17,
+      "descripcion": "El daño adicional de tu Crítica Brutal aumenta a 2d10. Además, puedes usar dos efectos diferentes de Crítica Brutal simultáneamente.",
+      "referencia": "[sources 70-71]"
+    },
+    "Poder indomable": {
+      "nivel": 18,
+      "descripcion": "Si tu total en una prueba de Fuerza o tirada de salvación de Fuerza es menor que tu puntuación de Fuerza, puedes usar esa puntuación en lugar del total.",
+      "referencia": "[source 72]"
+    },
+    "Bendición épica": {
+      "nivel": 19,
+      "descripcion": "Obtienes una dote de Beneficio Épico u otra dote de tu elección para la cual califiques.",
+      "referencia": "[sources 73-74]"
+    },
+    "Campeón primigenio": {
+      "nivel": 20,
+      "descripcion": "Tus puntuaciones de Fuerza y Constitución aumentan en 4, hasta un máximo de 25.",
+      "referencia": "[source 75]"
+    }
+  },
+  "subclases": [
+    {
+      "nombre": "Camino del Berserker",
+      "descripcion_breve": "Canaliza la Furia en violencia brutal.",
+      "descripcion_detallada": "Los bárbaros que siguen este camino dirigen su Furia principalmente hacia la violencia. Se deleitan en el caos de la batalla, permitiendo que la Furia los posea y potencie.",
+      "referencia_descripcion": "[sources 78-79]",
+      "rasgos": [
+        {
+          "nivel": 3,
+          "nombre": "Frenesí",
+          "descripcion": "Si usas Ataque Imprudente mientras tu Furia está activa, infliges daño adicional al primer objetivo que golpeas en tu turno con un ataque basado en Fuerza. El daño es un número de d6 igual a tu bono de Daño de Furia, del mismo tipo que el ataque.",
+          "referencia": "[sources 80-82]"
+        },
+        {
+          "nivel": 6,
+          "nombre": "Furia Irreflexiva",
+          "descripcion": "Tienes Inmunidad a las condiciones de Encantado y Aterrorizado mientras tu Furia esté activa. Si estás bajo una de estas condiciones cuando entras en Furia, la condición termina.",
+          "referencia": "[sources 83-84]"
+        },
+        {
+          "nivel": 10,
+          "nombre": "Represalia",
+          "descripcion": "Cuando recibas daño de una criatura que esté a 5 pies de ti, puedes usar tu Reacción para hacer un ataque cuerpo a cuerpo (arma o desarmado) contra esa criatura.",
+          "referencia": "[source 85]"
+        },
+        {
+          "nivel": 14,
+          "nombre": "Presencia Intimidante",
+          "descripcion": "Como Acción de Bonificación, puedes intentar aterrorizar a otros. Cada criatura de tu elección en una emanación de 30 pies debe hacer una TS de Sabiduría (DC 8 + Mod Fuerza + Bono Competencia). Si falla, está Aterrorizada por 1 minuto. Puede repetir la TS al final de cada uno de sus turnos para terminar el efecto. Puedes usar esto una vez por Descanso Largo, o gastar un uso de Furia para restaurarlo.",
+          "referencia": "[sources 86-90]"
+        }
+      ]
+    },
+    {
+      "nombre": "Camino del Corazón Salvaje",
+      "descripcion_breve": "Camina en comunidad con el mundo animal.",
+      "descripcion_detallada": "Se ven como parientes de los animales, aprendiendo magia para comunicarse con ellos. Su Furia agudiza esta conexión, llenándolos de poder sobrenatural.",
+      "referencia_descripcion": "[sources 91-92]",
+      "rasgos": [
+        {
+          "nivel": 3,
+          "nombre": "Hablante de Animales",
+          "descripcion": "Puedes lanzar los hechizos Sentido Bestial y Hablar con Animales, pero solo como Rituales. Sabiduría es tu habilidad para lanzarlos.",
+          "referencia": "[sources 93-94]"
+        },
+        {
+          "nivel": 3,
+          "nombre": "Furia de los Salvajes",
+          "descripcion": "Siempre que actives tu Furia, obtienes una de las siguientes opciones de tu elección:",
+          "opciones": [
+            {"nombre": "Oso", "efecto": "Mientras tu Furia esté activa, tienes Resistencia a todos los tipos de daño excepto Fuerza, Necrótico, Psíquico y Radiante."},
+            {"nombre": "Águila", "efecto": "Cuando activas Furia, puedes usar Desengancharse y Correr como parte de esa Acción de Bonificación. Mientras Furia activa, puedes usar Acción de Bonificación para hacer ambas acciones."},
+            {"nombre": "Lobo", "efecto": "Mientras tu Furia esté activa, tus aliados tienen Ventaja en las tiradas de ataque contra cualquier enemigo tuyo dentro de 5 pies de ti."}
+          ],
+          "referencia": "[sources 95-98]"
+        },
+        {
+          "nivel": 6,
+          "nombre": "Aspecto de los Salvajes",
+          "descripcion": "Obtienes una de las siguientes opciones. Puedes cambiar tu elección al terminar un Descanso Largo:",
+          "opciones": [
+            {"nombre": "Búho", "efecto": "Tienes Visión en la Oscuridad 60 pies. Si ya tienes, su alcance aumenta en 60 pies."},
+            {"nombre": "Pantera", "efecto": "Tienes Velocidad de Trepar igual a tu Velocidad."},
+            {"nombre": "Salmón", "efecto": "Tienes Velocidad de Nadar igual a tu Velocidad."}
+          ],
+          "referencia": "[sources 99-102]"
+        },
+        {
+          "nivel": 10,
+          "nombre": "Hablante de la Naturaleza",
+          "descripcion": "Puedes lanzar el hechizo Comunión con la Naturaleza, pero solo como un Ritual. Sabiduría es tu habilidad.",
+          "referencia": "[sources 103-104]"
+        },
+        {
+          "nivel": 14,
+          "nombre": "Poder de los Salvajes",
+          "descripcion": "Siempre que actives tu Furia, obtienes una de las siguientes opciones de tu elección:",
+           "opciones": [
+            {"nombre": "Halcón", "efecto": "Mientras tu Furia esté activa, tienes Velocidad de Vuelo igual a tu Velocidad si no llevas armadura."},
+            {"nombre": "León", "efecto": "Mientras tu Furia esté activa, cualquier enemigo tuyo a 5 pies tiene Desventaja en ataques contra objetivos que no seas tú u otro Bárbaro con esta opción."},
+            {"nombre": "Carnero", "efecto": "Mientras tu Furia esté activa, puedes hacer que una criatura Grande o más pequeña quede Derribada (Prone) cuando la golpeas con un ataque cuerpo a cuerpo."}
+          ],
+          "referencia": "[sources 105-106]"
+        }
+      ]
+    },
+    {
+      "nombre": "Camino del Árbol del Mundo",
+      "descripcion_breve": "Rastrea las raíces y ramas del multiverso.",
+      "descripcion_detallada": "Se conectan con el árbol cósmico Yggdrasil a través de su Furia, aprovechando su magia para obtener vitalidad y viajar dimensionalmente.",
+      "referencia_descripcion": "[sources 108-110]",
+      "rasgos": [
+        {
+          "nivel": 3,
+          "nombre": "Vitalidad del Árbol",
+          "descripcion": "Obtienes los siguientes beneficios:",
+          "beneficios": [
+             {"nombre": "Oleada de Vitalidad", "efecto": "Cuando activas Furia, obtienes PG Temporales iguales a tu nivel de Bárbaro."},
+             {"nombre": "Fuerza Vitalizante", "efecto": "Al comienzo de cada turno en Furia, puedes elegir otra criatura a 10 pies. Gana PG Temporales = suma de d6s igual a tu bono de Daño de Furia (desaparecen al terminar Furia)."}
+          ],
+          "referencia": "[sources 111-115]"
+        },
+        {
+          "nivel": 6,
+          "nombre": "Ramas del Árbol",
+          "descripcion": "Como Reacción, cuando una criatura visible a 30 pies comienza su turno mientras estás en Furia, puedes invocar ramas espectrales. El objetivo debe superar una TS de Fuerza (DC 8 + Mod Fuerza + Bono Proficiencia) o ser teletransportado a un espacio desocupado visible a 5 pies de ti. Puedes reducir su Velocidad a 0 hasta el final del turno actual.",
+          "referencia": "[sources 116-118]"
+        },
+        {
+          "nivel": 10,
+          "nombre": "Raíces Aplastantes",
+          "descripcion": "Durante tu turno, tu alcance aumenta en 10 pies con armas C/C con propiedad Pesada o Versátil. Cuando golpeas con tal arma, puedes activar la propiedad de maestría Empujar o Volcar además de otra propiedad de maestría que uses.",
+          "referencia": "[sources 119-120]"
+        },
+        {
+          "nivel": 14,
+          "nombre": "Viaje a lo Largo del Árbol",
+          "descripcion": "Cuando activas Furia y como Acción de Bonificación mientras tu Furia esté activa, puedes teletransportarte hasta 60 pies a un espacio desocupado visible. Una vez por Furia, puedes aumentar el alcance a 150 pies y llevar contigo hasta seis criaturas dispuestas a 10 pies (cada una a un espacio desocupado a 10 pies de tu destino).",
+          "referencia": "[sources 121-124]"
+        }
+      ]
+    },
+    {
+      "nombre": "Camino del Fanático",
+      "descripcion_breve": "Furia en unión extática con un dios.",
+      "descripcion_detallada": "Reciben dones de un dios o panteón, experimentando su Furia como una unión divina que los infunde con poder. Suelen ser aliados de clérigos y seguidores de su deidad.",
+      "referencia_descripcion": "[sources 125-127]",
+      "rasgos": [
+        {
+          "nivel": 3,
+          "nombre": "Furia Divina",
+          "descripcion": "En cada turno mientras tu Furia esté activa, la primera criatura que golpees con un arma o Golpe Desarmado recibe daño adicional igual a 1d6 + mitad de tu nivel de Bárbaro (redondeado abajo). El daño es Necrótico o Radiante (eliges cada vez).",
+          "referencia": "[sources 128-130]"
+        },
+        {
+          "nivel": 3,
+          "nombre": "Guerrero de los Dioses",
+          "descripcion": "Tienes un reservorio de 4 dados d12 para curarte. Como Acción de Bonificación, puedes gastar dados, tirarlos y recuperar PG igual al total. El reservorio se recupera en Descanso Largo. El máximo de dados aumenta: Nivel 6 (5d12), 12 (6d12), 17 (7d12).",
+          "referencia": "[sources 131-135]"
+        },
+        {
+          "nivel": 6,
+          "nombre": "Enfoque Fanático",
+          "descripcion": "Una vez por Furia activa, si fallas una tirada de salvación, puedes volver a tirarla con un bono igual a tu bono de Daño de Furia (debes usar la nueva tirada).",
+          "referencia": "[source 136]"
+        },
+        {
+          "nivel": 10,
+          "nombre": "Presencia Fanática",
+          "descripcion": "Como Acción de Bonificación, desatas un grito de batalla divino. Hasta 10 criaturas de tu elección a 60 pies obtienen Ventaja en tiradas de ataque y TS hasta el comienzo de tu próximo turno. Puedes usar esto una vez por Descanso Largo, o gastar un uso de Furia para restaurarlo.",
+          "referencia": "[sources 137-139]"
+        },
+        {
+          "nivel": 14,
+          "nombre": "Furia de los Dioses",
+          "descripcion": "Cuando activas Furia, puedes asumir una forma divina (dura 1 minuto o hasta 0 PG). Una vez por Descanso Largo. Mientras estés en esta forma, obtienes:",
+          "beneficios_forma_divina": [
+            "Vuelo: Velocidad de Vuelo igual a tu Velocidad, puedes flotar.",
+            "Resistencia: Daño Necrótico, Psíquico y Radiante.",
+            "Revitalización: Como Reacción, si una criatura a 30 pies va a caer a 0 PG, puedes gastar un uso de Furia para cambiar sus PG a tu nivel de Bárbaro."
+          ],
+          "referencia": "[sources 140-145]"
+        }
+      ]
+    }
+  ]
+}

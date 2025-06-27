@@ -1,0 +1,311 @@
+{
+  "fuente_documento": "Equipamiento.pdf",
+  "tipo_dataset": "Equipamiento General",
+  "moneda": {
+    "descripcion": "Monedas usadas para comercio y valor.",
+    "regla_peso": "50 monedas pesan 1 libra.",
+    "valores": [
+      {"nombre": "Pieza de Cobre", "abreviatura": "CP", "valor_en_po": 0.01},
+      {"nombre": "Pieza de Plata", "abreviatura": "SP", "valor_en_po": 0.1},
+      {"nombre": "Pieza de Electrum", "abreviatura": "EP", "valor_en_po": 0.5},
+      {"nombre": "Pieza de Oro", "abreviatura": "PO", "valor_en_po": 1},
+      {"nombre": "Pieza de Platino", "abreviatura": "PP", "valor_en_po": 10}
+    ],
+    "regla_venta_equipo": "Equipo se vende por mitad de su costo listado. Bienes comerciales y objetos de valor retienen valor completo.",
+    "referencia": "[sources 4-9, 15-16]"
+  },
+  "armas": {
+    "descripcion": "Herramientas de combate.",
+    "regla_competencia": "Añade Bono Competencia a tirada ataque si tienes competencia.",
+    "referencia_competencia": "[sources 21-23]",
+    "propiedades_estandard": [
+      {
+        "nombre": "Munición",
+        "descripcion": "Requiere munición para ataque a distancia. Cada ataque consume 1 pieza. Recupera mitad munición usada tras 1 min búsqueda post-combate.",
+        "referencia": "[sources 25-29]"
+      },
+      {
+        "nombre": "Sutileza (Finesse)",
+        "descripcion": "Usa Mod Fuerza o Destreza (tu elección) para tiradas ataque y daño.",
+        "referencia": "[sources 29-30]"
+      },
+      {
+        "nombre": "Pesada (Heavy)",
+        "descripcion": "Desventaja en tiradas ataque si Fuerza < 13 (arma cuerpo a cuerpo) o Destreza < 13 (arma a distancia).",
+        "referencia": "[source 30]"
+      },
+      {
+        "nombre": "Ligera (Light)",
+        "descripcion": "Al usar acción Ataque con arma Ligera, puedes hacer ataque adicional como Acción Bonificación con arma Ligera diferente. No añades mod habilidad a daño ataque adicional (salvo negativo).",
+        "referencia": "[sources 31, 34-36]"
+      },
+      {
+        "nombre": "Recarga (Loading)",
+        "descripcion": "Solo 1 pieza munición por acción/Acción Bonificación/Reacción usada para disparar.",
+        "referencia": "[source 37]"
+      },
+      {
+        "nombre": "Alcance (Range)",
+        "descripcion": "Indica alcance normal y largo. Desventaja en ataque más allá alcance normal. No puedes atacar más allá alcance largo.",
+        "referencia": "[sources 38-41]"
+      },
+      {
+        "nombre": "A Distancia (Reach)",
+        "descripcion": "Añade 5 pies a tu alcance para ataques y Ataques Oportunidad.",
+        "referencia": "[source 42]"
+      },
+      {
+        "nombre": "Arrojadiza (Thrown)",
+        "descripcion": "Puedes lanzar para ataque a distancia. Usa mismo mod habilidad que usarías en cuerpo a cuerpo.",
+        "referencia": "[sources 43-44]"
+      },
+      {
+        "nombre": "Dos Manos (Two-Handed)",
+        "descripcion": "Requiere ambas manos para atacar.",
+        "referencia": "[source 45]"
+      },
+      {
+        "nombre": "Versátil (Versatile)",
+        "descripcion": "Puede usarse 1 o 2 manos. Daño entre paréntesis es con 2 manos.",
+        "referencia": "[sources 46-47]"
+      }
+    ],
+    "propiedades_maestria": [
+      {
+        "nombre": "Cortar (Cleave)",
+        "descripcion": "1/turno, si impactas criatura CC, haz tirada ataque CC vs 2ª criatura a 5 pies (y en alcance). Si aciertas, recibe daño arma (sin mod habilidad salvo negativo).",
+        "referencia": "[sources 49-51]"
+      },
+      {
+        "nombre": "Rozar (Graze)",
+        "descripcion": "Si fallas tirada ataque, inflige daño = mod habilidad usado (mismo tipo arma).",
+        "referencia": "[sources 51-52]"
+      },
+      {
+        "nombre": "Tajo (Nick)",
+        "descripcion": "1/turno, puedes hacer ataque adicional prop. Ligera como parte acción Ataque (en vez Acción Bonificación).",
+        "referencia": "[sources 53-54]"
+      },
+      {
+        "nombre": "Empujar (Push)",
+        "descripcion": "Si impactas, puedes empujar 10 pies si objetivo G o menor.",
+        "referencia": "[source 54]"
+      },
+      {
+        "nombre": "Drenar (Sap)",
+        "descripcion": "Si impactas, objetivo Desventaja sig. tirada ataque antes inicio tu sig. turno.",
+        "referencia": "[source 55]"
+      },
+      {
+        "nombre": "Ralentizar (Slow)",
+        "descripcion": "Si impactas y causas daño, reduce Velocidad objetivo 10 pies hasta inicio tu sig. turno (no acumulativo > 10 pies).",
+        "referencia": "[sources 56-57]"
+      },
+      {
+        "nombre": "Derribar (Topple)",
+        "descripcion": "Si impactas, fuerza TS Constitución (CD 8 + mod ataque + Bono Comp.). Fallo: Caído.",
+        "referencia": "[sources 58-59]"
+      },
+      {
+        "nombre": "Hostigar (Vex)",
+        "descripcion": "Si impactas y causas daño, Ventaja sig. tirada ataque vs objetivo antes fin tu sig. turno.",
+        "referencia": "[source 60]"
+      }
+    ],
+    "lista_armas": [
+      {"nombre": "Club", "categoria": "Simple Cuerpo a Cuerpo", "costo": "1 SP", "peso": "2 lb", "daño": "1d4 Contundente", "propiedades": ["Ligera"], "maestria": "Ralentizar"},
+      {"nombre": "Daga", "categoria": "Simple Cuerpo a Cuerpo", "costo": "2 GP", "peso": "1 lb", "daño": "1d4 Perforante", "propiedades": ["Sutileza", "Ligera", "Arrojadiza (Alcance 20/60)"], "maestria": "Tajo"},
+      {"nombre": "Greatclub", "categoria": "Simple Cuerpo a Cuerpo", "costo": "2 SP", "peso": "10 lb", "daño": "1d8 Contundente", "propiedades": ["Dos Manos"], "maestria": "Empujar"},
+      {"nombre": "Hacha de Mano", "categoria": "Simple Cuerpo a Cuerpo", "costo": "5 GP", "peso": "2 lb", "daño": "1d6 Cortante", "propiedades": ["Ligera", "Arrojadiza (Alcance 20/60)"], "maestria": "Hostigar"},
+      {"nombre": "Jabalina", "categoria": "Simple Cuerpo a Cuerpo", "costo": "5 SP", "peso": "2 lb", "daño": "1d6 Perforante", "propiedades": ["Arrojadiza (Alcance 30/120)"], "maestria": "Ralentizar"},
+      {"nombre": "Martillo Ligero", "categoria": "Simple Cuerpo a Cuerpo", "costo": "2 GP", "peso": "2 lb", "daño": "1d4 Contundente", "propiedades": ["Ligera", "Arrojadiza (Alcance 20/60)"], "maestria": "Tajo"},
+      {"nombre": "Maza", "categoria": "Simple Cuerpo a Cuerpo", "costo": "5 GP", "peso": "4 lb", "daño": "1d6 Contundente", "propiedades": [], "maestria": "Drenar"},
+      {"nombre": "Quarterstaff", "categoria": "Simple Cuerpo a Cuerpo", "costo": "2 SP", "peso": "4 lb", "daño": "1d6 Contundente", "propiedades": ["Versátil (1d8)"], "maestria": "Derribar"},
+      {"nombre": "Hoz", "categoria": "Simple Cuerpo a Cuerpo", "costo": "1 GP", "peso": "2 lb", "daño": "1d4 Cortante", "propiedades": ["Ligera"], "maestria": "Tajo"},
+      {"nombre": "Lanza", "categoria": "Simple Cuerpo a Cuerpo", "costo": "1 GP", "peso": "3 lb", "daño": "1d6 Perforante", "propiedades": ["Arrojadiza (Alcance 20/60)", "Versátil (1d8)"], "maestria": "Drenar"},
+      {"nombre": "Dardo", "categoria": "Simple A Distancia", "costo": "5 CP", "peso": "1/4 lb", "daño": "1d4 Perforante", "propiedades": ["Sutileza", "Arrojadiza (Alcance 20/60)"], "maestria": "Hostigar"},
+      {"nombre": "Ballesta Ligera", "categoria": "Simple A Distancia", "costo": "25 GP", "peso": "5 lb", "daño": "1d8 Perforante", "propiedades": ["Munición (Alcance 80/320; Virote)", "Recarga", "Dos Manos"], "maestria": "Ralentizar"},
+      {"nombre": "Arco Corto", "categoria": "Simple A Distancia", "costo": "25 GP", "peso": "2 lb", "daño": "1d6 Perforante", "propiedades": ["Munición (Alcance 80/320; Flecha)", "Dos Manos"], "maestria": "Hostigar"},
+      {"nombre": "Honda", "categoria": "Simple A Distancia", "costo": "1 SP", "peso": "0 lb", "daño": "1d4 Contundente", "propiedades": ["Munición (Alcance 30/120; Bala)"], "maestria": "Ralentizar"},
+      {"nombre": "Hacha de Batalla", "categoria": "Marcial Cuerpo a Cuerpo", "costo": "10 GP", "peso": "4 lb", "daño": "1d8 Cortante", "propiedades": ["Versátil (1d10)"], "maestria": "Derribar"},
+      {"nombre": "Mangual", "categoria": "Marcial Cuerpo a Cuerpo", "costo": "10 GP", "peso": "2 lb", "daño": "1d8 Contundente", "propiedades": [], "maestria": "Drenar"},
+      {"nombre": "Glaive", "categoria": "Marcial Cuerpo a Cuerpo", "costo": "20 GP", "peso": "6 lb", "daño": "1d10 Cortante", "propiedades": ["Pesada", "A Distancia", "Dos Manos"], "maestria": "Rozar"},
+      {"nombre": "Gran Hacha", "categoria": "Marcial Cuerpo a Cuerpo", "costo": "30 GP", "peso": "7 lb", "daño": "1d12 Cortante", "propiedades": ["Pesada", "Dos Manos"], "maestria": "Cortar"},
+      {"nombre": "Espadón", "categoria": "Marcial Cuerpo a Cuerpo", "costo": "50 GP", "peso": "6 lb", "daño": "2d6 Cortante", "propiedades": ["Pesada", "Dos Manos"], "maestria": "Rozar"},
+      {"nombre": "Alabarda", "categoria": "Marcial Cuerpo a Cuerpo", "costo": "20 GP", "peso": "6 lb", "daño": "1d10 Cortante", "propiedades": ["Pesada", "A Distancia", "Dos Manos"], "maestria": "Cortar"},
+      {"nombre": "Lanza de Caballería", "categoria": "Marcial Cuerpo a Cuerpo", "costo": "10 GP", "peso": "6 lb", "daño": "1d10 Perforante", "propiedades": ["Pesada", "A Distancia", "Dos Manos (salvo montado)"], "maestria": "Derribar"},
+      {"nombre": "Espada Larga", "categoria": "Marcial Cuerpo a Cuerpo", "costo": "15 GP", "peso": "3 lb", "daño": "1d8 Cortante", "propiedades": ["Versátil (1d10)"], "maestria": "Drenar"},
+      {"nombre": "Mandoble", "categoria": "Marcial Cuerpo a Cuerpo", "costo": "10 GP", "peso": "10 lb", "daño": "2d6 Contundente", "propiedades": ["Pesada", "Dos Manos"], "maestria": "Derribar"},
+      {"nombre": "Estrella del Alba", "categoria": "Marcial Cuerpo a Cuerpo", "costo": "15 GP", "peso": "4 lb", "daño": "1d8 Perforante", "propiedades": [], "maestria": "Drenar"},
+      {"nombre": "Pica", "categoria": "Marcial Cuerpo a Cuerpo", "costo": "5 GP", "peso": "18 lb", "daño": "1d10 Perforante", "propiedades": ["Pesada", "A Distancia", "Dos Manos"], "maestria": "Empujar"},
+      {"nombre": "Estoque", "categoria": "Marcial Cuerpo a Cuerpo", "costo": "25 GP", "peso": "2 lb", "daño": "1d8 Perforante", "propiedades": ["Sutileza"], "maestria": "Hostigar"},
+      {"nombre": "Cimitarra", "categoria": "Marcial Cuerpo a Cuerpo", "costo": "25 GP", "peso": "3 lb", "daño": "1d6 Cortante", "propiedades": ["Sutileza", "Ligera"], "maestria": "Tajo"},
+      {"nombre": "Espada Corta", "categoria": "Marcial Cuerpo a Cuerpo", "costo": "10 GP", "peso": "2 lb", "daño": "1d6 Perforante", "propiedades": ["Sutileza", "Ligera"], "maestria": "Hostigar"},
+      {"nombre": "Tridente", "categoria": "Marcial Cuerpo a Cuerpo", "costo": "5 GP", "peso": "4 lb", "daño": "1d8 Perforante", "propiedades": ["Arrojadiza (Alcance 20/60)", "Versátil (1d10)"], "maestria": "Derribar"},
+      {"nombre": "Martillo de Guerra", "categoria": "Marcial Cuerpo a Cuerpo", "costo": "15 GP", "peso": "5 lb", "daño": "1d8 Contundente", "propiedades": ["Versátil (1d10)"], "maestria": "Empujar"},
+      {"nombre": "Pico de Guerra", "categoria": "Marcial Cuerpo a Cuerpo", "costo": "5 GP", "peso": "2 lb", "daño": "1d8 Perforante", "propiedades": [], "maestria": "Drenar"},
+      {"nombre": "Látigo", "categoria": "Marcial Cuerpo a Cuerpo", "costo": "2 GP", "peso": "3 lb", "daño": "1d4 Cortante", "propiedades": ["Sutileza", "A Distancia"], "maestria": "Ralentizar"},
+      {"nombre": "Cerbatana", "categoria": "Marcial A Distancia", "costo": "10 GP", "peso": "1 lb", "daño": "1 Perforante", "propiedades": ["Munición (Alcance 25/100; Aguja)", "Recarga"], "maestria": "Hostigar"},
+      {"nombre": "Ballesta de Mano", "categoria": "Marcial A Distancia", "costo": "75 GP", "peso": "3 lb", "daño": "1d6 Perforante", "propiedades": ["Munición (Alcance 30/120; Virote)", "Ligera", "Recarga"], "maestria": "Hostigar"},
+      {"nombre": "Ballesta Pesada", "categoria": "Marcial A Distancia", "costo": "50 GP", "peso": "18 lb", "daño": "1d10 Perforante", "propiedades": ["Munición (Alcance 100/400; Virote)", "Pesada", "Recarga", "Dos Manos"], "maestria": "Empujar"},
+      {"nombre": "Arco Largo", "categoria": "Marcial A Distancia", "costo": "50 GP", "peso": "2 lb", "daño": "1d8 Perforante", "propiedades": ["Munición (Alcance 150/600; Flecha)", "Pesada", "Dos Manos"], "maestria": "Ralentizar"},
+      {"nombre": "Mosquete", "categoria": "Marcial A Distancia", "costo": "500 GP", "peso": "10 lb", "daño": "1d12 Perforante", "propiedades": ["Munición (Alcance 40/120; Bala)", "Recarga", "Dos Manos"], "maestria": "Ralentizar"},
+      {"nombre": "Pistola", "categoria": "Marcial A Distancia", "costo": "250 GP", "peso": "3 lb", "daño": "1d10 Perforante", "propiedades": ["Munición (Alcance 30/90; Bala)", "Recarga"], "maestria": "Hostigar"}
+    ],
+    "referencia_tabla_armas": "[source 63]",
+    "referencia_propiedades": "[sources 24-61]"
+  },
+   "armaduras": {
+    "descripcion": "Protección usada por personajes.",
+    "reglas_entrenamiento": {
+        "Armadura Ligera/Media/Pesada": "Si llevas armadura sin entrenamiento: Desventaja pruebas Fuerza/Destreza, no puedes lanzar conjuros.",
+        "Escudo": "Solo obtienes beneficio CA si tienes entrenamiento."
+    },
+    "regla_una_vez": "Solo 1 conjunto armadura y 1 escudo a la vez.",
+    "variante_tamaños": "DM puede requerir ajustes para equipo encontrado (costo 1d4x10% precio mercado).",
+    "referencia_reglas": "[sources 77-87]",
+    "lista_armaduras": [
+        {"nombre": "Acolchada", "categoria": "Ligera", "tiempo_poner": "1 min", "tiempo_quitar": "1 min", "costo": "5 GP", "peso": "8 lb", "ca_base": 11, "mod_destreza": true, "max_destreza": null, "req_fuerza": null, "sigilo_desv": true},
+        {"nombre": "Cuero", "categoria": "Ligera", "tiempo_poner": "1 min", "tiempo_quitar": "1 min", "costo": "10 GP", "peso": "10 lb", "ca_base": 11, "mod_destreza": true, "max_destreza": null, "req_fuerza": null, "sigilo_desv": false},
+        {"nombre": "Cuero Tachonado", "categoria": "Ligera", "tiempo_poner": "1 min", "tiempo_quitar": "1 min", "costo": "45 GP", "peso": "13 lb", "ca_base": 12, "mod_destreza": true, "max_destreza": null, "req_fuerza": null, "sigilo_desv": false},
+        {"nombre": "Pieles", "categoria": "Media", "tiempo_poner": "5 min", "tiempo_quitar": "1 min", "costo": "10 GP", "peso": "12 lb", "ca_base": 12, "mod_destreza": true, "max_destreza": 2, "req_fuerza": null, "sigilo_desv": false},
+        {"nombre": "Cota de Malla", "categoria": "Media", "tiempo_poner": "5 min", "tiempo_quitar": "1 min", "costo": "50 GP", "peso": "20 lb", "ca_base": 13, "mod_destreza": true, "max_destreza": 2, "req_fuerza": null, "sigilo_desv": false},
+        {"nombre": "Escamas", "categoria": "Media", "tiempo_poner": "5 min", "tiempo_quitar": "1 min", "costo": "50 GP", "peso": "45 lb", "ca_base": 14, "mod_destreza": true, "max_destreza": 2, "req_fuerza": null, "sigilo_desv": true},
+        {"nombre": "Coraza", "categoria": "Media", "tiempo_poner": "5 min", "tiempo_quitar": "1 min", "costo": "400 GP", "peso": "20 lb", "ca_base": 14, "mod_destreza": true, "max_destreza": 2, "req_fuerza": null, "sigilo_desv": false},
+        {"nombre": "Media Armadura", "categoria": "Media", "tiempo_poner": "5 min", "tiempo_quitar": "1 min", "costo": "750 GP", "peso": "40 lb", "ca_base": 15, "mod_destreza": true, "max_destreza": 2, "req_fuerza": null, "sigilo_desv": true},
+        {"nombre": "Anillos", "categoria": "Pesada", "tiempo_poner": "10 min", "tiempo_quitar": "5 min", "costo": "30 GP", "peso": "40 lb", "ca_base": 14, "mod_destreza": false, "max_destreza": null, "req_fuerza": null, "sigilo_desv": true},
+        {"nombre": "Cota de Mallas Completa", "categoria": "Pesada", "tiempo_poner": "10 min", "tiempo_quitar": "5 min", "costo": "75 GP", "peso": "55 lb", "ca_base": 16, "mod_destreza": false, "max_destreza": null, "req_fuerza": 13, "sigilo_desv": true},
+        {"nombre": "Bandas", "categoria": "Pesada", "tiempo_poner": "10 min", "tiempo_quitar": "5 min", "costo": "200 GP", "peso": "60 lb", "ca_base": 17, "mod_destreza": false, "max_destreza": null, "req_fuerza": 15, "sigilo_desv": true},
+        {"nombre": "Placas", "categoria": "Pesada", "tiempo_poner": "10 min", "tiempo_quitar": "5 min", "costo": "1500 GP", "peso": "65 lb", "ca_base": 18, "mod_destreza": false, "max_destreza": null, "req_fuerza": 15, "sigilo_desv": true},
+        {"nombre": "Escudo", "categoria": "Escudo", "tiempo_poner": "1 acción", "tiempo_quitar": "1 acción", "costo": "10 GP", "peso": "6 lb", "ca_base": 0, "mod_destreza": false, "max_destreza": null, "req_fuerza": null, "sigilo_desv": false, "ca_bono": "+2"}
+    ],
+    "referencia_tabla_armaduras": "[source 69]",
+    "referencia_general": "[sources 68-87]"
+  },
+  "herramientas": {
+     "descripcion": "Ayudan en chequeos habilidad especializados o fabricar objetos.",
+     "reglas_competencia": "Si competente, añade Bono Comp. a chequeo habilidad usando herramienta. Si competente en habilidad Y herramienta, Ventaja en chequeo.",
+     "referencia_reglas": "[sources 88-98]",
+     "herramientas_artesano": [
+       {"nombre": "Suministros de Alquimista", "costo": "50 GP", "peso": "8 lb", "habilidad": "Inteligencia", "utilizar": [{"accion": "Identificar sustancia", "cd": 15}, {"accion": "Iniciar fuego", "cd": 15}], "fabricar": ["Ácido", "Fuego Alquimista", "Bolsa Componentes", "Aceite", "Papel", "Perfume"], "referencia": "[source 100]"},
+       {"nombre": "Suministros de Cervecero", "costo": "20 GP", "peso": "9 lb", "habilidad": "Inteligencia", "utilizar": [{"accion": "Detectar bebida envenenada", "cd": 15}, {"accion": "Identificar alcohol", "cd": 10}], "fabricar": ["Antitoxina"], "referencia": "[source 100]"},
+       {"nombre": "Suministros de Caligrafía", "costo": "10 GP", "peso": "5 lb", "habilidad": "Destreza", "utilizar": [{"accion": "Escribir texto adornado (anti-falsificación)", "cd": 15}], "fabricar": ["Tinta", "Pergamino Hechizo"], "referencia": "[source 100]"},
+       {"nombre": "Herramientas de Carpintero", "costo": "8 GP", "peso": "6 lb", "habilidad": "Fuerza", "utilizar": [{"accion": "Sellar/abrir puerta/contenedor", "cd": 20}], "fabricar": ["Garrote", "Gran Garrote", "Bastón", "Barril", "Cofre", "Escalera", "Poste", "Ariete Portátil", "Antorcha"], "referencia": "[sources 100-101]"},
+       {"nombre": "Herramientas de Cartógrafo", "costo": "15 GP", "peso": "6 lb", "habilidad": "Sabiduría", "utilizar": [{"accion": "Trazar mapa área pequeña", "cd": 15}], "fabricar": ["Mapa"], "referencia": "[source 101]"},
+       {"nombre": "Herramientas de Zapatero", "costo": "5 GP", "peso": "5 lb", "habilidad": "Destreza", "utilizar": [{"accion": "Modificar calzado (Ventaja sig. prueba Des(Acrobacias))", "cd": 10}], "fabricar": ["Equipo Escalada"], "referencia": "[source 101]"},
+       {"nombre": "Utensilios de Cocina", "costo": "1 GP", "peso": "8 lb", "habilidad": "Sabiduría", "utilizar": [{"accion": "Mejorar sabor comida", "cd": 10}, {"accion": "Detectar comida echada a perder/envenenada", "cd": 15}], "fabricar": ["Raciones"], "referencia": "[source 101]"},
+       {"nombre": "Herramientas de Vidriero", "costo": "30 GP", "peso": "5 lb", "habilidad": "Inteligencia", "utilizar": [{"accion": "Discernir quién sostuvo objeto vidrio (últimas 24h)", "cd": 15}], "fabricar": ["Botella Vidrio", "Lupa", "Catalejo", "Vial"], "referencia": "[source 101]"},
+       {"nombre": "Herramientas de Joyero", "costo": "25 GP", "peso": "2 lb", "habilidad": "Inteligencia", "utilizar": [{"accion": "Discernir valor gema", "cd": 15}], "fabricar": ["Foco Arcano", "Símbolo Sagrado"], "referencia": "[source 102]"},
+       {"nombre": "Herramientas de Curtidor", "costo": "5 GP", "peso": "5 lb", "habilidad": "Destreza", "utilizar": [{"accion": "Agregar diseño objeto cuero", "cd": 10}], "fabricar": ["Honda", "Látigo", "Armadura Piel", "Armadura Cuero", "Armadura Cuero Tachonado", "Mochila", "Caja Flechas Ballesta", "Caja Mapa/Pergamino", "Pergamino", "Bolsa", "Aljaba", "Cantimplora"], "referencia": "[source 102]"},
+       {"nombre": "Herramientas de Albañil", "costo": "10 GP", "peso": "8 lb", "habilidad": "Fuerza", "utilizar": [{"accion": "Cincelar símbolo/agujero piedra", "cd": 10}], "fabricar": ["Bloqueo y Polea"], "referencia": "[source 103]"},
+       {"nombre": "Suministros de Pintura", "costo": "10 GP", "peso": "5 lb", "habilidad": "Sabiduría", "utilizar": [{"accion": "Pintar imagen reconocible", "cd": 10}], "fabricar": ["Foco Druídico", "Símbolo Sagrado"], "referencia": "[source 103]"},
+       {"nombre": "Herramientas de Alfarero", "costo": "10 GP", "peso": "3 lb", "habilidad": "Inteligencia", "utilizar": [{"accion": "Discernir quién sostuvo objeto cerámica (últimas 24h)", "cd": 15}], "fabricar": ["Jarra", "Lámpara"], "referencia": "[source 103]"},
+       {"nombre": "Herramientas de Herrero", "costo": "20 GP", "peso": "8 lb", "habilidad": "Fuerza", "utilizar": [{"accion": "Forzar apertura puerta/contenedor", "cd": 20}], "fabricar": ["Arma CC (no Garrote/Gran G/Bastón/Látigo)", "Armadura Media (no Piel)", "Armadura Pesada", "Bolas Acero", "Cubo", "Caltrops", "Cadena", "Barra Hierro", "Balas Arma Fuego", "Garfio Escalada", "Olla Hierro", "Clavos Hierro", "Balas Honda"], "referencia": "[sources 103-104]"},
+       {"nombre": "Herramientas de Inventor", "costo": "50 GP", "peso": "10 lb", "habilidad": "Destreza", "utilizar": [{"accion": "Ensamblar objeto Pequeño (chatarra, dura 1 min)", "cd": 20}], "fabricar": ["Mosquete", "Pistola", "Campana", "Linterna Punto", "Frasco", "Linterna Capucha", "Trampa Caza", "Cerradura", "Esposas", "Espejo", "Pala", "Silbato Señal", "Caja Fósforos"], "referencia": "[source 104]"},
+       {"nombre": "Herramientas de Tejedor", "costo": "1 GP", "peso": "5 lb", "habilidad": "Destreza", "utilizar": [{"accion": "Remendar desgarro ropa", "cd": 10}, {"accion": "Coser diseño Pequeño", "cd": 10}], "fabricar": ["Armadura Acolchada", "Cesta", "Colchoneta", "Manta", "Ropa Fina", "Red", "Túnica", "Cuerda", "Saco", "Cordón", "Tienda", "Ropa Viajero"], "referencia": "[source 104]"},
+       {"nombre": "Herramientas de Escultor de Madera", "costo": "1 GP", "peso": "5 lb", "habilidad": "Destreza", "utilizar": [{"accion": "Tallar patrón madera", "cd": 10}], "fabricar": ["Garrote", "Gran Garrote", "Bastón", "Armas Distancia (no Pistola/Mosquete/Honda)", "Foco Arcano", "Flechas", "Ballestas", "Foco Druídico", "Pluma Tinta", "Agujas"], "referencia": "[source 105]"}
+     ],
+     "otras_herramientas": [
+       {"nombre": "Kit de Disfraz", "costo": "25 GP", "peso": "3 lb", "habilidad": "Carisma", "utilizar": [{"accion": "Aplicar maquillaje", "cd": 10}], "fabricar": ["Disfraz"], "referencia": "[source 105]"},
+       {"nombre": "Kit de Falsificación", "costo": "15 GP", "peso": "5 lb", "habilidad": "Destreza", "utilizar": [{"accion": "Imitar <=10 palabras escritura", "cd": 15}, {"accion": "Duplicar sello cera", "cd": 20}], "fabricar": [], "referencia": "[source 105]"},
+       {"nombre": "Set de Juego", "costo": "Varía", "peso": "0.5 lb", "habilidad": "Sabiduría", "utilizar": [{"accion": "Discernir si alguien hace trampa", "cd": 10}, {"accion": "Ganar juego", "cd": 20}], "fabricar": [], "variantes": [{"nombre": "Dados", "costo": "1 SP"}, {"nombre": "Ajedrez Dragones", "costo": "1 GP"}, {"nombre": "Cartas", "costo": "5 SP"}, {"nombre": "Tres Dragones", "costo": "1 GP"}], "referencia": "[sources 105-106]"},
+       {"nombre": "Kit de Herbalismo", "costo": "5 GP", "peso": "3 lb", "habilidad": "Inteligencia", "utilizar": [{"accion": "Identificar planta", "cd": 10}], "fabricar": ["Antitoxina", "Vela", "Kit Sanador", "Poción Curación"], "referencia": "[source 106]"},
+       {"nombre": "Instrumento Musical", "costo": "Varía", "peso": "Varía", "habilidad": "Carisma", "utilizar": [{"accion": "Tocar melodía conocida", "cd": 10}, {"accion": "Improvisar canción", "cd": 15}], "fabricar": [], "variantes": [{"nombre": "Gaita", "costo": "30 GP", "peso": "6 lb"}, {"nombre": "Tambor", "costo": "6 CP", "peso": "3 lb"}, {"nombre": "Dulzaina", "costo": "25 GP", "peso": "10 lb"}, {"nombre": "Flauta", "costo": "2 GP", "peso": "1 lb"}, {"nombre": "Trompeta", "costo": "3 GP", "peso": "2 lb"}, {"nombre": "Laúd", "costo": "35 GP", "peso": "2 lb"}, {"nombre": "Lira", "costo": "30 GP", "peso": "2 lb"}, {"nombre": "Panfluta", "costo": "12 GP", "peso": "2 lb"}, {"nombre": "Shawms", "costo": "2 GP", "peso": "1 lb"}, {"nombre": "Viola", "costo": "30 GP", "peso": "1 lb"}], "referencia": "[source 106]"},
+       {"nombre": "Herramientas del Navegante", "costo": "25 GP", "peso": "2 lb", "habilidad": "Sabiduría", "utilizar": [{"accion": "Trazar ruta", "cd": 10}, {"accion": "Determinar posición (estrellas)", "cd": 15}], "fabricar": [], "referencia": "[sources 106-107]"},
+       {"nombre": "Kit de Veneno", "costo": "50 GP", "peso": "2 lb", "habilidad": "Inteligencia", "utilizar": [{"accion": "Detectar objeto envenenado", "cd": 10}], "fabricar": ["Veneno Básico"], "referencia": "[source 107]"},
+       {"nombre": "Herramientas de Ladrones", "costo": "25 GP", "peso": "1 lb", "habilidad": "Destreza", "utilizar": [{"accion": "Forzar cerradura", "cd": 15}, {"accion": "Desactivar trampa", "cd": 15}], "fabricar": [], "referencia": "[source 107]"}
+     ],
+     "referencia_general": "[sources 88-107]"
+  },
+  "equipo_aventurero": [
+      {"nombre": "Ácido", "costo": "25 GP", "peso": "1 lb", "descripcion": "Reemplaza 1 ataque (Acción Ataque) para lanzar frasco. Elige objetivo a 20 pies. TS Destreza (CD 8+Mod Des+Bono Comp) vs 2d6 daño Ácido.", "referencia": "[sources 110-112]"},
+      {"nombre": "Fuego de Alquimista", "costo": "50 GP", "peso": "1 lb", "descripcion": "Reemplaza 1 ataque (Acción Ataque) para lanzar frasco. Elige objetivo a 20 pies. TS Destreza (CD 8+Mod Des+Bono Comp) vs 1d4 daño Fuego + Ardiendo.", "referencia": "[sources 113-115]"},
+      {"nombre": "Munición: Flechas", "costo": "1 GP", "peso": "1 lb", "cantidad": 20, "almacenamiento": "Carcaj", "referencia": "[source 120]"},
+      {"nombre": "Munición: Virolas", "costo": "1 GP", "peso": "1.5 lb", "cantidad": 20, "almacenamiento": "Estuche", "referencia": "[source 120]"},
+      {"nombre": "Munición: Balas, Arma Fuego", "costo": "3 GP", "peso": "2 lb", "cantidad": 10, "almacenamiento": "Bolsa", "referencia": "[source 120]"},
+      {"nombre": "Munición: Balas, Honda", "costo": "4 CP", "peso": "1.5 lb", "cantidad": 20, "almacenamiento": "Bolsa", "referencia": "[source 120]"},
+      {"nombre": "Munición: Agujas", "costo": "1 GP", "peso": "1 lb", "cantidad": 50, "almacenamiento": "Bolsa", "referencia": "[source 120]"},
+      {"nombre": "Antitoxina", "costo": "50 GP", "peso": "0.5 lb", "descripcion": "Acción Adicional beber frasco. Ventaja TS vs condición Envenenado durante 1 hora.", "referencia": "[source 121]"},
+      {"nombre": "Mochila", "costo": "2 GP", "peso": "5 lb", "descripcion": "Puede contener 1 pie cúbico / 30 libras."},
+      {"nombre": "Bolas de Rodamiento", "costo": "1 GP", "peso": "2 lb", "descripcion": "Bolsa de 1,000. Acción para cubrir cuadrado 10 pies. Criatura moviéndose debe superar TS Des CD 10 o Caído. Criatura moviéndose mitad velocidad no necesita TS."},
+      {"nombre": "Barril", "costo": "2 GP", "peso": "70 lb", "descripcion": "Capacidad 40 galones líquido / 4 pies cúbicos sólido."},
+      {"nombre": "Cesta", "costo": "4 SP", "peso": "2 lb", "descripcion": "Capacidad 2 pies cúbicos / 40 libras."},
+      {"nombre": "Colchoneta", "costo": "1 SP", "peso": "7 lb"},
+      {"nombre": "Campana", "costo": "1 GP", "peso": "-"},
+      {"nombre": "Manta", "costo": "5 SP", "peso": "3 lb"},
+      {"nombre": "Bloqueo y Polea", "costo": "1 GP", "peso": "5 lb", "descripcion": "Polipasto. Ventaja pruebas Fuerza para levantar/tirar peso."},
+      {"nombre": "Libro", "costo": "25 GP", "peso": "5 lb", "descripcion": "Puede contener escritura/dibujos. Vacío tiene 100 págs pergamino."},
+      {"nombre": "Botella de Vidrio", "costo": "2 GP", "peso": "2 lb", "descripcion": "Capacidad 1.5 pintas líquido."},
+      {"nombre": "Cubo", "costo": "5 CP", "peso": "2 lb", "descripcion": "Capacidad 3 galones líquido / 0.5 pie cúbico sólido."},
+      {"nombre": "Caltrops", "costo": "1 GP", "peso": "2 lb", "descripcion": "Bolsa de 20. Acción para cubrir cuadrado 5 pies. Criatura entrando/iniciando turno debe reducir velocidad mitad O recibir 1 daño perforante (velocidad -10 pies hasta curar)."},
+      {"nombre": "Vela", "costo": "1 CP", "peso": "-", "descripcion": "Luz brillante 5 pies, tenue +5 pies. Dura 1 hora."},
+      {"nombre": "Estuche, Virotes Ballesta", "costo": "1 GP", "peso": "1 lb", "descripcion": "Contiene hasta 20 virotes."},
+      {"nombre": "Estuche, Mapa o Pergamino", "costo": "1 GP", "peso": "1 lb", "descripcion": "Contiene hasta 10 papeles/pergaminos enrollados."},
+      {"nombre": "Cadena", "costo": "5 GP", "peso": "10 lb", "descripcion": "10 pies. Criatura puede romper (prueba Fue CD 20)."},
+      {"nombre": "Cofre", "costo": "5 GP", "peso": "25 lb", "descripcion": "Capacidad 12 pies cúbicos / 300 libras."},
+      {"nombre": "Equipo Escalada", "costo": "25 GP", "peso": "12 lb", "descripcion": "Incluye clavos especiales, botas, guantes, arnés. Ventaja pruebas Fue(Atletismo) / Des(Acrobacias) para escalar."},
+      {"nombre": "Ropa, Común", "costo": "5 SP", "peso": "3 lb"},
+      {"nombre": "Ropa, Disfraz", "costo": "5 GP", "peso": "4 lb"},
+      {"nombre": "Ropa, Fina", "costo": "15 GP", "peso": "6 lb"},
+      {"nombre": "Ropa, Viajero", "costo": "2 GP", "peso": "4 lb"},
+      {"nombre": "Bolsa Componentes", "costo": "25 GP", "peso": "2 lb", "descripcion": "Contiene componentes materiales sin coste para conjuros."},
+      {"nombre": "Barra Hierro", "costo": "2 GP", "peso": "5 lb", "descripcion": "Ventaja pruebas Fuerza para forzar."},
+      {"nombre": "Frasco/Tankard", "costo": "2 CP", "peso": "1 lb"},
+      {"nombre": "Garfio Escalada", "costo": "2 GP", "peso": "4 lb"},
+      {"nombre": "Martillo", "costo": "1 GP", "peso": "3 lb"},
+      {"nombre": "Martillo, Mazo", "costo": "2 GP", "peso": "10 lb"},
+      {"nombre": "Kit Sanador", "costo": "5 GP", "peso": "3 lb", "descripcion": "10 usos. Acción usar 1 uso para estabilizar criatura 0 PG."},
+      {"nombre": "Símbolo Sagrado: Amuleto", "costo": "5 GP", "peso": "1 lb"},
+      {"nombre": "Símbolo Sagrado: Emblema", "costo": "5 GP", "peso": "-"},
+      {"nombre": "Símbolo Sagrado: Relicario", "costo": "5 GP", "peso": "2 lb"},
+      {"nombre": "Agua Bendita", "costo": "25 GP", "peso": "1 lb", "descripcion": "Acción lanzar a criatura a 5 pies / espacio 5 pies a 20 pies. Impacto = ataque distancia improvisado. Vs Demonio/No Muerto: 2d6 radiante. Clérigo/Paladín puede crear (ritual 1h, 25 PO materiales)."},
+      {"nombre": "Reloj Arena", "costo": "25 GP", "peso": "1 lb"},
+      {"nombre": "Trampa Caza", "costo": "5 GP", "peso": "25 lb", "descripcion": "Acción para poner. TS Des CD 13 vs 1d4 perf.+ parar mov. Liberar = prueba Fue CD 13."},
+      {"nombre": "Tinta (botella 1 onza)", "costo": "10 GP", "peso": "-"},
+      {"nombre": "Pluma Tinta", "costo": "2 CP", "peso": "-"},
+      {"nombre": "Jarra/Pitcher", "costo": "2 CP", "peso": "4 lb"},
+      {"nombre": "Escalera (10 pies)", "costo": "1 SP", "peso": "25 lb"},
+      {"nombre": "Lámpara", "costo": "5 SP", "peso": "1 lb", "descripcion": "Luz brillante 15 pies, tenue +30 pies. Dura 6h con 1 pinta aceite."},
+      {"nombre": "Linterna, Ojo Buey", "costo": "10 GP", "peso": "2 lb", "descripcion": "Cono 60 pies brillante, +60 pies tenue. Dura 6h con 1 pinta aceite."},
+      {"nombre": "Linterna, Capucha", "costo": "5 GP", "peso": "2 lb", "descripcion": "Luz brillante 30 pies, tenue +30 pies. Dura 6h con 1 pinta aceite. Acción para reducir a tenue 5 pies."},
+      {"nombre": "Cerradura", "costo": "10 GP", "peso": "1 lb", "descripcion": "Abrir sin llave = Herramientas Ladrón + prueba Des CD 15."},
+      {"nombre": "Lupa", "costo": "100 GP", "peso": "1 lb", "descripcion": "Ventaja pruebas Int(Investigación) / Sab(Percepción) para objetos pequeños/detallados."},
+      {"nombre": "Esposas", "costo": "2 GP", "peso": "6 lb", "descripcion": "Inmovilizan criatura. Escapar = prueba Des CD 20. Romper = prueba Fue CD 20. CA 15, 10 PG, inmune veneno/psíquico."},
+      {"nombre": "Kit Comida", "costo": "2 SP", "peso": "1 lb", "descripcion": "Plato, cubiertos, copa."},
+      {"nombre": "Espejo, Acero", "costo": "5 GP", "peso": "0.5 lb"},
+      {"nombre": "Aceite (frasco)", "costo": "1 SP", "peso": "1 lb", "descripcion": "Acción lanzar a 5 pies / arrojar 20 pies. Impacto = ataque distancia improvisado. Cubre criatura/espacio 5 pies. Si objetivo/espacio recibe daño fuego, arde 1 min (1d4 fuego/turno). Criatura usa acción para TS Des CD 10 apagar. 1 pinta llena linterna."},
+      {"nombre": "Papel (1 hoja)", "costo": "2 SP", "peso": "-"},
+      {"nombre": "Pergamino (1 hoja)", "costo": "1 SP", "peso": "-"},
+      {"nombre": "Perfume (vial)", "costo": "5 GP", "peso": "-"},
+      {"nombre": "Pico, Minero", "costo": "2 GP", "peso": "10 lb"},
+      {"nombre": "Piton", "costo": "5 CP", "peso": "0.25 lb"},
+      {"nombre": "Veneno, Básico (vial)", "costo": "100 GP", "peso": "-", "descripcion": "Acción aplicar a arma/munición. Potencia 1 min/impacto. Criatura impactada: TS Con CD 10 vs 1d4 veneno."},
+      {"nombre": "Poste (10 pies)", "costo": "5 CP", "peso": "7 lb"},
+      {"nombre": "Olla, Hierro", "costo": "2 GP", "peso": "10 lb"},
+      {"nombre": "Poción Curación", "costo": "50 GP", "peso": "0.5 lb", "descripcion": "Beber/administrar = Acción. Recupera 2d4+2 PG."},
+      {"nombre": "Bolsa", "costo": "5 SP", "peso": "1 lb", "descripcion": "Capacidad 1/5 pie cúbico / 6 libras."},
+      {"nombre": "Carcaj", "costo": "1 GP", "peso": "1 lb", "descripcion": "Contiene hasta 20 flechas."},
+      {"nombre": "Ariete, Portátil", "costo": "4 GP", "peso": "35 lb", "descripcion": "Ventaja pruebas Fuerza para romper puertas."},
+      {"nombre": "Raciones (1 día)", "costo": "5 SP", "peso": "2 lb"},
+      {"nombre": "Túnica", "costo": "1 GP", "peso": "4 lb"},
+      {"nombre": "Cuerda, Cáñamo (50 pies)", "costo": "1 GP", "peso": "10 lb"},
+      {"nombre": "Cuerda, Seda (50 pies)", "costo": "10 GP", "peso": "5 lb"},
+      {"nombre": "Saco", "costo": "1 CP", "peso": "0.5 lb"},
+      {"nombre": "Báscula, Mercader", "costo": "5 GP", "peso": "3 lb", "descripcion": "Incluye pesos hasta 2 lbs."},
+      {"nombre": "Cera Sellado", "costo": "5 SP", "peso": "-"},
+      {"nombre": "Pala", "costo": "2 GP", "peso": "5 lb"},
+      {"nombre": "Silbato Señal", "costo": "5 CP", "peso": "-"},
+      {"nombre": "Anillo Sello", "costo": "5 GP", "peso": "-"},
+      {"nombre": "Saco Dormir", "costo": "1 GP", "peso": "7 lb"},
+      {"nombre": "Libro Conjuros", "costo": "50 GP", "peso": "3 lb", "descripcion": "100 págs pergamino blanco."},
+      {"nombre": "Clavos, Hierro (10)", "costo": "1 GP", "peso": "5 lb"},
+      {"nombre": "Catalejo", "costo": "1000 GP", "peso": "1 lb", "descripcion": "Magnifica objetos x2."},
+      {"nombre": "Tienda, Dos Personas", "costo": "2 GP", "peso": "20 lb"},
+      {"nombre": "Caja Yesca", "costo": "5 SP", "peso": "1 lb", "descripcion": "Contiene pedernal, acero, yesca. Acción encender vela/antorcha/fuego."},
+      {"nombre": "Antorcha", "costo": "1 CP", "peso": "1 lb", "descripcion": "Luz brillante 20 pies, tenue +20 pies. Dura 1 hora."},
+      {"nombre": "Vial", "costo": "1 GP", "peso": "-", "descripcion": "Capacidad 4 onzas líquido."},
+      {"nombre": "Cantimplora", "costo": "2 SP", "peso": "5 lb (llena)"},
+      {"nombre": "Piedra Afilar", "costo": "1 CP", "peso": "1 lb"}
+  ],
+  "referencia_equipo_aventurero": "[sources 108-121]"
+}

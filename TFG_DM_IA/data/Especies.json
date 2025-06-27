@@ -1,0 +1,335 @@
+{
+  "fuente_documento": "Especies.pdf",
+  "tipo_dataset": "Especies de Personaje",
+  "descripcion_general": "Rasgos de juego que un aventurero obtiene por ser miembro de una forma de vida sapiente del multiverso.",
+  "referencia_reglas": "[sources 10-18]",
+  "especies": [
+    {
+      "nombre": "Aasimar",
+      "descripcion": "Mortales con una chispa celestial, descendientes de ángeles o imbuidos de poder celestial. Viven hasta 160 años, con rasgos sutiles (pecas metálicas, ojos luminosos, halo) que se manifiestan más al usar su poder.",
+      "referencia_descripcion": "[sources 2-5]",
+      "tipo_criatura": "Humanoide",
+      "tamaño": "Mediano (4-7 pies) o Pequeño (2-4 pies), a elección",
+      "velocidad": "30 pies",
+      "esperanza_vida": "160 años",
+      "rasgos_especiales": [
+        {
+          "nombre": "Resistencia Celestial",
+          "descripcion": "Resistencia al daño Necrótico y al daño Radiante.",
+          "referencia": "[source 7]"
+        },
+        {
+          "nombre": "Visión en la Oscuridad",
+          "descripcion": "Alcance de 60 pies.",
+          "referencia": "[source 8]"
+        },
+        {
+          "nombre": "Manos Sanadoras",
+          "descripcion": "Acción Mágica, tocas a una criatura, lanzas d4s = Bono Comp. Recupera PG = total. 1 uso/Descanso Largo.",
+          "referencia": "[sources 9-11]"
+        },
+        {
+          "nombre": "Portador de Luz",
+          "descripcion": "Conoces el truco Luz (Carisma es habilidad).",
+          "referencia": "[sources 11-12]"
+        },
+        {
+          "nombre": "Revelación Celestial",
+          "nivel_requerido": 3,
+          "descripcion": "Acción Adicional, transforma 1 min (elige opción). 1 uso/Descanso Largo. 1/turno causa daño extra = Bono Comp. al dañar con ataque/conjuro.",
+          "opciones_transformacion": [
+            {
+              "nombre": "Alas Celestiales",
+              "efecto": "Alas espectrales brotan. Vel. Vuelo = tu Velocidad. Daño extra Radiante.",
+              "referencia": "[source 18-19]"
+            },
+            {
+              "nombre": "Resplandor Interior",
+              "efecto": "Luz irradia. Luz Brillante 10 pies / Tenue +10 pies. Fin de turno, criaturas a 10 pies reciben daño Radiante = Bono Comp. Daño extra Radiante.",
+              "referencia": "[sources 20-21]"
+            },
+            {
+              "nombre": "Manto Necrótico",
+              "efecto": "Ojos oscuros, alas no voladoras. Criaturas no aliadas a 10 pies TS Carisma (CD 8 + Mod Car + Bono Comp) o Aterrorizado hasta fin tu sig. turno. Daño extra Necrótico.",
+              "referencia": "[sources 22-23]"
+            }
+          ],
+          "referencia": "[sources 13-17]"
+        }
+      ],
+      "referencia": "[sources 2-23]"
+    },
+    {
+      "nombre": "Dracónido",
+      "descripcion": "Descendientes de dragones cromáticos y metálicos. Se asemejan a dragones bípedos sin alas, con escamas y cuernos.",
+      "referencia_descripcion": "[sources 24-29]",
+      "tipo_criatura": "Humanoide",
+      "tamaño": "Mediano (5-7 pies)",
+      "velocidad": "30 pies",
+      "rasgos_especiales": [
+        {
+          "nombre": "Ascendencia Dracónica",
+          "descripcion": "Elige tipo dragón (tabla). Afecta Arma Aliento, Resistencia Daño, apariencia.",
+          "tabla_ascendencia": {
+            "Negro": "Ácido", "Azul": "Relámpago", "Latón": "Fuego", "Bronce": "Relámpago", "Cobre": "Ácido",
+            "Oro": "Fuego", "Verde": "Veneno", "Rojo": "Fuego", "Plata": "Frío", "Blanco": "Frío"
+          },
+          "referencia": "[sources 29-32]"
+        },
+        {
+          "nombre": "Arma de Aliento",
+          "descripcion": "Reemplaza 1 ataque (Acción Ataque). Exhala Cono 15 pies O Línea 30x5 pies. Criaturas TS Destreza (CD 8+Mod Con+Bono Comp). Fallo: 1d10 daño (tipo Ascendencia). Éxito: mitad. Escala: 2d10(N5), 3d10(N11), 4d10(N17). Usos = Bono Comp./Descanso Largo.",
+          "referencia": "[sources 33-37]"
+        },
+        {
+          "nombre": "Resistencia al Daño",
+          "descripcion": "Resistencia al tipo de daño de Ascendencia Dracónica.",
+          "referencia": "[source 38]"
+        },
+        {
+          "nombre": "Visión en la Oscuridad",
+          "descripcion": "Alcance de 60 pies.",
+          "referencia": "[source 39]"
+        },
+        {
+          "nombre": "Vuelo Dracónico",
+          "nivel_requerido": 5,
+          "descripcion": "Acción Adicional, alas espectrales (10 min/retraer/Incapacitado). Vel. Vuelo = tu Velocidad. 1 uso/Descanso Largo.",
+          "referencia": "[sources 40-44]"
+        }
+      ],
+      "referencia": "[sources 24-44]"
+    },
+     {
+      "nombre": "Enano",
+      "descripcion": "Creados por un dios de la forja, afines a piedra y metal, resistentes. Suelen vivir bajo tierra. Leyendas de luchas contra gigantes y monstruos subterráneos.",
+      "referencia_descripcion": "[sources 45-52]",
+      "tipo_criatura": "Humanoide",
+      "tamaño": "Mediano (4-5 pies)",
+      "velocidad": "30 pies",
+      "esperanza_vida": "350 años",
+      "rasgos_especiales": [
+        {
+          "nombre": "Visión en la Oscuridad",
+          "descripcion": "Alcance de 120 pies.",
+          "referencia": "[source 53]"
+        },
+        {
+          "nombre": "Resiliencia Enana",
+          "descripcion": "Resistencia daño Veneno. Ventaja en TS vs condición Envenenado.",
+          "referencia": "[sources 53-54]"
+        },
+        {
+          "nombre": "Robustez Enana",
+          "descripcion": "PG máx +1, +1 adicional por nivel.",
+          "referencia": "[source 55]"
+        },
+        {
+          "nombre": "Afinidad con la Piedra",
+          "descripcion": "Acción Adicional, Sentido Temblor 60 pies (10 min). Debes tocar/estar en superficie piedra. Usos = Bono Comp./Descanso Largo.",
+          "referencia": "[sources 56-58]"
+        }
+      ],
+      "referencia": "[sources 45-58]"
+    },
+     {
+      "nombre": "Elfo",
+      "descripcion": "Creados por Corellon, perdieron cambio de forma por traición de Lolth. Viven 750 años, no duermen (trance 4h). Entornos los transforman sutilmente (Drow, Altos, Bosque).",
+      "referencia_descripcion": "[sources 59-77]",
+      "tipo_criatura": "Humanoide",
+      "tamaño": "Mediano (5-6 pies)",
+      "velocidad": "30 pies",
+      "esperanza_vida": "750 años",
+      "rasgos_especiales": [
+        {
+          "nombre": "Visión en la Oscuridad",
+          "descripcion": "Alcance de 60 pies.",
+          "referencia": "[source 81]"
+        },
+        {
+          "nombre": "Linaje Élfico",
+          "descripcion": "Elige linaje (Drow, Alto, Bosque). Ganas beneficio N1. Aprendes conjuro N3 y N5 (preparado, 1/DL sin espacio O usa espacios). Elige Int/Sab/Car como habilidad conjuración.",
+          "tabla_linajes": [
+              {"linaje": "Drow", "nivel_1": "Visión Oscuridad 120 pies. Conoces truco Luces Danzantes.", "nivel_3": "Faerie Fire", "nivel_5": "Darkness"},
+              {"linaje": "Alto Elfo", "nivel_1": "Conoces truco Prestidigitación. Puedes reemplazarlo con otro truco Mago en Descanso Largo.", "nivel_3": "Detectar Magia", "nivel_5": "Paso Brumoso"},
+              {"linaje": "Elfo del Bosque", "nivel_1": "Velocidad 35 pies. Conoces truco Druidcraft.", "nivel_3": "Longstrider", "nivel_5": "Pass without Trace"}
+          ],
+          "referencia": "[sources 82-86, 92]"
+        },
+        {
+          "nombre": "Ascendencia Fey",
+          "descripcion": "Ventaja en TS vs condición Encantado.",
+          "referencia": "[source 87]"
+        },
+        {
+          "nombre": "Sentidos Agudos",
+          "descripcion": "Competencia en Perspicacia, Percepción o Supervivencia (elige 1).",
+          "referencia": "[source 88]"
+        },
+        {
+          "nombre": "Trance",
+          "descripcion": "No necesitas dormir, inmune a sueño mágico. Descanso Largo 4h meditación consciente.",
+          "referencia": "[sources 89-90]"
+        }
+      ],
+      "referencia": "[sources 59-92]"
+    },
+    {
+      "nombre": "Gnomo",
+      "descripcion": "Seres mágicos pequeños creados por dioses de invención/ilusión. Astutos, viven en bosques/madrigueras. Viven 425 años.",
+      "referencia_descripcion": "[sources 93-99]",
+      "tipo_criatura": "Humanoide",
+      "tamaño": "Pequeño (3-4 pies)",
+      "velocidad": "30 pies",
+      "esperanza_vida": "425 años",
+      "rasgos_especiales": [
+        {
+          "nombre": "Visión en la Oscuridad",
+          "descripcion": "Alcance de 60 pies.",
+          "referencia": "[source 101]"
+        },
+        {
+          "nombre": "Astucia Gnómica",
+          "descripcion": "Ventaja en TS Inteligencia, Sabiduría, Carisma.",
+          "referencia": "[source 102]"
+        },
+        {
+          "nombre": "Ascendencia Gnómica",
+          "descripcion": "Elige linaje (Bosque o Roca). Elige Int/Sab/Car como habilidad conjuración.",
+          "opciones_linaje": [
+            {
+              "nombre": "Gnomo de Bosque",
+              "descripcion": "Conoces truco Ilusión Menor. Siempre tienes Hablar con Animales preparado. Lanza sin espacio usos=Bono Comp./DL O usa espacios.",
+              "referencia": "[sources 105-107]"
+            },
+            {
+              "nombre": "Gnomo de Roca",
+              "descripcion": "Conoces trucos Reparar y Prestidigitación. Gasta 10 min (Prestidigitación) -> crea dispositivo mecánico diminuto (CA 5, 1 PV). Elige 1 efecto Prestidigitación; dispositivo lo produce con Acción Adicional (toque). Máx 3 dispositivos, duran 8h / desmontar.",
+              "referencia": "[sources 107-113]"
+            }
+          ],
+          "referencia": "[sources 103-104]"
+        }
+      ],
+      "referencia": "[sources 93-114]"
+    },
+    {
+       "nombre": "Goliat",
+       "descripcion": "Descendientes lejanos de gigantes, con dones sobrenaturales. Apariencia recuerda a sus ancestros (piedra, fuego, etc.).",
+       "referencia_descripcion": "[sources 115-119]",
+       "tipo_criatura": "Humanoide",
+       "tamaño": "Mediano (7-8 pies)",
+       "velocidad": "35 pies",
+       "rasgos_especiales": [
+         {
+           "nombre": "Ascendencia Gigante",
+           "descripcion": "Elige 1 don (beneficio). Usos = Bono Comp./DL.",
+           "opciones_don": [
+              {"nombre": "Salto de Nube", "efecto": "Acción Bonificación, teletransporte 30 pies a espacio visible."},
+              {"nombre": "Fuego Ardiente", "efecto": "Al golpear+dañar, añade 1d10 Fuego."},
+              {"nombre": "Frío Glacial", "efecto": "Al golpear+dañar, añade 1d6 Frío, velocidad -10 pies."},
+              {"nombre": "Caída de Colina", "efecto": "Al golpear+dañar vs L o menor, objetivo Prone."},
+              {"nombre": "Resistencia de Piedra", "efecto": "Reacción al recibir daño, tira 1d12, reduce daño = tirada+Mod Con."},
+              {"nombre": "Trueno de Tormenta", "efecto": "Reacción al recibir daño criatura a 60 pies, causa 1d8 Trueno a ella."}
+           ],
+           "referencia": "[sources 121-129]"
+         },
+         {
+            "nombre": "Forma Grande",
+            "nivel_requerido": 5,
+            "descripcion": "Acción Bonificación -> tamaño Grande (10 min/terminar). Ventaja pruebas Fuerza, Velocidad +10 pies. 1 uso/DL.",
+            "referencia": "[sources 130-133]"
+         },
+         {
+            "nombre": "Construcción Poderosa",
+            "descripcion": "Ventaja TS vs Agarrado. Cuentas como talla mayor para capacidad carga.",
+            "referencia": "[sources 134-135]"
+         }
+       ],
+       "referencia": "[sources 115-135]"
+    },
+    {
+       "nombre": "Mediano",
+       "descripcion": "Pequeños, aman hogar y comunidad, pero espíritu aventurero. Suerte legendaria parece protegerlos. Viven 150 años.",
+       "referencia_descripcion": "[sources 136-145]",
+       "tipo_criatura": "Humanoide",
+       "tamaño": "Pequeño (2-3 pies)",
+       "velocidad": "30 pies",
+       "esperanza_vida": "150 años",
+       "rasgos_especiales": [
+          {
+            "nombre": "Valiente",
+            "descripcion": "Ventaja TS vs Atemorizado.",
+            "referencia": "[source 147]"
+          },
+          {
+            "nombre": "Agilidad Mediana",
+            "descripcion": "Puedes moverte por espacio criatura talla mayor (no detenerte).",
+            "referencia": "[source 148]"
+          },
+          {
+             "nombre": "Suerte",
+             "descripcion": "Al sacar 1 en d20 (Prueba D20), puedes repetir (usas nueva tirada).",
+             "referencia": "[source 149]"
+          },
+          {
+             "nombre": "Naturalmente Sigiloso",
+             "descripcion": "Puedes Ocultarte si solo oscurecido por criatura talla mayor.",
+             "referencia": "[source 150]"
+          }
+       ],
+       "referencia": "[sources 136-151]"
+    },
+    {
+        "nombre": "Humano",
+        "descripcion": "Variados y numerosos. Ambiciosos y recursivos. Origen disputado, quizás Sigil. Cosmopolitas.",
+        "referencia_descripcion": "[sources 152-156]",
+        "tipo_criatura": "Humanoide",
+        "tamaño": "Mediano (4-7 pies) o Pequeño (2-4 pies), a elección",
+        "velocidad": "30 pies",
+        "rasgos_especiales": [
+           {
+              "nombre": "Recurso",
+              "descripcion": "Ganas Inspiración Heroica en Descanso Largo.",
+              "referencia": "[source 158]"
+           },
+           {
+              "nombre": "Hábil",
+              "descripcion": "Competencia en 1 habilidad a elección."
+           },
+           {
+              "nombre": "Versátil",
+              "descripcion": "Ganas 1 dote Origen a elección (recomendado: Hábil).",
+              "referencia": "[source 159]"
+           }
+        ],
+        "referencia": "[sources 152-159]"
+     },
+     {
+       "nombre": "Orco",
+       "descripcion": "Creados por Gruumsh, dotados de resistencia, determinación y visión oscura. Altos, corpulentos, piel gris, orejas puntiagudas, colmillos.",
+       "referencia_descripcion": "[sources 160-166]",
+       "tipo_criatura": "Humanoide",
+       "tamaño": "Mediano (6-7 pies)",
+       "velocidad": "30 pies",
+       "rasgos_especiales": [
+         {
+            "nombre": "Impulso de Adrenalina",
+            "descripcion": "Acción Correr como Acción Bonificación. Al hacerlo, ganas PG Temp = Bono Comp. Usos = Bono Comp./Descanso Corto o Largo.",
+            "referencia": "[sources 168-170]"
+         },
+         {
+            "nombre": "Visión en la Oscuridad",
+            "descripcion": "Alcance de 120 pies.",
+            "referencia": "[source 171]"
+         },
+         {
+            "nombre": "Resistencia Implacable",
+            "descripcion": "Al reducir a 0 PG (no muerto), bajas a 1 PG. 1 uso/Descanso Largo.",
+            "referencia": "[sources 172-173]"
+         }
+       ],
+       "referencia": "[sources 160-173]"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "creacion_personaje": {
+    "pasos": [
+      "Elegir concepto de personaje",
+      "Determinar atributos principales",
+      "Seleccionar raza y cultura",
+      "Elegir profesión",
+      "Asignar ventajas y desventajas",
+      "Elegir habilidades",
+      "Calcular puntos de vida",
+      "Seleccionar equipo inicial"
+    ],
+    "atributos": [
+      "Fuerza",
+      "Destreza",
+      "Constitución",
+      "Inteligencia",
+      "Sabiduría",
+      "Carisma"
+    ],
+    "componentes": {
+      "concepto": "Idea general del personaje: historia, personalidad y motivación.",
+      "raza_cultura": "Determina bonificaciones, habilidades raciales y culturales.",
+      "profesion": "Define el rol del personaje, sus competencias y progresión.",
+      "ventajas_desventajas": "Características únicas que aportan profundidad mecánica y narrativa.",
+      "habilidades": "Conjunto de conocimientos o capacidades prácticas del personaje.",
+      "puntos_vida": "Determina cuánto daño puede recibir antes de caer.",
+      "equipo": "Armas, armaduras, útiles y objetos iniciales del personaje."
+    }
+  }
+}

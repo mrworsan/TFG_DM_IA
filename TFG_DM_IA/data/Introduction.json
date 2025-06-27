@@ -1,0 +1,24 @@
+{
+  "introduccion": {
+    "descripcion_general": "Este capítulo explica qué es un juego de rol, qué papel desempeñan los jugadores y el Director de Juego, y cómo se desarrollan las partidas de forma narrativa y colaborativa.",
+    "roles": {
+      "jugador": "Controla un personaje que interactúa con el mundo imaginario del juego. Toma decisiones, supera desafíos y forma parte de la historia.",
+      "director_de_juego": "Crea el mundo, representa a los personajes no jugadores y modera las reglas. Su objetivo es facilitar la diversión y la inmersión."
+    },
+    "componentes_basicos": [
+      "Fichas de personaje",
+      "Dados (d20, d6, etc.)",
+      "Manual del jugador",
+      "Pantalla del DM",
+      "Lápiz y papel",
+      "Mapas o tableros (opcional)"
+    ],
+    "mecanicas_basicas": {
+      "resolucion_de_acciones": "Se tiran dados para determinar el éxito o fallo de una acción, comparando el resultado con una dificultad establecida.",
+      "d20": "El dado de 20 caras (d20) es el principal para las tiradas de habilidad, combate y salvación.",
+      "modificadores": "Atributos y habilidades modifican el resultado de los dados.",
+      "narracion_colaborativa": "La historia se construye entre todos los participantes a medida que se toman decisiones."
+    },
+    "objetivo_del_juego": "Crear una experiencia de aventura compartida en un mundo de fantasía, donde los jugadores puedan vivir historias épicas, resolver misterios y enfrentarse a desafíos."
+  }
+}

@@ -1,0 +1,1098 @@
+[
+  {
+    "term": "Chequeo de Habilidad",
+    "category": "Mecánica de Juego",
+    "definition": "Una prueba de D20 que representa el uso de una de las seis habilidades (Fuerza, Destreza, Constitución, Inteligencia, Sabiduría, Carisma) o una habilidad específica asociada para superar un desafío.",
+    "details": {
+      "dice": "d20",
+      "related_ability": "Una de las seis puntuaciones de habilidad"
+    },
+    "cross_references": ["Pruebas de D20", "Competencia", "Puntuación y Modificador de Habilidad"]
+  },
+  {
+    "term": "Puntuación y Modificador de Habilidad",
+    "category": "Estadísticas de Personaje",
+    "definition": "Cada criatura tiene seis puntuaciones de habilidad (Fuerza, Destreza, Constitución, Inteligencia, Sabiduría, Carisma), cada una con un modificador correspondiente. Este modificador se suma a las pruebas de D20 que usan esa habilidad.",
+    "details": {
+      "abilities": ["Fuerza", "Destreza", "Constitución", "Inteligencia", "Sabiduría", "Carisma"]
+    },
+    "cross_references": ["Las Seis Habilidades (Capítulo 1)", "Pruebas de D20"]
+  },
+  {
+    "term": "Acción",
+    "category": "Acción",
+    "definition": "En tu turno, puedes realizar una acción principal. Puedes elegir entre acciones comunes o acciones especiales proporcionadas por tus características.",
+    "details": {
+      "limit_per_turn": 1,
+      "common_actions": [
+        "Ataque", "Buscar", "Preparar", "Esquivar", "Acelerar (Correr)", "Utilizar Objeto",
+        "Influir", "Ayudar", "Magia (Lanzar un Hechizo)", "Estudiar", "Desenganchar", "Esconderse"
+      ]
+    },
+    "cross_references": ["Acciones (Capítulo 1)"]
+  },
+  {
+    "term": "Ventaja",
+    "category": "Mecánica de Juego",
+    "definition": "Si tienes Ventaja en una prueba de D20, tiras dos d20 y usas el resultado más alto.",
+    "details": {
+      "dice": "2d20 (elige el más alto)",
+      "interaction_with_disadvantage": "Ventaja y Desventaja en la misma tirada se cancelan.",
+      "stacking": "No se acumula (más de una fuente de Ventaja no otorga dados adicionales)."
+    },
+    "cross_references": ["Pruebas de D20 (Capítulo 1)", "Desventaja"]
+  },
+  {
+    "term": "Aventura",
+    "category": "Estructura del Juego",
+    "definition": "Una serie de encuentros que forman una historia al ser jugados.",
+    "cross_references": ["Encuentro"]
+  },
+  {
+    "term": "Alineación",
+    "category": "Características de Personaje/Monstruo",
+    "definition": "Describe las actitudes éticas e ideales generales de una criatura. Combina moralidad (Bueno, Malo, Neutral) y actitud hacia el orden (Legal, Caótico, Neutral).",
+    "details": {
+      "factors": ["Moralidad (Bueno/Malo/Neutral)", "Orden (Legal/Caótico/Neutral)"],
+      "combinations": ["Legal Bueno", "Neutral Bueno", "Caótico Bueno", "Legal Neutral", "Neutral Verdadero", "Caótico Neutral", "Legal Maligno", "Neutral Maligno", "Caótico Maligno"]
+    },
+    "cross_references": ["Crea tu Personaje (Capítulo 2)"]
+  },
+  {
+    "term": "Aliado",
+    "category": "Relaciones",
+    "definition": "Una criatura que es miembro de tu grupo, amiga, está de tu lado en combate, o designada como aliada por las reglas o el DM.",
+    "related_terms": ["Enemigo"]
+  },
+  {
+    "term": "Área de Efecto",
+    "category": "Área de Efecto",
+    "definition": "Especifica el espacio afectado por hechizos u otras características. Tienen un punto de origen y una forma específica.",
+    "details": {
+      "shapes": ["Cono", "Cilindro", "Línea", "Cubo", "Emanación", "Esfera"],
+      "point_of_origin": "Lugar desde donde emerge la energía del efecto.",
+      "line_of_effect": "Una ubicación no está incluida si todas las líneas rectas desde el punto de origen hasta ella están bloqueadas por Cobertura Total.",
+      "targeting_unseen_point": "Si se coloca en un punto no visible y un obstáculo está en medio, el origen aparece en el lado cercano del obstáculo."
+    },
+    "cross_references": ["Cobertura", "Cono", "Cilindro", "Línea", "Cubo", "Emanación", "Esfera"]
+  },
+  {
+    "term": "Clase de Armadura (CA)",
+    "category": "Combate",
+    "definition": "El número objetivo para una tirada de ataque. Representa la dificultad para golpear a un objetivo.",
+    "details": {
+      "base_calculation": "10 + modificador de Destreza",
+      "alternative_calculations": "Si una regla da otro cálculo base de CA, eliges cuál usar (no se acumulan)."
+    },
+    "cross_references": ["Tirada de Ataque", "Armadura (Capítulo 6)"]
+  },
+  {
+    "term": "Entrenamiento en Armaduras",
+    "category": "Características de Personaje",
+    "definition": "Permite usar armaduras de una categoría específica (Ligera, Media, Pesada, Escudos) sin penalizaciones.",
+    "details": {
+      "penalties_without_training": {
+        "armor": "Desventaja en Pruebas de D20 de Fuerza o Destreza; no se pueden lanzar hechizos.",
+        "shield": "No se obtiene la bonificación de CA del escudo."
+      }
+    },
+    "cross_references": ["Desventaja", "Armadura (Capítulo 6)"]
+  },
+  {
+    "term": "Ataque",
+    "category": "Acción",
+    "definition": "Permite hacer una tirada de ataque con un arma o un Ataque Desarmado.",
+    "details": {
+      "equip_unequip_weapon": "Puedes equipar o desequipar un arma como parte de esta acción (antes o después del ataque).",
+      "movement_between_attacks": "Si tienes múltiples ataques (ej. Ataque Extra), puedes moverte entre ellos."
+    },
+    "cross_references": ["Tirada de Ataque", "Ataque Desarmado", "Ataque Extra"]
+  },
+  {
+    "term": "Tirada de Ataque",
+    "category": "Mecánica de Juego",
+    "definition": "Una Prueba de D20 para determinar si un ataque con arma, Ataque Desarmado o hechizo impacta. Se realiza tirando un d20 y añadiendo los modificadores apropiados (modificador de habilidad relevante y bonificador de competencia si aplica). El resultado se compara con la Clase de Armadura (CA) del objetivo.",
+    "details": {
+      "dice": "d20",
+      "target_number": "Clase de Armadura (CA) del objetivo",
+      "on_hit": "Si el total de la tirada de ataque iguala o supera la CA del objetivo, el ataque impacta.",
+      "critical_hit": "Un 20 natural en el d20 es un golpe crítico.",
+      "critical_miss": "Un 1 natural en el d20 es un fallo automático."
+    },
+    "cross_references": ["Pruebas de D20 (Capítulo 1)", "Clase de Armadura (CA)", "Golpe Crítico"]
+  },
+  {
+    "term": "Actitud",
+    "category": "Interacción Social",
+    "definition": "La actitud inicial de un monstruo hacia un personaje jugador.",
+    "details": {
+      "types": ["Amistoso", "Hostil", "Indiferente"]
+    },
+    "cross_references": ["Amistoso", "Hostil", "Indiferente", "Influir"]
+  },
+  {
+    "term": "Sintonización",
+    "category": "Objetos Mágicos",
+    "definition": "Formar un vínculo con ciertos objetos mágicos para poder usar sus propiedades.",
+    "details": {
+      "limit": "No más de 3 objetos sintonizados a la vez."
+    },
+    "cross_references": ["Objetos Mágicos (Capítulo 6)"]
+  },
+  {
+    "term": "Sangrado",
+    "category": "Estado",
+    "definition": "Una criatura está Sangrada mientras tenga la mitad o menos de sus Puntos de Golpe máximos restantes.",
+    "cross_references": ["Puntos de Golpe"]
+  },
+  {
+    "term": "Acción Adicional",
+    "category": "Acción",
+    "definition": "Una acción especial que puedes realizar en tu turno si una regla o característica lo permite explícitamente. Solo puedes tomar una Acción Adicional por turno.",
+    "details": {
+      "limit_per_turn": 1,
+      "requirement": "Debe ser otorgada por una regla, hechizo o característica."
+    },
+    "cross_references": ["Acciones (Capítulo 1)"]
+  },
+  {
+    "term": "Romper Objetos",
+    "category": "Interacción con el Entorno",
+    "definition": "Reglas para dañar y destruir objetos mediante ataques o hechizos.",
+    "details": {
+      "automatic_break": "El DM puede permitir romper objetos frágiles automáticamente con acción de Ataque o Utilizar Objeto.",
+      "armor_class": {
+        "table": [
+          {"substance": "Tela, papel, cuerda", "ac": 11},
+          {"substance": "Cristal, vidrio, hielo", "ac": 13},
+          {"substance": "Madera", "ac": 15},
+          {"substance": "Piedra", "ac": 17},
+          {"substance": "Hierro, acero", "ac": 19},
+          {"substance": "Mithril", "ac": 21},
+          {"substance": "Adamantina", "ac": 23}
+        ]
+      },
+      "hit_points": {
+        "destruction": "Un objeto se destruye al llegar a 0 Puntos de Golpe.",
+        "large_objects": "Objetos Enormes o Gargantuescos pueden dividirse en secciones para rastrear HP.",
+        "table": [
+          {"size": "Pequeño (botella, cerradura)", "fragile_hp": "2 (1d4)", "resilient_hp": "5 (2d4)"},
+          {"size": "Mediano (cofre, laúd)", "fragile_hp": "3 (1d6)", "resilient_hp": "10 (3d6)"},
+          {"size": "Grande (barril, candelabro)", "fragile_hp": "4 (1d8)", "resilient_hp": "18 (4d8)"},
+          {"size": "Enorme (carro, mesa)", "fragile_hp": "5 (1d10)", "resilient_hp": "27 (5d10)"}
+        ]
+      },
+      "damage_interaction": {
+        "immunities": "Inmunidad a daño por Veneno y Psíquico.",
+        "effectiveness": "DM puede decidir si ciertos tipos de daño son más/menos efectivos (ej. Contundente vs romper, Fuego vs tela).",
+        "vulnerabilities": "Papel o tela podrían tener Vulnerabilidad al daño por Fuego."
+      },
+      "damage_threshold": "Objetos grandes pueden tener un umbral de daño; inmunes a daño menor a su umbral.",
+      "ability_scores": "Los objetos carecen de puntuaciones de habilidad (fallan salvaciones y pruebas) a menos que una regla indique lo contrario."
+    },
+    "cross_references": ["Puntos de Golpe", "Tipos de Daño", "Inmunidad", "Vulnerabilidad", "Umbral de Daño"]
+  },
+  {
+    "term": "Luz Brillante",
+    "category": "Entorno",
+    "definition": "Iluminación normal que no dificulta la visión.",
+    "cross_references": ["Exploración (Capítulo 1)", "Luz Tenue", "Oscuridad"]
+  },
+  {
+    "term": "Ardiendo",
+    "category": "Peligro",
+    "definition": "Una criatura u objeto en llamas recibe 1d4 de daño por Fuego al inicio de cada uno de sus turnos.",
+    "details": {
+      "damage": "1d4 Fuego por turno (al inicio)",
+      "extinguish_self": "Usar una acción para tirarse al suelo (condición Caído) y rodar.",
+      "other_extinguish": "Apagar con agua, sumergir o sofocar."
+    },
+    "cross_references": ["Peligro", "Caído"]
+  },
+  {
+    "term": "Velocidad de Excavación",
+    "category": "Movimiento",
+    "definition": "Permite moverse a través de arena, tierra, barro o hielo usando esta velocidad en lugar de la normal.",
+    "details": {
+      "limitations": "No permite excavar a través de roca sólida a menos que se tenga una habilidad específica."
+    },
+    "cross_references": ["Velocidad"]
+  },
+  {
+    "term": "Campaña",
+    "category": "Estructura del Juego",
+    "definition": "Una serie de aventuras conectadas.",
+    "cross_references": ["Aventura"]
+  },
+  {
+    "term": "Truco",
+    "category": "Magia",
+    "definition": "Un hechizo de nivel 0 que se puede lanzar sin gastar una ranura de hechizo.",
+    "cross_references": ["Hechizos (Capítulo 7)"]
+  },
+  {
+    "term": "Capacidad de Carga",
+    "category": "Características de Personaje",
+    "definition": "El peso máximo en libras que puedes cargar, arrastrar, levantar o empujar, determinado por tu tamaño y puntuación de Fuerza.",
+    "details": {
+      "carrying_capacity_table": [
+        {"size": "Pequeño", "carry_formula": "$Fuerza \\times 7.5~lb.$", "drag_push_lift_formula": "$Fuerza \\times 15~lb.$"},
+        {"size": "Mediano/Grande", "carry_formula": "$Fuerza \\times 15~lb.$", "drag_push_lift_formula": "$Fuerza \\times 30~lb.$"},
+        {"size": "Enorme", "carry_formula": "$Fuerza \\times 30~lb.$", "drag_push_lift_formula": "$Fuerza \\times 60~lb.$"},
+        {"size": "Gargantuesco", "carry_formula": "$Fuerza \\times 60~lb.$", "drag_push_lift_formula": "$Fuerza \\times 120~lb.$"},
+        {"size": "Gargantuesco (Extremo)", "carry_formula": "$Fuerza \\times 120~lb.$", "drag_push_lift_formula": "$Fuerza \\times 240~lb.$"}
+      ],
+      "encumbrance_effect": "Mientras arrastras, levantas o empujas un peso que excede tu capacidad de carga (carry), tu Velocidad se reduce a 5 pies."
+    },
+    "cross_references": ["Fuerza", "Velocidad"]
+  },
+  {
+    "term": "Clasificación de Desafío (CD)",
+    "category": "Monstruos",
+    "definition": "Resume la amenaza que un monstruo representa para un grupo de cuatro personajes jugadores de nivel similar. Una CD más alta que el nivel del grupo indica peligro; una más baja, una amenaza menor.",
+    "details": {
+      "context_dependent": "Las circunstancias y el número de PJs pueden alterar la amenaza real.",
+      "guidance": "La Guía del Dungeon Master tiene más detalles sobre su uso."
+    },
+    "cross_references": ["Bloque de Estadísticas", "Guía del Dungeon Master"]
+  },
+  {
+    "term": "Hoja de Personaje",
+    "category": "Componentes del Juego",
+    "definition": "Registro en papel o digital para rastrear la información de un personaje jugador.",
+    "cross_references": ["Creación de Personaje (Capítulo 2)"]
+  },
+  {
+    "term": "Escalada",
+    "category": "Movimiento",
+    "definition": "Moverse por superficies verticales. Cada pie de movimiento cuesta 1 pie extra (2 pies extra en Terreno Difícil).",
+    "details": {
+      "cost": "+1 pie de movimiento por pie escalado (+2 en Terreno Difícil)",
+      "exception": "Ignoras el costo extra si tienes Velocidad de Escalada y la usas.",
+      "difficult_surface_check": "DM puede requerir prueba de Fuerza (Atletismo) CD 15 para superficies resbaladizas o con pocos agarres."
+    },
+    "cross_references": ["Velocidad de Escalada", "Terreno Difícil", "Velocidad"]
+  },
+  {
+    "term": "Velocidad de Escalada",
+    "category": "Movimiento",
+    "definition": "Permite moverse por superficies verticales sin gastar el movimiento extra normalmente asociado con escalar.",
+    "cross_references": ["Escalada", "Velocidad"]
+  },
+  {
+    "term": "Concentración",
+    "category": "Magia",
+    "definition": "Algunos hechizos y efectos requieren mantener la Concentración. Si se pierde, el efecto termina.",
+    "details": {
+      "duration": "El efecto especifica la duración máxima (ej. 1 minuto, 1 hora).",
+      "ending_concentration": "Se puede terminar voluntariamente en cualquier momento (sin acción).",
+      "factors_breaking_concentration": [
+        "Lanzar otro hechizo o activar otro efecto que requiera Concentración.",
+        "Recibir daño: Requiere tirada de salvación de Constitución (CD = 10 o la mitad del daño recibido, lo que sea mayor, max CD 30).",
+        "Quedar Incapacitado o Morir."
+      ]
+    },
+    "cross_references": ["Incapacitado", "Condiciones"]
+  },
+  {
+    "term": "Condición",
+    "category": "Estado",
+    "definition": "Una condición es un estado temporal del juego que afecta las capacidades de una criatura. La mayoría de las condiciones, como Ciego o Aturdido, son perjudiciales, pero algunas, como Invisible, pueden ser ventajosas. Una condición dura hasta que es contrarrestada (por ejemplo, la condición Caído se contrarresta levantándose) o por una duración especificada por el efecto que impuso la condición. Si múltiples efectos imponen la misma condición a una criatura, cada instancia de la condición tiene su propia duración, pero los efectos de la condición no se agravan. Una criatura tiene la condición o no la tiene.",
+    "details": {
+      "list_of_conditions_explained_separately": [
+        "Ciego", "Encantado", "Sordo", "Agotamiento", "Atemorizado", "Agarre",
+        "Incapacitado", "Invisible", "Paralizado", "Petrificado", "Envenenado",
+        "Caído", "Restringido", "Aturdido", "Inconsciente", "Atrapado"
+      ],
+      "stacking": "Los efectos de una misma condición no se acumulan. Por ejemplo, si estás afectado por dos fuentes de la condición 'Atemorizado', sigues estando Atemorizado, no 'doblemente Atemorizado'. La excepción es Agotamiento, cuyos niveles sí se acumulan."
+    },
+    "cross_references": ["Agotamiento"]
+  },
+  {
+    "term": "Ciego",
+    "category": "Condición",
+    "definition": "Una criatura ciega no puede ver y falla automáticamente cualquier prueba de habilidad que requiera vista.",
+    "details": {
+      "effects": [
+        "Las tiradas de ataque contra la criatura tienen Ventaja.",
+        "Las tiradas de ataque de la criatura tienen Desventaja."
+      ]
+    },
+    "cross_references": ["Condición", "Ventaja", "Desventaja"]
+  },
+  {
+    "term": "Encantado",
+    "category": "Condición",
+    "definition": "Una criatura encantada no puede atacar al encantador ni dirigirle habilidades o efectos mágicos dañinos.",
+    "details": {
+      "effects": [
+        "El encantador tiene Ventaja en cualquier prueba de habilidad para interactuar socialmente con la criatura encantada."
+      ]
+    },
+    "cross_references": ["Condición", "Ventaja"]
+  },
+  {
+    "term": "Sordo",
+    "category": "Condición",
+    "definition": "Una criatura sorda no puede oír y falla automáticamente cualquier prueba de habilidad que requiera oído.",
+    "details": {
+      "effects": [
+        "No puede oír."
+      ]
+    },
+    "cross_references": ["Condición"]
+  },
+  {
+    "term": "Agotamiento",
+    "category": "Condición",
+    "definition": "Algunas características especiales y peligros ambientales, como la inanición y los efectos prolongados del frío o calor extremos, pueden llevar a una condición especial llamada agotamiento. El agotamiento se mide en seis niveles. Un efecto puede dar a una criatura uno o más niveles de agotamiento, como se especifica en la descripción del efecto.",
+    "details": {
+      "effects_per_level": [
+        { "level": 1, "effect": "Desventaja en pruebas de habilidad." },
+        { "level": 2, "effect": "Velocidad reducida a la mitad." },
+        { "level": 3, "effect": "Desventaja en tiradas de ataque y tiradas de salvación." },
+        { "level": 4, "effect": "Máximo de Puntos de Golpe reducido a la mitad." },
+        { "level": 5, "effect": "Velocidad reducida a 0." },
+        { "level": 6, "effect": "Muerte." }
+      ],
+      "additional_notes": [
+        "Si una criatura ya agotada sufre otro efecto que causa agotamiento, su nivel actual de agotamiento aumenta en la cantidad especificada en la descripción del efecto.",
+        "Una criatura sufre el efecto de su nivel actual de agotamiento así como todos los niveles inferiores.",
+        "Terminar un descanso largo reduce el nivel de agotamiento de una criatura en 1, siempre que también haya ingerido algo de comida y bebida.",
+        "Además, ser resucitado de entre los muertos reduce el nivel de agotamiento de una criatura en 1."
+      ]
+    },
+    "cross_references": ["Condición", "Descanso Largo", "Muerte"]
+  },
+  {
+    "term": "Atemorizado",
+    "category": "Condición",
+    "definition": "Una criatura atemorizada tiene Desventaja en las pruebas de habilidad y tiradas de ataque mientras la fuente de su miedo esté en su línea de visión.",
+    "details": {
+      "effects": [
+        "La criatura no puede moverse voluntariamente más cerca de la fuente de su miedo."
+      ]
+    },
+    "cross_references": ["Condición", "Desventaja"]
+  },
+  {
+    "term": "Agarre",
+    "category": "Condición",
+    "definition": "Una criatura agarrada tiene su velocidad reducida a 0, y no puede beneficiarse de ninguna bonificación a su velocidad.",
+    "details": {
+      "effects": [
+        "La condición termina si el agarrador queda Incapacitado (ver la condición).",
+        "La condición también termina si un efecto saca a la criatura agarrada del alcance del agarrador o del efecto que la agarra, como cuando una criatura es lanzada por el hechizo Ola Atronadora."
+      ]
+    },
+    "cross_references": ["Condición", "Incapacitado"]
+  },
+  {
+    "term": "Incapacitado",
+    "category": "Condición",
+    "definition": "Una criatura incapacitada no puede realizar acciones ni reacciones.",
+    "details": {
+      "effects": [
+        "No puede tomar acciones.",
+        "No puede tomar reacciones."
+      ]
+    },
+    "cross_references": ["Condición", "Acción", "Reacción"]
+  },
+  {
+    "term": "Invisible",
+    "category": "Condición",
+    "definition": "Una criatura invisible es imposible de ver sin la ayuda de magia o un sentido especial. A efectos de esconderse, la criatura está fuertemente oculta. La ubicación de la criatura puede ser detectada por cualquier ruido que haga o cualquier rastro que deje.",
+    "details": {
+      "effects": [
+        "Las tiradas de ataque contra la criatura tienen Desventaja.",
+        "Las tiradas de ataque de la criatura tienen Ventaja."
+      ]
+    },
+    "cross_references": ["Condición", "Fuertemente Oculto", "Ventaja", "Desventaja"]
+  },
+  {
+    "term": "Paralizado",
+    "category": "Condición",
+    "definition": "Una criatura paralizada está Incapacitada (ver la condición) y no puede moverse ni hablar.",
+    "details": {
+      "effects": [
+        "La criatura falla automáticamente las tiradas de salvación de Fuerza y Destreza.",
+        "Las tiradas de ataque contra la criatura tienen Ventaja.",
+        "Cualquier ataque que impacte a la criatura es un golpe crítico si el atacante está a 5 pies de la criatura."
+      ]
+    },
+    "cross_references": ["Condición", "Incapacitado", "Ventaja", "Golpe Crítico"]
+  },
+  {
+    "term": "Petrificado",
+    "category": "Condición",
+    "definition": "Una criatura petrificada es transformada, junto con cualquier objeto no mágico que vista o lleve, en una sustancia sólida inanimada (generalmente piedra). Su peso se multiplica por diez, y deja de envejecer.",
+    "details": {
+      "effects": [
+        "La criatura está Incapacitada (ver la condición), no puede moverse ni hablar, y no es consciente de su entorno.",
+        "Las tiradas de ataque contra la criatura tienen Ventaja.",
+        "La criatura falla automáticamente las tiradas de salvación de Fuerza y Destreza.",
+        "La criatura tiene resistencia a todo tipo de daño.",
+        "La criatura es inmune al veneno y a la enfermedad, aunque un veneno o enfermedad que ya esté en su sistema queda suspendido, no neutralizado."
+      ]
+    },
+    "cross_references": ["Condición", "Incapacitado", "Ventaja", "Resistencia"]
+  },
+  {
+    "term": "Envenenado",
+    "category": "Condición",
+    "definition": "Una criatura envenenada tiene Desventaja en las tiradas de ataque y pruebas de habilidad.",
+    "details": {
+      "effects": [
+        "Desventaja en tiradas de ataque.",
+        "Desventaja en pruebas de habilidad."
+      ]
+    },
+    "cross_references": ["Condición", "Desventaja"]
+  },
+  {
+    "term": "Caído",
+    "category": "Condición",
+    "definition": "Una criatura caída tiene su única opción de movimiento el gatear, a menos que se levante y termine así la condición.",
+    "details": {
+      "effects": [
+        "La criatura tiene Desventaja en las tiradas de ataque.",
+        "Una tirada de ataque contra la criatura tiene Ventaja si el atacante está a 5 pies de la criatura. De lo contrario, la tirada de ataque tiene Desventaja."
+      ],
+      "ending_condition": "Se termina levantándose, lo cual cuesta una cantidad de movimiento igual a la mitad de la velocidad de la criatura."
+    },
+    "cross_references": ["Condición", "Gateo", "Ventaja", "Desventaja"]
+  },
+  {
+    "term": "Restringido",
+    "category": "Condición",
+    "definition": "Una criatura restringida tiene su velocidad reducida a 0, y no puede beneficiarse de ninguna bonificación a su velocidad.",
+    "details": {
+      "effects": [
+        "Las tiradas de ataque contra la criatura tienen Ventaja.",
+        "Las tiradas de ataque de la criatura tienen Desventaja.",
+        "La criatura tiene Desventaja en las tiradas de salvación de Destreza."
+      ]
+    },
+    "cross_references": ["Condición", "Ventaja", "Desventaja"]
+  },
+  {
+    "term": "Aturdido",
+    "category": "Condición",
+    "definition": "Una criatura aturdida está Incapacitada, no puede moverse, y solo puede hablar de forma vacilante.",
+    "details": {
+      "effects": [
+        "La criatura falla automáticamente las tiradas de salvación de Fuerza y Destreza.",
+        "Las tiradas de ataque contra la criatura tienen Ventaja."
+      ]
+    },
+    "cross_references": ["Condición", "Incapacitado", "Ventaja"]
+  },
+  {
+    "term": "Inconsciente",
+    "category": "Condición",
+    "definition": "Una criatura inconsciente está Incapacitada, no puede moverse ni hablar, y no es consciente de su entorno. La criatura suelta cualquier cosa que esté sosteniendo y cae al suelo (queda Caída).",
+    "details": {
+      "effects": [
+        "La criatura falla automáticamente las tiradas de salvación de Fuerza y Destreza.",
+        "Las tiradas de ataque contra la criatura tienen Ventaja.",
+        "Cualquier ataque que impacte a la criatura es un golpe crítico si el atacante está a 5 pies de la criatura."
+      ]
+    },
+    "cross_references": ["Condición", "Incapacitado", "Caído", "Ventaja", "Golpe Crítico"]
+  },
+  {
+    "term": "Atrapado",
+    "category": "Condición",
+    "definition": "Una criatura atrapada está sujeta y no puede moverse de su espacio actual. Puede estar atrapada por efectos físicos o mágicos.",
+    "details": {
+        "effects": [
+            "La velocidad de la criatura se convierte en 0.",
+            "La criatura tiene Desventaja en las tiradas de salvación de Destreza.",
+            "Las tiradas de ataque contra la criatura tienen Ventaja."
+        ],
+        "ending_condition": "La condición termina si el efecto que la causa es eliminado o si la criatura logra escapar (si el efecto lo permite, usualmente mediante una prueba de Fuerza o Destreza)."
+    },
+    "cross_references": ["Condición", "Restringido", "Agarre"]
+  },
+  {
+    "term": "Cono",
+    "category": "Área de Efecto",
+    "definition": "Un área de efecto que se extiende desde un punto de origen en una dirección. Su ancho en cualquier punto es igual a la distancia desde el origen. El efecto especifica la longitud máxima.",
+    "details": {
+      "shape_description": "Se ensancha desde el punto de origen.",
+      "origin_included": "El punto de origen no está incluido a menos que se especifique lo contrario."
+    },
+    "cross_references": ["Área de Efecto"]
+  },
+  {
+    "term": "Cobertura",
+    "category": "Combate",
+    "definition": "Protección proporcionada a un objetivo por un obstáculo.",
+    "details": {
+      "degrees_of_coverage": [
+        { "type": "Parcial", "bonus": "+2 a CA y salvaciones de Destreza" },
+        { "type": "Tres Cuartos", "bonus": "+5 a CA y salvaciones de Destreza" },
+        { "type": "Total", "effect": "No se puede ser objetivo directamente por ataques o hechizos." }
+      ],
+      "stacking": "Si hay múltiples grados de cobertura, solo se aplica el más protector."
+    },
+    "cross_references": ["Combate (Capítulo 1)"]
+  },
+  {
+    "term": "Gateo",
+    "category": "Movimiento",
+    "definition": "Moverse mientras se está Caído (Prone). Cada pie de movimiento cuesta 1 pie extra (2 pies extra en Terreno Difícil).",
+    "details": {
+      "cost": "+1 pie de movimiento por pie gateado (+2 en Terreno Difícil)",
+      "requirement": "Normalmente se realiza mientras se está Caído."
+    },
+    "cross_references": ["Velocidad", "Caído", "Terreno Difícil"]
+  },
+  {
+    "term": "Criatura",
+    "category": "Tipo de Entidad",
+    "definition": "Cualquier ser en el juego, incluyendo personajes jugadores y monstruos.",
+    "cross_references": ["Tipo de Criatura"]
+  },
+  {
+    "term": "Tipo de Criatura",
+    "category": "Clasificación",
+    "definition": "Una etiqueta que identifica el tipo de criatura (ej. Humanoide, Bestia). Algunas reglas afectan a tipos específicos.",
+    "details": {
+      "types": [
+        "Aberración", "Elemental", "Monstruosidad", "Bestia", "Hada", "Moco",
+        "Celestial", "Demonio", "Planta", "Constructo", "Gigante", "No-Muerto",
+        "Dragón", "Humanoide"
+      ]
+    }
+  },
+  {
+    "term": "Golpe Crítico",
+    "category": "Combate",
+    "definition": "Ocurre al sacar un 20 natural en una tirada de ataque. El ataque acierta automáticamente y causa daño adicional.",
+    "details": {
+      "trigger": "20 natural en d20 de tirada de ataque.",
+      "effect_on_hit": "Impacto automático independientemente de CA o modificadores.",
+      "effect_on_damage": "Tira todos los dados de daño del ataque dos veces, súmalos y luego añade modificadores relevantes."
+    },
+    "cross_references": ["Tirada de Ataque", "Daño y Curación (Capítulo 1)"]
+  },
+  {
+    "term": "Cubo",
+    "category": "Área de Efecto",
+    "definition": "Un área de efecto con forma de cubo que se extiende desde un punto de origen ubicado en una de sus caras. El efecto especifica la longitud de cada lado.",
+    "details": {
+      "origin_location": "En cualquier cara del cubo.",
+      "origin_included": "El punto de origen no está incluido a menos que se especifique lo contrario."
+    },
+    "cross_references": ["Área de Efecto"]
+  },
+  {
+    "term": "Maldiciones",
+    "category": "Efectos Mágicos",
+    "definition": "Efectos negativos que afligen a una criatura u objeto. El efecto que la impone define sus detalles.",
+    "details": {
+      "removal": "Pueden eliminarse con hechizos como Remover Maldición, Restauración Mayor u otra magia específica."
+    }
+  },
+  {
+    "term": "Cilindro",
+    "category": "Área de Efecto",
+    "definition": "Un área de efecto cilíndrica que se extiende desde un punto de origen en el centro de una de sus bases circulares. El efecto especifica el radio y la altura.",
+    "details": {
+      "origin_location": "Centro de la base circular (superior o inferior).",
+      "origin_included": "El punto de origen está incluido en el área."
+    },
+    "cross_references": ["Área de Efecto"]
+  },
+   {
+    "term": "Prueba de D20",
+    "category": "Mecánica de Juego",
+    "definition": "Término general que engloba las tres principales tiradas de d20: pruebas de habilidad, tiradas de ataque y tiradas de salvación. El DM determina cuándo se requiere una.",
+    "details": {
+      "types_included": ["Prueba de habilidad", "Tirada de ataque", "Tirada de salvación"]
+    },
+    "cross_references": ["Pruebas de D20 (Capítulo 1)", "Chequeo de Habilidad", "Tirada de Ataque", "Tirada de Salvación"]
+  },
+  {
+    "term": "Daño",
+    "category": "Combate",
+    "definition": "Representa el perjuicio que causa la pérdida de Puntos de Golpe.",
+    "cross_references": ["Puntos de Golpe", "Tirada de Daño", "Tipos de Daño", "Daño y Curación (Capítulo 1)"]
+  },
+  {
+    "term": "Tirada de Daño",
+    "category": "Mecánica de Juego",
+    "definition": "Una tirada de dados, ajustada por modificadores, que determina la cantidad de daño infligido a un objetivo.",
+    "cross_references": ["Daño", "Daño y Curación (Capítulo 1)"]
+  },
+  {
+    "term": "Umbral de Daño",
+    "category": "Mecánica de Juego",
+    "definition": "Una característica de algunas criaturas u objetos. Tienen Inmunidad a todo daño a menos que una única instancia de daño iguale o supere su umbral. Si lo supera, reciben el daño completo; si no, no reciben daño.",
+    "details": {
+      "mechanic": "Ignora daño si < umbral; recibe daño completo si >= umbral.",
+      "example": "Objeto con umbral 10 ignora 9 de daño, pero recibe los 11 puntos si se le infligen 11."
+    },
+    "cross_references": ["Inmunidad", "Romper Objetos"]
+  },
+  {
+    "term": "Tipos de Daño",
+    "category": "Combate",
+    "definition": "Clasificación del daño infligido por ataques y efectos (ej. Cortante, Fuego, Veneno). No tienen reglas propias, pero interactúan con Resistencia, Inmunidad, Vulnerabilidad.",
+    "details": {
+      "types_list": [
+        {"type": "Ácido", "examples": "Líquidos corrosivos, enzimas digestivas"},
+        {"type": "Contundente", "examples": "Objetos contundentes, constricción, caídas"},
+        {"type": "Frío", "examples": "Agua congelada, ráfagas heladas"},
+        {"type": "Fuego", "examples": "Llamas, calor insoportable"},
+        {"type": "Fuerza", "examples": "Energía mágica pura"},
+        {"type": "Rayo", "examples": "Electricidad"},
+        {"type": "Necrótico", "examples": "Energía que drena la vida"},
+        {"type": "Perforante", "examples": "Colmillos, objetos punzantes"},
+        {"type": "Veneno", "examples": "Gas tóxico, veneno"},
+        {"type": "Psíquico", "examples": "Energía que desgarra la mente"},
+        {"type": "Radiante", "examples": "Energía sagrada, radiación abrasadora"},
+        {"type": "Cortante", "examples": "Garras, objetos cortantes"},
+        {"type": "Trueno", "examples": "Sonido concusivo"}
+      ]
+    },
+    "cross_references": ["Resistencia", "Inmunidad", "Vulnerabilidad"]
+  },
+  {
+    "term": "Oscuridad",
+    "category": "Entorno",
+    "definition": "Un área en Oscuridad está Fuertemente Oculta.",
+    "cross_references": ["Fuertemente Oculto", "Exploración (Capítulo 1)", "Luz Tenue", "Luz Brillante", "Visión en la Oscuridad"]
+  },
+  {
+    "term": "Visión en la Oscuridad",
+    "category": "Sentidos",
+    "definition": "Permite ver en condiciones de poca luz.",
+    "details": {
+      "effect_in_dim_light": "Ves en Luz Tenue dentro del rango especificado como si fuera Luz Brillante.",
+      "effect_in_darkness": "Ves en Oscuridad dentro del rango especificado como si fuera Luz Tenue.",
+      "color_perception": "En Oscuridad, solo percibes tonos de gris."
+    },
+    "cross_references": ["Luz Tenue", "Oscuridad", "Exploración (Capítulo 1)"]
+  },
+  {
+    "term": "Correr",
+    "category": "Acción",
+    "definition": "Permite obtener movimiento extra en el turno actual, igual a tu Velocidad base (después de modificadores).",
+    "details": {
+      "movement_gain": "+ Velocidad actual",
+      "example": "Velocidad 30 pies -> puedes moverte 60 pies si Corres.",
+      "interaction_with_speed_reduction": "Si la velocidad se reduce, el extra es igual a la velocidad reducida (ej. Vel. reducida a 15 pies, Correr permite moverse 30 pies total).",
+      "special_speeds": "Puedes usar una velocidad especial (Vuelo, Nado) en lugar de la normal para esta acción."
+    },
+    "cross_references": ["Velocidad", "Acción"]
+  },
+  {
+    "term": "Muerto",
+    "category": "Estado",
+    "definition": "Una criatura con 0 Puntos de Golpe que ha fallado sus tiradas de salvación contra la muerte o ha sufrido daño masivo. No puede recuperar Puntos de Golpe a menos que sea revivida.",
+    "details": {
+      "hp": 0,
+      "spirit_status": "El espíritu ha dejado el cuerpo.",
+      "revival": "Requiere magia (ej. Resurrección, Revivify). El espíritu puede rechazarla.",
+      "return_to_life": "Regresa con HP determinado por el efecto de resurrección. Conserva condiciones, maldiciones, etc., si su duración está activa. Recupera 1 nivel de Agotamiento. Pierde Sintonización con objetos mágicos."
+    },
+    "cross_references": ["Puntos de Golpe", "Tirada de Salvación Contra la Muerte", "Agotamiento", "Sintonización"]
+  },
+  {
+    "term": "Tirada de Salvación Contra la Muerte",
+    "category": "Mecánica de Juego",
+    "definition": "Una tirada especial que debe hacer un personaje jugador si empieza su turno con 0 Puntos de Golpe para evitar morir.",
+    "details": {
+      "trigger": "Empezar el turno con 0 HP.",
+      "dice": "d20 (sin modificadores)",
+      "success_threshold": 10,
+      "failure_threshold": 9,
+      "outcomes": {
+         "success_roll_10_or_higher": "1 éxito.",
+         "failure_roll_9_or_lower": "1 fallo.",
+         "roll_20": "Recuperas 1 HP.",
+         "roll_1": "2 fallos."
+      },
+      "condition_end": "Acumular 3 éxitos estabiliza a la criatura. Acumular 3 fallos causa la muerte."
+    },
+    "cross_references": ["Daño y Curación (Capítulo 1)", "Puntos de Golpe", "Muerto", "Inconsciente"]
+  },
+  {
+    "term": "Deshidratación",
+    "category": "Peligro",
+    "definition": "Peligro por falta de agua. Una criatura que beba menos de la mitad del agua requerida gana 1 nivel de Agotamiento al final del día.",
+    "details": {
+      "trigger": "Beber < 50% del agua diaria requerida.",
+      "effect": "+1 nivel de Agotamiento por día.",
+      "recovery": "El Agotamiento por deshidratación no se elimina hasta beber la cantidad completa de agua requerida para un día.",
+      "water_needs_table": [
+        {"size": "Tiny", "water_required": "$1/4$ galón"},
+        {"size": "Small", "water_required": "1 galón"},
+        {"size": "Medium", "water_required": "1 galón"},
+        {"size": "Large", "water_required": "4 galones"},
+        {"size": "Huge", "water_required": "16 galones"},
+        {"size": "Gargantuan", "water_required": "64 galones"}
+      ]
+    },
+    "cross_references": ["Agotamiento", "Peligro"]
+  },
+  {
+    "term": "Terreno Difícil",
+    "category": "Entorno",
+    "definition": "Áreas que cuestan movimiento adicional para atravesar. Cada pie de movimiento cuesta 1 pie extra.",
+    "details": {
+      "cost": "+1 pie de movimiento por pie atravesado (total 2 pies por pie).",
+      "stacking": "No es acumulativo (un espacio es o no es terreno difícil).",
+      "examples": [
+        "Criatura hostil o no aliada (que no sea Tiny).",
+        "Muebles grandes.",
+        "Nieve pesada, hielo, escombros, vegetación densa.",
+        "Líquido entre tobillo y cintura.",
+        "Abertura estrecha (tamaño menor al tuyo).",
+        "Pendiente de 20 grados o más."
+      ]
+    },
+    "cross_references": ["Movimiento", "Velocidad"]
+  },
+  {
+    "term": "Clase de Dificultad (CD)",
+    "category": "Mecánica de Juego",
+    "definition": "El número objetivo para una prueba de habilidad o una tirada de salvación. Representa la dificultad de la tarea o la potencia del efecto.",
+    "details": {
+      "target_for": ["Prueba de habilidad", "Tirada de salvación"]
+    },
+    "cross_references": ["Pruebas D20 (Capítulo 1)", "Chequeo de Habilidad", "Tirada de Salvación"]
+  },
+  {
+    "term": "Luz Tenue",
+    "category": "Entorno",
+    "definition": "Un área con Luz Tenue está Ligeramente Oculta.",
+    "cross_references": ["Ligeramente Oculto", "Exploración (Capítulo 1)", "Luz Brillante", "Oscuridad", "Visión en la Oscuridad"]
+  },
+  {
+    "term": "Desventaja",
+    "category": "Mecánica de Juego",
+    "definition": "Si tienes Desventaja en una Prueba D20, tiras dos d20 y usas el resultado más bajo.",
+    "details": {
+      "dice": "2d20 (elige el más bajo)",
+      "interaction_with_advantage": "Ventaja y Desventaja en la misma tirada se cancelan.",
+      "stacking": "No se acumula (más de una fuente de Desventaja no impone tiradas adicionales)."
+    },
+    "cross_references": ["Pruebas D20 (Capítulo 1)", "Ventaja"]
+  },
+  {
+    "term": "Desenganchar",
+    "category": "Acción",
+    "definition": "Al tomar esta acción, tu movimiento no provoca Ataques de Oportunidad durante el resto del turno actual.",
+    "cross_references": ["Ataque de Oportunidad", "Movimiento", "Acción"]
+  },
+  {
+    "term": "Esquivar",
+    "category": "Acción",
+    "definition": "Al tomar esta acción, obtienes beneficios defensivos hasta el inicio de tu siguiente turno.",
+    "details": {
+      "benefits": [
+        "Las tiradas de ataque contra ti tienen Desventaja si puedes ver al atacante.",
+        "Haces tiradas de salvación de Destreza con Ventaja."
+      ],
+      "loss_conditions": "Pierdes los beneficios si estás Incapacitado o si tu Velocidad es 0."
+    },
+    "cross_references": ["Desventaja", "Ventaja", "Tirada de Ataque", "Tirada de Salvación de Destreza", "Incapacitado", "Velocidad", "Acción"]
+  },
+  {
+    "term": "Emanación",
+    "category": "Área de Efecto",
+    "definition": "Un área de efecto que se extiende en todas direcciones desde una criatura u objeto (el origen). El efecto especifica la distancia.",
+    "details": {
+      "movement": "Se mueve con el origen a menos que sea un efecto instantáneo o estacionario.",
+      "origin_included": "El origen (criatura u objeto) no está incluido a menos que se especifique lo contrario."
+    },
+    "cross_references": ["Área de Efecto"]
+  },
+  {
+    "term": "Encuentro",
+    "category": "Estructura del Juego",
+    "definition": "Una escena en una aventura que involucra uno de los tres pilares del juego: interacción social, exploración o combate.",
+    "details": {
+      "pillars_of_play": ["Interacción Social", "Exploración", "Combate"]
+    },
+    "cross_references": ["Aventura", "Interacción Social (Capítulo 1)", "Exploración (Capítulo 1)", "Combate (Capítulo 1)"]
+  },
+  {
+    "term": "Enemigo",
+    "category": "Relaciones",
+    "definition": "Una criatura que lucha contra ti, trabaja activamente para dañarte, o designada como enemiga por las reglas o el DM.",
+    "related_terms": ["Aliado", "Hostil"]
+  },
+  {
+    "term": "Puntos de Experiencia (XP)",
+    "category": "Progresión del Personaje",
+    "definition": "Otorgados por el DM por superar desafíos y completar aventuras. Acumular XP permite subir de nivel.",
+    "details": {
+      "awarded_by": "Dungeon Master (DM)",
+      "purpose": "Medir el progreso y determinar el avance de nivel."
+    },
+    "cross_references": ["Avance de Nivel (Capítulo 2)", "Guía del Dungeon Master"]
+  },
+  {
+    "term": "Experiencia (Pericia)",
+    "category": "Características de Personaje",
+    "definition": "Una característica que duplica tu Bonificación de Competencia para cualquier prueba de habilidad con una competencia específica en la que tengas Experiencia.",
+    "details": {
+      "effect": "Doble Bonificación de Competencia en pruebas de habilidad específicas.",
+      "requirement": "Debes tener competencia en la habilidad.",
+      "stacking": "No se puede tener Experiencia en la misma habilidad más de una vez. No se acumula si la bonificación ya es duplicada por otra fuente."
+    },
+    "cross_references": ["Competencia (Capítulo 1)", "Bonificación de Competencia", "Prueba de Habilidad"]
+  },
+  {
+    "term": "Caída",
+    "category": "Peligro",
+    "definition": "Una criatura que cae recibe daño contundente y puede quedar Caída.",
+    "details": {
+      "damage": "1d6 contundente por cada 10 pies caídos.",
+      "max_damage": "20d6.",
+      "landing_effect": "Queda Caído (Prone) al aterrizar, a menos que evite recibir daño.",
+      "falling_into_liquid": "Puede usar Reacción para hacer prueba de Fuerza (Atletismo) o Destreza (Acrobacias) CD 15. Con éxito, el daño se reduce a la mitad."
+    },
+    "cross_references": ["Peligro", "Caído", "Daño Contundente"]
+  },
+  {
+    "term": "Volar",
+    "category": "Movimiento",
+    "definition": "Moverse por el aire usando Velocidad de Vuelo.",
+    "details": {
+      "falling_condition": "Caes si quedas Incapacitado o Caído, o si tu Velocidad de Vuelo se reduce a 0, a menos que puedas flotar (Hover)."
+    },
+    "cross_references": ["Velocidad de Vuelo", "Caída", "Incapacitado", "Caído", "Flotar"]
+  },
+  {
+    "term": "Velocidad de Vuelo",
+    "category": "Movimiento",
+    "definition": "Permite viajar por el aire. Permite permanecer en el aire hasta aterrizar, caer o morir.",
+    "cross_references": ["Volar", "Velocidad"]
+  },
+  {
+    "term": "Amistoso",
+    "category": "Actitud",
+    "definition": "Una criatura Amistosa te ve favorablemente. Tienes Ventaja en pruebas de habilidad para influirla.",
+    "details": {
+      "social_interaction_effect": "Ventaja en pruebas de habilidad para influir."
+    },
+    "cross_references": ["Actitud", "Influir", "Ventaja"]
+  },
+  {
+    "term": "Agarre (Acción/Intento)",
+    "category": "Combate",
+    "definition": "Intento de sujetar a otra criatura, normalmente usando un Ataque Desarmado (como reemplazo de uno de tus ataques si tienes múltiples).",
+    "details": {
+      "how_to_initiate": "Normalmente reemplaza un ataque (parte de la acción de Ataque). Muchos monstruos tienen acciones especiales de agarre.",
+      "requirement": "Necesitas al menos una mano libre (o tentáculo, mandíbula, etc., si aplica).",
+      "limit_per_limb": "Solo puedes agarrar a una criatura a la vez con la parte del cuerpo usada.",
+      "limb_usage": "La parte del cuerpo usada para agarrar no puede usarse para atacar a otra criatura mientras mantiene el agarre.",
+      "success_effect": "El objetivo obtiene la condición de Agarre.",
+      "escape": {
+         "action": "La criatura Agarrada puede usar su acción.",
+         "check": "Prueba de Fuerza (Atletismo) o Destreza (Acrobacias) contra la CD de escape del agarre (establecida por el agarrador, usualmente 8 + Bono Competencia + Mod Fuerza/Destreza).",
+         "result": "Éxito termina la condición de Agarre en sí misma.",
+         "other_ways_to_end": "La condición también termina si el agarrador queda Incapacitado, o si la distancia entre ambos excede el alcance del agarre."
+      }
+    },
+    "cross_references": ["Agarre (Condición)", "Ataque Desarmado", "Ataque (Acción)", "Incapacitado"]
+  },
+  {
+    "term": "Peligro",
+    "category": "Entorno",
+    "definition": "Un peligro ambiental que puede dañar o afectar a las criaturas.",
+    "examples": ["Ardiente", "Deshidratación", "Caída", "Malnutrición", "Sofocación"],
+    "cross_references": ["Ardiente", "Deshidratación", "Caída", "Malnutrición", "Sofocación"]
+  },
+  {
+    "term": "Curación",
+    "category": "Mecánica de Juego",
+    "definition": "El proceso de recuperar Puntos de Golpe perdidos.",
+    "cross_references": ["Puntos de Golpe", "Daño y Curación (Capítulo 1)"]
+  },
+  {
+    "term": "Fuertemente Oculto",
+    "category": "Entorno",
+    "definition": "Un área donde la visión está bloqueada. Intentar ver algo en un espacio Fuertemente Oculto te impone la condición de Ciego respecto a ese algo.",
+    "details": {
+      "effect": "Impone condición de Ciego al intentar ver a través o dentro del área."
+    },
+    "cross_references": ["Ciego", "Oscuridad", "Ligeramente Oculto", "Exploración (Capítulo 1)"]
+  },
+  {
+    "term": "Ayuda",
+    "category": "Acción",
+    "definition": "Usar tu acción para asistir a un aliado.",
+    "details": {
+      "options": [
+        {
+          "type": "Asistir en Prueba de Habilidad",
+          "requirements": "Elige una competencia (habilidad o herramienta) tuya. El aliado debe estar cerca para recibir asistencia verbal/física.",
+          "effect": "El aliado tiene Ventaja en la *siguiente* prueba de habilidad que realice con esa habilidad/herramienta.",
+          "expiration": "El beneficio expira si no se usa antes del inicio de tu siguiente turno.",
+          "dm_adjudication": "El DM decide si la asistencia es posible."
+        },
+        {
+          "type": "Asistir en Tirada de Ataque",
+          "requirements": "Distrae a un enemigo a 5 pies de ti.",
+          "effect": "Uno de tus aliados tiene Ventaja en su *siguiente* tirada de ataque contra ese enemigo.",
+          "expiration": "El beneficio expira al inicio de tu siguiente turno."
+        }
+      ]
+    },
+    "cross_references": ["Acción", "Ventaja", "Prueba de Habilidad", "Tirada de Ataque"]
+  },
+  {
+    "term": "Inspiración Heroica",
+    "category": "Mecánica de Juego",
+    "definition": "Un recurso que permite volver a tirar un d20 recién lanzado (prueba de habilidad, ataque o salvación). Debes usar el nuevo resultado.",
+    "details": {
+        "usage": "Inmediatamente después de lanzar un d20 (prueba, ataque, salvación).",
+        "effect": "Vuelve a tirar el d20, debes usar el nuevo resultado.",
+        "stacking": "No se acumula. Si ganas Inspiración Heroica y ya la tienes, se pierde a menos que la des a otro PJ que no la tenga."
+    },
+    "cross_references": ["Prueba de D20"]
+  },
+  {
+    "term": "Esconderse",
+    "category": "Acción",
+    "definition": "Intentar ocultarse para volverse Invisible.",
+    "details": {
+      "check_required": "Prueba de Destreza (Sigilo) CD 15.",
+      "requirements_for_attempt": [
+         "Estar Fuertemente Oculto O detrás de Cobertura Tres Cuartos o Cobertura Total.",
+         "Estar fuera de la línea de visión de cualquier enemigo."
+      ],
+      "success_effect": "Ganas la condición de Invisible. Anota el total de tu prueba (esta es la CD para que te encuentren con Sabiduría (Percepción)).",
+      "ending_conditions": "La condición termina inmediatamente si: haces un sonido más fuerte que un susurro, un enemigo te encuentra, haces una tirada de ataque, o lanzas un hechizo con componente Verbal."
+    },
+    "cross_references": ["Acción", "Destreza (Sigilo)", "Fuertemente Oculto", "Cobertura", "Invisible", "Sabiduría (Percepción)"]
+  },
+   {
+    "term": "Salto Alto",
+    "category": "Movimiento",
+    "definition": "Saltar verticalmente en el aire.",
+    "details": {
+      "height_with_run": "3 + modificador de Fuerza (mínimo 0 pies). Requiere moverse al menos 10 pies a pie antes.",
+      "height_standing": "La mitad de la altura con carrera.",
+      "movement_cost": "Cada pie de salto cuesta 1 pie de movimiento.",
+      "reach_extension": "Puedes extender los brazos hasta la mitad de tu altura por encima de ti durante el salto. Alcance total = altura del salto + (1.5 * tu altura)."
+    },
+    "cross_references": ["Movimiento", "Fuerza"]
+  },
+  {
+    "term": "Dados de Puntos de Golpe (Dados de Golpe)",
+    "category": "Recursos del Personaje",
+    "definition": "Dados usados para determinar el máximo de Puntos de Golpe de un PJ y que pueden gastarse durante un Descanso Corto para recuperar Puntos de Golpe.",
+    "details": {
+      "usage_level_up": "Ayudan a determinar el HP máximo (ver Capítulo 2).",
+      "usage_short_rest": "Se pueden gastar para recuperar HP.",
+      "monster_usage": "La mayoría de los monstruos también tienen Dados de Golpe."
+    },
+    "cross_references": ["Puntos de Golpe", "Descanso Corto", "Creación de Personaje (Capítulo 2)"]
+  },
+  {
+    "term": "Puntos de Golpe (PG)",
+    "category": "Estadísticas de Personaje/Monstruo",
+    "definition": "Medida de la resistencia de una criatura u objeto al daño. El daño los reduce, la curación los restaura.",
+    "details": {
+      "limits": "No pueden superar el máximo de Puntos de Golpe. No pueden ser menores de 0.",
+      "zero_hp": "Llegar a 0 HP puede causar inconsciencia o muerte."
+    },
+    "cross_references": ["Daño", "Curación", "Romper Objetos", "Daño y Curación (Capítulo 1)", "Muerto", "Inconsciente"]
+  },
+  {
+    "term": "Hostil",
+    "category": "Actitud",
+    "definition": "Una criatura Hostil te ve de manera desfavorable. Tienes Desventaja en pruebas de habilidad para influirla.",
+     "details": {
+      "social_interaction_effect": "Desventaja en pruebas de habilidad para influir."
+    },
+    "cross_references": ["Actitud", "Influir", "Desventaja", "Enemigo"]
+  },
+  {
+    "term": "Flotar (Hover)",
+    "category": "Movimiento",
+    "definition": "Capacidad de algunas criaturas o efectos que permite permanecer en el aire sin caer, incluso si se está Incapacitado, Caído o la Velocidad de Vuelo es 0.",
+    "cross_references": ["Volar", "Caída", "Incapacitado", "Caído"]
+  },
+   {
+    "term": "Ilusiones",
+    "category": "Magia",
+    "definition": "Efectos mágicos que engañan los sentidos o la mente. El efecto que la crea define qué hace y qué sentidos afecta.",
+    "details": {
+      "physicality": "Si se manifiestan en el espacio, son inmateriales e ingrávidas.",
+      "interaction_with_environment": "Parecen afectadas por el entorno como si fueran reales (proyectan sombras, reflejos, el viento las afecta, el sonido resuena), a menos que se especifique lo contrario."
+    }
+  },
+  {
+    "term": "Inmunidad",
+    "category": "Mecánica de Juego",
+    "definition": "Si tienes Inmunidad a un tipo de daño o condición, no te afecta de ninguna manera.",
+    "cross_references": ["Resistencia", "Vulnerabilidad", "Tipos de Daño", "Condición"]
+  },
+  {
+    "term": "Armas Improvisadas",
+    "category": "Equipo/Combate",
+    "definition": "Un objeto usado como arma de forma no prevista (ej. pata de mesa, botella rota) o un arma usada de forma incorrecta (ej. arma a distancia en cuerpo a cuerpo, lanzar arma cuerpo a cuerpo sin propiedad Lanzada).",
+    "details": {
+      "proficiency": "No se añade Bonificación de Competencia a la tirada de ataque.",
+      "damage": "1d4 de un tipo de daño apropiado (decisión del DM).",
+      "range_thrown": "Normal 20 pies, Largo 60 pies.",
+      "weapon_equivalents": "Si se asemeja a un arma Simple o Marcial, el DM puede decidir que funciona como tal (usando sus estadísticas)."
+    },
+    "cross_references": ["Ataque", "Bonificación de Competencia", "Propiedad Lanzada"]
+  },
+  {
+    "term": "Indiferente",
+    "category": "Actitud",
+    "definition": "Actitud por defecto de un monstruo. No tiene deseos de ayudarte ni de obstaculizarte.",
+    "cross_references": ["Actitud", "Influir", "Amistoso", "Hostil"]
+  },
+  {
+    "term": "Influir",
+    "category": "Acción",
+    "definition": "Intentar instar a un monstruo a hacer algo mediante comunicación (engaño, intimidación, persuasión, etc.).",
+    "details": {
+      "process": [
+        "Describe tu método de comunicación (engañar, intimidar, persuadir, etc.).",
+        "El DM determina la disposición del monstruo (Dispuesto, Reacio, Indeciso)."
+      ],
+      "outcomes": {
+        "willing": "No se necesita prueba; el monstruo cumple como prefiera.",
+        "unwilling": "No se necesita prueba; el monstruo no cumple.",
+        "undecided": {
+          "check_required": "Sí, prueba de habilidad afectada por la Actitud (Amistoso, Indiferente, Hostil).",
+          "skill_suggestion_table": [
+            {"interaction": "Engañar (si te entiende)", "skill": "Carisma (Engaño)"},
+            {"interaction": "Intimidar", "skill": "Carisma (Intimidación)"},
+            {"interaction": "Divertir", "skill": "Carisma (Desempeño)"},
+            {"interaction": "Persuadir (si te entiende)", "skill": "Carisma (Persuasión)"},
+            {"interaction": "Persuadir suavemente a Bestia/Monstruosidad", "skill": "Sabiduría (Manejo de Animales)"}
+          ],
+          "dc": "15 o la puntuación de Inteligencia del monstruo, lo que sea mayor (DM elige).",
+          "success": "El monstruo actúa como instado.",
+          "failure": "Debes esperar 24 horas (o lo que diga el DM) antes de intentarlo de la misma manera."
+        }
+      }
+    },
+    "cross_references": ["Acción", "Actitud", "Amistoso", "Hostil", "Indiferente", "Prueba de Habilidad"]
+  },
+  {
+    "term": "Iniciativa",
+    "category": "Combate",
+    "definition": "Determina el orden de los turnos durante el combate.",
+    "details": {
+      "roll": "Normalmente se tira un d20 + modificador de Destreza al inicio del combate.",
+      "score_alternative": "A veces, el DM puede usar la puntuación de Iniciativa pasiva (10 + modificador de Destreza) en lugar de tirar."
+    },
+    "cross_references": ["Combate (Capítulo 1)", "Destreza"]
+  }
+]

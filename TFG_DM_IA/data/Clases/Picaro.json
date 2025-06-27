@@ -1,0 +1,398 @@
+{
+  "clase": "Pícaro",
+  "fuente_documento": "rogue.pdf",
+  "descripcion_general": "Se basan en astucia, sigilo y explotar vulnerabilidades. Tienen talento para solucionar problemas, a veces con magia. Se centran en sigilo y engaño o habilidades de exploración. En combate, prefieren precisión sobre fuerza bruta.",
+  "referencia_descripcion": "[sources 2-8]",
+  "rasgos_principales": {
+    "habilidad_principal": "Destreza",
+    "dado_golpe": "1d8 por nivel de picaro",
+    "tiradas_salvacion": [
+      "Destreza",
+      "Inteligencia"
+    ],
+    "competencias_habilidades": {
+      "cantidad": 4,
+      "opciones": [
+        "Acrobacias",
+        "Atletismo",
+        "Engañar",
+        "Perspicacia",
+        "Intimidación",
+        "Investigación",
+        "Percepción",
+        "Persuasión",
+        "Trucos",
+        "Sigilo"
+      ]
+    },
+    "competencias_armas": [
+      "Armas simples",
+      "Armas marciales que tengan la propiedad de Destreza o Ligera"
+    ],
+    "competencias_herramientas": [
+      "Herramientas de ladrón"
+    ],
+    "entrenamiento_armaduras": [
+      "Armaduras ligeras"
+    ],
+    "equipo_inicial": [
+      {
+        "opcion": "A",
+        "items": [
+          "Armadura de cuero",
+          "2 Dagas",
+          "Espada corta",
+          "Arco corto",
+          "20 Flechas",
+          "Carcaj",
+          "Herramientas de ladrón",
+          "Mochila de ladrón",
+          "8 PO"
+        ]
+      },
+      {
+        "opcion": "B",
+        "items": [
+          "100 PO"
+        ]
+      }
+    ],
+    "referencia_tabla": "[sources 1-2]"
+  },
+  "progresion_nivel": [
+    {"nivel": 1, "bono_competencia": "+2", "rasgos_resumen": "Pericia, Ataque furtivo, Jerga de ladrones, Maestría en armas", "ataque_furtivo": "1d6"},
+    {"nivel": 2, "bono_competencia": "+2", "rasgos_resumen": "Acción astuta", "ataque_furtivo": "1d6"},
+    {"nivel": 3, "bono_competencia": "+2", "rasgos_resumen": "Subclase Pícaro, Puntería firme", "ataque_furtivo": "2d6"},
+    {"nivel": 4, "bono_competencia": "+2", "rasgos_resumen": "Mejora de la puntuación de habilidad", "ataque_furtivo": "2d6"},
+    {"nivel": 5, "bono_competencia": "+3", "rasgos_resumen": "Golpe astuto, esquiva asombrosa", "ataque_furtivo": "3d6"},
+    {"nivel": 6, "bono_competencia": "+3", "rasgos_resumen": "Pericia", "ataque_furtivo": "3d6"},
+    {"nivel": 7, "bono_competencia": "+3", "rasgos_resumen": "Evasión, talento confiable", "ataque_furtivo": "4d6"},
+    {"nivel": 8, "bono_competencia": "+3", "rasgos_resumen": "Mejora de la puntuación de habilidad", "ataque_furtivo": "4d6"},
+    {"nivel": 9, "bono_competencia": "+4", "rasgos_resumen": "Característica de subclase", "ataque_furtivo": "5d6"},
+    {"nivel": 10, "bono_competencia": "+4", "rasgos_resumen": "Mejora de la puntuación de habilidad", "ataque_furtivo": "5d6"},
+    {"nivel": 11, "bono_competencia": "+4", "rasgos_resumen": "Golpe astuto mejorado", "ataque_furtivo": "6d6"},
+    {"nivel": 12, "bono_competencia": "+4", "rasgos_resumen": "Mejora de la puntuación de habilidad", "ataque_furtivo": "6d6"},
+    {"nivel": 13, "bono_competencia": "+5", "rasgos_resumen": "Característica de subclase", "ataque_furtivo": "7d6"},
+    {"nivel": 14, "bono_competencia": "+5", "rasgos_resumen": "Golpes tortuosos", "ataque_furtivo": "7d6"},
+    {"nivel": 15, "bono_competencia": "+5", "rasgos_resumen": "Mente resbaladiza", "ataque_furtivo": "8d6"},
+    {"nivel": 16, "bono_competencia": "+5", "rasgos_resumen": "Mejora de la puntuación de habilidad", "ataque_furtivo": "8d6"},
+    {"nivel": 17, "bono_competencia": "+6", "rasgos_resumen": "Característica de subclase", "ataque_furtivo": "9d6"},
+    {"nivel": 18, "bono_competencia": "+6", "rasgos_resumen": "Elusivo", "ataque_furtivo": "9d6"},
+    {"nivel": 19, "bono_competencia": "+6", "rasgos_resumen": "Bendición épica", "ataque_furtivo": "10d6"},
+    {"nivel": 20, "bono_competencia": "+6", "rasgos_resumen": "Golpe de suerte", "ataque_furtivo": "10d6"}
+  ],
+  "referencia_progresion": "[source 28]",
+  "detalles_rasgos_clase": {
+    "Experiencia": {
+      "nivel": 1,
+      "descripcion": "Elige 2 habilidades con competencia, obtienes Experiencia (doble bono comp.). En Nivel 6, elige 2 más.",
+      "referencia": "[sources 15-17]"
+    },
+    "Ataque Furtivo": {
+      "nivel": 1,
+      "descripcion": "1/turno, puedes causar daño extra a criatura golpeada si tienes Ventaja en ataque (con arma Destreza/Distancia) O si aliado no Incapacitado está a 5 pies del objetivo y no tienes Desventaja. Daño extra según tabla (empieza 1d6). Tipo daño = tipo arma.",
+      "referencia": "[sources 18-22]"
+    },
+    "Jerga de Ladrones": {
+      "nivel": 1,
+      "descripcion": "Conoces Jerga de Ladrones y otro idioma a elección.",
+      "referencia": "[sources 23-24]"
+    },
+    "Maestría con Armas": {
+      "nivel": 1,
+      "descripcion": "Puedes usar propiedades maestría de 2 tipos armas con competencia. Puedes cambiar tipos elegidos en Descanso Largo.",
+      "referencia": "[sources 24-26]"
+    },
+    "Acción Astuta": {
+      "nivel": 2,
+      "descripcion": "Acción Bonificación: Correr, Desengancharte o Esconderte.",
+      "referencia": "[sources 29-30]"
+    },
+    "Subclase de Pícaro": {
+      "nivel": 3,
+      "descripcion": "Eliges un Arquetipo de Pícaro.",
+      "opciones_documento": [
+        "Embaucador Arcano",
+        "Asesino",
+        "Soulknife",
+        "Ladrón"
+      ],
+      "referencia": "[sources 31-34]"
+    },
+    "Apuntar Estable": {
+      "nivel": 3,
+      "descripcion": "Acción Bonificación, ganas Ventaja en sig. tirada ataque este turno. Solo si no te has movido. Velocidad = 0 hasta fin turno.",
+      "referencia": "[sources 35-36]"
+    },
+    "Mejora de Puntuación de Habilidad": {
+      "nivel": 4,
+      "descripcion": "Obtienes dote 'Mejora Puntuación Habilidad' u otra dote. Se obtiene de nuevo en niveles 8, 10, 12 y 16.",
+      "referencia": "[sources 37-38]"
+    },
+    "Golpe Astuto": {
+      "nivel": 5,
+      "descripcion": "Al causar daño Ataque Furtivo, puedes renunciar dados SA para añadir efecto. Quitas dados antes de tirar. CD = 8 + Mod Destreza + Bono Comp.",
+      "efectos_iniciales": [
+        {"nombre": "Veneno", "costo": "1d6", "requisito": "Kit Veneno disponible", "efecto": "Objetivo hace TS Constitución. Fallo: Envenenado 1 min (repite TS fin turno)."},
+        {"nombre": "Tropezar", "costo": "1d6", "efecto": "Si objetivo G o menor, hace TS Destreza. Fallo: Caído."},
+        {"nombre": "Retirada", "costo": "1d6", "efecto": "Inmediatamente después ataque, mueve mitad Velocidad sin provocar AO."}
+      ],
+      "referencia": "[sources 39-50]"
+    },
+    "Evasión Inusual": {
+      "nivel": 5,
+      "descripcion": "Reacción cuando atacante visible te golpea. Reduce daño ataque a la mitad (redondeado abajo).",
+      "referencia": "[source 51]"
+    },
+    "Evasión": {
+      "nivel": 7,
+      "descripcion": "TS Destreza para mitad daño -> recibes 0 daño si éxito, mitad si fallo. No funciona si Incapacitado.",
+      "referencia": "[sources 52-53]"
+    },
+    "Talento Fiable": {
+      "nivel": 7,
+      "descripcion": "Al hacer prueba habilidad (con competencia habilidad/herramienta), trata tirada d20 de 9 o menos como 10.",
+      "referencia": "[source 54]"
+    },
+    "Golpe Astuto Mejorado": {
+      "nivel": 11,
+      "descripcion": "Puedes usar hasta 2 efectos Golpe Astuto por Ataque Furtivo (pagando coste dados cada uno).",
+      "referencia": "[source 54]"
+    },
+    "Golpes Ingeniosos": {
+      "nivel": 14,
+      "descripcion": "Nuevas opciones Golpe Astuto:",
+      "efectos_nuevos": [
+        {"nombre": "Aturdir", "costo": "2d6", "efecto": "Objetivo hace TS Constitución. Fallo: en su sig. turno, solo puede Moverse O hacer Acción O Acción Bonificación."},
+        {"nombre": "Golpe Adormecedor", "costo": "6d6", "efecto": "Objetivo hace TS Constitución. Fallo: Incapacitado 1 min (o hasta recibir daño). Repite TS fin turno."},
+        {"nombre": "Oscurecer", "costo": "3d6", "efecto": "Objetivo hace TS Destreza. Fallo: Cegado hasta fin su sig. turno."}
+      ],
+      "referencia": "[sources 55-59]"
+    },
+    "Mente Escurridiza": {
+      "nivel": 15,
+      "descripcion": "Competencia en TS Sabiduría y Carisma.",
+      "referencia": "[sources 60-61]"
+    },
+    "Escurridizo": {
+      "nivel": 18,
+      "descripcion": "Tiradas ataque no pueden tener Ventaja contra ti (salvo si Incapacitado).",
+      "referencia": "[sources 62-63]"
+    },
+    "Bendición Épica": {
+      "nivel": 19,
+      "descripcion": "Obtienes Hazaña Épica (recomendada: Espíritu Nocturno) u otra hazaña.",
+      "referencia": "[sources 64-65]"
+    },
+    "Toque de Suerte": {
+      "nivel": 20,
+      "descripcion": "Si fallas Prueba d20, puedes cambiar tirada a 20. 1 uso/Descanso Corto o Largo.",
+      "referencia": "[sources 65-66]"
+    }
+  },
+  "subclases": [
+    {
+      "nombre": "Embaucador Arcano",
+      "descripcion": "Mejoran sigilo y agilidad con hechizos arcanos. Carteristas, ladrones, bromistas.",
+      "referencia_descripcion": "[sources 69-70]",
+      "lanzamiento_conjuros": {
+          "habilidad": "Inteligencia",
+          "lista_conjuros": "Mago",
+          "foco": "Foco Arcano",
+          "trucos_conocidos": "Mano Mágica + 2 Mago (recomendados: Silbido Mental, Pequeña Ilusión). +1 Mago en Nivel 10. Puedes reemplazar uno (no Mano Mágica) al subir nivel.",
+          "conjuros_preparados": "Según tabla 'Conjuración Embaucador Arcano'. Empiezas con 3 nivel 1 (recomendados: Encantar Persona, Disfrazarse, Nube Niebla). Eliges de lista Mago. Puedes reemplazar 1 al subir nivel.",
+          "espacios_conjuro": "Según tabla 'Conjuración Embaucador Arcano'. Recuperas en Descanso Largo.",
+          "tabla_progresion": [
+               {"nivel": 3, "preparados": 3, "nivel_1": 2, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0},
+               {"nivel": 4, "preparados": 4, "nivel_1": 3, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0},
+               {"nivel": 5, "preparados": 4, "nivel_1": 3, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0},
+               {"nivel": 6, "preparados": 4, "nivel_1": 3, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0},
+               {"nivel": 7, "preparados": 5, "nivel_1": 4, "nivel_2": 2, "nivel_3": 0, "nivel_4": 0},
+               {"nivel": 8, "preparados": 6, "nivel_1": 4, "nivel_2": 2, "nivel_3": 0, "nivel_4": 0},
+               {"nivel": 9, "preparados": 6, "nivel_1": 4, "nivel_2": 2, "nivel_3": 0, "nivel_4": 0},
+               {"nivel": 10, "preparados": 7, "nivel_1": 4, "nivel_2": 3, "nivel_3": 0, "nivel_4": 0},
+               {"nivel": 11, "preparados": 8, "nivel_1": 4, "nivel_2": 3, "nivel_3": 0, "nivel_4": 0},
+               {"nivel": 12, "preparados": 8, "nivel_1": 4, "nivel_2": 3, "nivel_3": 0, "nivel_4": 0},
+               {"nivel": 13, "preparados": 9, "nivel_1": 4, "nivel_2": 3, "nivel_3": 2, "nivel_4": 0},
+               {"nivel": 14, "preparados": 10, "nivel_1": 4, "nivel_2": 3, "nivel_3": 2, "nivel_4": 0},
+               {"nivel": 15, "preparados": 10, "nivel_1": 4, "nivel_2": 3, "nivel_3": 2, "nivel_4": 0},
+               {"nivel": 16, "preparados": 11, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 0},
+               {"nivel": 17, "preparados": 11, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 0},
+               {"nivel": 18, "preparados": 11, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 0},
+               {"nivel": 19, "preparados": 12, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 1},
+               {"nivel": 20, "preparados": 13, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 1}
+          ],
+          "referencia": "[sources 71-88]"
+       },
+      "rasgos": [
+        {
+           "nivel": 3,
+           "nombre": "Prestidigitación con Mano Mágica",
+           "descripcion": "Lanza Mano Mágica como Acción Bonificación, mano puede ser Invisible. Controla mano como Acción Bonificación. Puedes hacer pruebas Destreza (Juego Manos) a través de ella.",
+           "referencia": "[sources 89-90]"
+        },
+        {
+            "nivel": 9,
+            "nombre": "Emboscada Mágica",
+            "descripcion": "Si Invisible al lanzar conjuro a criatura, esta tiene Desventaja en TS vs ese conjuro ese turno.",
+            "referencia": "[source 91]"
+        },
+        {
+            "nivel": 13,
+            "nombre": "Trickster Versátil",
+            "descripcion": "Al usar Golpe Astuto 'Tropezar' en criatura, también puedes usarlo en otra criatura a 5 pies de tu Mano Mágica.",
+            "referencia": "[sources 92-93]"
+        },
+        {
+            "nivel": 17,
+            "nombre": "Ladrón de Hechizos",
+            "descripcion": "Reacción inmediata después que criatura lance conjuro (te apunte o incluya en área). Fuerza TS Inteligencia vs tu CD. Fallo: niegas efecto vs ti, robas conocimiento conjuro (si nivel 1+ y puedes lanzarlo). Tienes conjuro preparado 8h. Criatura no puede lanzarlo 8h. 1 uso/Descanso Largo.",
+            "referencia": "[sources 94-99]"
+        }
+      ]
+    },
+    {
+      "nombre": "Asesino",
+      "descripcion": "Se centra en sigilo, veneno y disfraz para eliminar enemigos. Asesinos a sueldo, espías, cazadores de recompensas.",
+      "referencia_descripcion": "[sources 100-101]",
+      "rasgos": [
+         {
+            "nivel": 3,
+            "nombre": "Asesinato",
+            "descripcion": "Beneficios:",
+            "beneficios_asesinato": [
+                {"nombre": "Iniciativa", "efecto": "Ventaja en tiradas iniciativa."},
+                {"nombre": "Golpes Sorprendentes", "efecto": "Primer turno combate, Ventaja en ataques vs criaturas que no han actuado. Si Ataque Furtivo impacta ese turno, objetivo recibe daño extra (tipo arma) = Nivel Pícaro."}
+            ],
+            "referencia": "[sources 102-104]"
+         },
+         {
+             "nivel": 3,
+             "nombre": "Herramientas de Asesino",
+             "descripcion": "Ganas Kit Disfraz y Kit Veneno, y competencia con ellos.",
+             "referencia": "[source 105]"
+         },
+         {
+             "nivel": 9,
+             "nombre": "Pericia en Infiltración",
+             "descripcion": "Técnicas:",
+             "tecnicas_infiltracion": [
+                 {"nombre": "Mimicry Impecable", "efecto": "Imita habla/escritura de otro tras 1h estudio."},
+                 {"nombre": "Apuntar en Movimiento", "efecto": "Apuntar Estable no reduce Velocidad a 0."}
+             ],
+             "referencia": "[sources 106-108]"
+         },
+         {
+             "nivel": 13,
+             "nombre": "Armas Envenenadas",
+             "descripcion": "Al usar Golpe Astuto 'Veneno', objetivo también recibe 2d6 daño Veneno cada vez que falle TS (ignora Resistencia Veneno).",
+             "referencia": "[source 109]"
+         },
+         {
+             "nivel": 17,
+             "nombre": "Golpe Mortal",
+             "descripcion": "Al impactar Ataque Furtivo primer turno combate, objetivo hace TS Constitución (DC 8 + Mod Des + Bono Comp.) o daño ataque se duplica.",
+             "referencia": "[source 110]"
+         }
+      ]
+    },
+    {
+      "nombre": "Soulknife",
+      "descripcion": "Ataca con la mente, usando poder psiónico descubierto dentro de sí.",
+      "referencia_descripcion": "[sources 111-114]",
+      "rasgos": [
+         {
+            "nivel": 3,
+            "nombre": "Poder Psiónico",
+            "descripcion": "Ganas Dados Energía Psiónica (empieza 4d6, escala según tabla). Gastas dados en poderes. Recuperas 1 en Descanso Corto, todos en Descanso Largo. Poderes iniciales:",
+            "poderes_iniciales": [
+                {"nombre": "Talento Reforzado por Psiónica", "efecto": "Si fallas chequeo habilidad/herramienta (con competencia), tira Dado Energía, añade a chequeo. Dado se gasta solo si éxito."},
+                {"nombre": "Susurros Psíquicos", "efecto": "Acción mágica, elige criaturas (hasta Bono Comp.) a vista. Tira Dado Energía. Durante horas = tirada, comunicación telepática mutua (alcance 1 milla). Primer uso/DL gratis, sig. gastan dado."}
+            ],
+            "tabla_dados": [
+                {"nivel": 3, "dado": "d6", "numero": 4},
+                {"nivel": 5, "dado": "d8", "numero": 6},
+                {"nivel": 9, "dado": "d8", "numero": 8},
+                {"nivel": 11, "dado": "d10", "numero": 8},
+                {"nivel": 13, "dado": "d10", "numero": 10},
+                {"nivel": 17, "dado": "d12", "numero": 12}
+            ],
+            "referencia": "[sources 115-131]"
+         },
+         {
+             "nivel": 3,
+             "nombre": "Espadas Psíquicas",
+             "descripcion": "Al tomar acción Ataque / Ataque Oportunidad, puedes manifestar Espada Psíquica (mano libre). Arma Simple Cuerpo a Cuerpo, daño 1d6 Psíquico + mod habilidad, propiedades Finura, Lanzada (60/120), Maestría Vex (no cuenta para límite). Desaparece tras ataque. Si atacas con ella en tu turno, puedes atacar con 2ª hoja (mano libre) como Acción Bonificación (daño 1d4).",
+             "referencia": "[sources 132-137]"
+         },
+         {
+             "nivel": 9,
+             "nombre": "Espadas del Alma",
+             "descripcion": "Nuevos poderes:",
+             "poderes_nuevos": [
+                 {"nombre": "Golpes Guiados", "efecto": "Si fallas ataque Espada Psíquica, tira Dado Energía, añade a tirada ataque. Dado se gasta solo si acierta."},
+                 {"nombre": "Teletransportación Psíquica", "efecto": "Acción Bonificación, manifiesta Espada, gasta y tira Dado Energía. Lanza hoja a espacio desocupado visible (pies = 10 * tirada). Teletranspórtate ahí."}
+             ],
+             "referencia": "[sources 138-142]"
+         },
+         {
+             "nivel": 13,
+             "nombre": "Velo Psíquico",
+             "descripcion": "Acción Mágica, ganas condición Invisible (1 hora / hasta disolver). Termina temprano si infliges daño o fuerzas TS. 1 uso/Descanso Largo, o gasta Dado Energía.",
+             "referencia": "[sources 143-146]"
+         },
+         {
+             "nivel": 17,
+             "nombre": "Desgarro Mental",
+             "descripcion": "Al causar daño Ataque Furtivo con Espadas Psíquicas, fuerza TS Sabiduría (DC 8 + Mod Des + Bono Comp.). Fallo: Aturdido 1 min (repite TS fin turno). 1 uso/Descanso Largo, o gasta 3 Dados Energía.",
+             "referencia": "[sources 147-151]"
+         }
+      ]
+    },
+    {
+      "nombre": "Ladrón",
+      "descripcion": "Mezcla de ladrón, cazador tesoros, explorador. Ágil, sigiloso, hábil explorando ruinas y usando objetos mágicos.",
+      "referencia_descripcion": "[sources 153-154]",
+      "rasgos": [
+        {
+           "nivel": 3,
+           "nombre": "Manos Rápidas",
+           "descripcion": "Acción Bonificación: Haz prueba Destreza(Juego Manos) para abrir cerradura/desactivar trampa/robar bolsillo; O toma acción Usar Objeto; O toma acción Mágica para usar objeto mágico.",
+           "referencia": "[sources 155-157]"
+        },
+        {
+           "nivel": 3,
+           "nombre": "Trabajo de Segundo Piso",
+           "descripcion": "Beneficios: Escalador (Ganas Vel. Escalada = tu Velocidad); Saltador (Puedes usar Destreza para distancia salto).",
+           "referencia": "[sources 158-160]"
+        },
+        {
+            "nivel": 9,
+            "nombre": "Sigilo Supremo",
+            "descripcion": "Nueva opción Golpe Astuto:",
+            "opcion_golpe_astuto": {
+                "nombre": "Ataque de Sigilo", "costo": "1d6", "efecto": "Si Invisible por acción Esconderte, este ataque no termina Invisibilidad si terminas turno tras Cobertura 3/4 o Total."
+            },
+            "referencia": "[sources 160-161]"
+        },
+        {
+            "nivel": 13,
+            "nombre": "Uso de Dispositivos Mágicos",
+            "descripcion": "Beneficios:",
+            "beneficios_dispositivos": [
+                {"nombre": "Sintonización", "efecto": "Puedes sintonizar hasta 4 objetos mágicos."},
+                {"nombre": "Cargas", "efecto": "Al usar propiedad objeto mágico que gasta cargas, tira 1d6. Con 6, no gastas carga."},
+                {"nombre": "Pergaminos", "efecto": "Puedes usar cualquier Pergamino Hechizo (Int es habilidad). Lanzas fiablemente Trucos/Nivel 1. Nivel superior: prueba Int(Arcana) CD 10+nivel hechizo; éxito=lanzas, fallo=desintegra."}
+            ],
+            "referencia": "[sources 162-169]"
+        },
+        {
+            "nivel": 17,
+            "nombre": "Reflejos de Ladrón",
+            "descripcion": "Puedes tomar 2 turnos durante primera ronda combate (tu Iniciativa normal, y tu Iniciativa - 10).",
+            "referencia": "[sources 170-172]"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "clase": "Monje",
+  "fuente_documento": "monje.pdf",
+  "descripcion_general": "Utilizan entrenamiento riguroso y disciplina mental para enfocar su poder interno (ki, energía vital, etc.). Canalizan velocidad y fuerza en sus ataques, con o sin armas. Las aventuras son pruebas para su desarrollo físico y mental.",
+  "referencia_descripcion": "[sources 204-214]",
+  "rasgos_principales": {
+    "habilidad_principal": [
+      "Destreza",
+      "Sabiduría"
+    ],
+    "dado_golpe": "D8 por nivel de Monje",
+    "tiradas_salvacion": [
+      "Fuerza",
+      "Destreza"
+    ],
+    "competencias_habilidades": {
+      "cantidad": 2,
+      "opciones": [
+        "Acrobacias",
+        "Atletismo",
+        "Historia",
+        "Perspicacia",
+        "Religión",
+        "Sigilo"
+      ]
+    },
+    "competencias_armas": [
+      "Armas Simples",
+      "Armas Marciales que tengan la propiedad de Ligera"
+    ],
+    "competencias_herramientas": {
+      "cantidad": 1,
+      "opciones": [
+         "Herramientas de Artesano",
+         "Instrumento Musical"
+      ]
+    },
+    "entrenamiento_armaduras": [],
+    "equipo_inicial": [
+      {
+        "opcion": "A",
+        "items": [
+          "Lanza",
+          "5 Dagas",
+          "Herramientas de Artesano o Instrumento Musical elegido",
+          "Mochila de Explorador",
+          "11 PO"
+        ]
+      },
+      {
+        "opcion": "B",
+        "items": [
+          "50 PO"
+        ]
+      }
+    ],
+    "referencia_tabla": "[sources 203-204]"
+  },
+  "progresion_nivel": [
+    {"nivel": 1, "bono_competencia": "+2", "rasgos_resumen": "Artes marciales, defensa sin armadura", "dado_artes_marciales": "1d6", "puntos_enfoque": 0, "mov_sin_armadura": "+0 pies"},
+    {"nivel": 2, "bono_competencia": "+2", "rasgos_resumen": "Enfoque del monje, movimiento sin armadura, metabolismo sobrenatural", "dado_artes_marciales": "1d6", "puntos_enfoque": 2, "mov_sin_armadura": "+10 pies"},
+    {"nivel": 3, "bono_competencia": "+2", "rasgos_resumen": "Desviar ataques, subclase de monje", "dado_artes_marciales": "1d6", "puntos_enfoque": 3, "mov_sin_armadura": "+10 pies"},
+    {"nivel": 4, "bono_competencia": "+2", "rasgos_resumen": "Mejora de la puntuación de habilidad, caída lenta", "dado_artes_marciales": "1d6", "puntos_enfoque": 4, "mov_sin_armadura": "+10 pies"},
+    {"nivel": 5, "bono_competencia": "+3", "rasgos_resumen": "Ataque extra, golpe aturdidor", "dado_artes_marciales": "1d8", "puntos_enfoque": 5, "mov_sin_armadura": "+10 pies"},
+    {"nivel": 6, "bono_competencia": "+3", "rasgos_resumen": "Golpes potenciados, característica de subclase", "dado_artes_marciales": "1d8", "puntos_enfoque": 6, "mov_sin_armadura": "+15 pies"},
+    {"nivel": 7, "bono_competencia": "+3", "rasgos_resumen": "Evasión", "dado_artes_marciales": "1d8", "puntos_enfoque": 7, "mov_sin_armadura": "+15 pies"},
+    {"nivel": 8, "bono_competencia": "+3", "rasgos_resumen": "Mejora de la puntuación de habilidad", "dado_artes_marciales": "1d8", "puntos_enfoque": 8, "mov_sin_armadura": "+15 pies"},
+    {"nivel": 9, "bono_competencia": "+4", "rasgos_resumen": "Movimiento acrobático", "dado_artes_marciales": "1d8", "puntos_enfoque": 9, "mov_sin_armadura": "+15 pies"},
+    {"nivel": 10, "bono_competencia": "+4", "rasgos_resumen": "Mayor concentración, autorrecuperación", "dado_artes_marciales": "1d8", "puntos_enfoque": 10, "mov_sin_armadura": "+20 pies"},
+    {"nivel": 11, "bono_competencia": "+4", "rasgos_resumen": "Caracteristica de subclase", "dado_artes_marciales": "1d10", "puntos_enfoque": 11, "mov_sin_armadura": "+20 pies"},
+    {"nivel": 12, "bono_competencia": "+4", "rasgos_resumen": "Mejora de la puntuación de habilidad", "dado_artes_marciales": "1d10", "puntos_enfoque": 12, "mov_sin_armadura": "+20 pies"},
+    {"nivel": 13, "bono_competencia": "+5", "rasgos_resumen": "Desviar energía", "dado_artes_marciales": "1d10", "puntos_enfoque": 13, "mov_sin_armadura": "+20 pies"},
+    {"nivel": 14, "bono_competencia": "+5", "rasgos_resumen": "Superviviente disciplinado", "dado_artes_marciales": "1d10", "puntos_enfoque": 14, "mov_sin_armadura": "+25 pies"},
+    {"nivel": 15, "bono_competencia": "+5", "rasgos_resumen": "Enfoque perfecto", "dado_artes_marciales": "1d10", "puntos_enfoque": 15, "mov_sin_armadura": "+25 pies"},
+    {"nivel": 16, "bono_competencia": "+5", "rasgos_resumen": "Mejora de la puntuación de habilidad", "dado_artes_marciales": "1d10", "puntos_enfoque": 16, "mov_sin_armadura": "+25 pies"},
+    {"nivel": 17, "bono_competencia": "+6", "rasgos_resumen": "Caracteristica de subclase", "dado_artes_marciales": "1d12", "puntos_enfoque": 17, "mov_sin_armadura": "+25 pies"},
+    {"nivel": 18, "bono_competencia": "+6", "rasgos_resumen": "Defensa superior", "dado_artes_marciales": "1d12", "puntos_enfoque": 18, "mov_sin_armadura": "+30 pies"},
+    {"nivel": 19, "bono_competencia": "+6", "rasgos_resumen": "Bendición épica", "dado_artes_marciales": "1d12", "puntos_enfoque": 19, "mov_sin_armadura": "+30 pies"},
+    {"nivel": 20, "bono_competencia": "+6", "rasgos_resumen": "Cuerpo y mente", "dado_artes_marciales": "1d12", "puntos_enfoque": 20, "mov_sin_armadura": "+30 pies"}
+  ],
+  "referencia_progresion": "[source 231]",
+  "detalles_rasgos_clase": {
+    "Artes Marciales": {
+      "nivel": 1,
+      "descripcion": "Maestría en combate sin armas y con armas de Monje (Armas Cuerpo a Cuerpo Simples; Armas Cuerpo a Cuerpo Marciales Ligeras). Ganas beneficios si vas sin armadura/escudo y solo usas armas monje/sin armas:",
+      "beneficios": [
+        {"nombre": "Golpe sin Armas Adicional", "efecto": "Puedes hacer un Golpe sin Armas como Acción de Bonificación."},
+        {"nombre": "Dado de Artes Marciales", "efecto": "Puedes usar dado especificado en tabla (empieza 1d6) para daño Golpe sin Armas/arma Monje."},
+        {"nombre": "Ataques Destreza", "efecto": "Puedes usar Mod Destreza para ataque y daño de Golpes sin Armas/armas Monje. Puedes usar Mod Destreza para CD salvación de Agarrar/Empujar."}
+      ],
+      "referencia": "[sources 220-225]"
+    },
+    "Defensa sin Armadura": {
+      "nivel": 1,
+      "descripcion": "Sin armadura ni escudo, CA base = 10 + Mod Destreza + Mod Sabiduría.",
+      "referencia": "[source 226]"
+    },
+    "Enfoque del Monje": {
+      "nivel": 2,
+      "descripcion": "Tienes Puntos de Enfoque (Ki) según tabla. Recuperas todos en Descanso Corto o Largo. CD Salvación = 8 + Mod Sabiduría + Bono Competencia. Conoces 3 usos:",
+      "usos_iniciales": [
+        {"nombre": "Ataque Furtivo (Flurry of Blows)", "coste": "1 Punto", "efecto": "Haz 2 Golpes sin Armas como Acción de Bonificación."},
+        {"nombre": "Defensa Paciente", "coste": "0 Puntos (Desenganche solo) / 1 Punto (Desenganche + Esquivar)", "efecto": "Toma acción Desenganche como Acción de Bonificación. O gasta 1 Punto para tomar Desenganche Y Esquivar como Acción de Bonificación."},
+        {"nombre": "Paso del Viento", "coste": "0 Puntos (Carrera solo) / 1 Punto (Desenganche + Carrera + Salto Doble)", "efecto": "Toma acción Carrera como Acción de Bonificación. O gasta 1 Punto para tomar Desenganche Y Carrera como Acción de Bonificación, y distancia de salto se duplica en el turno."}
+      ],
+      "referencia": "[sources 227-241]"
+    },
+    "Movimiento sin Armadura": {
+      "nivel": 2,
+      "descripcion": "Tu velocidad aumenta según tabla, mientras no uses armadura ni escudo.",
+      "referencia": "[sources 242-243]"
+    },
+    "Metabolismo Inusual": {
+      "nivel": 2,
+      "descripcion": "Al tirar Iniciativa, puedes recuperar todos los Puntos Enfoque gastados. Tira dado Artes Marciales y recupera PG = Nivel Monje + tirada. 1 uso/Descanso Largo.",
+      "referencia": "[sources 244-246]"
+    },
+    "Desvío de Ataques": {
+      "nivel": 3,
+      "descripcion": "Reacción al ser golpeado por ataque (daño Contundente, Perforante o Cortante). Reduce daño = 1d10 + Mod Destreza + Nivel Monje. Si daño = 0, gasta 1 Punto Enfoque: elige criatura (5 pies si ataque cuerpo a cuerpo, 60 pies si a distancia, sin Cobertura Total). Criatura hace TS Destreza o recibe daño = 2 * Dado Artes Marciales + Mod Destreza (mismo tipo que ataque original).",
+      "referencia": "[sources 247-252]"
+    },
+    "Subclase de Monje": {
+      "nivel": 3,
+      "descripcion": "Eliges una Tradición Monástica.",
+      "opciones_documento": [
+        "Guerrero de la Misericordia",
+        "Guerrero de las Sombras",
+        "Guerrero de los Elementos",
+        "Guerrero de la Mano Abierta"
+      ],
+      "referencia": "[sources 253-256]"
+    },
+    "Mejora de Puntuación de Habilidad": {
+      "nivel": 4,
+      "descripcion": "Obtienes la dote 'Mejora de Puntuación de Habilidad' u otra dote. Se obtiene de nuevo en los niveles 8, 12 y 16.",
+      "referencia": "[sources 257-258]"
+    },
+    "Caída Lenta": {
+      "nivel": 4,
+      "descripcion": "Reacción al caer, reduce daño caída = 5 * Nivel Monje.",
+      "referencia": "[source 258]"
+    },
+    "Ataque Adicional": {
+      "nivel": 5,
+      "descripcion": "Puedes atacar dos veces con la acción de Ataque.",
+      "referencia": "[source 259]"
+    },
+    "Golpe Aturdidor": {
+      "nivel": 5,
+      "descripcion": "1/turno, al golpear con arma Monje o Golpe sin Armas, gasta 1 Punto Enfoque. Objetivo hace TS Constitución. Falla: Aturdido hasta inicio tu sig. turno. Éxito: Velocidad mitad hasta inicio tu sig. turno, sig. ataque vs él tiene Ventaja.",
+      "referencia": "[sources 260-263]"
+    },
+    "Golpes Potenciados": {
+      "nivel": 6,
+      "descripcion": "Tu Golpe sin Armas puede causar daño de Fuerza o su tipo normal.",
+      "referencia": "[source 264]"
+    },
+    "Evasión": {
+      "nivel": 7,
+      "descripcion": "TS Destreza para mitad daño -> recibes 0 daño si éxito, mitad si fallo. No funciona si Incapacitado.",
+      "referencia": "[sources 265-266]"
+    },
+    "Movimiento Acrobático": {
+      "nivel": 9,
+      "descripcion": "Sin armadura/escudo, puedes moverte por superficies verticales y líquidos sin caer durante movimiento.",
+      "referencia": "[source 267]"
+    },
+    "Enfoque Elevado": {
+      "nivel": 10,
+      "descripcion": "Tus usos de Enfoque del Monje mejoran:",
+      "mejoras": [
+        {"nombre": "Ataque Furtivo (Flurry of Blows)", "efecto": "Gasta 1 Punto, haz 3 Golpes sin Armas."},
+        {"nombre": "Defensa Paciente", "efecto": "Gasta 1 Punto, ganas PG Temporales = 2 * Dado Artes Marciales."},
+        {"nombre": "Paso del Viento", "efecto": "Gasta 1 Punto, puedes elegir criatura dispuesta (G o menor) a 5 pies, la mueves contigo hasta fin de turno (no provoca AO)."}
+      ],
+      "referencia": "[sources 268-271]"
+    },
+    "Auto-Restauración": {
+      "nivel": 10,
+      "descripcion": "Al final de tu turno, puedes eliminar condición Encantado, Aterrorizado o Envenenado. No ganas Agotamiento por falta comida/bebida.",
+      "referencia": "[sources 272-273]"
+    },
+    "Desviar Energía": {
+      "nivel": 13,
+      "descripcion": "Desvío de Ataques funciona contra cualquier tipo de daño.",
+      "referencia": "[source 274]"
+    },
+    "Superviviente Disciplinado": {
+      "nivel": 14,
+      "descripcion": "Competencia en todas TS. Si fallas TS, gasta 1 Punto Enfoque para repetir (usas nueva tirada).",
+      "referencia": "[sources 275-276]"
+    },
+    "Enfoque Perfecto": {
+      "nivel": 15,
+      "descripcion": "Al tirar Iniciativa (si no usas Metabolismo Inusual), recuperas Puntos Enfoque hasta 4 si tienes 3 o menos.",
+      "referencia": "[source 277]"
+    },
+    "Defensa Superior": {
+      "nivel": 18,
+      "descripcion": "Al inicio turno, gasta 3 Puntos Enfoque. Ganas Resistencia a todo daño excepto Fuerza (1 min / hasta Incapacitado).",
+      "referencia": "[sources 278-279]"
+    },
+    "Bendición Épica": {
+      "nivel": 19,
+      "descripcion": "Obtienes una Hazaña Épica (recomendada: Ofensiva Irresistible) u otra hazaña.",
+      "referencia": "[sources 280-281]"
+    },
+    "Cuerpo y Mente": {
+      "nivel": 20,
+      "descripcion": "Puntuaciones Destreza y Sabiduría +4 (máx 25).",
+      "referencia": "[source 282]"
+    }
+  },
+  "subclases": [
+    {
+      "nombre": "Guerrero de la Misericordia",
+      "descripcion": "Manipulan fuerza vital, médicos errantes que traen final rápido a enemigos. Usan máscaras.",
+      "referencia_descripcion": "[sources 285-287]",
+      "rasgos": [
+        {
+          "nivel": 3,
+          "nombre": "Mano del Daño",
+          "descripcion": "1/turno, al golpear con Golpe sin Armas, gasta 1 Punto Enfoque. Causa daño Necrótico adicional = Dado Artes Marciales + Mod Sabiduría.",
+          "referencia": "[source 288]"
+        },
+        {
+          "nivel": 3,
+          "nombre": "Mano de la Sanación",
+          "descripcion": "Acción Mágica, gasta 1 Punto Enfoque, toca criatura. Restaura PG = Dado Artes Marciales + Mod Sabiduría. Al usar Ataque Furtivo (Flurry), puedes reemplazar 1 golpe con esto (sin coste Punto Enfoque).",
+          "referencia": "[sources 289-290]"
+        },
+        {
+          "nivel": 3,
+          "nombre": "Implementos de Misericordia",
+          "descripcion": "Competencia en Perspicacia, Medicina y Kit de Herbalismo.",
+          "referencia": "[source 291]"
+        },
+        {
+          "nivel": 6,
+          "nombre": "Toque del Médico",
+          "descripcion": "Mejoras: Mano del Daño -> también puedes aplicar condición Envenenado (hasta fin tu sig. turno). Mano de la Sanación -> también puedes terminar condición Ciego, Sordomudo, Paralizado, Envenenado o Aturdido.",
+          "referencia": "[sources 292-293]"
+        },
+        {
+          "nivel": 11,
+          "nombre": "Torbellino de Sanación y Daño",
+          "descripcion": "Al usar Ataque Furtivo (Flurry), puedes reemplazar CADA golpe con Mano de la Sanación (sin coste Puntos Enfoque). Al golpear con Ataque sin Armas de Flurry, puedes usar Mano del Daño con ese golpe (sin coste Punto Enfoque, aún 1/turno).",
+          "referencia": "[sources 294-296]"
+        },
+        {
+          "nivel": 17,
+          "nombre": "Mano de la Última Misericordia",
+          "descripcion": "Acción Mágica, toca cadáver muerto < 24h, gasta 5 Puntos Enfoque. Revive con PG = 4d10 + Mod Sabiduría. Elimina condiciones Ciego, Sordomudo, Paralizado, Envenenado, Aturdido si murió con ellas. 1 uso/Descanso Largo.",
+          "referencia": "[sources 297-301]"
+        }
+      ]
+    },
+    {
+      "nombre": "Guerrero de las Sombras",
+      "descripcion": "Practican sigilo y subterfugio usando poder de Shadowfell. Se ocultan en penumbra, saltan entre sombras.",
+      "referencia_descripcion": "[sources 302-303]",
+      "rasgos": [
+         {
+          "nivel": 3,
+          "nombre": "Artes de la Sombra",
+          "descripcion": "Beneficios:",
+          "beneficios_sombra": [
+            {"nombre": "Oscuridad", "efecto": "Gasta 1 Punto Enfoque para lanzar conjuro Oscuridad sin componentes. Puedes ver dentro. Puedes mover área Oscuridad 60 pies al inicio turno."},
+            {"nombre": "Visión en la Oscuridad", "efecto": "Ganas Visión Oscuridad 60 pies (o aumenta 60 pies si ya tienes)."},
+            {"nombre": "Figuras Sombrías", "efecto": "Conoces truco Ilusión Menor (Sabiduría es habilidad)."}
+          ],
+          "referencia": "[sources 304-310]"
+        },
+        {
+          "nivel": 6,
+          "nombre": "Paso Sombrío",
+          "descripcion": "Acción Adicional (si estás en Luz Tenue/Oscuridad). Teletransporte 60 pies a espacio visible en Luz Tenue/Oscuridad. Ganas Ventaja en sig. ataque cuerpo a cuerpo antes fin turno.",
+          "referencia": "[sources 311-312]"
+        },
+        {
+           "nivel": 11,
+           "nombre": "Paso Sombrío Mejorado",
+           "descripcion": "Al usar Paso Sombrío, gasta 1 Punto Enfoque para ignorar requisito empezar/terminar en Luz Tenue/Oscuridad. Como parte de la Acción Adicional, haz 1 Golpe sin Armas después teletransporte.",
+           "referencia": "[sources 313-315]"
+        },
+        {
+           "nivel": 17,
+           "nombre": "Capa de Sombras",
+           "descripcion": "Acción Mágica (si estás en Luz Tenue/Oscuridad), gasta 3 Puntos Enfoque. Envuélvete en sombras (1 min / hasta Incapacitado / fin turno en Luz Brillante). Beneficios:",
+           "beneficios_capa": [
+              {"nombre": "Invisibilidad", "efecto": "Tienes condición Invisible."},
+              {"nombre": "Parcialmente Incorpóreo", "efecto": "Puedes moverte por espacios ocupados (Terreno Difícil). Si terminas turno ahí, desplázate a último espacio desocupado."},
+              {"nombre": "Tormenta de Sombras", "efecto": "Puedes usar Ataque Furtivo (Flurry) sin gastar Puntos Enfoque."}
+           ],
+           "referencia": "[sources 316-320]"
+        }
+      ]
+    },
+     {
+      "nombre": "Guerrero de los Elementos",
+      "descripcion": "Acceden al poder de Planos Elementales, domando energía Caos Elemental.",
+      "referencia_descripcion": "[sources 321-322]",
+      "rasgos": [
+         {
+          "nivel": 3,
+          "nombre": "Sintonización Elemental",
+          "descripcion": "Inicio turno, gasta 1 Punto Enfoque. Imbúyete energía elemental (10 min / hasta Incapacitado). Beneficios:",
+          "beneficios_sintonizacion": [
+            {"nombre": "Alcance", "efecto": "Golpe sin Armas tiene +10 pies alcance."},
+            {"nombre": "Golpes Elementales", "efecto": "Golpe sin Armas puede causar daño Ácido, Frío, Fuego, Rayo o Trueno (tu elección). Al causar este daño, puedes forzar TS Fuerza; si falla, mueve objetivo 10 pies hacia/lejos de ti."}
+          ],
+          "referencia": "[sources 323-328]"
+        },
+        {
+          "nivel": 3,
+          "nombre": "Manipular Elementos",
+          "descripcion": "Conoces truco Elementalismo (Sabiduría es habilidad).",
+          "referencia": "[sources 329-330]"
+        },
+        {
+           "nivel": 6,
+           "nombre": "Explosión Elemental",
+           "descripcion": "Acción Mágica, gasta 2 Puntos Enfoque. Esfera radio 20 pies a 120 pies. Elige tipo daño (Ácido, Frío, Fuego, Rayo, Trueno). Criaturas en esfera hacen TS Destreza. Fallo: reciben daño = 3 * Dado Artes Marciales (tipo elegido). Éxito: mitad daño.",
+           "referencia": "[sources 330-334]"
+        },
+        {
+           "nivel": 11,
+           "nombre": "Paso de los Elementos",
+           "descripcion": "Mientras Sintonización Elemental activa, tienes Vel. Vuelo y Vel. Nado = tu Velocidad.",
+           "referencia": "[source 335]"
+        },
+        {
+           "nivel": 17,
+           "nombre": "Epítome Elemental",
+           "descripcion": "Mientras Sintonización Elemental activa, ganas beneficios:",
+           "beneficios_epitome": [
+              {"nombre": "Resistencia al Daño", "efecto": "Ganas Resistencia a 1 tipo (Ácido, Frío, Fuego, Rayo, Trueno) a elección. Puedes cambiar al inicio de tu turno."},
+              {"nombre": "Paso Destructivo", "efecto": "Al usar Paso del Viento, Velocidad +20 pies hasta fin turno."},
+              {"nombre": "Golpes Potenciados", "efecto": "1/turno, al golpear con Golpe sin Armas, causa daño adicional = Dado Artes Marciales (mismo tipo)."}
+           ],
+           "referencia": "[sources 336-339, 343-344]"
+        }
+      ]
+    },
+    {
+      "nombre": "Guerrero de la Mano Abierta",
+      "descripcion": "Maestros combate desarmado, aprenden técnicas empujar/derribar y manipular energía.",
+      "referencia_descripcion": "[sources 345-346]",
+      "rasgos": [
+         {
+          "nivel": 3,
+          "nombre": "Técnica de Mano Abierta",
+          "descripcion": "Al golpear con ataque de Ataque Furtivo (Flurry), impón 1 efecto:",
+          "efectos_tecnica": [
+            {"nombre": "Confusión", "efecto": "Objetivo no puede hacer Ataques Oportunidad hasta inicio su sig. turno."},
+            {"nombre": "Empujar", "efecto": "Objetivo hace TS Fuerza o es empujado 15 pies."},
+            {"nombre": "Derribar", "efecto": "Objetivo hace TS Destreza o queda Caído."}
+          ],
+          "referencia": "[sources 347-350]"
+        },
+        {
+          "nivel": 6,
+          "nombre": "Integridad Corporal",
+          "descripcion": "Acción Bonificación, tira Dado Artes Marciales. Recupera PG = tirada + Mod Sabiduría (mín 1). Usos = Mod Sabiduría (mín 1)/Descanso Largo.",
+          "referencia": "[sources 351-354]"
+        },
+        {
+           "nivel": 11,
+           "nombre": "Paso Ágil",
+           "descripcion": "Al tomar Acción Bonificación distinta de Paso del Viento, puedes usar Paso del Viento inmediatamente después.",
+           "referencia": "[source 355]"
+        },
+        {
+           "nivel": 17,
+           "nombre": "Palma Vibrante",
+           "descripcion": "Al golpear con Golpe sin Armas, gasta 4 Puntos Enfoque. Inicia vibraciones (duran días = Nivel Monje). Inofensivas hasta que tomas acción para terminarlas (o renuncias a 1 ataque). Tú y objetivo debéis estar mismo plano. Al terminar, objetivo hace TS Constitución. Fallo: 10d12 daño Fuerza. Éxito: mitad daño. Solo 1 criatura a la vez. Puedes terminar vibraciones sin daño (sin acción).",
+           "referencia": "[sources 356-363]"
+        }
+      ]
+    }
+  ]
+}

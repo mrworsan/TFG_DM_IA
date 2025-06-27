@@ -1,0 +1,568 @@
+{
+  "clase": "Druida",
+  "fuente_documento": "Druida.pdf",
+  "descripcion_general": "Pertenecen a órdenes antiguas que invocan las fuerzas de la naturaleza. Usan magia de animales, plantas y elementos para sanar, transformarse y ejercer destrucción elemental. Veneran la naturaleza y buscan el equilibrio ecológico, a menudo protegiendo lugares sagrados.",
+  "referencia_descripcion": "[sources 3-7]",
+  "rasgos_principales": {
+    "habilidad_principal": "Sabiduría",
+    "dado_golpe": "D8 por nivel de Druida",
+    "tiradas_salvacion": [
+      "Inteligencia",
+      "Sabiduría"
+    ],
+    "competencias_habilidades": {
+      "cantidad": 2,
+      "opciones": [
+        "Arcana",
+        "Manejo de Animales",
+        "Perspicacia",
+        "Medicina",
+        "Naturaleza",
+        "Percepción",
+        "Religión",
+        "Supervivencia"
+      ]
+    },
+    "competencias_armas": [
+      "Armas simples"
+    ],
+    "competencias_herramientas": [
+      "Kit de Herbalismo"
+    ],
+    "entrenamiento_armaduras": [
+      "Armadura ligera",
+      "Escudos"
+    ],
+    "equipo_inicial": [
+      {
+        "opcion": "A",
+        "items": [
+          "Armadura de Cuero",
+          "Escudo",
+          "Hoz",
+          "Enfoque Druídico (Baston)",
+          "Mochila del Explorador",
+          "Kit de Herbalismo",
+          "9 GP"
+        ]
+      },
+      {
+        "opcion": "B",
+        "items": [
+          "50 CP"
+        ]
+      }
+    ],
+    "referencia_tabla": "[sources 1-2]"
+  },
+  "lanzamiento_conjuros_info": {
+    "habilidad_conjuracion": "Sabiduría",
+    "foco_conjuracion": "Foco Druídico",
+    "trucos_conocidos": "Empiezas con 2 (recomendados: Druidcraft, Produce Flame). Ganas 1 más en nivel 4 y 10. Puedes reemplazar uno al subir de nivel.",
+    "espacios_conjuro": "Según tabla 'Características del Druida'. Recuperas todos al terminar un Descanso Largo.",
+    "conjuros_preparados": "Preparas una lista de conjuros de nivel 1+. Empiezas con 4 de nivel 1 (recomendados: Animal Friendship, Cure Wounds, Faerie Fire, Thunderwave). El número total aumenta según tabla 'Conjuros Preparados'. Debes tener espacios para el nivel. Puedes cambiar la lista al terminar un Descanso Largo.",
+     "conjuros_siempre_preparados": "Si otra característica te da conjuros siempre preparados (ej. Druidic), no cuentan para el límite, pero son conjuros de Druida para ti.",
+    "referencia": "[sources 15-31]"
+  },
+   "progresion_nivel": [
+    {"nivel": 1, "bono_competencia": "+2", "rasgos_resumen": "Lanzamiento de conjuros, Druídico, Orden primordial", "forma_salvaje_usos": 0, "trucos": 2, "conjuros_preparados": 4, "nivel_1": 2, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 2, "bono_competencia": "+2", "rasgos_resumen": "Forma salvaje, Compañera salvaje", "forma_salvaje_usos": 2, "trucos": 2, "conjuros_preparados": 5, "nivel_1": 3, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 3, "bono_competencia": "+2", "rasgos_resumen": "Subclase Druida", "forma_salvaje_usos": 2, "trucos": 2, "conjuros_preparados": 6, "nivel_1": 4, "nivel_2": 2, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 4, "bono_competencia": "+2", "rasgos_resumen": "Mejora de la puntuación de habilidad", "forma_salvaje_usos": 2, "trucos": 3, "conjuros_preparados": 7, "nivel_1": 4, "nivel_2": 3, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 5, "bono_competencia": "+3", "rasgos_resumen": "Resurgimiento salvaje", "forma_salvaje_usos": 2, "trucos": 3, "conjuros_preparados": 9, "nivel_1": 4, "nivel_2": 3, "nivel_3": 2, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 6, "bono_competencia": "+3", "rasgos_resumen": "Característica de subclase", "forma_salvaje_usos": 3, "trucos": 3, "conjuros_preparados": 10, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 7, "bono_competencia": "+3", "rasgos_resumen": "Furia elemental", "forma_salvaje_usos": 3, "trucos": 3, "conjuros_preparados": 11, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 1, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 8, "bono_competencia": "+3", "rasgos_resumen": "Mejora de la puntuación de habilidad", "forma_salvaje_usos": 3, "trucos": 3, "conjuros_preparados": 12, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 2, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 9, "bono_competencia": "+4", "rasgos_resumen": "-", "forma_salvaje_usos": 3, "trucos": 3, "conjuros_preparados": 14, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 1, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 10, "bono_competencia": "+4", "rasgos_resumen": "Característica de subclase", "forma_salvaje_usos": 3, "trucos": 4, "conjuros_preparados": 15, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 11, "bono_competencia": "+4", "rasgos_resumen": "-", "forma_salvaje_usos": 3, "trucos": 4, "conjuros_preparados": 16, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 12, "bono_competencia": "+4", "rasgos_resumen": "Mejora de la puntuación de habilidad", "forma_salvaje_usos": 3, "trucos": 4, "conjuros_preparados": 16, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 13, "bono_competencia": "+5", "rasgos_resumen": "-", "forma_salvaje_usos": 3, "trucos": 4, "conjuros_preparados": 17, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 1, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 14, "bono_competencia": "+5", "rasgos_resumen": "Característica de subclase", "forma_salvaje_usos": 3, "trucos": 4, "conjuros_preparados": 17, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 1, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 15, "bono_competencia": "+5", "rasgos_resumen": "Furia elemental mejorada", "forma_salvaje_usos": 3, "trucos": 4, "conjuros_preparados": 18, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 1, "nivel_8": 1, "nivel_9": 0},
+    {"nivel": 16, "bono_competencia": "+5", "rasgos_resumen": "Mejora de la puntuación de habilidad", "forma_salvaje_usos": 3, "trucos": 4, "conjuros_preparados": 18, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 1, "nivel_8": 1, "nivel_9": 0},
+    {"nivel": 17, "bono_competencia": "+6", "rasgos_resumen": "-", "forma_salvaje_usos": 4, "trucos": 4, "conjuros_preparados": 19, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 1, "nivel_8": 1, "nivel_9": 1},
+    {"nivel": 18, "bono_competencia": "+6", "rasgos_resumen": "Hechizos de bestias", "forma_salvaje_usos": 4, "trucos": 4, "conjuros_preparados": 20, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 3, "nivel_6": 1, "nivel_7": 1, "nivel_8": 1, "nivel_9": 1},
+    {"nivel": 19, "bono_competencia": "+6", "rasgos_resumen": "Bendición épica", "forma_salvaje_usos": 4, "trucos": 4, "conjuros_preparados": 21, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 3, "nivel_6": 2, "nivel_7": 1, "nivel_8": 1, "nivel_9": 1},
+    {"nivel": 20, "bono_competencia": "+6", "rasgos_resumen": "Archidruida", "forma_salvaje_usos": 4, "trucos": 4, "conjuros_preparados": 22, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 3, "nivel_6": 2, "nivel_7": 2, "nivel_8": 1, "nivel_9": 1}
+  ],
+  "referencia_progresion": "[source 34]",
+  "detalles_rasgos_clase": {
+    "Lanzamiento de conjuros": {
+      "nivel": 1,
+      "descripcion": "Habilidad para lanzar conjuros de Druida. Ver `lanzamiento_conjuros_info`.",
+      "referencia": "[sources 15-31]"
+    },
+    "Druídico": {
+        "nivel": 1,
+        "descripcion": "Conoces Druídico (lenguaje secreto). Siempre tienes 'Hablar con Animales' preparado. Puedes dejar mensajes ocultos detectables por otros druidas (otros necesitan Int(Investigación) CD 15 para detectar, no descifrar).",
+        "referencia": "[sources 35-38]"
+    },
+    "Orden Primal": {
+        "nivel": 1,
+        "descripcion": "Eliges uno de los siguientes roles:",
+        "opciones": [
+            {"nombre": "Mago", "efecto": "Conoces un truco de druida adicional. Bono a chequeos Int (Arcana o Naturaleza) = Mod Sabiduría (mín +1)."},
+            {"nombre": "Guardián", "efecto": "Competencia con armas marciales y entrenamiento en armaduras medias."}
+        ],
+        "referencia": "[sources 39-42]"
+    },
+    "Forma Salvaje": {
+        "nivel": 2,
+        "descripcion": "Te permite asumir la forma de una Bestia conocida.",
+        "activacion": "Acción Adicional.",
+        "duracion": "Horas = Nivel Druida / 2 (redondeado abajo), o hasta usar Forma Salvaje de nuevo, quedar Incapacitado, morir, o revertir como Acción Adicional.",
+        "usos": "2 usos. Recuperas 1 en Descanso Corto, todos en Descanso Largo.",
+        "formas_conocidas": "Empiezas con 4 (CR máx 1/4, sin Vel. Vuelo). Aumenta a 6 (CR 1/2) en Nivel 4, 8 (CR 1) en Nivel 8. Puedes elegir formas con Vel. Vuelo a partir de Nivel 8. Puedes cambiar una forma conocida en Descanso Largo.",
+        "recomendaciones_iniciales": "Rata, Caballo de Montar, Araña, Lobo.",
+        "reglas_forma": [
+            "Obtienes PG Temporales = Nivel Druida.",
+            "Estadísticas reemplazadas por las de la Bestia, pero conservas tipo, PG, Dados Golpe, Int, Sab, Car, características de clase, idiomas, dotes.",
+            "Conservas tus competencias en habilidades y salvaciones (usando tu Bono Comp.), ganas las de la criatura. Usas el modificador más alto (tuyo o de la bestia).",
+            "No puedes lanzar conjuros (Concentración se mantiene).",
+            "Manejo de objetos depende de la forma.",
+            "Equipo cae, se fusiona o lo llevas (DM decide si es práctico). Equipo fusionado no tiene efecto."
+        ],
+        "referencia": "[sources 43-67, 55-56]"
+    },
+    "Compañero Salvaje": {
+        "nivel": 2,
+        "descripcion": "Acción mágica, gasta espacio de conjuro o uso de Forma Salvaje para lanzar 'Encontrar Familiar' sin componentes materiales. El familiar es Fey y desaparece al terminar un Descanso Largo.",
+        "referencia": "[sources 68-70]"
+    },
+    "Subclase de Druida": {
+        "nivel": 3,
+        "descripcion": "Eliges un Círculo Druídico.",
+        "opciones_documento": [
+            "Círculo de la Tierra",
+            "Círculo de la Luna",
+            "Círculo del Mar",
+            "Círculo de las Estrellas"
+        ],
+        "referencia": "[sources 71-74]"
+    },
+    "Mejora de Puntuación de Habilidad": {
+        "nivel": 4,
+        "descripcion": "Obtienes la dote 'Mejora de Puntuación de Habilidad' u otra dote. Se obtiene de nuevo en los niveles 8, 12 y 16.",
+        "referencia": "[sources 75-76]"
+    },
+    "Resurgimiento Salvaje": {
+        "nivel": 5,
+        "descripcion": "1/turno, si no tienes usos de Forma Salvaje, puedes gastar espacio de conjuro (sin acción) para ganar un uso. 1/Descanso Largo, puedes gastar uso de Forma Salvaje (sin acción) para ganar espacio de conjuro nivel 1.",
+        "referencia": "[sources 77-78]"
+    },
+    "Furias Elementales": {
+        "nivel": 7,
+        "descripcion": "Eliges una de las siguientes opciones:",
+        "opciones": [
+            {"nombre": "Lanzamiento Potente", "efecto": "Añades Mod Sabiduría al daño de cualquier cantrip de Druida."},
+            {"nombre": "Golpe Primal", "efecto": "1/turno, al golpear con ataque (arma o Forma Salvaje), añade 1d8 daño Frío, Fuego, Rayo o Trueno (tu elección)."}
+        ],
+        "referencia": "[sources 79-81]"
+    },
+    "Furias Elementales Mejoradas": {
+        "nivel": 15,
+        "descripcion": "Tu opción de Furias Elementales mejora:",
+        "opciones_mejoradas": [
+            {"nombre": "Lanzamiento Potente", "efecto": "Cantrips de Druida con alcance 10+ pies aumentan su alcance en 300 pies."},
+            {"nombre": "Golpe Primal", "efecto": "Daño adicional aumenta a 2d8."}
+        ],
+        "referencia": "[sources 82-84]"
+    },
+    "Hechizos de Bestia": {
+        "nivel": 18,
+        "descripcion": "Puedes lanzar conjuros en forma de Bestia (Forma Salvaje), excepto los que tengan componente Material con coste o que se consuma.",
+        "referencia": "[source 85]"
+    },
+    "Bendición Épica": {
+        "nivel": 19,
+        "descripcion": "Obtienes una Hazaña Épica (recomendada: Viaje Dimensional) u otra hazaña.",
+        "referencia": "[sources 86-87]"
+    },
+    "Gran Druida": {
+        "nivel": 20,
+        "descripcion": "Ganas los siguientes beneficios:",
+        "beneficios": [
+            {"nombre": "Forma Silvestre Eterna", "efecto": "Al tirar Iniciativa, si no tienes usos de Forma Salvaje, recuperas uno."},
+            {"nombre": "Mago de la Naturaleza", "efecto": "1/Descanso Largo, puedes convertir usos de Forma Salvaje no gastados en 1 espacio de conjuro. Cada uso contribuye 2 niveles de conjuro (ej. 2 usos = espacio nivel 4)."},
+            {"nombre": "Longevidad", "efecto": "Envejeces 1 año por cada 10 que pasan."}
+        ],
+        "referencia": "[sources 88-94]"
+    }
+  },
+  "lista_conjuros": {
+    "nivel_0": [
+        {"nombre": "Druidcraft", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Elementalism", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Guidance", "escuela": "Divination", "especial": ["C"]},
+        {"nombre": "Mending", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Message", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Poison Spray", "escuela": "Necromancy", "especial": []},
+        {"nombre": "Produce Flame", "escuela": "Conjuration", "especial": []},
+        {"nombre": "Resistance", "escuela": "Abjuration", "especial": ["C"]},
+        {"nombre": "Shillelagh", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Spare the Dying", "escuela": "Necromancy", "especial": []},
+        {"nombre": "Starry Wisp", "escuela": "Evocation", "especial": []},
+        {"nombre": "Thorn Whip", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Thunderclap", "escuela": "Evocation", "especial": []}
+    ],
+    "nivel_1": [
+        {"nombre": "Animal Friendship", "escuela": "Enchantment", "especial": []},
+        {"nombre": "Charm Person", "escuela": "Enchantment", "especial": []},
+        {"nombre": "Create or Destroy Water", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Cure Wounds", "escuela": "Abjuration", "especial": []},
+        {"nombre": "Detect Magic", "escuela": "Divination", "especial": ["C", "R"]},
+        {"nombre": "Detect Poison and Disease", "escuela": "Divination", "especial": ["C", "R"]},
+        {"nombre": "Entangle", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Faerie Fire", "escuela": "Evocation", "especial": ["C"]},
+        {"nombre": "Fog Cloud", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Goodberry", "escuela": "Conjuration", "especial": []},
+        {"nombre": "Healing Word", "escuela": "Abjuration", "especial": []},
+        {"nombre": "Ice Knife", "escuela": "Conjuration", "especial": []},
+        {"nombre": "Jump", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Longstrider", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Protection from Evil and Good", "escuela": "Abjuration", "especial": ["C", "M"]},
+        {"nombre": "Purify Food and Drink", "escuela": "Transmutation", "especial": ["R"]},
+        {"nombre": "Speak with Animals", "escuela": "Divination", "especial": ["R"]},
+        {"nombre": "Thunderwave", "escuela": "Evocation", "especial": []}
+    ],
+    "nivel_2": [
+        {"nombre": "Aid", "escuela": "Abjuration", "especial": []},
+        {"nombre": "Animal Messenger", "escuela": "Enchantment", "especial": ["R"]},
+        {"nombre": "Augury", "escuela": "Divination", "especial": ["R", "M"]},
+        {"nombre": "Barkskin", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Beast Bond", "escuela": "Enchantment", "especial": ["C"]},
+        {"nombre": "Boon of Hope", "escuela": "Divination", "especial": ["C"]},
+        {"nombre": "Darkvision", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Beast Sense", "escuela": "Divination", "especial": ["C", "R"]},
+        {"nombre": "Continual Flame", "escuela": "Evocation", "especial": ["M"]},
+        {"nombre": "Darkvision", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Enhance Ability", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Enlarge/Reduce", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Find Traps", "escuela": "Divination", "especial": []},
+        {"nombre": "Flame Blade", "escuela": "Evocation", "especial": ["C"]},
+        {"nombre": "Flaming Sphere", "escuela": "Evocation", "especial": ["C"]},
+        {"nombre": "Gust of Wind", "escuela": "Evocation", "especial": ["C"]},
+        {"nombre": "Heat Metal", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Hold Person", "escuela": "Enchantment", "especial": ["C"]},
+        {"nombre": "Lesser Restoration", "escuela": "Abjuration", "especial": []},
+        {"nombre": "Locate Animals or Plants", "escuela": "Divination", "especial": ["R"]},
+        {"nombre": "Locate Object", "escuela": "Divination", "especial": ["C"]},
+        {"nombre": "Moonbeam", "escuela": "Evocation", "especial": ["C"]},
+        {"nombre": "Pass without Trace", "escuela": "Abjuration", "especial": ["C"]},
+        {"nombre": "Protection from Poison", "escuela": "Abjuration", "especial": []},
+        {"nombre": "Spike Growth", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Summon Beast", "escuela": "Conjuration", "especial": ["C", "M"]}
+    ],
+    "nivel_3": [
+        {"nombre": "Aura of Vitality", "escuela": "Abjuration", "especial": ["C"]},
+        {"nombre": "Call Lightning", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Conjure Animals", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Daylight", "escuela": "Evocation", "especial": []},
+        {"nombre": "Dispel Magic", "escuela": "Abjuration", "especial": []},
+        {"nombre": "Elemental Weapon", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Feign Death", "escuela": "Necromancy", "especial": ["R"]},
+        {"nombre": "Meld into Stone", "escuela": "Transmutation", "especial": ["R"]},
+        {"nombre": "Plant Growth", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Protection from Energy", "escuela": "Abjuration", "especial": ["C"]},
+        {"nombre": "Revivify", "escuela": "Necromancy", "especial": ["M"]},
+        {"nombre": "Sleet Storm", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Speak with Plants", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Summon Fey", "escuela": "Conjuration", "especial": ["C", "M"]},
+        {"nombre": "Water Breathing", "escuela": "Transmutation", "especial": ["R"]},
+        {"nombre": "Water Walk", "escuela": "Transmutation", "especial": ["R"]},
+        {"nombre": "Wind Wall", "escuela": "Evocation", "especial": ["C"]}
+      ],
+    "nivel_4": [
+        {"nombre": "Blight", "escuela": "Necromancy", "especial": []},
+        {"nombre": "Charm Monster", "escuela": "Enchantment", "especial": []},
+        {"nombre": "Confusion", "escuela": "Enchantment", "especial": ["C"]},
+        {"nombre": "Conjure Minor Elementals", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Conjure Woodland Beings", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Control Water", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Divination", "escuela": "Divination", "especial": ["R", "M"]},
+        {"nombre": "Dominate Beast", "escuela": "Enchantment", "especial": ["C"]},
+        {"nombre": "Fire Shield", "escuela": "Evocation", "especial": []},
+        {"nombre": "Fount of Moonlight", "escuela": "Evocation", "especial": ["C"]},
+        {"nombre": "Freedom of Movement", "escuela": "Abjuration", "especial": []},
+        {"nombre": "Giant Insect", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Grasping Vine", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Hallucinatory Terrain", "escuela": "Illusion", "especial": []},
+        {"nombre": "Ice Storm", "escuela": "Evocation", "especial": []},
+        {"nombre": "Locate Creature", "escuela": "Divination", "especial": ["C"]},
+        {"nombre": "Polymorph", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Stone Shape", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Stoneskin", "escuela": "Transmutation", "especial": ["C", "M"]},
+        {"nombre": "Summon Elemental", "escuela": "Conjuration", "especial": ["C", "M"]},
+        {"nombre": "Wall of Fire", "escuela": "Evocation", "especial": ["C"]}
+      ],
+    "nivel_5": [
+        {"nombre": "Antilife Shell", "escuela": "Abjuration", "especial": ["C"]},
+        {"nombre": "Awaken", "escuela": "Transmutation", "especial": ["M"]},
+        {"nombre": "Commune with Nature", "escuela": "Divination", "especial": ["R"]},
+        {"nombre": "Cone of Cold", "escuela": "Evocation", "especial": []},
+        {"nombre": "Conjure Elemental", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Contagion", "escuela": "Necromancy", "especial": []},
+        {"nombre": "Geas", "escuela": "Enchantment", "especial": []},
+        {"nombre": "Greater Restoration", "escuela": "Abjuration", "especial": ["M"]},
+        {"nombre": "Insect Plague", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Mass Cure Wounds", "escuela": "Abjuration", "especial": []},
+        {"nombre": "Planar Binding", "escuela": "Abjuration", "especial": ["M"]},
+        {"nombre": "Reincarnate", "escuela": "Necromancy", "especial": ["M"]},
+        {"nombre": "Scrying", "escuela": "Divination", "especial": ["C", "M"]},
+        {"nombre": "Tree Stride", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Wall of Stone", "escuela": "Evocation", "especial": ["C"]}
+      ],
+    "nivel_6": [
+        {"nombre": "Conjure Fey", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Find the Path", "escuela": "Divination", "especial": ["C", "M"]},
+        {"nombre": "Flesh to Stone", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Heal", "escuela": "Abjuration", "especial": []},
+        {"nombre": "Heroes' Feast", "escuela": "Conjuration", "especial": ["M"]},
+        {"nombre": "Move Earth", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Sunbeam", "escuela": "Evocation", "especial": ["C"]},
+        {"nombre": "Transport via Plants", "escuela": "Conjuration", "especial": []},
+        {"nombre": "Wall of Thorns", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Wind Walk", "escuela": "Transmutation", "especial": []}
+      ],
+    "nivel_7": [
+        {"nombre": "Fire Storm", "escuela": "Evocation", "especial": []},
+        {"nombre": "Mirage Arcane", "escuela": "Illusion", "especial": []},
+        {"nombre": "Plane Shift", "escuela": "Conjuration", "especial": ["M"]},
+        {"nombre": "Regenerate", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Reverse Gravity", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Symbol", "escuela": "Abjuration", "especial": ["M"]}
+      ],
+    "nivel_8": [
+        {"nombre": "Animal Shapes", "escuela": "Transmutation", "especial": []},
+        {"nombre": "Antipathy/Sympathy", "escuela": "Enchantment", "especial": []},
+        {"nombre": "Befuddlement", "escuela": "Enchantment", "especial": []},
+        {"nombre": "Control Weather", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Earthquake", "escuela": "Transmutation", "especial": ["C"]},
+        {"nombre": "Incendiary Cloud", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "Sunburst", "escuela": "Evocation", "especial": []},
+        {"nombre": "Tsunami", "escuela": "Conjuration", "especial": ["C"]}
+      ],
+    "nivel_9": [
+        {"nombre": "Foresight", "escuela": "Divination", "especial": []},
+        {"nombre": "Shapechange", "escuela": "Transmutation", "especial": ["C", "M"]},
+        {"nombre": "Storm of Vengeance", "escuela": "Conjuration", "especial": ["C"]},
+        {"nombre": "True Resurrection", "escuela": "Necromancy", "especial": ["M"]}
+      ],
+      "referencia": "[sources 95-119]"
+  },
+  "subclases": [
+    {
+      "nombre": "Círculo de la Tierra",
+      "descripcion": "Místicos y sabios que protegen conocimiento antiguo. Se reúnen en círculos sagrados para susurrar secretos primales.",
+      "referencia_descripcion": "[sources 122-124]",
+      "rasgos": [
+        {
+          "nivel": 3,
+          "nombre": "Hechizos del Círculo de la Tierra",
+          "descripcion": "Al terminar Descanso Largo, elige tipo de terreno (Árido, Polar, Templado, Tropical). Tienes preparados los conjuros correspondientes listados para tu nivel y niveles inferiores.",
+          "terrenos": {
+            "Arido": [
+              {"nivel_druida": 3, "conjuros": ["Desenfoque", "Manos Ardientes", "Rayo de Fuego"]},
+              {"nivel_druida": 5, "conjuros": ["Bola de Fuego"]},
+              {"nivel_druida": 7, "conjuros": ["Marchitamiento"]},
+              {"nivel_druida": 9, "conjuros": ["Muro de Piedra"]}
+            ],
+            "Polar": [
+              {"nivel_druida": 3, "conjuros": ["Nube de Niebla", "Detención de Persona", "Rayo de Escarcha"]},
+              {"nivel_druida": 5, "conjuros": ["Tormenta de Aguanieve"]},
+              {"nivel_druida": 7, "conjuros": ["Tormenta de Hielo"]},
+              {"nivel_druida": 9, "conjuros": ["Cono de Frío"]}
+            ],
+            "Templado": [
+              {"nivel_druida": 3, "conjuros": ["Paso Brumoso", "Toque Eléctrico", "Sueño"]},
+              {"nivel_druida": 5, "conjuros": ["Rayo de Relámpago"]},
+              {"nivel_druida": 7, "conjuros": ["Movimiento Libre"]},
+              {"nivel_druida": 9, "conjuros": ["Paso de Árboles"]}
+            ],
+            "Tropical": [
+              {"nivel_druida": 3, "conjuros": ["Explosión Ácida", "Rayo de Enfermedad", "Red"]},
+              {"nivel_druida": 5, "conjuros": ["Nube Apestosa"]},
+              {"nivel_druida": 7, "conjuros": ["Polimorfar"]},
+              {"nivel_druida": 9, "conjuros": ["Plaga de Insectos"]}
+            ]
+           },
+          "referencia": "[sources 125-128]"
+        },
+        {
+          "nivel": 3,
+          "nombre": "Ayuda de la Tierra",
+          "descripcion": "Acción mágica, gasta uso Forma Salvaje. Elige punto a 60 pies. Esfera 10 pies radio: criaturas elegidas hacen TS Constitución vs CD, reciben 2d6 daño Necrótico (mitad si éxito). Una criatura elegida recupera 2d6 PG. Daño/curación +1d6 en niveles 10 y 14.",
+          "referencia": "[sources 128-132]"
+        },
+        {
+           "nivel": 6,
+           "nombre": "Recuperación Natural",
+           "descripcion": "1/Descanso Largo, puedes lanzar 1 conjuro preparado de Hechizos del Círculo (nivel 1+) sin gastar espacio. Al terminar Descanso Corto, puedes recuperar espacios gastados nivel total <= Nivel Druida / 2 (redondeado arriba), ninguno nivel 6+. 1 uso/Descanso Largo.",
+           "referencia": "[sources 133-137]"
+        },
+        {
+           "nivel": 10,
+           "nombre": "Protección de la Naturaleza",
+           "descripcion": "Inmune a condición Envenenado. Resistencia a tipo de daño según terreno elegido (Árido: Fuego, Polar: Frío, Templado: Rayo, Tropical: Veneno).",
+           "referencia": "[sources 138-141]"
+        },
+        {
+           "nivel": 14,
+           "nombre": "Santuario de la Naturaleza",
+           "descripcion": "Acción mágica, gasta uso Forma Salvaje. Cubo 15 pies árboles/vides espectrales a 120 pies (1 min / hasta Incapacitado/muerte). Tú y aliados tenéis media cobertura dentro. Aliados ganan tu resistencia actual de Protección Naturaleza. Puedes mover cubo 60 pies como Acción Adicional.",
+           "referencia": "[sources 142-145]"
+        }
+      ]
+    },
+    {
+      "nombre": "Círculo de la Luna",
+      "descripcion": "Usan magia lunar para transformarse. Se reúnen bajo la luna. Cambiantes y protectores de lo salvaje.",
+      "referencia_descripcion": "[sources 146-149]",
+      "rasgos": [
+         {
+            "nivel": 3,
+            "nombre": "Formas del Círculo",
+            "descripcion": "Al usar Forma Salvaje, ganas beneficios:",
+            "beneficios": [
+               {"nombre": "Clasificación de Desafío", "efecto": "CR máximo = Nivel Druida / 3 (redondeado abajo)."},
+               {"nombre": "Clase de Armadura", "efecto": "CA = 13 + Mod Sabiduría si es mayor que CA de la Bestia."},
+               {"nombre": "Puntos de Golpe Temporales", "efecto": "Ganas PG Temporales = 3 * Nivel Druida."}
+            ],
+            "referencia": "[sources 149-152]"
+         },
+         {
+            "nivel": 3,
+            "nombre": "Hechizos del Círculo de la Luna",
+            "descripcion": "Siempre tienes preparados los conjuros listados. Puedes lanzarlos mientras estás en Forma Salvaje.",
+            "conjuros_por_nivel": [
+               {"nivel_druida": 3, "conjuros": ["Curar Heridas", "Rayo Lunar", "Chispa Estelar"]},
+               {"nivel_druida": 5, "conjuros": ["Conjurar Animales"]},
+               {"nivel_druida": 7, "conjuros": ["Fuente de Luz Lunar"]},
+               {"nivel_druida": 9, "conjuros": ["Curar Heridas en Masa"]}
+            ],
+            "referencia": "[sources 153-155]"
+         },
+         {
+            "nivel": 6,
+            "nombre": "Formas del Círculo Mejoradas",
+            "descripcion": "Mientras en Forma Salvaje, ganas beneficios:",
+            "beneficios": [
+                {"nombre": "Radiante Lunar", "efecto": "Ataques en Forma Salvaje pueden causar daño normal o Radiante (eliges al golpear)."},
+                {"nombre": "Resistencia Aumentada", "efecto": "Añades Mod Sabiduría a TS Constitución."}
+            ],
+            "referencia": "[sources 161-162]"
+         },
+         {
+            "nivel": 10,
+            "nombre": "Paso de Luz Lunar",
+            "descripcion": "Acción Adicional, teletransporte 30 pies a espacio visible. Ventaja en siguiente ataque antes fin de turno. Usos = Mod Sabiduría (mín 1)/Descanso Largo. Puedes gastar espacio nivel 2+ para recuperar 1 uso.",
+            "referencia": "[sources 163-166]"
+         },
+         {
+             "nivel": 14,
+             "nombre": "Forma Lunar",
+             "descripcion": "Ganas beneficios:",
+             "beneficios": [
+                 {"nombre": "Radiante Lunar Mejorado", "efecto": "1/turno, añade 2d10 daño Radiante a objetivo golpeado con ataque Forma Salvaje."},
+                 {"nombre": "Luz Compartida", "efecto": "Al usar Paso Luz Lunar, puedes teletransportar 1 criatura dispuesta a 10 pies (a espacio visible a 10 pies de tu destino)."}
+             ],
+             "referencia": "[sources 167-169]"
+         }
+      ]
+    },
+    {
+      "nombre": "Círculo del Mar",
+      "descripcion": "Se conectan con fuerzas de océanos y tormentas. Pueden ser vengativos o buscar unidad mística con las mareas.",
+      "referencia_descripcion": "[sources 156-158]",
+      "rasgos": [
+        {
+           "nivel": 3,
+           "nombre": "Hechizos del Círculo del Mar",
+           "descripcion": "Siempre tienes preparados los conjuros listados.",
+           "conjuros_por_nivel": [
+               {"nivel_druida": 3, "conjuros": ["Niebla", "Rayo de Escarcha", "Romper", "Onda Trueno"]},
+               {"nivel_druida": 5, "conjuros": ["Onda de Viento", "Respiración Acuática"]},
+               {"nivel_druida": 7, "conjuros": ["Controlar Agua", "Tormenta de Hielo"]},
+               {"nivel_druida": 9, "conjuros": ["Conjurar Elemental", "Sostener Monstruo"]}
+           ],
+           "referencia": "[sources 159-160]"
+        },
+        {
+           "nivel": 3,
+           "nombre": "Ira del Mar",
+           "descripcion": "Acción Adicional, gasta uso Forma Salvaje. Emanación 5 pies rocío oceánico (10 min / hasta disolver/Incapacitado). Acción/Bonus: elige criatura en emanación. TS Constitución vs CD. Falla: recibe daño Frío = Mod Sabiduría d6s (mín 1d6), empujada 15 pies si G o menor.",
+           "referencia": "[sources 170-174]"
+        },
+        {
+           "nivel": 6,
+           "nombre": "Afinidad Acuática",
+           "descripcion": "Emanación Ira del Mar -> 10 pies. Ganas Vel. Nadar = tu Velocidad.",
+           "referencia": "[sources 175-176]"
+        },
+        {
+           "nivel": 10,
+           "nombre": "Nacido de Tormenta",
+           "descripcion": "Ira del Mar activa concede: Vel. Vuelo = tu Velocidad; Resistencia a daño Frío, Rayo, Trueno.",
+           "referencia": "[source 177]"
+        },
+        {
+           "nivel": 14,
+           "nombre": "Regalo Oceánico",
+           "descripcion": "Puedes manifestar Emanación Ira del Mar alrededor de criatura dispuesta a 60 pies (usa tu CD/Mod Sab). Gasta 2 usos Forma Salvaje para manifestarla alrededor de ti Y la otra criatura.",
+           "referencia": "[sources 178-180]"
+        }
+      ]
+    },
+    {
+      "nombre": "Círculo de las Estrellas",
+      "descripcion": "Siguen patrones celestiales, descubriendo secretos en constelaciones para aprovechar poderes cósmicos.",
+      "referencia_descripcion": "[sources 181-183]",
+      "rasgos": [
+        {
+           "nivel": 3,
+           "nombre": "Mapa Estelar",
+           "descripcion": "Creas mapa estelar (objeto Pequeño, Foco Hechicería). Elige/tira forma. Mientras lo sostienes, 'Guía' y 'Rayo Guiador' preparados. Puedes lanzar Rayo Guiador sin espacio Usos = Mod Sabiduría (mín 1)/Descanso Largo. Puedes recrearlo en 1 hora.",
+           "tabla_forma_mapa": [
+                "Un pergamino con constelaciones",
+                "Tableta de piedra perforada",
+                "Piel de oso grifo labrada",
+                "Colección de mapas encuadernados en ébano",
+                "Cristal grabado con patrones",
+                "Disco de vidrio grabado"
+           ],
+           "referencia": "[sources 183-190]"
+        },
+        {
+           "nivel": 3,
+           "nombre": "Forma Estelar",
+           "descripcion": "Acción Adicional, gasta uso Forma Salvaje. Mantienes stats, cuerpo luminoso (Luz Brillante 10 pies, Tenue +10 pies). Dura 10 min / Incapacitado / muerte / disolver (sin acción). Eliges constelación:",
+           "constelaciones": [
+                {"nombre": "Arquero", "efecto": "Acción Bonus: ataque conjuro a distancia, 1d8 + Mod Sabiduría daño radiante."},
+                {"nombre": "Cáliz", "efecto": "Acción Bonus: cura criatura a 30 pies (o tú), 1d8 + Mod Sabiduría PG."},
+                {"nombre": "Dragón", "efecto": "Chequeos Int/Sab y TS Constitución (concentración) tienen resultado mínimo de 10 en d20."}
+           ],
+           "referencia": "[sources 190-193, 194]"
+        },
+        {
+           "nivel": 6,
+           "nombre": "Cielo Cósmico",
+           "descripcion": "Mientras Forma Estelar activa, ganas Resistencia a daño Contundente, Perforante, Cortante.",
+           "referencia": "[source 194]"
+        },
+        {
+           "nivel": 10,
+           "nombre": "Estrellas Centelleantes",
+           "descripcion": "Puedes cambiar constelación de Forma Estelar al inicio de tu turno. Dados de Arquero/Cáliz -> 2d8.",
+           "referencia": "[source 194]"
+        },
+        {
+           "nivel": 14,
+           "nombre": "Forma Completa",
+           "descripcion": "Mientras Forma Estelar activa: Vel. Vuelo 10 pies y puedes flotar. Cáliz cura 1 objetivo adicional.",
+           "referencia": "[source 194]"
+        }
+      ]
+    }
+  ]
+}

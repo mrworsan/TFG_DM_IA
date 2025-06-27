@@ -1,0 +1,456 @@
+{
+  "clase": "Paladín",
+  "fuente_documento": "pala.pdf",
+  "descripcion_general": "Unidos por juramentos para combatir la corrupción, los paladines son campeones benditos. Combinan entrenamiento marcial con poder mágico para sanar, golpear enemigos y proteger a los indefensos. Su vida es una aventura en la primera línea de la lucha cósmica.",
+  "referencia_descripcion": "[sources 2-9]",
+  "rasgos_principales": {
+    "habilidad_principal": [
+      "Fuerza",
+      "Carisma"
+    ],
+    "dado_golpe": "1d10 por nivel de Paladín",
+    "tiradas_salvacion": [
+      "Sabiduría",
+      "Carisma"
+    ],
+    "competencias_habilidades": {
+      "cantidad": 2,
+      "opciones": [
+        "Atletismo",
+        "Perspicacia",
+        "Intimidación",
+        "Medicina",
+        "Persuasión",
+        "Religión"
+      ]
+    },
+    "competencias_armas": [
+      "Armas simples",
+      "Armas marciales"
+    ],
+    "entrenamiento_armaduras": [
+      "Armaduras ligeras",
+      "Armaduras medianas",
+      "Armaduras pesadas",
+      "Escudos"
+    ],
+    "equipo_inicial": [
+      {
+        "opcion": "A",
+        "items": [
+          "Cota de Malla",
+          "Escudo",
+          "Espada Larga",
+          "6 Jabalinas",
+          "Símbolo Sagrado",
+          "Paquete de Sacerdote",
+          "9 piezas de oro"
+        ]
+      },
+      {
+        "opcion": "B",
+        "items": [
+          "150 piezas de oro"
+        ]
+      }
+    ],
+    "referencia_tabla": "[sources 1-2]"
+  },
+  "lanzamiento_conjuros_info": {
+    "habilidad_conjuracion": "Carisma",
+    "foco_conjuracion": "Símbolo Sagrado",
+    "conjuros_preparados": "Preparas una lista de conjuros de nivel 1+. Empiezas con 2 de nivel 1 (recomendados: Heroísmo, Golpe Abrasador). El número total aumenta según tabla 'Hechizos Preparados'. Debes tener espacios para el nivel. Puedes cambiar la lista al terminar un Descanso Largo.",
+    "espacios_conjuro": "Según tabla 'Características del Paladín'. Recuperas todos al terminar un Descanso Largo.",
+    "conjuros_siempre_preparados": "Si otra característica te da conjuros siempre preparados, no cuentan para el límite, pero son conjuros de Paladín para ti.",
+    "referencia": "[sources 23-39]"
+  },
+  "progresion_nivel": [
+    {"nivel": 1, "bono_competencia": "+2", "rasgos_resumen": "Imposición de manos, Lanzamiento de hechizos, Maestría en armas", "canal_divinidad_usos": 0, "conjuros_preparados": 2, "nivel_1": 2, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 2, "bono_competencia": "+2", "rasgos_resumen": "Estilo de lucha, Castigo del paladín", "canal_divinidad_usos": 0, "conjuros_preparados": 3, "nivel_1": 2, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 3, "bono_competencia": "+2", "rasgos_resumen": "Canalizar la divinidad, Subclase del paladin", "canal_divinidad_usos": 2, "conjuros_preparados": 4, "nivel_1": 3, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 4, "bono_competencia": "+2", "rasgos_resumen": "Mejora de la puntuación de habilidad", "canal_divinidad_usos": 2, "conjuros_preparados": 5, "nivel_1": 3, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 5, "bono_competencia": "+3", "rasgos_resumen": "Ataque extra, Corcel fiel", "canal_divinidad_usos": 2, "conjuros_preparados": 6, "nivel_1": 4, "nivel_2": 2, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 6, "bono_competencia": "+3", "rasgos_resumen": "Aura de protección", "canal_divinidad_usos": 2, "conjuros_preparados": 6, "nivel_1": 4, "nivel_2": 2, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 7, "bono_competencia": "+3", "rasgos_resumen": "Característica de subclase", "canal_divinidad_usos": 2, "conjuros_preparados": 7, "nivel_1": 4, "nivel_2": 3, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 8, "bono_competencia": "+3", "rasgos_resumen": "Mejora de la puntuación de habilidad", "canal_divinidad_usos": 2, "conjuros_preparados": 7, "nivel_1": 4, "nivel_2": 3, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 9, "bono_competencia": "+4", "rasgos_resumen": "Abjurar de los enemigos", "canal_divinidad_usos": 2, "conjuros_preparados": 8, "nivel_1": 4, "nivel_2": 3, "nivel_3": 2, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 10, "bono_competencia": "+4", "rasgos_resumen": "Aura de coraje", "canal_divinidad_usos": 2, "conjuros_preparados": 8, "nivel_1": 4, "nivel_2": 3, "nivel_3": 2, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 11, "bono_competencia": "+4", "rasgos_resumen": "Golpes radiantes", "canal_divinidad_usos": 3, "conjuros_preparados": 10, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 12, "bono_competencia": "+4", "rasgos_resumen": "Mejora de la puntuación de habilidad", "canal_divinidad_usos": 3, "conjuros_preparados": 10, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 0, "nivel_5": 0},
+    {"nivel": 13, "bono_competencia": "+5", "rasgos_resumen": "-", "canal_divinidad_usos": 3, "conjuros_preparados": 11, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 1, "nivel_5": 0},
+    {"nivel": 14, "bono_competencia": "+5", "rasgos_resumen": "Restaurando el tacto", "canal_divinidad_usos": 3, "conjuros_preparados": 11, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 1, "nivel_5": 0},
+    {"nivel": 15, "bono_competencia": "+5", "rasgos_resumen": "Característica de subclase", "canal_divinidad_usos": 3, "conjuros_preparados": 12, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 2, "nivel_5": 0},
+    {"nivel": 16, "bono_competencia": "+5", "rasgos_resumen": "Mejora de la puntuación de habilidad", "canal_divinidad_usos": 3, "conjuros_preparados": 12, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 2, "nivel_5": 0},
+    {"nivel": 17, "bono_competencia": "+6", "rasgos_resumen": "-", "canal_divinidad_usos": 3, "conjuros_preparados": 14, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 1},
+    {"nivel": 18, "bono_competencia": "+6", "rasgos_resumen": "Expansión del aura", "canal_divinidad_usos": 3, "conjuros_preparados": 14, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 1},
+    {"nivel": 19, "bono_competencia": "+6", "rasgos_resumen": "Bendición épica", "canal_divinidad_usos": 3, "conjuros_preparados": 15, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2},
+    {"nivel": 20, "bono_competencia": "+6", "rasgos_resumen": "Característica de subclase", "canal_divinidad_usos": 3, "conjuros_preparados": 15, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2}
+  ],
+  "referencia_progresion": "[source 36]",
+  "detalles_rasgos_clase": {
+    "Imposición de Manos": {
+      "nivel": 1,
+      "descripcion": "Reserva de curación = 5 * Nivel Paladín. Acción Bonificación para tocar criatura y restaurar PG hasta máx. reserva. Gasta 5 PG para curar condición Envenenado.",
+      "referencia": "[sources 17-22]"
+    },
+    "Conjuración de Hechizos": {
+      "nivel": 1,
+      "descripcion": "Ver sección `lanzamiento_conjuros_info`.",
+      "referencia": "[sources 23-39]"
+    },
+    "Maestría en Armas": {
+      "nivel": 1,
+      "descripcion": "Puedes usar propiedades de maestría de 2 tipos de armas con las que seas competente. Puedes cambiar tipos elegidos en Descanso Largo.",
+      "referencia": "[sources 40-42]"
+    },
+    "Estilo de Combate": {
+      "nivel": 2,
+      "descripcion": "Obtienes una dote de Estilo de Combate a elección. Alternativamente, puedes elegir 'Guerrero Bendito'.",
+      "opcion_alternativa": {
+        "nombre": "Guerrero Bendito",
+        "efecto": "Aprendes 2 trucos de clérigo (Carisma es habilidad). Cuentan como conjuros Paladín. Puedes reemplazar uno al subir de nivel."
+      },
+      "referencia": "[sources 43-47]"
+    },
+    "Golpe del Paladín": {
+      "nivel": 2,
+      "descripcion": "Siempre tienes preparado el conjuro Golpe Divino (Divine Smite). Puedes lanzarlo 1 vez/Descanso Largo sin gastar espacio.",
+      "referencia": "[sources 48-49]"
+    },
+    "Canalizar Divinidad": {
+      "nivel": 3,
+      "descripcion": "Usas energía divina. Usos: 2 (aumenta a 3 en Nivel 11). Recuperas 1 uso en Descanso Corto, todos en Descanso Largo. CD = CD salvación de conjuros.",
+      "efecto_base": {
+        "nombre": "Sentido Divino",
+        "accion": "Acción de Bonificación",
+        "duracion": "10 minutos o hasta Incapacitado",
+        "efecto": "Detectas ubicación y tipo de Celestiales, Demonios y No Muertos a 60 pies. Detectas lugares/objetos consagrados/profanados a 60 pies."
+      },
+      "referencia": "[sources 50-59]"
+    },
+    "Subclase de Paladín": {
+      "nivel": 3,
+      "descripcion": "Eliges un Juramento Sagrado.",
+      "opciones_documento": [
+        "Juramento de Devoción",
+        "Juramento de Gloria",
+        "Juramento de los Ancianos",
+        "Juramento de Venganza"
+      ],
+      "referencia": "[sources 60-63]"
+    },
+    "Mejora de Puntuación de Habilidad": {
+      "nivel": 4,
+      "descripcion": "Obtienes la dote 'Mejora de Puntuación de Habilidad' u otra dote. Se obtiene de nuevo en los niveles 8, 12 y 16.",
+      "referencia": "[sources 64-65]"
+    },
+    "Ataque Extra": {
+      "nivel": 5,
+      "descripcion": "Puedes atacar dos veces con la acción de Ataque.",
+      "referencia": "[source 66]"
+    },
+    "Corcel Fiel": {
+      "nivel": 5,
+      "descripcion": "Siempre tienes preparado el conjuro Encontrar Corcel (Find Steed). Puedes lanzarlo 1 vez/Descanso Largo sin gastar espacio.",
+      "referencia": "[sources 67-68]"
+    },
+    "Aura de Protección": {
+      "nivel": 6,
+      "descripcion": "Emanación 10 pies (inactiva si Incapacitado). Tú y aliados en el aura suman Mod Carisma (mín +1) a TS. Solo se beneficia de un aura Paladín.",
+      "referencia": "[sources 69-72]"
+    },
+    "Abjurar Enemigos": {
+      "nivel": 9,
+      "descripcion": "Acción mágica, gasta uso Canalizar Divinidad. Presenta símbolo/arma. Apunta a criaturas = Mod Carisma (mín 1) a 60 pies. Deben superar TS Sabiduría o quedar Asustado 1 min (termina si recibe daño). Mientras Asustado, solo puede realizar 1: Moverse, Acción, o Acción Bonificación por turno.",
+      "referencia": "[sources 73-81]"
+    },
+    "Aura de Coraje": {
+      "nivel": 10,
+      "descripcion": "Tú y aliados en Aura de Protección sois inmunes a condición Asustado. Suprime condición Asustado en aliados mientras estén en el aura.",
+      "referencia": "[sources 82-83]"
+    },
+    "Golpes Radiantes": {
+      "nivel": 11,
+      "descripcion": "Al golpear con arma cuerpo a cuerpo o Golpe Desarmado, objetivo recibe 1d8 daño Radiante adicional.",
+      "referencia": "[sources 84-85]"
+    },
+    "Toque Restaurador": {
+      "nivel": 14,
+      "descripcion": "Al usar Imposición de Manos, puedes gastar 5 PG de la reserva por condición para eliminar: Cegado, Hechizado, Ensordecido, Asustado, Paralizado o Aturdido.",
+      "referencia": "[sources 86-88]"
+    },
+    "Expansión de Aura": {
+      "nivel": 18,
+      "descripcion": "Rango de Aura de Protección aumenta a 30 pies.",
+      "referencia": "[source 88]"
+    },
+    "Bendición Épica": {
+      "nivel": 19,
+      "descripcion": "Obtienes una Hazaña Épica (recomendada: Don de la Vista Verdadera) u otra hazaña.",
+      "referencia": "[sources 89-90]"
+    }
+  },
+  "lista_conjuros": {
+    "nivel_1": [
+      {"nombre": "Bless", "escuela": "Enchantment", "especial": ["C", "M"]},
+      {"nombre": "Command", "escuela": "Enchantment", "especial": []},
+      {"nombre": "Compelled Duel", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Cure Wounds", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Detect Evil and Good", "escuela": "Divination", "especial": ["C"]},
+      {"nombre": "Detect Magic", "escuela": "Divination", "especial": ["C", "R"]},
+      {"nombre": "Detect Poison and Disease", "escuela": "Divination", "especial": ["C", "R"]},
+      {"nombre": "Divine Favor", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Divine Smite", "escuela": "Evocation", "especial": []},
+      {"nombre": "Heroism", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Protection from Evil and Good", "escuela": "Abjuration", "especial": ["C", "M"]},
+      {"nombre": "Purify Food and Drink", "escuela": "Transmutation", "especial": ["R"]},
+      {"nombre": "Searing Smite", "escuela": "Evocation", "especial": []},
+      {"nombre": "Shield of Faith", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Thunderous Smite", "escuela": "Evocation", "especial": []},
+      {"nombre": "Wrathful Smite", "escuela": "Necromancy", "especial": []}
+    ],
+    "nivel_2": [
+      {"nombre": "Aid", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Find Steed", "escuela": "Conjuration", "especial": []},
+      {"nombre": "Gentle Repose", "escuela": "Necromancy", "especial": ["R", "M"]},
+      {"nombre": "Lesser Restoration", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Locate Object", "escuela": "Divination", "especial": ["C"]},
+      {"nombre": "Magic Weapon", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Prayer of Healing", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Protection from Poison", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Shining Smite", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Warding Bond", "escuela": "Abjuration", "especial": ["M"]},
+      {"nombre": "Zone of Truth", "escuela": "Enchantment", "especial": []}
+    ],
+    "nivel_3": [
+      {"nombre": "Aura of Vitality", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Blinding Smite", "escuela": "Evocation", "especial": []},
+      {"nombre": "Create Food and Water", "escuela": "Conjuration", "especial": []},
+      {"nombre": "Crusader's Mantle", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Daylight", "escuela": "Evocation", "especial": []},
+      {"nombre": "Dispel Magic", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Elemental Weapon", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Magic Circle", "escuela": "Abjuration", "especial": ["M"]},
+      {"nombre": "Remove Curse", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Revivify", "escuela": "Necromancy", "especial": ["M"]}
+    ],
+    "nivel_4": [
+      {"nombre": "Aura of Life", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Aura of Purity", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Banishment", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Death Ward", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Locate Creature", "escuela": "Divination", "especial": ["C"]},
+      {"nombre": "Staggering Smite", "escuela": "Enchantment", "especial": []}
+    ],
+    "nivel_5": [
+      {"nombre": "Banishing Smite", "escuela": "Conjuration", "especial": ["C"]},
+      {"nombre": "Circle of Power", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Destructive Wave", "escuela": "Evocation", "especial": []},
+      {"nombre": "Dispel Evil and Good", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Geas", "escuela": "Enchantment", "especial": []},
+      {"nombre": "Greater Restoration", "escuela": "Abjuration", "especial": ["M"]},
+      {"nombre": "Raise Dead", "escuela": "Necromancy", "especial": ["M"]},
+      {"nombre": "Summon Celestial", "escuela": "Conjuration", "especial": ["C", "M"]}
+    ],
+    "referencia": "[sources 91-105]"
+  },
+  "subclases": [
+    {
+      "nombre": "Juramento de Devoción",
+      "principios": [
+        "Que tu palabra sea tu promesa.",
+        "Protege a los débiles y nunca temas actuar.",
+        "Que tus actos honorables sean un ejemplo."
+      ],
+      "referencia_descripcion": "[sources 112-118]",
+      "conjuros_juramento": [
+        {"nivel_paladin": 3, "conjuros": ["Protección contra el Mal y el Bien", "Escudo de la Fe"]},
+        {"nivel_paladin": 5, "conjuros": ["Ayuda", "Zona de la Verdad"]},
+        {"nivel_paladin": 9, "conjuros": ["Faro de Esperanza", "Disipar Magia"]},
+        {"nivel_paladin": 13, "conjuros": ["Libertad de Movimiento", "Guardián de la Fe"]},
+        {"nivel_paladin": 17, "conjuros": ["Comunión", "Llama Sagrada"]}
+      ],
+      "referencia_conjuros": "[source 120]",
+      "rasgos": [
+        {
+          "nivel": 3,
+          "nombre": "Canalizar Divinidad: Arma Sagrada",
+          "descripcion": "Al tomar acción Ataque, gasta uso CD. Imbuye arma cuerpo a cuerpo (10 min / reuso). Arma añade Mod Carisma a tiradas ataque (mín +1). Daño es Radiante o normal (tu elección). Emite Luz Brillante 20 pies, Tenue +20 pies. Termina si no llevas arma.",
+          "referencia": "[sources 120-125]"
+        },
+        {
+          "nivel": 7,
+          "nombre": "Aura de Devoción",
+          "descripcion": "Tú y aliados en Aura de Protección sois inmunes a condición Hechizado. Suprime Hechizado en aliados dentro.",
+          "referencia": "[sources 126-127]"
+        },
+        {
+          "nivel": 15,
+          "nombre": "Castigo de Protección",
+          "descripcion": "Al lanzar Golpe Divino (Divine Smite), tú y aliados en Aura Protección tenéis Media Cobertura hasta inicio tu sig. turno.",
+          "referencia": "[sources 128-130]"
+        },
+        {
+          "nivel": 20,
+          "nombre": "Nimbus Sagrado",
+          "descripcion": "Acción Adicional, imbuye Aura Protección (10 min / hasta terminar). 1 uso/Descanso Largo o gasta espacio nivel 5. Beneficios:",
+          "beneficios_nimbus": [
+            {"nombre": "Custodia Sagrada", "efecto": "Ventaja en TS vs Demonios y No Muertos."},
+            {"nombre": "Daño Radiante", "efecto": "Enemigo que inicia turno en aura recibe daño Radiante = Mod Carisma + Bono Competencia."},
+            {"nombre": "Luz Solar", "efecto": "Aura es Luz Brillante que es luz solar."}
+          ],
+          "referencia": "[sources 131-136]"
+        }
+      ]
+    },
+    {
+      "nombre": "Juramento de Gloria",
+      "principios": [
+        "Esfuérzate por ser conocido por tus actos.",
+        "Enfrenta las adversidades con coraje.",
+        "Inspira a otros a luchar por la gloria."
+      ],
+      "referencia_descripcion": "[sources 137-140]",
+       "conjuros_juramento": [
+        {"nivel_paladin": 3, "conjuros": ["Guía Radiante", "Heroísmo"]},
+        {"nivel_paladin": 5, "conjuros": ["Arma Mágica Mejorada", "Armadura de Agilidad"]},
+        {"nivel_paladin": 9, "conjuros": ["Hospedar", "Protección contra Energía"]},
+        {"nivel_paladin": 13, "conjuros": ["Compulsión", "Libertad de Movimiento"]},
+        {"nivel_paladin": 17, "conjuros": ["Libertad de Movimiento", "Guardián de la Fe"]}
+      ],
+      "referencia_conjuros": "[source 146]",
+      "rasgos": [
+        {
+          "nivel": 3,
+          "nombre": "Canalizar Divinidad: Castigo Inspirador",
+          "descripcion": "Inmediatamente después de lanzar Golpe Divino (Divine Smite), gasta uso CD. Distribuye PG Temporales = 2d8 + Nivel Paladín entre criaturas elegidas a 30 pies.",
+          "referencia": "[sources 140-142]"
+        },
+         {
+          "nivel": 5,
+          "nombre": "Canalizar Divinidad: Atleta Inigualable",
+          "descripcion": "Acción Adicional, gasta uso CD. 1 hora: Ventaja en pruebas Fuerza (Atletismo) y Destreza (Acrobacia). Distancia Salto Largo/Alto +10 pies.",
+          "referencia": "[sources 147-148]"
+        },
+        {
+          "nivel": 7,
+          "nombre": "Aura de Agilidad",
+          "descripcion": "Tu Velocidad +10 pies. Aliado que entra/inicia turno en Aura Protección gana +10 pies Velocidad hasta fin su SIGUIENTE turno.",
+          "referencia": "[sources 149-150]"
+        },
+        {
+          "nivel": 15,
+          "nombre": "Defensa Gloriosa",
+          "descripcion": "Reacción cuando tú u otra criatura a 10 pies es golpeada por ataque. Otorga bono a CA = Mod Carisma (mín +1) vs ese ataque. Si ataque falla, puedes hacer ataque arma vs atacante (si está en alcance). Usos = Mod Carisma (mín 1)/Descanso Largo.",
+          "referencia": "[sources 151-155]"
+        },
+        {
+           "nivel": 20,
+           "nombre": "Leyenda Viva",
+           "descripcion": "Acción Adicional, ganas beneficios 10 min. 1 uso/Descanso Largo o gasta espacio nivel 5. Beneficios:",
+           "beneficios_leyenda": [
+              {"nombre": "Carismático", "efecto": "Ventaja en todas pruebas Carisma."},
+              {"nombre": "Repetición de Tiradas de Salvación", "efecto": "Reacción para repetir TS fallida (usas nueva tirada)."},
+              {"nombre": "Golpe Infalible", "efecto": "1/turno, si fallas ataque arma, puedes hacer que acierte."}
+           ],
+           "referencia": "[sources 156-159, 171-173]"
+        }
+      ]
+    },
+     {
+      "nombre": "Juramento de los Ancianos",
+       "principios": [
+        "Enciende la luz de la esperanza.",
+        "Protege la vida.",
+        "Disfruta del arte y la risa."
+      ],
+      "referencia_descripcion": "[sources 160-164]",
+      "conjuros_juramento": [
+        {"nivel_paladin": 3, "conjuros": ["Golpe Atrapaniebla", "Hablar con Animales"]},
+        {"nivel_paladin": 5, "conjuros": ["Paso Brumoso", "Rayo de Luna"]},
+        {"nivel_paladin": 9, "conjuros": ["Crecimiento Vegetal", "Protección contra Energía"]},
+        {"nivel_paladin": 13, "conjuros": ["Tormenta de Hielo", "Piel de Piedra"]},
+        {"nivel_paladin": 17, "conjuros": ["Comunión con la Naturaleza", "Paso de los Árboles"]}
+      ],
+      "referencia_conjuros": "[sources 167-170]",
+      "rasgos": [
+        {
+          "nivel": 3,
+          "nombre": "Canalizar Divinidad: Ira de la Naturaleza",
+          "descripcion": "Acción mágica, gasta uso CD. Criaturas elegidas a 15 pies hacen TS Fuerza o quedan Restringido 1 min (repiten TS fin turno).",
+          "referencia": "[sources 164-166]"
+        },
+        {
+          "nivel": 7,
+          "nombre": "Aura de Protección",
+          "descripcion": "Tú y aliados en Aura Protección tenéis Resistencia daño Necrótico, Psíquico y Radiante.",
+          "referencia": "[sources 174-175]"
+        },
+        {
+           "nivel": 15,
+           "nombre": "Centinela Eterno",
+           "descripcion": "Al ser reducido a 0 PG (no muerto), bajas a 1 PG y recuperas PG = 3 * Nivel Paladín. 1 uso/Descanso Largo. No puedes ser envejecido mágicamente, dejas de envejecer visiblemente.",
+           "referencia": "[sources 176-178]"
+        },
+        {
+           "nivel": 20,
+           "nombre": "Campeón Anciano",
+           "descripcion": "Acción Bonificación, imbuye Aura Protección (1 min / hasta terminar). 1 uso/Descanso Largo o gasta espacio nivel 5. Beneficios:",
+           "beneficios_campeon": [
+               {"nombre": "Disminuir Desafío", "efecto": "Enemigos en aura tienen Desventaja en TS vs tus conjuros/CD."},
+               {"nombre": "Regeneración", "efecto": "Recuperas 10 PG al inicio de cada turno."},
+               {"nombre": "Hechizos Rápidos", "efecto": "Puedes lanzar conjuro (tiempo 1 acción) como Acción Bonificación."}
+           ],
+           "referencia": "[sources 179-184]"
+        }
+      ]
+    },
+     {
+      "nombre": "Juramento de Venganza",
+       "principios": [
+        "No muestres misericordia a los malvados.",
+        "Lucha contra la injusticia y sus causas.",
+        "Ayuda a aquellos perjudicados por la injusticia."
+      ],
+      "referencia_descripcion": "[sources 185-188]",
+      "conjuros_juramento": [
+        {"nivel_paladin": 3, "conjuros": ["Maldición", "Marca del Cazador"]},
+        {"nivel_paladin": 5, "conjuros": ["Sujetar Persona", "Paso Brumoso"]},
+        {"nivel_paladin": 9, "conjuros": ["Aceleración", "Protección contra Energía"]},
+        {"nivel_paladin": 13, "conjuros": ["Destierro", "Puerta Dimensional"]},
+        {"nivel_paladin": 17, "conjuros": ["Sujetar Monstruo", "Escrutinio"]}
+      ],
+      "referencia_conjuros": "[source 190]",
+      "rasgos": [
+        {
+           "nivel": 3,
+           "nombre": "Canalizar Divinidad: Juramento de Enemistad",
+           "descripcion": "Al tomar acción Ataque, gasta uso CD. Jura enemistad vs criatura a 30 pies. Ventaja en tiradas ataque vs ella (1 min / reuso). Si cae a 0 PG, puedes transferir juramento a otra criatura a 30 pies (sin acción).",
+           "referencia": "[sources 190-192]"
+        },
+        {
+           "nivel": 7,
+           "nombre": "Vengador Implacable",
+           "descripcion": "Al golpear con Ataque Oportunidad, puedes reducir Velocidad objetivo a 0 hasta fin turno actual. Puedes moverte mitad tu Velocidad como parte de la Reacción (no provoca AO).",
+           "referencia": "[sources 193-195]"
+        },
+        {
+           "nivel": 15,
+           "nombre": "Alma de Venganza",
+           "descripcion": "Reacción inmediata después de que criatura bajo Juramento Enemistad golpee o falle ataque. Haz ataque cuerpo a cuerpo vs ella si está en alcance.",
+           "referencia": "[source 196]"
+        },
+        {
+           "nivel": 20,
+           "nombre": "Ángel Vengador",
+           "descripcion": "Acción Bonificación, ganas beneficios (10 min / hasta terminar). 1 uso/Descanso Largo o gasta espacio nivel 5. Beneficios:",
+           "beneficios_angel": [
+               {"nombre": "Vuelo", "efecto": "Alas espectrales, Vel. Vuelo 60 pies, puedes flotar."},
+               {"nombre": "Aura Aterradora", "efecto": "Enemigo que inicia turno en Aura Protección hace TS Sabiduría o queda Aterrorizado 1 min (hasta recibir daño). Ataques vs criatura Aterrorizada tienen Ventaja."}
+           ],
+           "referencia": "[sources 197-202]"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "fuente_documento": "Origenes.pdf",
+  "tipo_dataset": "Trasfondos de Personaje",
+  "descripcion_general": "Colección de características que representan lugar y ocupación formativos antes de la aventura. Incluye bonos de habilidad, dote, competencias y equipo.",
+  "regla_puntuaciones_habilidad": "Un trasfondo lista 3 puntuaciones. Aumenta una en +2 y otra en +1, O aumenta las tres en +1. No superar 20.",
+  "referencia_reglas": "[sources 5-13]",
+  "trasfondos": [
+    {
+      "nombre": "Acólito",
+      "puntuaciones_habilidad": ["Inteligencia", "Sabiduría", "Carisma"],
+      "dote": "Iniciado en Magia (Clérigo)",
+      "competencias_habilidades": ["Perspicacia", "Religión"],
+      "competencia_herramientas": "Utensilios de Calígrafo",
+      "equipo": [
+        {"opcion": "A", "items": ["Utensilios de Calígrafo", "Libro (de oraciones)", "Símbolo Sagrado", "Pergamino (10 hojas)", "Túnica", "8 PP"]},
+        {"opcion": "B", "oro": 50, "unidad_moneda": "PP"}
+      ],
+      "descripcion": "Te dedicaste al servicio en un templo, realizando ritos y estudiando religión bajo un sacerdote. Aprendiste a canalizar poder divino.",
+      "referencia": "[sources 31-34]"
+    },
+    {
+      "nombre": "Artesano",
+      "puntuaciones_habilidad": ["Fuerza", "Destreza", "Inteligencia"],
+      "dote": "Artesano",
+      "competencias_habilidades": ["Investigación", "Persuasión"],
+      "competencia_herramientas": "Elige 1 tipo Herramientas del Artesano",
+      "equipo": [
+        {"opcion": "A", "items": ["Herramientas del Artesano (elegidas)", "2 Bolsas", "Ropa de Viajero", "32 PP"]},
+        {"opcion": "B", "oro": 50, "unidad_moneda": "PP"}
+      ],
+      "descripcion": "Comenzaste como aprendiz en un taller, aprendiendo un oficio y a tratar con clientes. Te dio un agudo sentido del detalle.",
+      "referencia": "[sources 35-38]"
+    },
+    {
+      "nombre": "Charlatán",
+      "puntuaciones_habilidad": ["Destreza", "Constitución", "Carisma"],
+      "dote": "Experimentado",
+      "competencias_habilidades": ["Engaño", "Prestiditación"],
+      "competencia_herramientas": "Kit de Falsificación",
+      "equipo": [
+        {"opcion": "A", "items": ["Kit de Falsificación", "Disfraz", "Ropa Elegante", "15 PP"]},
+        {"opcion": "B", "oro": 50, "unidad_moneda": "PP"}
+      ],
+      "descripcion": "Frecuentabas tabernas, aprendiendo a aprovecharte de la gente con mentiras reconfortantes, pociones falsas o documentos falsificados.",
+      "referencia": "[sources 39-41]"
+    },
+    {
+      "nombre": "Criminal",
+      "puntuaciones_habilidad": ["Destreza", "Constitución", "Inteligencia"],
+      "dote": "Alerta",
+      "competencias_habilidades": ["Prestiditación", "Sigilo"],
+      "competencia_herramientas": "Herramientas de Ladrón",
+      "equipo": [
+        {"opcion": "A", "items": ["2 Dagas", "Herramientas de Ladrón", "Barra de Hierro", "2 Bolsas", "Ropa de Viajero", "16 PP"]},
+        {"opcion": "B", "oro": 50, "unidad_moneda": "PO"}
+      ],
+      "descripcion": "Sobreviviste en las calles robando carteras o tiendas, quizás en una banda o como lobo solitario contra criminales más grandes.",
+      "referencia": "[sources 42-45]"
+    },
+    {
+      "nombre": "Artista",
+      "puntuaciones_habilidad": ["Fuerza", "Destreza", "Carisma"],
+      "dote": "Músico",
+      "competencias_habilidades": ["Acrobacia", "Interpretación"],
+      "competencia_herramientas": "Elige 1 tipo Instrumento Musical",
+      "equipo": [
+        {"opcion": "A", "items": ["Instrumento Musical (elegido)", "2 Disfraces", "Espejo", "Perfume", "Ropa de Viajero", "11 PO"]},
+        {"opcion": "B", "oro": 50, "unidad_moneda": "PO"}
+      ],
+      "descripcion": "Seguiste ferias y carnavales, aprendiendo artes escénicas como música, acrobacia o recitación. Anhelas el aplauso.",
+      "referencia": "[sources 47-50]"
+    },
+    {
+      "nombre": "Agricultor",
+      "puntuaciones_habilidad": ["Fuerza", "Constitución", "Sabiduría"],
+      "dote": "Robusto",
+      "competencias_habilidades": ["Manejo de Animales", "Naturaleza"],
+      "competencia_herramientas": "Herramientas de Carpintero",
+      "equipo": [
+        {"opcion": "A", "items": ["Hoja", "Herramientas de Carpintero", "Kit de Sanador", "Olla de Hierro", "Pala", "Ropa de Viajero", "30 PO"]},
+        {"opcion": "B", "oro": 50, "unidad_moneda": "PO"}
+      ],
+      "descripcion": "Creciste cerca de la tierra, cuidando animales y cultivos. Ganaste paciencia, salud y aprecio/respeto por la naturaleza.",
+      "referencia": "[sources 51-53]"
+    },
+    {
+      "nombre": "Guardia",
+      "puntuaciones_habilidad": ["Fuerza", "Inteligencia", "Sabiduría"],
+      "dote": "Alerta",
+      "competencias_habilidades": ["Atletismo", "Percepción"],
+      "competencia_herramientas": "Elige 1 tipo Juego de Mesa",
+      "equipo": [
+        {"opcion": "A", "items": ["Lanza", "Ballesta Ligera", "20 Flechas", "Juego de Mesa (elegido)", "Linterna con Capucha", "Esposas", "Carcaj", "Ropa de Viajero", "12 PO"]},
+        {"opcion": "B", "oro": 50, "unidad_moneda": "PO"}
+      ],
+      "descripcion": "Pasaste horas vigilando desde un puesto, entrenado para detectar amenazas externas e internas (ladrones, alborotadores).",
+      "referencia": "[sources 54-56]"
+    },
+    {
+      "nombre": "Guía",
+      "puntuaciones_habilidad": ["Destreza", "Constitución", "Sabiduría"],
+      "dote": "Iniciado en Magia (Druida)",
+      "competencias_habilidades": ["Sigilo", "Supervivencia"],
+      "competencia_herramientas": "Herramientas de Cartografía",
+      "equipo": [
+        {"opcion": "A", "items": ["Arco Corto", "20 Flechas", "Herramientas de Cartografía", "Saco de Dormir", "Carcaj", "Tienda", "Ropa de Viajero", "3 PO"]},
+        {"opcion": "B", "oro": 50, "unidad_moneda": "PO"}
+      ],
+      "descripcion": "Viviste en la naturaleza, lejos de asentamientos. Aprendiste a defenderte explorando ruinas y bosques. Guías amistosos te enseñaron magia salvaje.",
+      "referencia": "[sources 57-61]"
+    },
+    {
+      "nombre": "Ermitaño",
+      "puntuaciones_habilidad": ["Constitución", "Sabiduría", "Carisma"],
+      "dote": "Sanador",
+      "competencias_habilidades": ["Medicina", "Religión"],
+      "competencia_herramientas": "Kit de Herboristería",
+      "equipo": [
+        {"opcion": "A", "items": ["Bastón", "Kit de Herboristería", "Saco de Dormir", "Libro (filosofía)", "Lámpara", "Aceite (3 Frascos)", "Ropa de Viajero", "16 PO"]},
+        {"opcion": "B", "oro": 50, "unidad_moneda": "PO"}
+      ],
+      "descripcion": "Viviste aislado en una cabaña o monasterio. Tus compañeros eran criaturas y visitantes ocasionales. Reflexionaste sobre los misterios.",
+      "referencia": "[sources 62-65]"
+    },
+    {
+      "nombre": "Comerciante",
+      "puntuaciones_habilidad": ["Constitución", "Inteligencia", "Carisma"],
+      "dote": "Afortunado",
+      "competencias_habilidades": ["Manejo de Animales", "Persuasión"],
+      "competencia_herramientas": "Herramientas de Navegación",
+      "equipo": [
+        {"opcion": "A", "items": ["Herramientas de Navegación", "2 Bolsas", "Ropa de Viajero", "22 PO"]},
+        {"opcion": "B", "oro": 50, "unidad_moneda": "PO"}
+      ],
+      "descripcion": "Fuiste aprendiz de comerciante, aprendiendo comercio. Viajaste comprando y vendiendo materias primas u obras terminadas.",
+      "referencia": "[sources 66-69]"
+    },
+    {
+      "nombre": "Noble",
+      "puntuaciones_habilidad": ["Fuerza", "Inteligencia", "Carisma"],
+      "dote": "Experto",
+      "competencias_habilidades": ["Historia", "Persuasión"],
+      "competencia_herramientas": "Elige 1 tipo Juego de Mesa",
+      "equipo": [
+        {"opcion": "A", "items": ["Juego de Mesa (elegido)", "Ropa Elegante", "Perfume", "29 PO"]},
+        {"opcion": "B", "oro": 50, "unidad_moneda": "PO"}
+      ],
+      "descripcion": "Criado en castillo con riqueza y privilegio. Recibiste educación de primera clase y aprendiste sobre liderazgo observando la corte.",
+      "referencia": "[sources 71-74]"
+    },
+    {
+      "nombre": "Sabio",
+      "puntuaciones_habilidad": ["Constitución", "Inteligencia", "Sabiduría"],
+      "dote": "Iniciado en Magia (Hechicero)",
+      "competencias_habilidades": ["Arcano", "Historia"],
+      "competencia_herramientas": "Suministros de Caligrafía",
+      "equipo": [
+        {"opcion": "A", "items": ["Bastón", "Suministros de Caligrafía", "Libro (historia)", "Pergamino (8 hojas)", "Toga", "8 PO"]},
+        {"opcion": "B", "oro": 50, "unidad_moneda": "PO"}
+      ],
+      "descripcion": "Viajaste entre mansiones/monasterios, trabajando a cambio de acceso a bibliotecas. Estudiaste libros, aprendiendo sabiduría y rudimentos magia.",
+      "referencia": "[sources 75-77]"
+    },
+    {
+      "nombre": "Marinero",
+      "puntuaciones_habilidad": ["Fuerza", "Destreza", "Sabiduría"],
+      "dote": "Luchador de Taberna",
+      "competencias_habilidades": ["Acrobacia", "Percepción"],
+      "competencia_herramientas": "Herramientas de Navegación",
+      "equipo": [
+        {"opcion": "A", "items": ["Daga", "Herramientas de Navegación", "Cuerda", "Ropa de Viajero", "20 PO"]},
+        {"opcion": "B", "oro": 50, "unidad_moneda": "PO"}
+      ],
+      "descripcion": "Viviste como marinero, enfrentando tormentas y visitando puertos. Cambiaste historias con gente diversa, incluso bajo las olas.",
+      "referencia": "[sources 79-81]"
+    },
+    {
+      "nombre": "Escriba",
+      "puntuaciones_habilidad": ["Destreza", "Inteligencia", "Sabiduría"],
+      "dote": "Experto",
+      "competencias_habilidades": ["Investigación", "Percepción"],
+      "competencia_herramientas": "Suministros de Caligrafía",
+      "equipo": [
+        {"opcion": "A", "items": ["Suministros de Caligrafía", "Ropa Elegante", "Lámpara", "Aceite (3 frascos)", "Pergamino (12 hojas)", "23 PO"]},
+        {"opcion": "B", "oro": 50, "unidad_moneda": "PO"}
+      ],
+      "descripcion": "Pasaste tiempo en scriptorium, monasterio o agencia gubernamental, aprendiendo a escribir y producir textos. Quizás redactaste documentos o copiaste libros. Atención meticulosa al detalle.",
+      "referencia": "[sources 82-85]"
+    },
+    {
+      "nombre": "Soldado",
+      "puntuaciones_habilidad": ["Fuerza", "Destreza", "Constitución"],
+      "dote": "Atacante Salvaje",
+      "competencias_habilidades": ["Atletismo", "Intimidación"],
+      "competencia_herramientas": "Elige 1 tipo Set de Juegos",
+      "equipo": [
+        {"opcion": "A", "items": ["Lanza", "Arco Corto", "20 Flechas", "Set de Juegos (elegido)", "Kit de Sanador", "Carcaj", "Ropa de Viajero", "14 PO"]},
+        {"opcion": "B", "oro": 50, "unidad_moneda": "PO"}
+      ],
+      "descripcion": "Entrenaste para la guerra desde joven. La batalla está en tu sangre. Pusiste entrenamiento en práctica protegiendo el reino.",
+      "referencia": "[sources 86-89]"
+    },
+    {
+      "nombre": "Caminante",
+      "puntuaciones_habilidad": ["Destreza", "Sabiduría", "Carisma"],
+      "dote": "Afortunado",
+      "competencias_habilidades": ["Perspicacia", "Sigilo"],
+      "competencia_herramientas": "Herramientas de Ladrón",
+      "equipo": [
+        {"opcion": "A", "items": ["2 Dagas", "Herramientas de Ladrón", "Set de Juegos (cualquiera)", "Saco de Dormir", "2 Bolsas", "Ropa de Viajero", "16 PO"]},
+        {"opcion": "B", "oro": 50, "unidad_moneda": "PO"}
+      ],
+      "descripcion": "Creciste en las calles con otros desdichados. Dormías donde podías, hacías trabajos ocasionales, a veces robabas. Nunca perdiste orgullo ni esperanza.",
+      "referencia": "[sources 90-93]"
+    }
+  ]
+}

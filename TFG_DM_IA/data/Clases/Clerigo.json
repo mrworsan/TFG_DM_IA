@@ -1,0 +1,470 @@
+{
+  "clase": "Clérigo",
+  "fuente_documento": "Clerigo.pdf",
+  "descripcion_general": "Los clérigos extraen poder de los reinos de los dioses y lo canalizan para obrar milagros. Bendecidos por una entidad divina, acceden a magia de los Planos Exteriores para fortalecer aliados y combatir enemigos. Suelen asociarse a templos y usan oraciones y ritos para canalizar el poder divino.",
+  "referencia_descripcion": "[sources 196-199]",
+  "rasgos_principales": {
+    "habilidad_principal": "Sabiduría",
+    "dado_golpe": "1d8 por nivel de clérigo",
+    "tiradas_salvacion": [
+      "Sabiduría",
+      "Carisma"
+    ],
+    "competencias_habilidades": {
+      "cantidad": 2,
+      "opciones": [
+        "Historia",
+        "Perspicacia",
+        "Medicina",
+        "Persuasión",
+        "Religión"
+      ]
+    },
+    "competencias_armas": [
+      "Armas sencillas"
+    ],
+    "entrenamiento_armaduras": [
+      "Armadura ligera",
+      "Armadura mediana",
+      "Escudos"
+    ],
+    "equipo_inicial": [
+      {
+        "opcion": "A",
+        "items": [
+          "Camisote de malla",
+          "Escudo",
+          "Maza",
+          "Símbolo sagrado",
+          "Paquete de sacerdote",
+          "7 monedas de oro (GP)"
+        ]
+      },
+      {
+        "opcion": "B",
+        "items": [
+          "110 GP"
+        ]
+      }
+    ],
+    "referencia_tabla": "[sources 195-196]"
+  },
+  "lanzamiento_conjuros_info": {
+    "habilidad_conjuracion": "Sabiduría",
+    "foco_conjuracion": "Símbolo sagrado",
+    "trucos_conocidos": "Empiezas con 3 (recomendados: Guía, Llama Sagrada, Taumaturgia). Ganas 1 más en nivel 4 y 10. Puedes reemplazar uno al subir de nivel.",
+    "espacios_conjuro": "Según tabla 'Características del Clérigo'. Recuperas todos al terminar un Descanso Largo.",
+    "conjuros_preparados": "Preparas una lista de conjuros de nivel 1+. Empiezas con 4 de nivel 1 (recomendados: Bendición, Curar Heridas, Rayo Guiador, Escudo de Fe). El número total aumenta según tabla 'Conjuros Preparados'. Debes tener espacios para el nivel del conjuro. Puedes cambiar la lista al terminar un Descanso Largo.",
+    "conjuros_siempre_preparados": "Si otra característica te da conjuros siempre preparados, no cuentan para el límite, pero son conjuros de Clérigo para ti.",
+    "referencia": "[sources 210-227]"
+  },
+  "progresion_nivel": [
+    {"nivel": 1, "bono_competencia": "+2", "rasgos_resumen": "Lanzamiento de hechizos, Orden divina", "canal_divinidad_usos": 0, "trucos": 3, "conjuros_preparados": 4, "nivel_1": 2, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 2, "bono_competencia": "+2", "rasgos_resumen": "Canalizar la divinidad", "canal_divinidad_usos": 2, "trucos": 3, "conjuros_preparados": 5, "nivel_1": 3, "nivel_2": 0, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 3, "bono_competencia": "+2", "rasgos_resumen": "Subclase de clérigo", "canal_divinidad_usos": 2, "trucos": 3, "conjuros_preparados": 6, "nivel_1": 4, "nivel_2": 2, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 4, "bono_competencia": "+2", "rasgos_resumen": "Mejora de la puntuación de habilidad", "canal_divinidad_usos": 2, "trucos": 4, "conjuros_preparados": 7, "nivel_1": 4, "nivel_2": 3, "nivel_3": 0, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 5, "bono_competencia": "+3", "rasgos_resumen": "Quemar a los no muertos", "canal_divinidad_usos": 2, "trucos": 4, "conjuros_preparados": 9, "nivel_1": 4, "nivel_2": 3, "nivel_3": 2, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 6, "bono_competencia": "+3", "rasgos_resumen": "Característica de subclase", "canal_divinidad_usos": 3, "trucos": 4, "conjuros_preparados": 10, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 0, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 7, "bono_competencia": "+3", "rasgos_resumen": "Huelgas benditas", "canal_divinidad_usos": 3, "trucos": 4, "conjuros_preparados": 11, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 1, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 8, "bono_competencia": "+3", "rasgos_resumen": "Mejora de la puntuación de habilidad", "canal_divinidad_usos": 3, "trucos": 4, "conjuros_preparados": 12, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 2, "nivel_5": 0, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 9, "bono_competencia": "+4", "rasgos_resumen": "-", "canal_divinidad_usos": 3, "trucos": 4, "conjuros_preparados": 14, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 1, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 10, "bono_competencia": "+4", "rasgos_resumen": "Intervención divina", "canal_divinidad_usos": 3, "trucos": 5, "conjuros_preparados": 15, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 0, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 11, "bono_competencia": "+4", "rasgos_resumen": "-", "canal_divinidad_usos": 3, "trucos": 5, "conjuros_preparados": 16, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 12, "bono_competencia": "+4", "rasgos_resumen": "Mejora de la puntuación de habilidad", "canal_divinidad_usos": 3, "trucos": 5, "conjuros_preparados": 16, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 0, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 13, "bono_competencia": "+5", "rasgos_resumen": "-", "canal_divinidad_usos": 3, "trucos": 5, "conjuros_preparados": 17, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 1, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 14, "bono_competencia": "+5", "rasgos_resumen": "Golpes benditos mejorados", "canal_divinidad_usos": 3, "trucos": 5, "conjuros_preparados": 17, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 1, "nivel_8": 0, "nivel_9": 0},
+    {"nivel": 15, "bono_competencia": "+5", "rasgos_resumen": "-", "canal_divinidad_usos": 3, "trucos": 5, "conjuros_preparados": 18, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 1, "nivel_8": 1, "nivel_9": 0},
+    {"nivel": 16, "bono_competencia": "+5", "rasgos_resumen": "Mejora de la puntuación de habilidad", "canal_divinidad_usos": 3, "trucos": 5, "conjuros_preparados": 18, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 1, "nivel_8": 1, "nivel_9": 0},
+    {"nivel": 17, "bono_competencia": "+6", "rasgos_resumen": "Característica de subclase", "canal_divinidad_usos": 3, "trucos": 5, "conjuros_preparados": 19, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 2, "nivel_6": 1, "nivel_7": 1, "nivel_8": 1, "nivel_9": 1},
+    {"nivel": 18, "bono_competencia": "+6", "rasgos_resumen": "-", "canal_divinidad_usos": 4, "trucos": 5, "conjuros_preparados": 20, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 3, "nivel_6": 1, "nivel_7": 1, "nivel_8": 1, "nivel_9": 1},
+    {"nivel": 19, "bono_competencia": "+6", "rasgos_resumen": "Bendición épica", "canal_divinidad_usos": 4, "trucos": 5, "conjuros_preparados": 21, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 3, "nivel_6": 2, "nivel_7": 1, "nivel_8": 1, "nivel_9": 1},
+    {"nivel": 20, "bono_competencia": "+6", "rasgos_resumen": "Mayor intervención divina", "canal_divinidad_usos": 4, "trucos": 5, "conjuros_preparados": 22, "nivel_1": 4, "nivel_2": 3, "nivel_3": 3, "nivel_4": 3, "nivel_5": 3, "nivel_6": 2, "nivel_7": 2, "nivel_8": 1, "nivel_9": 1}
+  ],
+  "referencia_progresion": "[source 230]",
+  "detalles_rasgos_clase": {
+    "Lanzamiento de conjuros": {
+      "nivel": 1,
+      "descripcion": "Habilidad para lanzar conjuros de Clérigo. Ver `lanzamiento_conjuros_info`.",
+      "referencia": "[sources 210-227]"
+    },
+    "Orden Divina": {
+      "nivel": 1,
+      "descripcion": "Eliges uno de los siguientes roles sagrados:",
+      "opciones": [
+        {"nombre": "Protector", "efecto": "Competencia con armas marciales y entrenamiento en armadura pesada."},
+        {"nombre": "Taumaturgo", "efecto": "Conoces un truco de clérigo adicional. Bono a chequeos de Inteligencia (Arcanos o Religión) igual a tu modificador de Sabiduría (mín +1)."}
+      ],
+      "referencia": "[sources 231-235]"
+    },
+    "Canalizar Divinidad": {
+      "nivel": 2,
+      "descripcion": "Canalizas energía divina. Usos según tabla (empiezas con 2). Recuperas 1 uso en Descanso Corto, todos en Descanso Largo. CD = tu CD de salvación de conjuros.",
+      "efectos_base": [
+        {
+          "nombre": "Chispa Divina",
+          "accion": "Acción mágica",
+          "alcance": "30 pies",
+          "efecto": "Apunta Símbolo Sagrado a criatura visible. Tira 1d8 + Mod Sabiduría. Puedes restaurar PG por ese total O forzar TS Constitución; si falla, recibe daño necrótico o radiante (tu elección) por ese total (mitad si éxito).",
+          "escalado": "Dados de daño/curación aumentan: 2d8 (Nivel 7), 3d8 (Nivel 13), 4d8 (Nivel 18)."
+        },
+        {
+          "nombre": "Ahuyentar a los Muertos Vivientes",
+          "accion": "Acción mágica",
+          "alcance": "30 pies",
+          "efecto": "Presenta Símbolo Sagrado. Cada no muerto elegido hace TS Sabiduría. Si falla, queda Asustado e Incapacitado por 1 min. Intenta alejarse de ti. Efecto termina si recibe daño, tú quedas Incapacitado o mueres."
+        }
+      ],
+      "referencia": "[sources 236-252]"
+    },
+    "Subclase de Clérigo": {
+      "nivel": 3,
+      "descripcion": "Eliges un Dominio Divino.",
+      "opciones_documento": [
+        "Dominio de la Vida",
+        "Dominio de la Luz",
+        "Dominio del Engaño",
+        "Dominio de la Guerra"
+      ],
+      "referencia": "[sources 253-256]"
+    },
+    "Mejora de Puntuación de Habilidad": {
+      "nivel": 4,
+      "descripcion": "Obtienes la dote 'Mejora de Puntuación de Habilidad' u otra dote de tu elección. Se obtiene de nuevo en los niveles 8, 12 y 16.",
+      "referencia": "[sources 257-258]"
+    },
+    "Desintegrar a los Muertos Vivientes": {
+      "nivel": 5,
+      "descripcion": "Cuando usas Ahuyentar Muertos Vivientes, tira d8s = Mod Sabiduría (mín 1d8). Cada no muerto que falle la TS contra ese Ahuyentar recibe daño radiante igual al total. Este daño no termina el efecto.",
+      "referencia": "[sources 259-261]"
+    },
+    "Golpes Benditos": {
+      "nivel": 7,
+      "descripcion": "Eliges una de las siguientes opciones:",
+      "opciones": [
+        {"nombre": "Golpe Divino", "efecto": "1/turno, al golpear con ataque de arma, puedes añadir 1d8 daño necrótico o radiante (tu elección)."},
+        {"nombre": "Conjuros Potentes", "efecto": "Añades tu Mod Sabiduría al daño que inflijas con cualquier truco de clérigo."}
+      ],
+      "referencia": "[sources 261-264]"
+    },
+    "Intervención Divina": {
+      "nivel": 10,
+      "descripcion": "Acción mágica, elige conjuro clérigo nivel 5 o inferior (no reacción). Lanzas ese conjuro sin espacio ni componentes materiales. 1 uso/Descanso Largo.",
+      "referencia": "[sources 265-268]"
+    },
+    "Mejora de Golpes Benditos": {
+      "nivel": 14,
+      "descripcion": "Tu opción de Golpes Benditos mejora:",
+      "opciones_mejoradas": [
+        {"nombre": "Golpe Divino", "efecto": "Daño adicional aumenta a 2d8."},
+        {"nombre": "Conjuros Potentes", "efecto": "Cuando infliges daño con truco de clérigo, puedes dar PG Temporales = 2 * Mod Sabiduría a ti mismo o a criatura a 60 pies."}
+      ],
+      "referencia": "[sources 269-271]"
+    },
+    "Bendición Épica": {
+      "nivel": 19,
+      "descripcion": "Obtienes una Hazaña Épica (recomendada: Don del Destino) u otra hazaña para la que califiques.",
+      "referencia": "[sources 272-273]"
+    },
+    "Intervención Divina Mayor": {
+      "nivel": 20,
+      "descripcion": "Cuando usas Intervención Divina, puedes elegir lanzar el conjuro 'Deseo'. Si lo haces, no puedes usar Intervención Divina nuevamente hasta terminar 2d4 Descansos Largos.",
+      "referencia": "[sources 273-275]"
+    }
+  },
+  "lista_conjuros": {
+    "nivel_0": [
+      {"nombre": "Guidance", "escuela": "Divination", "especial": ["C"]},
+      {"nombre": "Light", "escuela": "Evocation", "especial": []},
+      {"nombre": "Mending", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Resistance", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Sacred Flame", "escuela": "Evocation", "especial": []},
+      {"nombre": "Spare the Dying", "escuela": "Necromancy", "especial": []},
+      {"nombre": "Thaumaturgy", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Toll the Dead", "escuela": "Necromancy", "especial": []},
+      {"nombre": "Word of Radiance", "escuela": "Evocation", "especial": []}
+    ],
+    "nivel_1": [
+      {"nombre": "Bane", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Bless", "escuela": "Enchantment", "especial": ["C", "M"]},
+      {"nombre": "Command", "escuela": "Enchantment", "especial": []},
+      {"nombre": "Create or Destroy Water", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Cure Wounds", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Detect Evil and Good", "escuela": "Divination", "especial": ["C"]},
+      {"nombre": "Detect Magic", "escuela": "Divination", "especial": ["C", "R"]},
+      {"nombre": "Detect Poison and Disease", "escuela": "Divination", "especial": ["C", "R"]},
+      {"nombre": "Guiding Bolt", "escuela": "Evocation", "especial": []},
+      {"nombre": "Healing Word", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Inflict Wounds", "escuela": "Necromancy", "especial": []},
+      {"nombre": "Protection from Evil and Good", "escuela": "Abjuration", "especial": ["C", "M"]},
+      {"nombre": "Purify Food and Drink", "escuela": "Transmutation", "especial": ["R"]},
+      {"nombre": "Sanctuary", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Shield of Faith", "escuela": "Abjuration", "especial": ["C"]}
+    ],
+    "nivel_2": [
+      {"nombre": "Aid", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Augury", "escuela": "Divination", "especial": ["R", "M"]},
+      {"nombre": "Blindness/Deafness", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Calm Emotions", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Continual Flame", "escuela": "Evocation", "especial": ["M"]},
+      {"nombre": "Enhance Ability", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Find Traps", "escuela": "Divination", "especial": []},
+      {"nombre": "Gentle Repose", "escuela": "Necromancy", "especial": ["R", "M"]},
+      {"nombre": "Hold Person", "escuela": "Enchantment", "especial": ["C"]},
+      {"nombre": "Lesser Restoration", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Locate Object", "escuela": "Divination", "especial": ["C"]},
+      {"nombre": "Prayer of Healing", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Protection from Poison", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Silence", "escuela": "Illusion", "especial": ["C", "R"]},
+      {"nombre": "Spiritual Weapon", "escuela": "Evocation", "especial": ["C"]},
+      {"nombre": "Warding Bond", "escuela": "Abjuration", "especial": ["M"]},
+      {"nombre": "Zone of Truth", "escuela": "Enchantment", "especial": []}
+    ],
+     "nivel_3": [
+      {"nombre": "Animate Dead", "escuela": "Necromancy", "especial": []},
+      {"nombre": "Aura of Vitality", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Beacon of Hope", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Bestow Curse", "escuela": "Necromancy", "especial": ["C"]},
+      {"nombre": "Clairvoyance", "escuela": "Divination", "especial": ["C", "M"]},
+      {"nombre": "Create Food and Water", "escuela": "Conjuration", "especial": []},
+      {"nombre": "Daylight", "escuela": "Evocation", "especial": []},
+      {"nombre": "Dispel Magic", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Feign Death", "escuela": "Necromancy", "especial": ["R"]},
+      {"nombre": "Glyph of Warding", "escuela": "Abjuration", "especial": ["M"]},
+      {"nombre": "Magic Circle", "escuela": "Abjuration", "especial": ["M"]},
+      {"nombre": "Mass Healing Word", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Meld into Stone", "escuela": "Transmutation", "especial": ["R"]},
+      {"nombre": "Protection from Energy", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Remove Curse", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Revivify", "escuela": "Necromancy", "especial": ["M"]},
+      {"nombre": "Sending", "escuela": "Divination", "especial": []},
+      {"nombre": "Speak with Dead", "escuela": "Necromancy", "especial": []},
+      {"nombre": "Spirit Guardians", "escuela": "Conjuration", "especial": ["C"]},
+      {"nombre": "Tongues", "escuela": "Divination", "especial": []},
+      {"nombre": "Water Walk", "escuela": "Transmutation", "especial": ["R"]}
+    ],
+    "nivel_4": [
+      {"nombre": "Aura of Life", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Aura of Purity", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Banishment", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Control Water", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Death Ward", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Divination", "escuela": "Divination", "especial": ["R", "M"]},
+      {"nombre": "Freedom of Movement", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Guardian of Faith", "escuela": "Conjuration", "especial": []},
+      {"nombre": "Locate Creature", "escuela": "Divination", "especial": ["C"]},
+      {"nombre": "Stone Shape", "escuela": "Transmutation", "especial": []}
+    ],
+    "nivel_5": [
+      {"nombre": "Circle of Power", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Commune", "escuela": "Divination", "especial": ["R"]},
+      {"nombre": "Contagion", "escuela": "Necromancy", "especial": []},
+      {"nombre": "Dispel Evil and Good", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Flame Strike", "escuela": "Evocation", "especial": []},
+      {"nombre": "Geas", "escuela": "Enchantment", "especial": []},
+      {"nombre": "Greater Restoration", "escuela": "Abjuration", "especial": ["M"]},
+      {"nombre": "Hallow", "escuela": "Abjuration", "especial": ["M"]},
+      {"nombre": "Insect Plague", "escuela": "Conjuration", "especial": ["C"]},
+      {"nombre": "Legend Lore", "escuela": "Divination", "especial": ["M"]},
+      {"nombre": "Mass Cure Wounds", "escuela": "Abjuration", "especial": []},
+      {"nombre": "Planar Binding", "escuela": "Abjuration", "especial": ["M"]},
+      {"nombre": "Raise Dead", "escuela": "Necromancy", "especial": ["M"]},
+      {"nombre": "Scrying", "escuela": "Divination", "especial": ["C", "M"]},
+      {"nombre": "Summon Celestial", "escuela": "Conjuration", "especial": ["C", "M"]}
+    ],
+    "nivel_6": [
+       {"nombre": "Blade Barrier", "escuela": "Evocation", "especial": ["C"]},
+       {"nombre": "Create Undead", "escuela": "Necromancy", "especial": ["M"]},
+       {"nombre": "Find the Path", "escuela": "Divination", "especial": ["C", "M"]},
+       {"nombre": "Forbiddance", "escuela": "Abjuration", "especial": ["R", "M"]},
+       {"nombre": "Harm", "escuela": "Necromancy", "especial": []},
+       {"nombre": "Heal", "escuela": "Abjuration", "especial": []},
+       {"nombre": "Heroes' Feast", "escuela": "Conjuration", "especial": ["M"]},
+       {"nombre": "Planar Ally", "escuela": "Conjuration", "especial": []},
+       {"nombre": "Sunbeam", "escuela": "Evocation", "especial": ["C"]},
+       {"nombre": "True Seeing", "escuela": "Divination", "especial": ["M"]},
+       {"nombre": "Word of Recall", "escuela": "Conjuration", "especial": []}
+    ],
+    "nivel_7": [
+      {"nombre": "Conjure Celestial", "escuela": "Conjuration", "especial": ["C"]},
+      {"nombre": "Divine Word", "escuela": "Evocation", "especial": []},
+      {"nombre": "Etherealness", "escuela": "Conjuration", "especial": []},
+      {"nombre": "Fire Storm", "escuela": "Evocation", "especial": []},
+      {"nombre": "Plane Shift", "escuela": "Conjuration", "especial": ["M"]},
+      {"nombre": "Power Word Fortify", "escuela": "Enchantment", "especial": []},
+      {"nombre": "Regenerate", "escuela": "Transmutation", "especial": []},
+      {"nombre": "Resurrection", "escuela": "Necromancy", "especial": ["M"]},
+      {"nombre": "Symbol", "escuela": "Abjuration", "especial": ["M"]}
+    ],
+    "nivel_8": [
+      {"nombre": "Antimagic Field", "escuela": "Abjuration", "especial": ["C"]},
+      {"nombre": "Control Weather", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Earthquake", "escuela": "Transmutation", "especial": ["C"]},
+      {"nombre": "Holy Aura", "escuela": "Abjuration", "especial": ["C", "M"]},
+      {"nombre": "Sunburst", "escuela": "Evocation", "especial": []}
+    ],
+    "nivel_9": [
+       {"nombre": "Astral Projection", "escuela": "Necromancy", "especial": ["M"]},
+       {"nombre": "Gate", "escuela": "Conjuration", "especial": ["C", "M"]},
+       {"nombre": "Mass Heal", "escuela": "Abjuration", "especial": []},
+       {"nombre": "Power Word Heal", "escuela": "Enchantment", "especial": []},
+       {"nombre": "True Resurrection", "escuela": "Necromancy", "especial": ["M"]}
+    ],
+    "referencia": "[sources 276-293, 308-312]"
+  },
+  "subclases": [
+    {
+      "nombre": "Dominio de la Vida",
+      "descripcion": "Se centra en la energía positiva que sostiene la vida, maestros de la curación. Asociado con deidades agrícolas, de curación, hogar y comunidad.",
+      "referencia_descripcion": "[sources 299-303]",
+      "conjuros_dominio": [
+        {"nivel_clerigo": 3, "conjuros": ["Bendición", "Curar Heridas"]},
+        {"nivel_clerigo": 5, "conjuros": ["Restauración Menor", "Arma Espiritual"]},
+        {"nivel_clerigo": 7, "conjuros": ["Palabra de Curación Masiva", "Revivir"]},
+        {"nivel_clerigo": 9, "conjuros": ["Aura de Vida", "Protección contra la Muerte"]}
+      ],
+      "referencia_conjuros": "[source 310]",
+      "rasgos": [
+        {
+          "nivel": 3,
+          "nombre": "Discípulo de la Vida",
+          "descripcion": "Cuando un conjuro con espacio restaura PG, la criatura recupera PG adicionales = 2 + nivel del espacio.",
+          "referencia": "[sources 304-305]"
+        },
+        {
+          "nivel": 3,
+          "nombre": "Canalizar Divinidad: Preservar la Vida",
+          "descripcion": "Acción mágica, presenta Símbolo Sagrado, gasta uso CD. Restaura PG = 5 * nivel clérigo, divididos entre criaturas heridas a 30 pies. No cura a criatura por encima de mitad de sus PG máx.",
+          "referencia": "[sources 313-315]"
+        },
+        {
+          "nivel": 6,
+          "nombre": "Sanador Bendito",
+          "descripcion": "Cuando lanzas conjuro con espacio que cura a otros, recuperas PG = 2 + nivel del espacio.",
+          "referencia": "[sources 316-317]"
+        },
+        {
+          "nivel": 17,
+          "nombre": "Curación Suprema",
+          "descripcion": "Cuando tiras dados para restaurar PG con conjuro o CD, usas el valor máximo posible para cada dado (ej. 2d6 curan 12).",
+          "referencia": "[sources 318-320]"
+        }
+      ]
+    },
+    {
+      "nombre": "Dominio de la Luz",
+      "descripcion": "Enfatiza el fuego abrasador y la revelación. Encargados de ahuyentar mentiras y quemar oscuridad. Asociado con dioses de verdad, vigilancia, belleza, sol.",
+      "referencia_descripcion": "[sources 320-324]",
+      "conjuros_dominio": [
+        {"nivel_clerigo": 3, "conjuros": ["Manos Ardientes", "Fuego de Hada"]},
+        {"nivel_clerigo": 5, "conjuros": ["Rayo Abrasador", "Ver Invisibilidad"]},
+        {"nivel_clerigo": 7, "conjuros": ["Luz del Día", "Bola de Fuego"]},
+        {"nivel_clerigo": 9, "conjuros": ["Ojo Arcano", "Murallas de Fuego"]}
+      ],
+      "referencia_conjuros": "[source 327]",
+      "rasgos": [
+         {
+          "nivel": 3,
+          "nombre": "Canalizar Divinidad: Resplandor del Amanecer",
+          "descripcion": "Acción mágica, presenta Símbolo Sagrado, gasta uso CD. Emanación 30 pies: disipa Oscuridad mágica. Criaturas elegidas hacen TS Constitución, reciben 2d10 + nivel clérigo daño radiante (mitad si éxito).",
+          "referencia": "[sources 328-330]"
+        },
+        {
+          "nivel": 3,
+          "nombre": "Destello Protector",
+          "descripcion": "Reacción cuando criatura a 30 pies hace tirada de ataque. Impón Desventaja. Usos = Mod Sabiduría (mín 1)/Descanso Largo.",
+          "referencia": "[sources 331-333]"
+        },
+        {
+          "nivel": 6,
+          "nombre": "Destello Protector Mejorado",
+          "descripcion": "Recuperas usos de Destello Protector en Descanso Corto o Largo. Al usar Destello, objetivo del ataque gana PG Temporales = 2d6 + Mod Sabiduría.",
+          "referencia": "[sources 334-335]"
+        },
+        {
+          "nivel": 17,
+          "nombre": "Corona de Luz",
+          "descripcion": "Acción mágica, emites aura solar (1 min / hasta disolver). Luz Brillante 60 pies, Tenue +30 pies. Enemigos en Luz Brillante tienen Desventaja en TS vs tu Resplandor del Amanecer y conjuros de Fuego/Radiante. Usos = Mod Sabiduría (mín 1)/Descanso Largo.",
+          "referencia": "[sources 336-339]"
+        }
+      ]
+    },
+     {
+      "nombre": "Dominio de la Travesura",
+      "descripcion": "Ofrece magia de engaño, ilusión y sigilo. Son disruptivos, burlando tiranos y desafiando tradiciones. Patrones de ladrones, rebeldes, etc.",
+      "referencia_descripcion": "[sources 340-344]",
+      "conjuros_dominio": [
+        {"nivel_clerigo": 3, "conjuros": ["Encantar Persona", "Disfrazarse"]},
+        {"nivel_clerigo": 5, "conjuros": ["Invisibilidad", "Pasar sin Dejar Rastro"]},
+        {"nivel_clerigo": 7, "conjuros": ["Patrón Hipnótico", "No Detección"]},
+        {"nivel_clerigo": 9, "conjuros": ["Confusión", "Puerta Dimensional"]}
+
+      ],
+      "referencia_conjuros": "[source 357]",
+      "rasgos": [
+         {
+          "nivel": 3,
+          "nombre": "Bendición del Embaucador",
+          "descripcion": "Acción mágica, elige criatura (o tú) a 30 pies. Tiene Ventaja en pruebas Destreza (Sigilo). Dura hasta Descanso Largo o reuso.",
+          "referencia": "[sources 345-346]"
+        },
+        {
+          "nivel": 3,
+          "nombre": "Canalizar Divinidad: Invocar Duplicidad",
+          "descripcion": "Acción Bonificación, gasta uso CD. Crea ilusión perfecta de ti a 30 pies (1 min / hasta disolver/Incapacitado). Intangible, imita acciones. Beneficios: Puedes lanzar conjuros desde su espacio (usando tus sentidos); Ventaja en ataques vs criatura a 5 pies de ti Y la ilusión; Mover ilusión 30 pies como Acción Bonificación.",
+          "referencia": "[sources 347-353]"
+        },
+        {
+          "nivel": 6,
+          "nombre": "Transposición del Embaucador",
+          "descripcion": "Al crear o mover la ilusión de Invocar Duplicidad (Acción Bonificación), puedes teletransportarte intercambiando lugares con ella.",
+          "referencia": "[source 358]"
+        },
+        {
+          "nivel": 17,
+          "nombre": "Duplicidad Mejorada",
+          "descripcion": "Ilusión de Invocar Duplicidad mejora: Distracción Compartida (Aliados tienen Ventaja en ataques vs criatura a 5 pies de la ilusión); Ilusión Sanadora (Cuando ilusión termina, tú o criatura a 5 pies recupera PG = nivel clérigo).",
+          "referencia": "[sources 359-361]"
+        }
+      ]
+    },
+    {
+      "nombre": "Dominio de la Guerra",
+      "descripcion": "Sobresalen en batalla, inspirando o usando violencia como oración. Dioses de honor, caballería, destrucción, saqueo o neutrales.",
+      "referencia_descripcion": "[sources 362-368]",
+      "conjuros_dominio": [
+        {"nivel_clerigo": 3, "conjuros": ["Escudo de Fe", "Arma Espiritual"]},
+        {"nivel_clerigo": 5, "conjuros": ["Capa del Cruzado", "Guardianes Espirituales"]},
+        {"nivel_clerigo": 7, "conjuros": ["Escudo de Fuego", "Libertad de Movimiento"]},
+        {"nivel_clerigo": 9, "conjuros": ["Sujeción de Monstruos", "Golpe de Viento de Acero"]}
+
+      ],
+      "referencia_conjuros": "[source 372]",
+      "rasgos": [
+         {
+          "nivel": 3,
+          "nombre": "Canalizar Divinidad: Golpe Guiado",
+          "descripcion": "Gasta uso CD. Añade +10 a tirada de ataque fallida (tuya o de criatura a 30 pies). Requiere Reacción si es para otra criatura.",
+          "referencia": "[sources 369-370]"
+        },
+        {
+          "nivel": 3,
+          "nombre": "Sacerdote de la Guerra",
+          "descripcion": "Acción Bonificación, haz un ataque con arma o Golpe Desarmado. Usos = Mod Sabiduría (mín 1)/Descanso Corto o Largo.",
+          "referencia": "[sources 372-374]"
+        },
+        {
+          "nivel": 6,
+          "nombre": "Bendición del Dios de la Guerra",
+          "descripcion": "Gasta uso CD para lanzar Escudo de Fe O Arma Espiritual sin espacio de conjuro. No requiere Concentración, dura 1 min (termina si relanzas, Incapacitado o mueres).",
+          "referencia": "[sources 375-377]"
+        },
+        {
+          "nivel": 17,
+          "nombre": "Avatar de la Batalla",
+          "descripcion": "Ganas Resistencia a daño Contundente, Perforante y Cortante.",
+          "referencia": "[source 378]"
+        }
+      ]
+    }
+  ]
+}
